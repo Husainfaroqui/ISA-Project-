@@ -1,3 +1,3 @@
 export default {
-  base: "/ISA-Project-/"
+  base: "/"
 };
