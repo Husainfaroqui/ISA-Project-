@@ -18,7 +18,7 @@
     "fields": {
       "state": "draft",
       "text": "This batch studies the algebra treatise through one equation and its two explanatory treatments: a numerical procedure and a geometric demonstration. The work's own preface names inheritance, legacies, partition, lawsuits, trade, land measurement, canal digging, and other practical needs. This is not a full catalogue of al-Khwārizmī's mathematical, astronomical, and geographical work.",
-      "claimIds": ["khw-practical-purpose", "khw-equation-example", "khw-geometric-proof"],
+      "claimIds": ["khw-practical-purpose", "khw-equation-example", "khw-geometric-proof", "khw-two-positive-roots", "khw-case-boundary"],
       "gaps": ["Research the arithmetic, astronomical, geographical, and surveying texts separately, distinguishing surviving originals from later translations and revisions."]
     },
     "legacy": {
@@ -37,7 +37,7 @@
       "publicationDate": "1831",
       "stableUrl": "https://en.wikisource.org/wiki/Index:The_Algebra_of_Mohammed_Ben_Musa_(1831).djvu",
       "consulted": true,
-      "notes": "The 1831 edition provides an Arabic text and Rosen's English translation, based on the Bodleian manuscript Huntington 214. The equation example appears in the translation at printed p. 8; its geometric demonstration continues at pp. 13–16. Wikisource has proofread transcriptions paired with scans; the relevant Arabic page and diagrams still require direct image-level collation."
+      "notes": "The 1831 edition provides an Arabic text and Rosen's English translation, based on the Bodleian manuscript Huntington 214. The first equation example appears in the translation at printed p. 8; its geometric demonstration continues at pp. 13–16. A second case, square plus twenty-one equals ten roots, appears at printed pp. 11–12 and explicitly gives both positive roots 3 and 7. The Wikisource page transcriptions for printed pp. 8, 11–16 were read against the linked English-page scans. Their status is proofread but not validated, so this is direct inspection of the 1831 English edition's page transcription and scan, not collation with the Arabic text or medieval manuscript. Pages 14–15 describe a four-rectangle completion with four corner gaps; pp. 15–16 introduce and complete a separate two-rectangle diagram for the first equation."
     },
     {
       "id": "KHW-ROSEN-SCAN",
@@ -124,7 +124,18 @@
           "translation": "Rosen's published English translation; not a new translation.",
           "printedPage": "13–16",
           "chapterOrSection": "Geometrical demonstration of the same equation",
-          "explanation": "The diagrammatic completion constructs a larger square by adding rectangles and a corner square. In this example the added corner is 5×5=25, making 39+25=64 and the completed side 8; removing the added half-root length 5 leaves the original side 3. The figure and exact Arabic diagram labels need visual collation."
+      "explanation": "Rosen's translation presents two geometric diagrams for the same equation. In the first (printed pp. 14–15), the ten roots are represented by four rectangles, each of breadth 2.5; the four corner gaps total 4×(2.5²)=25. In the second (pp. 15–16), two rectangles of breadth 5 leave one 5×5 corner gap, again 25. Both complete an area of 39 to 64, whose side is 8; removing total added half-root length 5 gives the original side 3. These are two separate diagram layouts, not one construction with an ambiguously sized corner. The translated page transcriptions were checked against scans, but the Arabic labels and manuscript diagram have not been collated."
+        },
+        {
+          "workId": "khw-al-jabr",
+          "sourceId": "KHW-ROSEN-1831",
+          "editionOrShelfmark": "Rosen edition and translation, London, 1831; based on Bodleian Library MS Huntington 214",
+          "language": "English translation from Arabic",
+          "originalPassage": "“a square and twenty-one in numbers are equal to ten roots of the same square”",
+          "translation": "Rosen's published English translation; not a new translation.",
+          "printedPage": "11–12",
+          "chapterOrSection": "Squares and numbers equal roots; second equation type",
+          "explanation": "The translation explicitly gives both positive roots: halve ten to get five; subtract or add √(25−21)=2, obtaining 3 or 7, whose squares are 9 and 49. In modern notation only, x²+21=10x; check 9+21=10×3 and 49+21=10×7. The text states that both addition and subtraction apply in this case, unlike the other cases discussed. This describes positive quantities and does not assert modern signed-root treatment."
         }
       ],
       "notes": "Rosen's edition is a major early printed witness but not a modern critical edition. He used one 1342 Bodleian manuscript; later scholarship questions the manuscript's editorial history. ISMI currently records two manuscript witnesses, including Huntington 214 and a Medina witness."
@@ -138,11 +149,11 @@
       "field": "Mathematics / history of algebra",
       "historicalProblem": "How does the treatise solve a quadratic problem when expressed without modern symbols, and how does its author explain why the procedure works?",
       "historicalContext": "The author's preface addresses al-Maʾmūn and describes practical needs such as inheritance, trade, and land measurement. The text speaks in terms of squares, roots, and numbers. Modern scholars identify six equation types in the work, while cautioning against treating this as modern symbolic algebra or a claim that al-Khwārizmī invented every earlier algebraic practice.",
-      "method": "For the case 'one square and ten roots equal thirty-nine': halve ten to get five; square five to get twenty-five; add it to thirty-nine to get sixty-four; take the square root to get eight; subtract five to get the root three, whose square is nine. The text then gives a geometric completion proof with a square, two rectangles, and a corner square.",
-      "observationsOrCalculations": "Rosen's 1831 translation, p. 8, gives the arithmetic procedure. The geometric demonstration follows at pp. 13–16. In present-day notation only, the example is x²+10x=39; the positive solution is x=3. The check is 3²+10(3)=39.",
-      "reportedResult": "The worked example returns root 3 and square 9. The geometric construction explains the completion step by adding the 5×5 corner square to the original area plus the two root-rectangles.",
+      "method": "For the case 'one square and ten roots equal thirty-nine': halve ten to get five; square five to get twenty-five; add it to thirty-nine to get sixty-four; take the square root to get eight; subtract five to get the root three, whose square is nine. Rosen's translation then presents two geometric completions: one distributes the ten roots across four rectangles and fills four quarter-sized corner gaps; a second uses two rectangles and fills one square gap of side five.",
+      "observationsOrCalculations": "Rosen's 1831 translation, p. 8, gives the arithmetic procedure. The Wikisource scan-linked transcription of p. 8 is proofread but not validated. The geometric demonstration follows at pp. 13–16: pp. 14–15 first explain four rectangles of breadth 2.5 and four missing corner squares (total area 4×2.5²=25); pp. 15–16 then give a separate diagram with two rectangles of breadth 5 and one missing 5×5 square. In present-day notation only, the example is x²+10x=39; the positive solution is x=3. The check is 3²+10(3)=39.",
+      "reportedResult": "The worked example returns root 3 and square 9. Rosen's English edition describes two equivalent diagram layouts for completing the area to 64: four strips with four corner gaps totaling 25, then two strips with a single 5×5 gap. This distinction corrects the earlier dossier wording, which had compressed both diagrams into one description.",
       "whatWasNew": "Not established as a priority claim. The dossier documents what this treatise presents: a classification of equation types, calculation rules, and geometric demonstrations. Modern scholarship discusses earlier and parallel algebraic practices, so 'invented algebra' is not used as a finding.",
-      "limitations": "The passage is located in Rosen's 1831 edition and transcription, not collated here against the 1342 Bodleian manuscript or the Medina witness. Rosen used a single Bodleian manuscript; later scholars report textual amendments and question some readings. The diagram pages need visual inspection. Avoid projecting modern symbols, negative roots, or a general quadratic formula onto the author's text.",
+      "limitations": "The passage is read in Rosen's 1831 English translation and its scan-linked page transcription, not collated here against the 1342 Bodleian manuscript or the Medina witness. Wikisource marks the transcriptions as proofread but not validated. Rosen used a single Bodleian manuscript; later scholars report textual amendments and question some readings. The diagrams have been read in the translated printed-page transcriptions but not checked against the Arabic text or manuscript diagram. Avoid projecting modern symbols, negative roots, or a general quadratic formula onto the author's text.",
       "laterInfluence": "The algebra was translated into Latin in the twelfth century and became influential across several later mathematical traditions, according to the Biographical Encyclopedia of Astronomers. A full transmission dossier requires critical-edition evidence for each translation and reception claim.",
       "claims": [
         {
@@ -192,12 +203,12 @@
         },
         {
           "id": "khw-geometric-proof",
-          "text": "Rosen's translation presents a geometric demonstration of the same example using area completion; the added corner square is twenty-five, yielding a completed square of area sixty-four.",
+          "text": "Rosen's translation presents two geometric diagrams for the same example: pp. 14–15 use four root-rectangles of breadth 2.5 and four corner gaps totaling 25; pp. 15–16 give an alternative with two rectangles of breadth 5 and one 5×5 gap. Both yield a completed square of area 64.",
           "sourceIds": ["KHW-ROSEN-1831"],
           "locator": "Translation pp. 13–16",
           "sourceType": "primary_source",
           "confidence": "medium",
-          "uncertainty": "The explanation has been read in the transcription; inspect the scan diagrams and Arabic labels before final review."
+          "uncertainty": "Wikisource marks these page transcriptions as proofread but not validated. The scanned English-edition pages are linked, but the diagrams and labels have not been compared against the Arabic edition or medieval manuscript."
         },
         {
           "id": "khw-six-types-and-text-limits",
@@ -219,11 +230,46 @@
         }
       ],
       "state": "draft"
+    },
+    {
+      "id": "khw-two-positive-roots-case",
+      "scholarSlug": "al-khwarizmi",
+      "title": "One equation case with two positive roots",
+      "field": "Mathematics / history of algebra",
+      "historicalProblem": "How does the treatise handle the case in which a square and a number are equal to roots, and what does its worked example show about the two possible positive magnitudes?",
+      "historicalContext": "The treatise distinguishes equation types through squares, roots, and numbers. Rosen's translation gives the example 'a square and twenty-one ... equal to ten roots' and explicitly describes both adding and subtracting the square root of 25−21 from the half-root value 5. This passage can be described on its own terms without importing a general modern quadratic formula.",
+      "method": "Follow the text's stated sequence: halve ten to obtain five; square five to obtain twenty-five; subtract twenty-one to leave four; take its root two; then subtract from or add to five, giving root magnitudes three and seven. Check the resulting square values nine and forty-nine against the stated relation. Modern notation x²+21=10x is used only to make the example legible.",
+      "observationsOrCalculations": "Rosen's scan-linked page transcription for p. 11 says the root can be three or seven and gives square values nine and forty-nine; p. 12 states that both addition and subtraction work in this case. The transcription is proofread but not validated. Arithmetic checks: 3²+21=30=10×3; 7²+21=70=10×7. The modern factorization (x−3)(x−7)=0 is an editorial check, not historical notation.",
+      "reportedResult": "The worked example and its explanation preserve two positive root magnitudes, 3 and 7, for this equation type. The dossier records the text's procedure and scope; it does not read the text as a discussion of negative roots or a general symbolic solution method.",
+      "whatWasNew": "This second case adds a distinct worked example to the al-Khwārizmī dossier and makes explicit that the translated treatise gives both additive and subtractive outcomes for this type. It does not claim that this is the first treatment of two solutions in mathematical history.",
+      "limitations": "The evidence is Rosen's 1831 English translation and a Wikisource transcription marked proofread but not validated. The Arabic passage, printed Arabic section, diagrams, and medieval manuscript witnesses have not been collated. Modern equation and factorization notation are explanatory checks only.",
+      "laterInfluence": "This bounded case does not trace reception of this particular equation or rule; broader Latin and Arabic transmission remains a separate question.",
+      "claims": [
+        {
+          "id": "khw-two-positive-roots",
+          "text": "In Rosen's translation of the worked case 'a square and twenty-one ... equal to ten roots,' al-Khwārizmī's procedure gives root magnitudes 3 and 7, with corresponding squares 9 and 49.",
+          "sourceIds": ["KHW-ROSEN-1831"],
+          "locator": "Translation p. 11; continued p. 12",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "This is the result in Rosen's translation; the Arabic wording and medieval witness readings have not been collated."
+        },
+        {
+          "id": "khw-case-boundary",
+          "text": "The translated text says that in this equation case both addition and subtraction can be used, and that if the squared half-root is less than the number connected with the square, the instance is impossible.",
+          "sourceIds": ["KHW-ROSEN-1831"],
+          "locator": "Translation pp. 11–12",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "The claim reports the historical translated wording; mapping it to modern discriminant terminology would be an interpretation and is not asserted here."
+        }
+      ],
+      "state": "draft"
     }
   ],
   "recognition": [],
   "openQuestions": [
-    "How does Rosen's text and translation compare with the Bodleian Huntington 214 manuscript images and the Medina witness?",
+    "How do both worked cases and their diagrams compare with the Arabic text in Rosen's edition, the Bodleian Huntington 214 manuscript images, and the Medina witness?",
     "Which readings in the 1831 printed text reflect Rosen's source manuscript and which reflect editorial correction or later interpolation?",
     "What do Ibn al-Nadīm and al-Ṭabarī say in the relevant passages about origin, office, and book titles?",
     "What are the secure textual witnesses and transmission chains for the Latin versions by Robert of Chester, Gerard of Cremona, and Guglielmo de Lunis?",

@@ -18,8 +18,8 @@
     "fields": {
       "state": "draft",
       "text": "The zīj reports a Ptolemaic solar-model eccentricity of 2;4,45 parts when the deferent radius is 60, and a tropical-year value of 365;14,26 days. Converting the latter's sexagesimal day fraction gives 365 days, 5 hours, 46 minutes, 24 seconds. The historical eccentricity belongs to the geocentric eccentric-circle model; it is not the modern Keplerian eccentricity of Earth's orbit. A separate calculation using e/R=2;4,45/60 gives a maximum equation near 1°59′9.1″, close to the rounded 1°59′10″ value reported in the later table tradition. This arithmetic check is explanatory, not a fresh reading of the Arabic witness.",
-      "claimIds": ["bat-eccentricity", "bat-qmax-check", "bat-tropical-year", "bat-model-distinction"],
-      "gaps": ["Read Nallino, Pars I, chapter 28, printed pp. 43–48, and compare its Latin with the Arabic text and apparatus; this page locator is currently known through Nothaft's 2024 footnote.", "Check the table of the equation of centre in Nallino, Pars II, pp. 78–83, column by column against the reported parameter.", "Determine precisely how Nallino and later authors derive the year value from the text and distinguish a direct observation from a derived table parameter.", "Audit the model's observational method and error sources before evaluating accuracy or priority."]
+      "claimIds": ["bat-eccentricity", "bat-qmax-check", "bat-tropical-year", "bat-model-distinction", "bat-arabic-edition-identification"],
+      "gaps": ["Collate the Arabic solar chapters in Nallino, Pars III, pp. 64–73, against the scan and record an exact passage locator; do not transfer Pars I's Latin pp. 43–48 locator to the Arabic volume.", "Read Nallino, Pars I, chapter 28, printed pp. 43–48, and commentary pp. 212–221, and compare them with the Arabic text and apparatus.", "Resolve why Van Dalen reports qmax=1;59,10° while an independent arcsin(e/60) computation from e=2;4,45 yields 1;59,9.08°; check historical rounding, input precision, and the derivation described in chapter 28.", "Check the table of the equation of centre in Nallino, Pars II, pp. 78–83, column by column against the reported parameter.", "Determine precisely how Nallino and later authors derive the year value from the text and distinguish a direct observation from a derived table parameter.", "Audit the model's observational method and error sources before evaluating accuracy or priority."]
     },
     "legacy": {
       "state": "draft",
@@ -60,6 +60,16 @@
       "notes": "Read the discussion of the Toledan Tables' qmax=1;59,10° and its implication e=2;4,45, which the author traces back to al-Battānī (printed p. 148), plus note 12 (printed p. 155), which identifies Nallino, vol. 1, pp. 43–48 (chapter 28) and vol. 2, pp. 78–83. Used as secondary evidence for one documented transmission link and a locator to the editions, not as a substitute for direct collation."
     },
     {
+      "id": "BAT-VAN-DALEN-KUSHYAR-2021",
+      "title": "Ptolemaic Tradition and Islamic Innovation: The Astronomical Tables of Kūshyār ibn Labbān",
+      "authorOrInstitution": "Benno van Dalen, Ptolemaeus Arabus et Latinus, Texts 2, Brepols",
+      "publicationDate": "2021",
+      "sourceType": "academic_research",
+      "stableUrl": "https://ptolemaeus.badw.de/files/PAL-Texts_2.pdf?export=",
+      "consulted": true,
+      "notes": "Read the commentary on the solar equation and its notes. Van Dalen reports that al-Battānī explains his derivation of e=2;4,45 in Chapter 28 and locates this in Nallino Pars III, Arabic pp. 64–73, alongside the Latin translation in Pars I, pp. 43–48 and commentary pp. 212–221. He reports qmax=1;59,10° from accurate calculation. This is secondary scholarship and introduces a discrepancy with the dossier's independent calculation (1;59,9.08°); the discrepancy remains open pending direct source and formula review. Open access, CC BY-NC-ND 4.0."
+    },
+    {
       "id": "BAT-NALLINO-1903",
       "title": "Al-Battānī sive Albatenii Opus astronomicum, Pars I: Versio capitum cum animadversionibus",
       "authorOrInstitution": "Al-Battānī; edited, translated into Latin, and annotated by Carlo Alfonso Nallino, Milan: Hoepli, 1903",
@@ -68,6 +78,16 @@
       "stableUrl": "https://books.google.com/books?id=VIjM-bcciP8C",
       "consulted": false,
       "notes": "Catalogued as the Latin chapter edition. Nothaft's note 12 points to chapter 28, printed pp. 43–48. The preview/scan was not read directly for this dossier; no passage is presented as transcribed from it."
+    },
+    {
+      "id": "BAT-NALLINO-1899-ARABIC",
+      "title": "Al-Battānī sive Albatenii Opus astronomicum, Pars III: Textum Arabicum continens",
+      "authorOrInstitution": "Al-Battānī; Arabic text edited by Carlo Alfonso Nallino from the Escorial codex",
+      "publicationDate": "1899",
+      "sourceType": "primary_source",
+      "stableUrl": "https://archive.org/details/albattanisivealb00batt",
+      "consulted": true,
+      "notes": "Opened the digitized scan's title page, which identifies this item as Pars III, containing the Arabic text, published in 1899. The complete Arabic zīj is in the scan, but the target solar chapters and their apparatus have not yet been collated for this dossier. Do not confuse this Arabic volume with Nallino's separate 1903 Latin chapter translation (Pars I) or the 1907 Latin tables (Pars II)."
     },
     {
       "id": "BAT-ISLAM-MUSEUM-WORK",
@@ -91,7 +111,7 @@
       "purpose": "An astronomical handbook with explanatory chapters and tables. This investigation is limited to its solar eccentricity and tropical-year values and a later table transmission claim.",
       "authorship": "draft",
       "date": "The dossier does not assign a single composition date. The focused observation is dated by Mozaffari to Yazdigird year 251 (882/883 CE).",
-      "sourceIds": ["BAT-MOZAFFARI-2013", "BAT-BEA-VAN-DALEN-2007", "BAT-NOTHAFt-2024", "BAT-NALLINO-1903", "BAT-ISLAM-MUSEUM-WORK"],
+      "sourceIds": ["BAT-MOZAFFARI-2013", "BAT-BEA-VAN-DALEN-2007", "BAT-NOTHAFt-2024", "BAT-NALLINO-1903", "BAT-NALLINO-1899-ARABIC", "BAT-VAN-DALEN-KUSHYAR-2021", "BAT-ISLAM-MUSEUM-WORK"],
       "digitizedUrl": "https://books.google.com/books?id=VIjM-bcciP8C",
       "passages": [
         {
@@ -121,9 +141,18 @@
       "observationsOrCalculations": "Mozaffari reports e=2;4,45 parts for a deferent radius of 60. In decimal units this is 2 + 4/60 + 45/3600 = 2.0791667 parts, or 0.0346528 of the radius. The Ptolemaic relation gives qmax≈1.9858555°, or about 1°59′9.1″, close to the rounded 1°59′10″ reported in the table tradition. Mozaffari gives the year as 365;14,26 days: 14/60 + 26/3600 day equals 5 hours, 46 minutes, 24 seconds. These checks validate conversions only; they do not confirm the source reading or the accuracy of the medieval observation.",
       "reportedResult": "The consulted secondary studies report that al-Battānī's zīj used a Ptolemaic solar eccentricity of 2;4,45 (radius 60) and a year length of 365;14,26 days. Nothaft identifies qmax=1;59,10° in the Toledan Tables as a value tracing back to al-Battānī. The values are historically meaningful parameters within their own model and tables.",
       "whatWasNew": "This case makes the value's historical units, model, observation-era locator, year conversion, and later table connection explicit. It makes no claim that al-Battānī invented solar eccentricity measurement, that a value in one model is identical to a Keplerian eccentricity, or that the observation has been independently remeasured from a manuscript.",
-      "limitations": "The underlying Arabic and Latin text and Nallino's apparatus were not read directly in this batch. Mozaffari's account is the immediate source for the reported observation and numerical values; Nothaft's article supplies secondary evidence for the Toledan transmission link. The arithmetic calculation from e=2;4,45 gives a qmax about one arcsecond below the rounded 1;59,10 value; this small difference is retained rather than silently forced to equality. No modern accuracy score, instrument reconstruction, or priority claim is inferred.",
+      "limitations": "The Arabic scan's title page and bibliographic metadata were checked, but the numerical Arabic and Latin passages and Nallino's apparatus were not yet collated directly in this research pass. Mozaffari's account is the immediate source for the reported observation and numerical values; Nothaft's article supplies secondary evidence for the Toledan transmission link. The arithmetic calculation from e=2;4,45 gives a qmax about one arcsecond below the rounded 1;59,10 value; this small difference is retained rather than silently forced to equality. No modern accuracy score, instrument reconstruction, or priority claim is inferred.",
       "laterInfluence": "Nothaft reports that the Toledan Tables' qmax=1;59,10° implies e=2;4,45 and traces that parameter back to al-Battānī. Van Dalen documents further translations and later users of the zīj, but this dossier does not assert that each named astronomer used this particular parameter without a passage-level check.",
       "claims": [
+        {
+          "id": "bat-arabic-edition-identification",
+      "text": "The scanned Nallino title page identifies Pars III as containing the Arabic text of al-Battānī's zīj and dates that part to 1899; Van Dalen locates Chapter 28 in the Arabic volume at pp. 64–73, separately from its Latin translation in Pars I, pp. 43–48.",
+      "sourceIds": ["BAT-NALLINO-1899-ARABIC", "BAT-NALLINO-1903", "BAT-VAN-DALEN-KUSHYAR-2021"],
+      "locator": "Nallino Pars III title page; Van Dalen, p. 398 n. 81",
+          "sourceType": "primary_source",
+          "confidence": "high",
+      "uncertainty": "The page range is a scholarly locator; the relevant Arabic chapter has not yet been collated directly in the scan."
+        },
         {
           "id": "bat-identity",
           "text": "Van Dalen's biographical entry identifies al-Battānī as an astronomer from Harran, born before 858 and dead near Samarra in 929.",
@@ -168,6 +197,15 @@
           "sourceType": "academic_research",
           "confidence": "high",
           "uncertainty": "The notation is a historical parameter in the Ptolemaic eccentric-circle model, not a direct measurement of modern Keplerian orbital eccentricity; the source text has not been collated."
+        },
+        {
+          "id": "bat-qmax-secondary-discrepancy",
+          "text": "Van Dalen reports that Chapter 28 derives e=2;4,45 and that accurate calculation leads to qmax=1;59,10°, while the dossier's independent arcsin(e/60) computation yields 1;59,9.08°.",
+          "sourceIds": ["BAT-VAN-DALEN-KUSHYAR-2021", "BAT-MOZAFFARI-2013"],
+          "locator": "Van Dalen, p. 398 and n. 81; dossier calculation in observationsOrCalculations",
+          "sourceType": "academic_research",
+          "confidence": "unresolved",
+          "uncertainty": "The difference is under one arcsecond and may involve rounding, precision, or the historical derivation, but this has not been established. The Arabic text and calculation steps remain to be checked."
         },
         {
           "id": "bat-qmax-check",
@@ -220,6 +258,8 @@
   ],
   "recognition": [],
   "openQuestions": [
+    "Collate Chapter 28 in Nallino, Pars III, Arabic pp. 64–73, against the 1899 scan; compare with Pars I, Latin pp. 43–48, and commentary pp. 212–221.",
+    "Resolve the difference between Van Dalen's reported maximum 1;59,10° and the dossier's independently computed 1;59,9.08° from e=2;4,45, checking the medieval derivation and rounding convention.",
     "Read Nallino, Pars I, chapter 28, pp. 43–48, and Pars II, pp. 78–83; compare the Latin explanation and table with the Arabic text of the Escorial copy.",
     "Inspect Escorial árabe 908 directly or through a verifiable catalogue/digital image; establish the manuscript date and the location of chapters 27–28 and their figures.",
     "Reconcile the sexagesimal eccentricity and maximum equation values, including the approximately one-arcsecond rounding difference produced by the modern conversion.",

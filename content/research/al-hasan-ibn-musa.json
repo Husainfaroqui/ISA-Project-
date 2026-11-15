@@ -58,6 +58,25 @@
       "stableUrl": "https://abel.math.harvard.edu/archive/archimedes09/pdf/Banu_Musa.pdf",
       "consulted": true,
       "notes": "Read the opening discussion in the digitized text, especially printed pp. 226 and 239. Clagett notes the scarcity of evidence distinguishing the brothers, mentions a treatise on the ellipse attributed to al-Ḥasan, and separately gives the extant plane-and-spherical-figures treatise a collective title naming Muḥammad, al-Ḥasan, and Aḥmad. The discussion does not provide a surviving passage from the lost ellipse work."
+    },
+    {
+      "id": "HAS-NLM-QIFTI-DESCRIPTION",
+      "title": "Ibn al-Qifṭī's Taʾrīkh al-ḥukamāʾ: catalogue and textual history note",
+      "authorOrInstitution": "U.S. National Library of Medicine, History of Medicine Division",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://mainweb.awsprod.nlm.nih.gov/hmd/arabic/mon11.html",
+      "consulted": true,
+      "notes": "NLM explains that the Taʾrīkh al-ḥukamāʾ text preserved today is an extract from Ibn al-Qifṭī's longer, now-lost work, made by Muḥammad ibn ʿAlī al-Zawzanī in 1249/647, one year after Ibn al-Qifṭī's death. It identifies the 1903 Lippert edition and states that no translation has been published. This clarifies the transmission layer behind the modern attribution; the specific al-Ḥasan passage was not read from the edition."
+    },
+    {
+      "id": "HAS-QIFTI-LIPPERT-1903",
+      "title": "Taʾrīkh al-ḥukamāʾ",
+      "authorOrInstitution": "ʿAlī ibn Yūsuf Ibn al-Qifṭī; edition based on August Müller's preparatory work, edited by Julius Lippert",
+      "publicationDate": "1903",
+      "sourceType": "primary_source",
+      "stableUrl": "https://archive.org/details/TarikhAlHukama",
+      "consulted": false,
+      "notes": "Digitized Arabic edition located through the NLM description and Internet Archive. Its OCR full text is accessible, but the specific reported passage at Iranica's cited pp. 441–443 was not reliably located or collated in this batch; OCR search did not resolve the Arabic text. Do not treat this as direct confirmation of the al-Ḥasan attribution until the printed page images and editorial apparatus are read."
     }
   ],
   "works": [
@@ -84,11 +103,11 @@
       "field": "History of mathematics / textual attribution",
       "historicalProblem": "What can the surviving reference literature establish about a geometry work associated with al-Ḥasan ibn Mūsā, and does it identify the same work that the Banū Mūsā biography lists collectively?",
       "historicalContext": "The brothers' works are often catalogued collectively, and a specialist biography warns that their individual lives are difficult to separate. A reported ellipse title provides a useful test case for how individual and group attributions should be represented in ISA.",
-      "method": "Compare the explicit individual attribution in Encyclopaedia Iranica with the group-level title and description in the ISMI-hosted Biographical Encyclopedia of Astronomers, then check Clagett's discussion of attribution and surviving collective geometry. No lost-text reconstruction is attempted.",
+      "method": "Compare the explicit individual attribution in Encyclopaedia Iranica with the group-level title and description in the ISMI-hosted Biographical Encyclopedia of Astronomers, then check Clagett's discussion of attribution and surviving collective geometry. Trace Iranica's bibliographic citation to Ibn al-Qifṭī, Taʾrīkh al-ḥukamāʾ, ed. Lippert, pp. 441–443, and consult NLM's account of the edition's textual history. The online edition was located, but OCR did not support reliable direct collation of the specific pages. No lost-text reconstruction is attempted.",
       "observationsOrCalculations": "No quantitative or geometrical reconstruction is possible from the materials consulted: the ellipse work is reported lost and no passage from it was found.",
       "reportedResult": "Iranica attributes one lost ellipse work to Ḥasan; ISMI lists an ellipse-related work under the Banū Mūsā collectively. Clagett also reports an individual attribution while emphasizing the scarcity of evidence separating the brothers. The evidence does not settle title equivalence or authorship beyond the reference accounts' reported attribution.",
       "whatWasNew": "No invention, priority, construction method, or individual discovery claim is established. This batch improves catalogue accuracy by making the conflict and limits explicit.",
-      "limitations": "The early bibliographical notices cited by these scholars, the Arabic title in its source context, relevant editions, and manuscript catalogues were not directly collated. The text is reported lost; absence of a located witness here is not proof that no witness or quotation survives.",
+      "limitations": "The Arabic title in its source context and the cited Ibn al-Qifṭī pages (Lippert ed., pp. 441–443) were not directly collated. NLM identifies the extant Taʾrīkh as a 1249 extract by al-Zawzanī from Ibn al-Qifṭī's lost longer work, so this is a mediated bibliographic witness, not a contemporary notice. The text attributed to al-Ḥasan is reported lost; absence of a located witness here is not proof that no witness or quotation survives.",
       "laterInfluence": "Not established for this reported lost work. The documented reception of the Banū Mūsā group's extant geometry cannot be assigned to this title without evidence.",
       "claims": [
         {
@@ -117,6 +136,15 @@
           "sourceType": "reference_work",
           "confidence": "medium",
           "uncertainty": "This is a reported bibliographical attribution; the work is lost in the cited accounts and no primary text or witness was consulted."
+        },
+        {
+          "id": "hasan-qifti-transmission",
+          "text": "The Taʾrīkh al-ḥukamāʾ text preserved today is an extract made in 1249/647 by al-Zawzanī from Ibn al-Qifṭī's longer, now-lost work; it is therefore a mediated witness to the lost-work attribution.",
+          "sourceIds": ["HAS-NLM-QIFTI-DESCRIPTION"],
+          "locator": "U.S. National Library of Medicine, Catalogue: Medical Monographs 11, Taʾrīkh al-ḥukamāʾ note",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "This describes the transmission of the surviving biographical dictionary; it does not verify the specific wording on the Banū Mūsā entry or the lost ellipse title."
         },
         {
           "id": "hasan-group-title",
@@ -151,6 +179,7 @@
   ],
   "recognition": [],
   "openQuestions": [
+    "Collate Ibn al-Qifṭī, Taʾrīkh al-ḥukamāʾ, ed. Julius Lippert (1903), printed pp. 441–443 against the page images and editorial apparatus; OCR text was not reliable enough to confirm the entry.",
     "Trace the Iranica and Clagett title attribution to its cited early bibliographical witnesses; verify the Arabic title and the underlying wording.",
     "Determine whether Kitāb al-shakl al-mudawwar al-mustaṭīl and the Book on an Oblong Round Figure are one work, related works, or distinct records.",
     "Search Arabic and Latin manuscript catalogues, editions, and later citations for a surviving witness, excerpt, or independent description of the lost work.",

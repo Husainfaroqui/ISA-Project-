@@ -6,26 +6,48 @@
     "biography": {
       "state": "draft",
       "text": "Ḥunayn ibn Isḥāq was a ninth-century physician and translator working across Greek, Syriac, and Arabic medical literature. This dossier focuses on one first-person account in his letter to ʿAlī ibn Yaḥyā; it is not a complete biography.",
-      "claimIds": ["hun-identity-letter"],
-      "gaps": ["Build a sourced biography from specialist studies and primary biographical sources; verify dates, institutional context, and surviving works independently."]
+      "claimIds": [
+        "hun-identity-letter"
+      ],
+      "gaps": [
+        "Build a sourced biography from specialist studies and primary biographical sources; verify dates, institutional context, and surviving works independently."
+      ]
     },
     "timeline": {
       "state": "draft",
       "text": "The letter is dated broadly between 848 and 890 in the digital corpus record. This is a dating range for the letter, not a precise date for each translation episode it recounts.",
-      "claimIds": ["hun-letter-date-range"],
-      "gaps": ["Review the edition's dating argument and compare it with the manuscript and related correspondence."]
+      "claimIds": [
+        "hun-letter-date-range"
+      ],
+      "gaps": [
+        "Review the edition's dating argument and compare it with the manuscript and related correspondence."
+      ]
     },
     "fields": {
       "state": "draft",
       "text": "In his account of Galen's Book on Sects, Ḥunayn describes an early Syriac translation made from a Greek copy with many omissions, then a later revision after his pupil Ḥubaysh gathered several Greek copies. Ḥunayn says he compared the copies to establish a corrected Greek text, checked and corrected the Syriac against it, and later translated the work into Arabic for Muḥammad ibn Mūsā. This is a specific self-reported case, not evidence that every translation followed an identical procedure.",
-      "claimIds": ["hun-sects-first-version", "hun-sects-collation", "hun-sects-arabic-version"],
-      "gaps": ["Collate the passage in the 2016 Arabic-English edition and available Arabic witnesses; check the terminology for translation, revision, and textual correction.", "Compare other case histories in the letter before generalizing about Ḥunayn's method."]
+      "claimIds": [
+        "hun-sects-first-version",
+        "hun-sects-collation",
+        "hun-sects-arabic-version",
+        "hun-sects-early-translator-and-age",
+        "hun-sects-usual-practice-self-report"
+      ],
+      "gaps": [
+        "Collate the passage in the 2016 Arabic-English edition and available Arabic witnesses; check the terminology for translation, revision, and textual correction.",
+        "Compare other case histories in the letter before generalizing about Ḥunayn's method."
+      ]
     },
     "legacy": {
       "state": "draft",
-      "text": "The letter is an important first-person witness to translation and revision practices in the ninth-century Graeco-Arabic medical tradition. Its evidentiary value here is limited to what the transmitted text reports; the account is not independently verified for this particular episode.",
-      "claimIds": ["hun-letter-value"],
-      "gaps": ["Trace the letter's reception and compare its account with surviving Greek, Syriac, and Arabic witnesses where identifiable."]
+      "text": "The letter is a first-person witness to translation and revision practices in the ninth-century Graeco-Arabic medical tradition. Druart’s review describes the 2016 edition as critical and notes that the manuscript versions reflect stages in a developing list. This dossier distinguishes those scholarly observations from what Hunayn’s own transmitted text reports; neither the account nor the translation draft independently verifies the episode.",
+      "claimIds": [
+        "hun-letter-value",
+        "hun-letter-revision-recensions"
+      ],
+      "gaps": [
+        "Trace the letter's reception and compare its account with surviving Greek, Syriac, and Arabic witnesses where identifiable."
+      ]
     }
   },
   "sources": [
@@ -58,6 +80,36 @@
       "stableUrl": "https://content.www.wellcomecollection.org/works/bfx8kyea",
       "consulted": true,
       "notes": "The Wellcome catalogue record was consulted; it describes an Arabic-English edition based on Ayasofya 3590. The edition itself was not read in this batch, so this is a collation lead only."
+    },
+    {
+      "id": "HUN-BNF-2016",
+      "title": "Ḥunayn ibn Isḥāq on His Galen Translations: a parallel English-Arabic text",
+      "authorOrInstitution": "Bibliothèque nationale de France catalogue; edition edited and translated by John C. Lamoreaux, appendix by Grigory Kessel",
+      "publicationDate": "2016",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://catalogue.bnf.fr/ark:/12148/cb452735618",
+      "consulted": true,
+      "notes": "The BnF catalogue confirms the 2016 Brigham Young University Press edition, parallel Arabic-English text, 33 preliminary pages plus 207 pages, editors, and ISBN. Catalogue metadata only; the edition text was not inspected."
+    },
+    {
+      "id": "HUN-WORLDCAT-2016",
+      "title": "Ḥunayn ibn Isḥāq on His Galen Translations: a parallel English-Arabic text",
+      "authorOrInstitution": "OCLC WorldCat catalogue",
+      "publicationDate": "2016",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://search.worldcat.org/title/unayn-ibn-Isaq-on-his-Galen-translations-%3A-a-parallel-English-Arabic-text/oclc/973280727",
+      "consulted": true,
+      "notes": "WorldCat catalogue metadata identifies Ayasofya 3590, folios 1v–34r as a manuscript associated with the edition and describes it as a parallel English-Arabic text. This is catalogue metadata, not direct manuscript or edition inspection."
+    },
+    {
+      "id": "HUN-TMR-REVIEW-2017",
+      "title": "Review of Ḥunayn ibn Isḥāq on His Galen Translations",
+      "authorOrInstitution": "Thérèse-Anne Druart, The Medieval Review 17.01.25 (2017)",
+      "publicationDate": "2017",
+      "sourceType": "academic_research",
+      "stableUrl": "https://scholarworks.iu.edu/journals/index.php/tmr/article/view/23312",
+      "consulted": true,
+      "notes": "Read the full online review. Druart describes the edition as a critical edition with English translation, variants, and apparatus; notes that the letter’s list reflects a work in progress and that manuscript versions represent stages; and discusses the editor’s treatment of talkhīṣ, takhallus, and talakhkhuṣ. This is a scholarly review, not a substitute for reading the edition."
     }
   ],
   "works": [
@@ -72,7 +124,14 @@
       "purpose": "Written in response to a request for a register of Galen's books and information about their translations, translators, languages, and revisions.",
       "authorship": "academically_supported",
       "date": "Digital corpus record gives a broad date range of 848–890 CE.",
-      "sourceIds": ["HUN-CORPUS-AR", "HUN-BERGSTRASSER-1925", "HUN-LAMOREAUX-KESSEL-2016"],
+      "sourceIds": [
+        "HUN-CORPUS-AR",
+        "HUN-BERGSTRASSER-1925",
+        "HUN-LAMOREAUX-KESSEL-2016",
+        "HUN-BNF-2016",
+        "HUN-WORLDCAT-2016",
+        "HUN-TMR-REVIEW-2017"
+      ],
       "digitizedUrl": "https://www.graeco-arabic-studies.org/view/hunayn.risalah-orig-ar1",
       "passages": [
         {
@@ -80,10 +139,11 @@
           "sourceId": "HUN-CORPUS-AR",
           "editionOrShelfmark": "Digital Corpus for Graeco-Arabic Studies Arabic transcription, based on Bergsträsser's 1925 edition",
           "language": "Arabic text; English paraphrase",
-          "originalPassage": "Ḥunayn reports that an early Syriac version of Galen's Book on Sects, translated from a Greek copy with many omissions, was later revised after Ḥubaysh assembled several Greek copies. He says he compared the Greek copies, corrected the Syriac against the established Greek text, and later made an Arabic translation for Muḥammad ibn Mūsā.",
-          "translation": "Paraphrase of the Arabic transcription, not a verbatim translation.",
+          "originalPassage": "ثم إنّي ترجمته وأنا حدث من أبناء عشرين سنة أو أكثر قليلاً لمتطبّب من أهل جندي سابور يقال له شيريشوع بن قطرب من نسخة يونانيّة كثيرة الأسقاط ثمّ سألني بعد ذلك وأنا من أبناء أربعين سنة أو نحوها حبيش تلميذي إصلاحه بعد أن كانت قد اجتمعت له عندي عدّة نسخ يونانيّة فقابلت تلك بعضها ببعض حتّى صحّت منها نسخة واحدة ثمّ قابلت بتلك النسخة السريانيّ وصحّحته وكذلك من عادتي أن أفعل في جميع ما أترجمه ثمّ ترجمته من بعد سنيّات إلى العربيّة لأبي جعفر محمّد بن موسى.",
+          "translation": "Working translation by ISA, not reviewed by a specialist: “I translated it when I was a youth of twenty years or a little more for a physician of Jundishapur named Shīrīshūʿ ibn Qutrub, from a Greek copy with many omissions. Later, when I was about forty, my pupil Ḥubaysh asked me to revise it, after several Greek copies had been gathered for him at my house. I collated those copies against one another until a sound copy was established, then collated the Syriac against that copy and corrected it. This is also my usual practice in everything I translate. Some years later I translated it into Arabic for Abū Jaʿfar Muḥammad ibn Mūsā.”",
           "chapterOrSection": "Section (ج), Kitāb fī al-firaq (Book on Sects), digital corpus paragraphs 32–33",
-          "explanation": "The sequence and allocation of work are reported by Ḥunayn: Ḥubaysh gathered copies; Ḥunayn describes the comparison and correction. The episode is a self-report and has not been checked against the 2016 edition or manuscript images."
+          "explanation": "This is a transcription-based passage from the Digital Corpus, which identifies Bergsträsser’s 1925 Arabic edition as its source. It preserves Ḥunayn’s self-report and must not be treated as independent verification. The translation is a working draft awaiting specialist review; the critical 2016 edition and its apparatus have not been checked directly.",
+          "printedPage": "Digital Corpus paragraphs 32–33; printed page in the 2016 edition not verified"
         }
       ],
       "notes": "The online Arabic transcription is mediated through a modern edition. No manuscript image was inspected and no printed page number was confirmed."
@@ -97,17 +157,19 @@
       "field": "History of medicine / translation and textual scholarship",
       "historicalProblem": "What does Ḥunayn's letter actually say about revising a Syriac translation of Galen's Book on Sects, and which stages and agents does it identify?",
       "historicalContext": "The letter responds to a request for a register of Galen's writings and their translation histories. In this entry, Ḥunayn distinguishes an earlier Syriac version from a later revision based on multiple Greek copies and a subsequent Arabic translation. This dossier uses the account as evidence for the letter's report, not as independent proof that every stage occurred exactly as described.",
-      "method": "Read the Arabic transcription in the Digital Corpus for Graeco-Arabic Studies at the section for Kitāb fī al-firaq, paragraphs 32–33. Separate the stages stated in the text: an earlier Syriac translation from an incomplete Greek copy; Ḥubaysh's gathering of Greek copies; Ḥunayn's reported comparison and correction of the Greek text and Syriac version; and the later Arabic translation. No modern systematic method or procedure beyond this specific report is inferred.",
+      "method": "Read the Arabic transcription in the Digital Corpus for Graeco-Arabic Studies at Kitāb fī al-firaq, paragraphs 32–33, and checked the edition’s bibliographic record and a scholarly review. The passage explicitly says that Hunayn collated multiple Greek copies, corrected the Syriac against the established Greek text, and describes this as his customary practice. These are statements in a self-report, not independently verified procedures. The translation below is an ISA working draft, not specialist-reviewed.",
       "observationsOrCalculations": "The account presents a sequence of textual work across three languages. It attributes the collection of multiple Greek exemplars to Ḥubaysh, the comparison and Syriac correction to Ḥunayn, and a later Arabic translation to Ḥunayn for Muḥammad ibn Mūsā. The work is described as a translation history, not a laboratory investigation.",
       "reportedResult": "Ḥunayn's letter reports that he used several Greek copies to establish a corrected text and then checked and corrected the Syriac translation against it, before later producing an Arabic version. The statement is a first-person report in a transmitted Arabic text.",
       "whatWasNew": "No claim is made that this was the first use of multiple exemplars, that the account establishes a universal method, or that the surviving Arabic wording has been independently collated against manuscripts.",
-      "limitations": "This is Ḥunayn's own report as transmitted in an Arabic transcription based on Bergsträsser's 1925 edition. The manuscript was not inspected directly; the print page and 2016 critical edition were not checked. The account may be shaped by memory and the letter's purpose. It does not independently verify the earlier Syriac translator's identity, the number or readings of Greek copies, or every stage of the episode.",
+      "limitations": "The primary passage is an Arabic transcription based on Bergsträsser’s 1925 edition. The 2016 critical parallel-text edition, its apparatus, and the Ayasofya 3590 manuscript were not directly inspected. Druart’s review is a secondary description of that edition. The Arabic-to-English wording here is an unreviewed working translation. The letter may be shaped by memory and purpose; it does not independently verify the earlier Syriac translator, all Greek readings, or every reported stage.",
       "laterInfluence": "Not assessed in this focused batch. A reception history would require separate evidence from later translators, manuscripts, and citations.",
       "claims": [
         {
           "id": "hun-identity-letter",
           "text": "The Digital Corpus presents the text as Ḥunayn ibn Isḥāq's letter to ʿAlī ibn Yaḥyā concerning translations of Galen's books.",
-          "sourceIds": ["HUN-CORPUS-AR"],
+          "sourceIds": [
+            "HUN-CORPUS-AR"
+          ],
           "locator": "Digital corpus title and opening paragraphs",
           "sourceType": "primary_source",
           "confidence": "high",
@@ -116,7 +178,9 @@
         {
           "id": "hun-letter-date-range",
           "text": "The digital corpus dates the letter broadly between 848 and 890 CE.",
-          "sourceIds": ["HUN-CORPUS-AR"],
+          "sourceIds": [
+            "HUN-CORPUS-AR"
+          ],
           "locator": "Digital corpus work metadata",
           "sourceType": "primary_source",
           "confidence": "medium",
@@ -125,7 +189,9 @@
         {
           "id": "hun-sects-first-version",
           "text": "In the letter's account, an earlier Syriac version of Galen's Book on Sects was translated from a Greek copy described as having many omissions.",
-          "sourceIds": ["HUN-CORPUS-AR"],
+          "sourceIds": [
+            "HUN-CORPUS-AR"
+          ],
           "locator": "Section (ج), Kitāb fī al-firaq, digital corpus paragraphs 32–33",
           "sourceType": "primary_source",
           "confidence": "high",
@@ -134,7 +200,9 @@
         {
           "id": "hun-sects-collation",
           "text": "Ḥunayn says that after Ḥubaysh gathered several Greek copies, he compared them to establish a corrected Greek text and used it to correct the Syriac translation.",
-          "sourceIds": ["HUN-CORPUS-AR"],
+          "sourceIds": [
+            "HUN-CORPUS-AR"
+          ],
           "locator": "Section (ج), Kitāb fī al-firaq, digital corpus paragraphs 32–33",
           "sourceType": "primary_source",
           "confidence": "high",
@@ -143,7 +211,9 @@
         {
           "id": "hun-sects-arabic-version",
           "text": "The same entry reports that Ḥunayn later translated the work into Arabic for Muḥammad ibn Mūsā.",
-          "sourceIds": ["HUN-CORPUS-AR"],
+          "sourceIds": [
+            "HUN-CORPUS-AR"
+          ],
           "locator": "Section (ج), Kitāb fī al-firaq, digital corpus paragraphs 32–33",
           "sourceType": "primary_source",
           "confidence": "high",
@@ -152,11 +222,47 @@
         {
           "id": "hun-letter-value",
           "text": "The letter preserves a first-person account of one translation and revision sequence in the Graeco-Arabic medical tradition.",
-          "sourceIds": ["HUN-CORPUS-AR", "HUN-LAMOREAUX-KESSEL-2016"],
+          "sourceIds": [
+            "HUN-CORPUS-AR",
+            "HUN-LAMOREAUX-KESSEL-2016"
+          ],
           "locator": "Digital corpus, section (ج); 2016 edition bibliographic record",
           "sourceType": "academic_research",
           "confidence": "medium",
           "uncertainty": "The 2016 edition is listed only as a bibliographic lead here and was not consulted for interpretation."
+        },
+        {
+          "id": "hun-sects-early-translator-and-age",
+          "text": "In the letter’s account, Ibn Sahda had made an earlier Syriac translation; Hunayn says he later translated the work from a Greek copy with many omissions when he was in his early twenties, for Shīrīshūʿ ibn Qutrub of Jundishapur.",
+          "sourceIds": [
+            "HUN-CORPUS-AR"
+          ],
+          "locator": "Section (ج), Kitāb fī al-firaq, digital corpus paragraph 33",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "This records the Arabic text’s self-report; the people, age, and Greek witness have not been independently verified."
+        },
+        {
+          "id": "hun-sects-usual-practice-self-report",
+          "text": "Ḥunayn says that collating Greek copies and correcting the Syriac against the collated text is his usual practice in everything he translates.",
+          "sourceIds": [
+            "HUN-CORPUS-AR"
+          ],
+          "locator": "Section (ج), Kitāb fī al-firaq, digital corpus paragraph 33",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "This is an explicit generalization by the letter’s author, but remains a self-report; other translation cases and manuscript witnesses must be checked before treating it as a consistent practice."
+        },
+        {
+          "id": "hun-letter-revision-recensions",
+          "text": "Druart’s review says the 2016 critical edition explains that the letter was a work in progress and that its manuscript versions preserve different stages of the list.",
+          "sourceIds": [
+            "HUN-TMR-REVIEW-2017"
+          ],
+          "locator": "The Medieval Review, paragraphs 2–3",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The review was read; the 2016 edition’s textual introduction and apparatus were not inspected directly."
         }
       ],
       "state": "draft"
@@ -164,6 +270,7 @@
   ],
   "recognition": [],
   "openQuestions": [
+    "Read the 2016 critical edition at its sections on Kitāb fī al-firaq; compare its Arabic text, English translation, manuscript variants, and apparatus against the 1925-based Digital Corpus transcription.",
     "Read and collate this passage in Lamoreaux and Kessel's 2016 Arabic-English edition; record exact Arabic, translation, apparatus, and printed page.",
     "Identify the manuscript witnesses behind the 1925 and 2016 editions and assess their relationship and variants.",
     "Check whether the Syriac and Arabic versions of this Book on Sects survive and locate catalogued witnesses.",

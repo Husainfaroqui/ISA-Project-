@@ -3,45 +3,1326 @@
   "dossierState": "draft",
   "lastResearched": "2026-11-14",
   "sections": {
-    "biography": { "state": "draft", "text": "Usha Sanyal situates Ahmad Riza Khan (1856–1921) in the learned society of late-nineteenth-century North India. She describes him as born into a well-to-do, learned Pathan family in Bareilly; educated at home by his father, Naqi Ali Khan; and known by the 1880s among North Indian ulama for rational sciences (maʿqulat), including logic, mathematics, and Islamic law. His writings became an intellectual basis for the Ahl-e Sunnat movement. Sanyal presents his scholarly and Qadiri Sufi roles together, while identifying fatwa-writing as his most important scholarly activity. This account distinguishes historical context from devotional childhood stories and unsupported work-count claims.", "claimIds": ["ala-biographical-scope", "ala-birth-context", "ala-education", "ala-rational-sciences", "ala-fatwa-work"], "gaps": ["Read Sanyal's full biography and primary Urdu biographical works for a fuller chronology, family, teachers, travel, and work catalogue.", "Verify exact birth/death dates and distinguish year-level evidence from later day-level dates."] },
-    "timeline": { "state": "draft", "text": "Sanyal gives 1856–1921 as the life span and places Ahmad Riza among North Indian ulama by the 1880s. Siddiqui lists four astronomy-related works dated 1919, 1920, 1920, and 1921. For Fauz-i-Mubin, introductory matter in a 2005 English rendering reports 1919 while Siddiqui lists 1920; the original Urdu imprint has not been inspected, so that book date remains unresolved.", "claimIds": ["ala-fauz-date", "ala-four-treatises", "ala-birth-context"], "gaps": ["Inspect Urdu first editions' title pages, colophons, and any magazine antecedents to distinguish composition, serial publication, and book publication dates."] },
-    "fields": { "state": "draft", "text": "The evidence identifies four writings associated by Siddiqui with the 1919 planetary-alignment episode: Muʿīn-i-Mubīn, Fauz-i-Mubin, al-Kalimah al-Mulhamah, and Nuzūl-i-Āyāt-i-Furqān. Sanyal independently characterizes Khan as learned in rational sciences, including logic and mathematics, but does not assess these astronomy treatises. The detailed passage study here covers only the reported preface and a geometric argument in Fauz-i-Mubin. The dossier records historical claims; it does not validate the physical reasoning or present a stationary-Earth conclusion as modern astronomy.", "claimIds": ["ala-fauz-structure", "ala-geometric-argument", "ala-porta-context", "ala-four-treatises", "ala-rational-sciences"], "gaps": ["Collate the Urdu originals with the cited translations and record printed Urdu pages, diagrams, and technical terminology.", "Reconstruct selected arguments from original diagrams and proofs; distinguish mathematical premises from physical inferences.", "Read the 2026 Urdu study on mathematical works before summarizing its abstract claims.", "Check the 1919 newspapers cited by Siddiqui and independently calculate the planetary configuration before assessing the Porta episode."] },
-    "legacy": { "state": "draft", "text": "Sanyal situates Khan's writings and leadership in the Ahl-e Sunnat movement and the wider colonial-era North Indian scholarly milieu. Siddiqui's article describes a four-work astronomy sequence but calls itself introductory and says detailed analysis is not its main focus. A separate 2026 Urdu article advertises a broader survey of mathematical writings, but only its abstract was inspected and none of its findings are adopted here. No claim of scientific correctness, originality, or priority is made.", "claimIds": ["ala-article-limit", "ala-no-validity-claim", "ala-four-treatises"], "gaps": ["Review independent scholarship and the new 2026 mathematical study; inspect editions, reception, and calculations with qualified historical and scientific review."] }
+    "biography": {
+      "state": "draft",
+      "text": "Usha Sanyal’s 1998 article and 2005 monograph place Ahmad Riza Khan (1856–1921) in the learned society of late-nineteenth- and early-twentieth-century North India. Sanyal describes his father, Naqi Ali Khan, as his most important teacher; Khan studied the Dars-i Nizami syllabus at home and was known by the 1880s for rational sciences (maʿqulat), including logic, mathematics, and Islamic law. The monograph reports his Qadiri discipleship in 1877, pilgrimage with his father in 1878, and early fatwa-writing, while treating devotional childhood stories through their later biographical sources. His scholarly and Sufi roles coexisted; fatwa-writing was central to his career. In a first-person preface to the later Fatawa collection, he says his father assigned him fatwa work before age fourteen; searchable copies disagree on the Hijri year numeral, so the exact date remains open. Exact day-level dates and many biographical details still require primary-source review.",
+      "claimIds": [
+        "ala-biographical-scope",
+        "ala-birth-context",
+        "ala-education",
+        "ala-rational-sciences",
+        "ala-fatwa-work",
+        "ala-life-fatwa-career",
+        "ala-life-qadiri-1877",
+        "ala-life-hajj-1878",
+        "ala-life-first-fatwa-self-report"
+      ],
+      "gaps": [
+        "Collate the cited passages in Zafar ud-Din Bihari’s Urdu biography and other early records; distinguish contemporary documentation from devotional narrative.",
+        "Verify exact birth/death dates and separate year-level evidence from later day-level dates."
+      ]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The academic biography gives year-level life dates, Qadiri discipleship in 1877, pilgrimage in 1878, the 1900 Patna honorific episode, the founding of Madrasa Manzar al-Islam in 1904, a second pilgrimage in 1905–06, and publication of Kanz al-Iman in Muradabad in 1911, reported in both Sanyal’s monograph and her Encyclopaedia of the Qur’an entry (not independent sources). Siddiqui lists four astronomy-related works dated 1919, 1920, 1920, and 1921. For Fauz-i-Mubin, introductory matter in a 2005 English rendering reports 1919 while Siddiqui lists 1920; the original Urdu imprint remains unchecked.",
+      "claimIds": [
+        "ala-fauz-date",
+        "ala-four-treatises",
+        "ala-birth-context",
+        "ala-life-qadiri-1877",
+        "ala-life-hajj-1878",
+        "ala-life-mujaddid-1900",
+        "ala-life-manzar-1904",
+        "ala-life-hajj-1905",
+        "ala-life-kanz-1911"
+      ],
+      "gaps": [
+        "Inspect Urdu first editions' title pages, colophons, and any magazine antecedents to distinguish composition, serial publication, and book publication dates."
+      ]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "The evidence identifies four writings associated by Siddiqui with the 1919 planetary-alignment episode: Muʿīn-i-Mubīn, Fauz-i-Mubin, al-Kalimah al-Mulhamah, and Nuzūl-i-Āyāt-i-Furqān. Sanyal independently characterizes Khan as learned in rational sciences, including logic and mathematics, but does not assess these astronomy treatises. The detailed passage study here covers only the reported preface and a geometric argument in Fauz-i-Mubin. A secondary Arabic biographical inventory also reports twenty manuscript titles across rational-science fields; the titles are cataloguing leads only, not independently verified editions or interpreted works. The dossier records historical claims; it does not validate the physical reasoning or present a stationary-Earth conclusion as modern astronomy.",
+      "claimIds": [
+        "ala-fauz-structure",
+        "ala-geometric-argument",
+        "ala-porta-context",
+        "ala-four-treatises",
+        "ala-rational-sciences"
+      ],
+      "gaps": [
+        "Collate the Urdu originals with the cited translations and record printed Urdu pages, diagrams, and technical terminology.",
+        "Reconstruct selected arguments from original diagrams and proofs; distinguish mathematical premises from physical inferences.",
+        "Read the 2026 Urdu study on mathematical works before summarizing its abstract claims.",
+        "Check the 1919 newspapers cited by Siddiqui and independently calculate the planetary configuration before assessing the Porta episode."
+      ]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "Sanyal situates Khan’s legal and Sufi leadership in the Ahl-e Sunnat movement and wider colonial-era North Indian scholarly milieu. The research bibliography now records both Kanz al-Iman and the later Fatawa-e Rizwiyya collection, with Sanyal’s caveat that the fatwa collection is partial and its editorial history complex. Siddiqui’s four-work astronomy sequence remains introductory; the historical record here is not an assessment of scientific correctness, originality, or priority.",
+      "claimIds": [
+        "ala-article-limit",
+        "ala-no-validity-claim",
+        "ala-four-treatises",
+        "ala-life-mujaddid-1900",
+        "ala-life-fatawa-corpus",
+        "ala-life-kanz-1911"
+      ],
+      "gaps": [
+        "Review independent scholarship and the 2026 Urdu mathematical study; inspect editions, reception, and calculations with qualified historical and scientific review.",
+        "Build a complete work catalogue from library catalogues and edition title pages; current evidence is not exhaustive."
+      ]
+    }
   },
   "sources": [
-    { "id": "ALA-SIDDIQUI-2023", "title": "Imam Ahmed Raza Khan and the Revival of the Islamic Astronomy in India", "authorOrInstitution": "Naseeb Ahmed Siddiqui, IIUM Journal of Religion and Civilisational Studies 6(1), pp. 57–83", "publicationDate": "2023", "sourceType": "academic_research", "stableUrl": "https://journals.iium.edu.my/irkh/index.php/ijrcs/article/view/293", "consulted": true, "notes": "Read the open-access article. It lists four astronomy-related works, quotes passages attributed to Raza's 1919 and 1920 writings through a 2005 English edition, and describes a geometrical argument in the latter. The author calls the study introductory and says detailed analysis is not its primary focus (p. 61); the paper also relies on community websites for work counts and contains interpretive praise. Use it as one source reporting the text, not independent validation of calculations or science." },
-    { "id": "ALA-FAUZ-EN-2005", "title": "Fauz-e-Mubeen Dar Radd-e-Harkat-e-Zameen: A Fair Success Refuting Motion of Earth", "authorOrInstitution": "Ahmad Raza Khan; English rendering by Abdul Hamid Maiskar; Idara-e-Tahqeeqat-e-Imam Ahmad Raza International", "publicationDate": "2005 English edition (underlying Urdu publication date unresolved)", "sourceType": "primary_source", "stableUrl": "https://sunnijamaat.net/pdf/Fauz-e-mubeen.pdf", "consulted": true, "notes": "Inspected the digital English translation's title/edition matter and the page location cited by Siddiqui. This is a community-produced translation, not the Urdu original or a critical edition. Its front matter makes unverified promotional and scientific-validity claims; those are not adopted as evidence. The underlying Urdu passage, diagram, translator's choices, and edition relationship remain to be checked." },
-    { "id": "ALA-REKHTA-FAUZ", "title": "Fauz-e-Mubeen Dar-Radd-e-Harkat-e-Zameen", "authorOrInstitution": "Rekhta ebook catalogue; contributor Rampur Raza Library, Rampur; publisher listed as Sunni Duniya, Bareilly", "publicationDate": "Not stated in the catalogue record consulted", "sourceType": "institutional_catalogue", "stableUrl": "https://www.rekhta.org/ebooks/detail/fauz-e-mubeen-dar-radd-e-harkat-e-zameen-ahamd-raza-khan-raza-ebooks", "consulted": true, "notes": "Catalogue metadata identifies an Urdu-language, 197-page copy and its stated contributor/publisher. Rekhta's reader required registration after the free page allowance, so the Urdu page images could not be inspected. The catalogue record does not establish a first-edition date." },
-    { "id": "ALA-PORTA-NEWSPAPERS", "title": "1919 newspaper reports of Albert F. Porta's planetary-alignment prediction", "authorOrInstitution": "New York Times, Marlborough Express, Pittsburgh Press and Puke Times, as cited by Siddiqui", "publicationDate": "November–December 1919", "sourceType": "historical_newspaper", "stableUrl": "https://journals.iium.edu.my/irkh/index.php/ijrcs/article/view/293", "consulted": false, "notes": "These reports are cited in Siddiqui's article but were not independently opened in this batch. The article's account of the prediction is therefore attributed to that paper, not presented as independently verified newspaper evidence." },
-    { "id": "ALA-SANYAL-1998", "title": "Generational Changes in the Leadership of the Ahl-e Sunnat Movement in North India during the Twentieth Century", "authorOrInstitution": "Usha Sanyal, Modern Asian Studies 32, no. 3, pp. 635–656", "publicationDate": "1998", "sourceType": "academic_research", "stableUrl": "https://www.ilmgate.org/wp-content/uploads/2011/02/Generational-Changes-in-the-Leadership-of-the-Ahl-e-Sunnat-Movement-in-North-India-during.pdf", "consulted": true, "notes": "Read the contextual sections on Ahmad Riza Khan (pp. 636–643) and the reported death year (p. 645). Provides scholarly context for family/social setting, home education, rational sciences, movement leadership, and fatwa-writing. It is not a complete biography or a study of his astronomical mathematics." },
-    { "id": "ALA-SANYAL-BOOK-2005", "title": "Ahmad Riza Khan Barelwi: In the Path of the Prophet", "authorOrInstitution": "Usha Sanyal, Oneworld Publications", "publicationDate": "2005", "sourceType": "academic_research", "stableUrl": "https://books.google.com/books/about/Ahmad_Riza_Khan_Barelwi.html?id=ADkNAQAAMAAJ", "consulted": false, "notes": "Google Books bibliographic record and contents metadata consulted; book text not read. Priority source for completing the full biography." },
-    { "id": "ALA-ALSAFIIR-2026", "title": "حضرت مولانا امام احمد رضا خان بحیثیت ایک علمی شخصیت برصغیر میں", "authorOrInstitution": "Javed Akhtar Muhaqqiq and Muhammad Kamran Qureshi, Al-Safiir 10, no. 1", "publicationDate": "2026-03-30", "sourceType": "academic_research", "stableUrl": "https://www.al-safiir.com/index.php/Al-Safiir/article/view/308", "consulted": false, "notes": "Journal metadata and abstract consulted. The Urdu article advertises research on mathematics, geometry, algebra, plane/spherical trigonometry, logarithms, zij, arithmetic, and juristic applications. Full-text download returned a server error; its substantive claims are not adopted until the article is read and its source base checked." }
+    {
+      "id": "ALA-SIDDIQUI-2023",
+      "title": "Imam Ahmed Raza Khan and the Revival of the Islamic Astronomy in India",
+      "authorOrInstitution": "Naseeb Ahmed Siddiqui, IIUM Journal of Religion and Civilisational Studies 6(1), pp. 57–83",
+      "publicationDate": "2023",
+      "sourceType": "academic_research",
+      "stableUrl": "https://journals.iium.edu.my/irkh/index.php/ijrcs/article/view/293",
+      "consulted": true,
+      "notes": "Read the open-access article. It lists four astronomy-related works, quotes passages attributed to Raza's 1919 and 1920 writings through a 2005 English edition, and describes a geometrical argument in the latter. The author calls the study introductory and says detailed analysis is not its primary focus (p. 61); the paper also relies on community websites for work counts and contains interpretive praise. Use it as one source reporting the text, not independent validation of calculations or science."
+    },
+    {
+      "id": "ALA-FAUZ-EN-2005",
+      "title": "Fauz-e-Mubeen Dar Radd-e-Harkat-e-Zameen: A Fair Success Refuting Motion of Earth",
+      "authorOrInstitution": "Ahmad Raza Khan; English rendering by Abdul Hamid Maiskar; Idara-e-Tahqeeqat-e-Imam Ahmad Raza International",
+      "publicationDate": "2005 English edition (underlying Urdu publication date unresolved)",
+      "sourceType": "primary_source",
+      "stableUrl": "https://sunnijamaat.net/pdf/Fauz-e-mubeen.pdf",
+      "consulted": true,
+      "notes": "Inspected the digital English translation's title/edition matter and the page location cited by Siddiqui. This is a community-produced translation, not the Urdu original or a critical edition. Its front matter makes unverified promotional and scientific-validity claims; those are not adopted as evidence. The underlying Urdu passage, diagram, translator's choices, and edition relationship remain to be checked."
+    },
+    {
+      "id": "ALA-REKHTA-FAUZ",
+      "title": "Fauz-e-Mubeen Dar-Radd-e-Harkat-e-Zameen",
+      "authorOrInstitution": "Rekhta ebook catalogue; contributor Rampur Raza Library, Rampur; publisher listed as Sunni Duniya, Bareilly",
+      "publicationDate": "Not stated in the catalogue record consulted",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://www.rekhta.org/ebooks/detail/fauz-e-mubeen-dar-radd-e-harkat-e-zameen-ahamd-raza-khan-raza-ebooks",
+      "consulted": true,
+      "notes": "Catalogue metadata identifies an Urdu-language, 197-page copy and its stated contributor/publisher. Rekhta's reader required registration after the free page allowance, so the Urdu page images could not be inspected. The catalogue record does not establish a first-edition date."
+    },
+    {
+      "id": "ALA-PORTA-NEWSPAPERS",
+      "title": "1919 newspaper reports of Albert F. Porta's planetary-alignment prediction",
+      "authorOrInstitution": "New York Times, Marlborough Express, Pittsburgh Press and Puke Times, as cited by Siddiqui",
+      "publicationDate": "November–December 1919",
+      "sourceType": "historical_newspaper",
+      "stableUrl": "https://journals.iium.edu.my/irkh/index.php/ijrcs/article/view/293",
+      "consulted": false,
+      "notes": "These reports are cited in Siddiqui's article but were not independently opened in this batch. The article's account of the prediction is therefore attributed to that paper, not presented as independently verified newspaper evidence."
+    },
+    {
+      "id": "ALA-SANYAL-1998",
+      "title": "Generational Changes in the Leadership of the Ahl-e Sunnat Movement in North India during the Twentieth Century",
+      "authorOrInstitution": "Usha Sanyal, Modern Asian Studies 32, no. 3, pp. 635–656",
+      "publicationDate": "1998",
+      "sourceType": "academic_research",
+      "stableUrl": "https://www.ilmgate.org/wp-content/uploads/2011/02/Generational-Changes-in-the-Leadership-of-the-Ahl-e-Sunnat-Movement-in-North-India-during.pdf",
+      "consulted": true,
+      "notes": "Read the contextual sections on Ahmad Riza Khan (pp. 636–643) and the reported death year (p. 645). Provides scholarly context for family/social setting, home education, rational sciences, movement leadership, and fatwa-writing. It is not a complete biography or a study of his astronomical mathematics."
+    },
+    {
+      "id": "ALA-SANYAL-BOOK-2005",
+      "title": "Ahmad Riza Khan Barelwi: In the Path of the Prophet",
+      "authorOrInstitution": "Usha Sanyal, Oneworld Publications",
+      "publicationDate": "2005",
+      "sourceType": "academic_research",
+      "stableUrl": "https://data.nur.nu/Kutub/English/Ahmad-Riza-Khan-bio-by-Usha-Sanyal.pdf",
+      "consulted": true,
+      "notes": "Consulted the searchable full-book scan for the biographical chapter and relevant sections: education and scholarly training (pp. 55–56), Qadiri affiliation (p. 61), pilgrimage (p. 63), movement designation (pp. 64–66), fatwa corpus (pp. 71–72), second pilgrimage (p. 73), Qur’an translation (p. 77), and Madrasa Manzar al-Islam (p. 113). These are secondary syntheses; cited Urdu biographies and original editions were not collated."
+    },
+    {
+      "id": "ALA-ALSAFIIR-2026",
+      "title": "حضرت مولانا امام احمد رضا خان بحیثیت ایک علمی شخصیت برصغیر میں",
+      "authorOrInstitution": "Javed Akhtar Muhaqqiq and Muhammad Kamran Qureshi, Al-Safiir 10, no. 1",
+      "publicationDate": "2026-03-30",
+      "sourceType": "academic_research",
+      "stableUrl": "https://www.al-safiir.com/index.php/Al-Safiir/article/view/308",
+      "consulted": false,
+      "notes": "Journal metadata and abstract consulted. The Urdu article advertises research on mathematics, geometry, algebra, plane/spherical trigonometry, logarithms, zij, arithmetic, and juristic applications. Full-text download returned a server error; its substantive claims are not adopted until the article is read and its source base checked."
+    },
+    {
+      "id": "ALA-REKHTA-FATAWA-V12",
+      "title": "Al-Ataya al-Nabawiyya fi al-Fatawa al-Razawiyya, Jild Davazdahum (vol. 12)",
+      "authorOrInstitution": "Rekhta ebook catalogue; edition published by Raza Academy, Mumbai",
+      "sourceType": "institutional_catalogue",
+      "publicationDate": "1994",
+      "stableUrl": "https://www.rekhta.org/ebooks/detail/al-ataya-al-nabawiyya-fi-al-fatawa-al-razawiyya-jild-davazdahum-jild-davazdahum-ahamd-raza-khan-barelvi-ebooks",
+      "consulted": true,
+      "notes": "Catalogue record gives Urdu language, 305 pages, editor Mufti Abdul Aannan Aazami, and identifies this as volume 12. It says compilation was by Muhammad Haneef Khan Razvi under Abdul Manan Azmi’s guidance. Metadata checked; the full volume was not read or collated."
+    },
+    {
+      "id": "ALA-MASUD-AHMAD-AR",
+      "title": "Al-Shaykh Ahmad Riza Khan al-Barelwi wa-shayʾ min hayatihi wa-afkarahi",
+      "authorOrInstitution": "Muhammad Masud Ahmad; Arabic translation attributed to Muhammad Arifullah Misbahi; online repost at IslamiMehfil",
+      "publicationDate": "Arabic translation prepared September 1990; repost edition details incomplete",
+      "sourceType": "community_lead",
+      "stableUrl": "https://www.islamimehfil.com/topic/16065-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%A3%D8%AD%D9%85%D8%AF-%D8%B1%D8%B6%D8%A7%D8%AE%D8%A7%D9%86-%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%84%D9%88%D9%89-%D9%88%D8%B4%D9%89%D8%A1-%D9%85%D9%86-%D8%AD%D9%8A%D8%A7%D8%AA%D9%87-%D9%88%D8%A3%D9%81%D9%83%D8%A7%D8%B1%D9%87/",
+      "consulted": true,
+      "notes": "Consulted the “Manuscripts” list, items 1–20. The article says the author held images of about 100 manuscripts and lists Kashf al-ʿIllah ʿan Samt al-Qiblah at item 7 with 1324 AH / 1906 CE. The forum repost gives no shelfmark or access to the cited manuscript image; this is a bibliographic lead, not direct manuscript verification. The text is promotional and sectarian in other sections; those claims are not used."
+    },
+    {
+      "id": "ALA-SIDQUE-QIBLA-2005",
+      "title": "Kashaf-ul-Ala An Simat-ul-Qibla Qibla Numa (download listing)",
+      "authorOrInstitution": "Sidque / Dar-us-Sidque",
+      "publicationDate": "Listing gives 1 January 2005",
+      "sourceType": "community_lead",
+      "stableUrl": "https://sidque.com/shf-alal-an-smt-alqbl-qbl-nma/",
+      "consulted": true,
+      "notes": "The page lists an Urdu edition by Idara Tehqeeqat Imam Ahmad Raza International and links two scans. PDF retrieval failed; the page is a hosting description rather than an independent library catalogue, and the edition/title page and text remain unchecked."
+    },
+    {
+      "id": "ALA-AH-NET-BURHAN",
+      "title": "Al-Burhān al-Qawīm ʿalā al-ʿArḍ wa-l-Taqwīm (community work listing)",
+      "authorOrInstitution": "Alahazrat Network",
+      "publicationDate": "Page reports 1327 AH; page publication/update date not supplied as the work date",
+      "sourceType": "community_lead",
+      "stableUrl": "https://www.alahazratnetwork.org/%D8%A7%D9%84%D8%A8%D8%B1%DA%BE%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D9%88%DB%8C%D9%85-%D8%B9%D9%84%DB%8C-%D8%A7%D9%84%D8%B9%D8%B1%D8%B6-%D9%88-%D8%A7%D9%84%D8%AA%D9%82%D9%88%DB%8C%D9%85/",
+      "consulted": true,
+      "notes": "The community page gives the title, reports 1327 AH, identifies the work as Persian, and describes ephemeris contents. It offers no cited title-page image, shelfmark, passage, or primary text in the page. Record only these as community-reported metadata; do not adopt its promotional assessment or technical description as verified."
+    },
+    {
+      "id": "ALA-SANYAL-EQ-2001",
+      "title": "Ahmad Rida Khan",
+      "authorOrInstitution": "Usha Sanyal, in Jane Dammen McAuliffe (ed.), Encyclopaedia of the Qur’an, pp. 203–204",
+      "sourceType": "reference_work",
+      "stableUrl": "https://almuslih.org/wp-content/uploads/Library/McAuliffe%2C%20J%20-%20Encyclopaedia%20-%201.pdf",
+      "consulted": true,
+      "notes": "Inspected the article text and bibliography (printed pp. 203–204). It identifies Kanz al-Īmān fī tarjumat al-Qurʾān as published in Muradabad in 1911 and lists a Muradabad 1911 edition in its bibliography. This is useful scholarly bibliographic corroboration, but it is by the same author as the 2005 monograph and does not substitute for inspection of the original title page or a catalogue record for that specific first edition."
+    },
+    {
+      "id": "ALA-FATAWA-V1A-PRIMARY",
+      "title": "Al-ʿAṭāyā al-Nabawiyya fī al-Fatāwā al-Riḍawiyya, volume 1, part A, prefatory text",
+      "authorOrInstitution": "Ahmad Riza Khan; later scanned edition, digital text extraction",
+      "publicationDate": "Edition date not confirmed in this pass",
+      "sourceType": "primary_source",
+      "stableUrl": "https://data2.dawateislami.net/Data/Books/Download/ur/pdf/2013/857-1.pdf",
+      "consulted": true,
+      "notes": "Read the prefatory first-person verse through searchable text extraction in the scanned volume 1A PDF, shown at viewer p. 94/590. It reports that Khan’s father appointed him to issue fatwas on 14 Shaʿban, says he was not yet fourteen and gives his birth as 10 Shawwal 1272 AH, then says he began issuing fatwas and his father corrected errors. The extracted numeral reads 1282 AH, but the same passage spells the year in words as six-and-eighty (86); a separate Arabic transcription gives 1286. This appears to be a numeral/text conflict, but the page image was not visually inspected. A mirrored PDF at uploads.ahlesunnatpak.com gives the same extracted text; these are mirrors, not independent witnesses."
+    },
+    {
+      "id": "ALA-FATAWA-V1A-TRANSCRIPTION",
+      "title": "Fatawa Razaviah volume 1A and 1B, typed text transcription",
+      "authorOrInstitution": "Alahazrat Network",
+      "sourceType": "community_lead",
+      "stableUrl": "https://www.alahazratnetwork.org/fatawa-razaviah-volume-1-in-typed-format/",
+      "consulted": true,
+      "notes": "Consulted its Arabic/Urdu transcription of the prefatory passage (entries #17228–17229). It reads the date as 1286 AH. The PDF text extraction reads 1282 numerically but spells the year as six-and-eighty (86), so the two digital representations expose a numeral/text conflict. The transcription is not an independent witness; the page image remains unchecked."
+    }
   ],
   "works": [
-    { "id": "ala-fauz-i-mubin", "scholarSlug": "ahmad-raza-khan", "originalTitle": "فوز مبين در رد حركت زمين", "transliteration": "Fauz-i-Mubin Dar Radd-i-Harkat-i-Zamin", "translation": "A Fair Success in Refuting the Motion of the Earth (title rendered in the cited English edition)", "language": "Urdu", "subject": "A polemical treatise arguing against Earth's motion and discussing contemporary astronomy, physics, geometry, and natural philosophy", "purpose": "Siddiqui reports that the author's preface organizes arguments around repulsion, attraction, objections to Earth's motion, responses to astronomers, and scriptural arguments. These are the article's descriptions and translated excerpts; the Urdu edition remains to be collated.", "authorship": "academically_supported", "date": "Listed as 1920 by Siddiqui; 1919 appears in the 2005 English edition's introductory matter. Original imprint not checked; date unresolved.", "sourceIds": ["ALA-SIDDIQUI-2023", "ALA-FAUZ-EN-2005", "ALA-REKHTA-FAUZ"], "digitizedUrl": "https://www.rekhta.org/ebooks/detail/fauz-e-mubeen-dar-radd-e-harkat-e-zameen-ahamd-raza-khan-raza-ebooks", "passages": [
-      { "workId": "ala-fauz-i-mubin", "sourceId": "ALA-SIDDIQUI-2023", "editionOrShelfmark": "Siddiqui quotes the author's preface via the 2005 English rendering by Abdul Hamid Maiskar; underlying Urdu edition not checked", "language": "English translation mediated through a 2023 secondary article; original work in Urdu", "originalPassage": "The translated preface, as quoted by Siddiqui, outlines three groups of arguments counted as 12, 50, and 43, totalling 105, and says the work also responds to objections from contemporary astronomers. This is a report of the author's own stated structure, not an independently verified count or proof of validity.", "translation": "Paraphrase of Siddiqui's quotation of the 2005 English rendering; not a fresh translation from Urdu.", "printedPage": "Siddiqui pp. 67–68 (journal pagination), quoting Raza 2005, pp. 8–9", "chapterOrSection": "Fauz-i-Mubin preface as reproduced in the article", "explanation": "The 2005 English translation's front matter and the article have not been checked against the Urdu witness. The numerical total is internally consistent (12 + 50 + 43 = 105), but that arithmetic does not verify the classification, arguments, or scientific claims." },
-      { "workId": "ala-fauz-i-mubin", "sourceId": "ALA-SIDDIQUI-2023", "editionOrShelfmark": "Siddiqui's discussion of an English-rendered geometric passage, citing Raza 2005", "language": "English translation mediated through Siddiqui; original work in Urdu", "originalPassage": "The article reproduces a diagram-based argument in which equal line segments are drawn from points on a circle and their distances from a centre are compared; the author then uses this geometry to argue against Earth's motion under the proposed forces.", "translation": "Paraphrase of the author's translated argument as presented in Siddiqui, pp. 69–70; not a direct translation.", "printedPage": "Siddiqui pp. 69–70 (journal pagination), citing Raza 2005, p. 101", "chapterOrSection": "Geometric argument about attraction, repulsion, and Earth's motion", "explanation": "This locator is to the article and its cited English edition, not to an inspected Urdu page. The diagram and reasoning have not been reconstructed; no correctness judgment is inferred from the article's presentation." }
-    ], "notes": "Siddiqui's article lists four related writings and describes Muʿīn-i-Mubīn as the response to the Porta prediction that was later compiled as a short treatise; the 1919 newspapers and first editions remain unverified. Do not collapse the four works into one text or transfer claims between them without collation." },
-    { "id": "ala-muin-i-mubin", "scholarSlug": "ahmad-raza-khan", "transliteration": "Muʿīn-i-Mubīn Bahar Daur-i-Shamas-o-Sukūn-i-Zamīn", "translation": "A Fair Guide on the Revolving Sun and the Static Earth (as rendered by Siddiqui)", "language": "Urdu (reported)", "subject": "Response to Albert F. Porta's 1919 planetary-alignment prediction, as described by Siddiqui", "purpose": "Siddiqui says the response first appeared in a magazine and was later compiled as a short treatise. The publication history and calculations have not been checked against an edition.", "authorship": "under_review", "date": "1919 as listed by Siddiqui; edition and magazine issue not independently verified", "sourceIds": ["ALA-SIDDIQUI-2023", "ALA-PORTA-NEWSPAPERS"], "passages": [], "notes": "No direct Urdu passage or original edition inspected in this batch; see Siddiqui, pp. 63–66." },
-    { "id": "ala-kalimah-al-mulhamah", "scholarSlug": "ahmad-raza-khan", "transliteration": "Al-Kalimah al-Mulhamah fī al-Ḥikmati al-Muḥkamah li Wihaʾyi al-Falsafati al-Mashʾamah", "language": "Arabic/Urdu not established in sources checked", "subject": "Siddiqui describes a critique involving ancient and medieval philosophy of science and astronomy", "purpose": "Recorded as a separate title in Siddiqui's four-work sequence; its contents, language, and relationship to the other treatises require direct bibliographic and textual review.", "authorship": "under_review", "date": "1920 as listed by Siddiqui; first edition not verified", "sourceIds": ["ALA-SIDDIQUI-2023"], "passages": [], "notes": "No original-script title, primary edition, or passage checked; see Siddiqui, pp. 63, 74–76." },
-    { "id": "ala-nuzul-ayat-furqan", "scholarSlug": "ahmad-raza-khan", "transliteration": "Nuzūl-i-Āyāt-i-Furqān Basukūn-i-Zamīn-o-Āsmān", "language": "Persian/Urdu not established in sources checked", "subject": "Qur'anic and hadith argument about Earth's and heavens' motion, as described by Siddiqui", "purpose": "Siddiqui connects the work to a fatwa request dated 23 January 1921. The original request, response, and wording have not been collated.", "authorship": "under_review", "date": "1921 as listed by Siddiqui; first edition not verified", "sourceIds": ["ALA-SIDDIQUI-2023"], "passages": [], "notes": "No original-script title or primary passage checked; see Siddiqui, pp. 63, 77–79." }
+    {
+      "id": "ala-fauz-i-mubin",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "فوز مبين در رد حركت زمين",
+      "transliteration": "Fauz-i-Mubin Dar Radd-i-Harkat-i-Zamin",
+      "translation": "A Fair Success in Refuting the Motion of the Earth (title rendered in the cited English edition)",
+      "language": "Urdu",
+      "subject": "A polemical treatise arguing against Earth's motion and discussing contemporary astronomy, physics, geometry, and natural philosophy",
+      "purpose": "Siddiqui reports that the author's preface organizes arguments around repulsion, attraction, objections to Earth's motion, responses to astronomers, and scriptural arguments. These are the article's descriptions and translated excerpts; the Urdu edition remains to be collated.",
+      "authorship": "academically_supported",
+      "date": "Listed as 1920 by Siddiqui; 1919 appears in the 2005 English edition's introductory matter. Original imprint not checked; date unresolved.",
+      "sourceIds": [
+        "ALA-SIDDIQUI-2023",
+        "ALA-FAUZ-EN-2005",
+        "ALA-REKHTA-FAUZ"
+      ],
+      "digitizedUrl": "https://www.rekhta.org/ebooks/detail/fauz-e-mubeen-dar-radd-e-harkat-e-zameen-ahamd-raza-khan-raza-ebooks",
+      "passages": [
+        {
+          "workId": "ala-fauz-i-mubin",
+          "sourceId": "ALA-SIDDIQUI-2023",
+          "editionOrShelfmark": "Siddiqui quotes the author's preface via the 2005 English rendering by Abdul Hamid Maiskar; underlying Urdu edition not checked",
+          "language": "English translation mediated through a 2023 secondary article; original work in Urdu",
+          "originalPassage": "The translated preface, as quoted by Siddiqui, outlines three groups of arguments counted as 12, 50, and 43, totalling 105, and says the work also responds to objections from contemporary astronomers. This is a report of the author's own stated structure, not an independently verified count or proof of validity.",
+          "translation": "Paraphrase of Siddiqui's quotation of the 2005 English rendering; not a fresh translation from Urdu.",
+          "printedPage": "Siddiqui pp. 67–68 (journal pagination), quoting Raza 2005, pp. 8–9",
+          "chapterOrSection": "Fauz-i-Mubin preface as reproduced in the article",
+          "explanation": "The 2005 English translation's front matter and the article have not been checked against the Urdu witness. The numerical total is internally consistent (12 + 50 + 43 = 105), but that arithmetic does not verify the classification, arguments, or scientific claims."
+        },
+        {
+          "workId": "ala-fauz-i-mubin",
+          "sourceId": "ALA-SIDDIQUI-2023",
+          "editionOrShelfmark": "Siddiqui's discussion of an English-rendered geometric passage, citing Raza 2005",
+          "language": "English translation mediated through Siddiqui; original work in Urdu",
+          "originalPassage": "The article reproduces a diagram-based argument in which equal line segments are drawn from points on a circle and their distances from a centre are compared; the author then uses this geometry to argue against Earth's motion under the proposed forces.",
+          "translation": "Paraphrase of the author's translated argument as presented in Siddiqui, pp. 69–70; not a direct translation.",
+          "printedPage": "Siddiqui pp. 69–70 (journal pagination), citing Raza 2005, p. 101",
+          "chapterOrSection": "Geometric argument about attraction, repulsion, and Earth's motion",
+          "explanation": "This locator is to the article and its cited English edition, not to an inspected Urdu page. The diagram and reasoning have not been reconstructed; no correctness judgment is inferred from the article's presentation."
+        }
+      ],
+      "notes": "Siddiqui's article lists four related writings and describes Muʿīn-i-Mubīn as the response to the Porta prediction that was later compiled as a short treatise; the 1919 newspapers and first editions remain unverified. Do not collapse the four works into one text or transfer claims between them without collation."
+    },
+    {
+      "id": "ala-muin-i-mubin",
+      "scholarSlug": "ahmad-raza-khan",
+      "transliteration": "Muʿīn-i-Mubīn Bahar Daur-i-Shamas-o-Sukūn-i-Zamīn",
+      "translation": "A Fair Guide on the Revolving Sun and the Static Earth (as rendered by Siddiqui)",
+      "language": "Urdu (reported)",
+      "subject": "Response to Albert F. Porta's 1919 planetary-alignment prediction, as described by Siddiqui",
+      "purpose": "Siddiqui says the response first appeared in a magazine and was later compiled as a short treatise. The publication history and calculations have not been checked against an edition.",
+      "authorship": "under_review",
+      "date": "1919 as listed by Siddiqui; edition and magazine issue not independently verified",
+      "sourceIds": [
+        "ALA-SIDDIQUI-2023",
+        "ALA-PORTA-NEWSPAPERS"
+      ],
+      "passages": [],
+      "notes": "No direct Urdu passage or original edition inspected in this batch; see Siddiqui, pp. 63–66."
+    },
+    {
+      "id": "ala-kalimah-al-mulhamah",
+      "scholarSlug": "ahmad-raza-khan",
+      "transliteration": "Al-Kalimah al-Mulhamah fī al-Ḥikmati al-Muḥkamah li Wihaʾyi al-Falsafati al-Mashʾamah",
+      "language": "Arabic/Urdu not established in sources checked",
+      "subject": "Siddiqui describes a critique involving ancient and medieval philosophy of science and astronomy",
+      "purpose": "Recorded as a separate title in Siddiqui's four-work sequence; its contents, language, and relationship to the other treatises require direct bibliographic and textual review.",
+      "authorship": "under_review",
+      "date": "1920 as listed by Siddiqui; first edition not verified",
+      "sourceIds": [
+        "ALA-SIDDIQUI-2023"
+      ],
+      "passages": [],
+      "notes": "No original-script title, primary edition, or passage checked; see Siddiqui, pp. 63, 74–76."
+    },
+    {
+      "id": "ala-nuzul-ayat-furqan",
+      "scholarSlug": "ahmad-raza-khan",
+      "transliteration": "Nuzūl-i-Āyāt-i-Furqān Basukūn-i-Zamīn-o-Āsmān",
+      "language": "Persian/Urdu not established in sources checked",
+      "subject": "Qur'anic and hadith argument about Earth's and heavens' motion, as described by Siddiqui",
+      "purpose": "Siddiqui connects the work to a fatwa request dated 23 January 1921. The original request, response, and wording have not been collated.",
+      "authorship": "under_review",
+      "date": "1921 as listed by Siddiqui; first edition not verified",
+      "sourceIds": [
+        "ALA-SIDDIQUI-2023"
+      ],
+      "passages": [],
+      "notes": "No original-script title or primary passage checked; see Siddiqui, pp. 63, 77–79."
+    },
+    {
+      "id": "ala-kanz-al-iman",
+      "scholarSlug": "ahmad-raza-khan",
+      "transliteration": "Kanz al-Īmān fī Tarjuma al-Qurʾān",
+      "translation": "The Treasure of Faith: Urdu Qur’an Translation",
+      "language": "Urdu",
+      "subject": "Urdu translation of the Qur’an",
+      "purpose": "Sanyal reports that the translation was published in Muradabad in 1911. No first-edition copy or translation passage was collated in this pass.",
+      "authorship": "under_review",
+      "date": "Published in Muradabad in 1911, as reported by Sanyal (p. 77).",
+      "sourceIds": [
+        "ALA-SANYAL-BOOK-2005"
+      ],
+      "passages": [],
+      "notes": "The first edition, title-page spelling, and textual variants remain uninspected."
+    },
+    {
+      "id": "ala-fatawa-rizwiyya",
+      "scholarSlug": "ahmad-raza-khan",
+      "transliteration": "Fatāwā-e Rizwiyya",
+      "translation": "The Rizwiyya Fatwa Collection",
+      "language": "Urdu",
+      "subject": "Collected legal opinions and responsa",
+      "purpose": "Sanyal describes a later collection containing many, but not all, of Khan’s fatwas. She says only two appear to have been published in his lifetime and records later publication and manuscript-damage issues.",
+      "authorship": "under_review",
+      "date": "Posthumous edited collection; publication history summarized by Sanyal (pp. 71–72).",
+      "sourceIds": [
+        "ALA-SANYAL-BOOK-2005",
+        "ALA-REKHTA-FATAWA-V12"
+      ],
+      "passages": [
+        {
+          "workId": "ala-fatawa-rizwiyya",
+          "sourceId": "ALA-FATAWA-V1A-PRIMARY",
+          "editionOrShelfmark": "Digital scan, volume 1, part A; edition metadata not confirmed",
+          "language": "Arabic with Urdu translation in the digital text",
+          "originalPassage": "اقامني في الافتاء للرابع عشر من شعبان الخير والبشر ۱۲۸۲ھ ست وثمانين والف ومائتين ... ولم تتم لي اذاك اربعة عشر عاما من العمر ... لان ولادتي عاشر شوال المكرم ۱۲۷۲ھ ... فجعلت افتى",
+          "translation": "Working translation: “My father appointed me to issue fatwas on the fourteenth of Shaʿban … [the numeral reads 1282 AH, while the words spell eighty-six] … I had not yet completed fourteen years of age … my birth was on the tenth of Shawwal 1272 AH … then I began issuing fatwas.” The same-passage transcription reads 1286 AH. The date remains unconfirmed pending page-image collation.",
+          "printedPage": "Viewer text marks p. 94 of 590; printed folio/page number not verified",
+          "chapterOrSection": "Prefatory verse/prose (خطبۃ الکتاب), text extraction lines around 2824–2825",
+          "explanation": "This first-person passage supports an early fatwa-writing role and says his father reviewed errors; it does not settle the exact Hijri year until the original page image is checked."
+        }
+      ],
+      "notes": "This is a corpus/edition record, not a claim that Khan authored or issued a complete twelve-volume set in that form. Sanyal discusses the partial collection and its later editorial history. Rekhta catalogs a 1994 Urdu edition of volume 12, 305 pages, with named editor and compiler; the catalogue is not evidence that the whole series has been examined. Individual volumes and manuscripts were not collated."
+    },
+    {
+      "id": "ala-kashf-illah-qibla",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "كشف العلة عن سمت القبلة",
+      "transliteration": "Kashf al-ʿIllah ʿan Samt al-Qiblah",
+      "translation": null,
+      "language": "Urdu for the listed 2005 edition; manuscript language not independently confirmed",
+      "subject": "Qibla orientation; technical method unverified",
+      "purpose": "No purpose statement is attributed until the work or a reliable description is read.",
+      "authorship": "under_review",
+      "date": "1324 AH / 1906 CE as reported in a secondary manuscript inventory; composition, copy, and publication dates not distinguished",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR",
+        "ALA-SIDQUE-QIBLA-2005"
+      ],
+      "digitizedUrl": "https://sidque.com/shf-alal-an-smt-alqbl-qbl-nma/",
+      "passages": [],
+      "notes": "Work lead only. The Arabic biographical article lists the title as item 7 in a manuscript inventory and gives 1324 AH / 1906 CE, but no shelfmark or image of that witness is available in the repost. Sidque describes a 2005 Urdu edition, but its linked PDF could not be fetched. No method, formula, accuracy, originality, or scientific priority claim is made."
+    },
+    {
+      "id": "ala-ms-ataib-al-iksir",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "أطائب الإكسير في علم التكسير",
+      "transliteration": "Aṭāʾib al-Iksīr fī ʿIlm al-Taksīr",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1296 AH / 1878 CE (as listed; another sample entry in the same article incorrectly pairs 1296 AH with 1828 CE)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional. Date conversion conflict within the same secondary article; neither date is verified from the manuscript. The same article’s later manuscript-image sample gives 1296 AH / 1828 CE for this title, an internally inconsistent conversion; the date remains unresolved."
+    },
+    {
+      "id": "ala-ms-mawhibat-murabbaat",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "الموهبات في المربعات",
+      "transliteration": "al-Mawhibāt fī al-Murabbaʿāt",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1319 AH / 1901 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-azm-bazi",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "عزم البازي في جو الرياضي",
+      "transliteration": "ʿAzm al-Bāzī fī Jaww al-Riyāḍī",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1319 AH / 1901 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional. Transliteration is provisional because the title wording in the online repost may contain transcription errors."
+    },
+    {
+      "id": "ala-ms-sirah-mujaz-markaz",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "الصراح الموجز في تعديل المركز",
+      "transliteration": "al-Ṣirāḥ al-Mūjaz fī Taʿdīl al-Markaz",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1319 AH / 1901 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional. Transliteration is provisional and has not been checked against a title page."
+    },
+    {
+      "id": "ala-ms-jumal-daira",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "الجمل الدائرة في خطوط الدائرة",
+      "transliteration": "al-Jumal al-Dāʾirah fī Khuṭūṭ al-Dāʾirah",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1320 AH / 1902 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-jadawil-razawiyya",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "الجداول الرضوية",
+      "transliteration": "al-Jadāwil al-Raḍawiyyah",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1322 AH / 1904 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-musfir-matali",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "مسفر المطالع للتقويم والطالع",
+      "transliteration": "Musfir al-Maṭāliʿ li-l-Taqwīm wa-l-Ṭāliʿ",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1324 AH / 1906 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-hall-muadalah-cubes",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "حل المعادلات لقوى المكعبات",
+      "transliteration": "Ḥall al-Muʿādalāt li-Quwā al-Mukaʿʿabāt",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1325 AH / 1907 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-nuqush-murabbaat",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "1152 نقوش مربعات",
+      "transliteration": "1152 Nuqūsh Murabbaʿāt",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1327 AH / 1909 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional. Numeral/title relationship is reproduced as printed in the online list; meaning not inferred."
+    },
+    {
+      "id": "ala-ms-mana-mujalla-mughni-zilli",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "المعنى المجلي للمغني والظلي",
+      "transliteration": "al-Maʿnā al-Mujallī li-l-Mughnī wa-l-Ẓillī",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1327 AH / 1909 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-burhan-qawim",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "البرهان القويم على العرض والتقويم",
+      "transliteration": "al-Burhān al-Qawīm ʿalā al-ʿArḍ wa-l-Taqwīm",
+      "translation": null,
+      "language": "Conflicting community reports: the Arabic biography’s sample list labels a manuscript Arabic (p. 106); Alahazrat Network labels the work Persian. Language remains unverified.",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1327 AH / 1909 CE reported in the Arabic inventory; the cited 1983 publication has not been examined, and no imprint or colophon was checked.",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR",
+        "ALA-AH-NET-BURHAN"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional. A separate community work page agrees on the title and 1327 AH but identifies the text as Persian; neither source exposes a primary title page, so the language and date remain reports, not verified bibliographic facts. The Arabic biography’s bibliography cites Maʿārif Raza (Karachi, 1983), pp. 163–223, and says a handwritten copy attributed to Ahmad Riza Khan was held in the author’s Karachi library; it also notes the treatise had been printed and published in Bareilly. These details are mediated bibliographic reports; the cited issue, manuscript, and print edition remain uninspected. The later sample list labels the manuscript Arabic, conflicting with Alahazrat Network’s Persian language claim."
+    },
+    {
+      "id": "ala-ms-mayl-kawakib-taadil",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "ميل كواكب وتعديل أيام",
+      "transliteration": "Mayl Kawākib wa-Taʿdīl Ayyām",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1328 AH / 1910 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-risala-abad-qamar",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "رسالة أبعاد قمر",
+      "transliteration": "Risālah Abʿād Qamar",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1329 AH / 1911 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-risala-ilm-mithal",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "رسالة در علم مثلث",
+      "transliteration": "Risālah dar ʿIlm Mithallath",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1329 AH / 1911 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional. Transliteration is provisional; title language and exact reading need manuscript review."
+    },
+    {
+      "id": "ala-ms-maqala-nisfayn-waqt",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "مقالة مفردة در نسبت نصفين جزء مطلوب الوقت",
+      "transliteration": "Maqālah Mufradah dar Nisbat Niṣfayn Juzʾ Maṭlūb al-Waqt",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1329 AH / 1911 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional. Transliteration is provisional; title language and exact reading need manuscript review."
+    },
+    {
+      "id": "ala-ms-kasr-ashri-sittini",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "الكسر العشري والستيني",
+      "transliteration": "al-Kasr al-ʿAshrī wa-l-Sittīnī",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1331 AH / 1912 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-istikhrāj-taqwimat-kawakib",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "استخراج تقويمات كواكب",
+      "transliteration": "Istikhrāj Taqwīmāt Kawākib",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1331 AH / 1912 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-tulu-ghurub-nayyirayn",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "طلوع وغروب نيرين",
+      "transliteration": "Ṭulūʿ wa-Ghurūb Nayyirayn",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1332 AH / 1913 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional."
+    },
+    {
+      "id": "ala-ms-madan-ulumi-sinin",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "معدن علومى در سنين هجري وعيسوي ورومي",
+      "transliteration": "Maʿdan ʿUlūmī dar Sinīn Hijrī wa-ʿĪsawī wa-Rūmī",
+      "translation": null,
+      "language": "Not established from the inventory; some titles may be Persian or Urdu",
+      "subject": "Listed by the source in a manuscript inventory headed as rational-science works; specific subject not verified from the text",
+      "purpose": "Not established from the title alone; the underlying text was not inspected.",
+      "authorship": "under_review",
+      "date": "1336 AH / 1917 CE (reported; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary inventory lead only: the article places this title in a list of manuscript works and reports the date shown. No manuscript image, shelfmark, printed edition, text, or technical content was inspected. The Roman transliteration is editorial and provisional. Transliteration is provisional; title language and exact reading need manuscript review."
+    },
+    {
+      "id": "ala-ms-sample-hashiya-fawatih-rahmut",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "حاشية فواتح الرحموت شرح مسلم الثبوت",
+      "transliteration": "Ḥāshiyah ʿalā Fawātiḥ al-Raḥamūt Sharḥ Muslim al-Thubūt",
+      "translation": null,
+      "language": "Arabic; reported as in Ahmad Riza Khan’s hand (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 97); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-hashiya-hidaya-vol4",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "حاشية المجلد الرابع من الهداية",
+      "transliteration": "Ḥāshiyah ʿalā al-Hidāyah, volume 4",
+      "translation": null,
+      "language": "Arabic; reported as in Ahmad Riza Khan’s hand (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, pp. 98–99); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-al-sayi-mashkur",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "السعي المشكور في إبداء الحق المهجور",
+      "transliteration": "al-Saʿy al-Mashkūr fī Ibdāʾ al-Ḥaqq al-Mahjūr",
+      "translation": null,
+      "language": "Arabic; reported as in Ahmad Riza Khan’s hand (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "1290 AH / 1873 CE reported (secondary report; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 100); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-hashiya-usul-handasa",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "حاشية على كتاب أصول الهندسة",
+      "transliteration": "Ḥāshiyah ʿalā Kitāb Uṣūl al-Handasah",
+      "translation": null,
+      "language": "Arabic; reported as in Ahmad Riza Khan’s hand (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 101); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-hashiya-qawaid-jadaliyya",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "حاشية على القواعد الجدلية في الأعمال الجبرية",
+      "transliteration": "Ḥāshiyah ʿalā al-Qawāʿid al-Jadaliyyah fī al-Aʿmāl al-Jabriyyah",
+      "translation": null,
+      "language": "Arabic; reported as in Ahmad Riza Khan’s hand (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 102); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-risala-jabr-muqabala",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "رسالة في الجبر والمقابلة",
+      "transliteration": "Risālah fī al-Jabr wa-l-Muqābalah",
+      "translation": null,
+      "language": "Arabic, Persian, and Urdu reported (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 103); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-talkhis-muthallath-kurawi",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "تلخيص علم المثلث الكروي",
+      "transliteration": "Talkhīṣ ʿIlm al-Muthallath al-Kurawī",
+      "translation": null,
+      "language": "Persian reported (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 104); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-tahrir-euclid",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "تحرير أوقليدس",
+      "transliteration": "Taḥrīr Uqlīdis",
+      "translation": null,
+      "language": "Copying/writing attribution in the source is to Muhammad Irshad Barelwi; text language not stated (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, pp. 107–108); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-hashiya-sharh-jaghmini",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "حاشية على شرح الجغميني",
+      "transliteration": "Ḥāshiyah ʿalā Sharḥ al-Jaghmīnī",
+      "translation": null,
+      "language": "Arabic reported (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 109); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-risala-tulu-ghurub",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "رسالة طلوع وغروب نيرين",
+      "transliteration": "Risālah Ṭulūʿ wa-Ghurūb Nayyirayn",
+      "translation": null,
+      "language": "Arabic; timekeeping topic reported (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 110); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-taj-tauqit",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "تاج توقيت",
+      "transliteration": "Tāj-i Tawqīt",
+      "translation": null,
+      "language": "Persian; timekeeping topic; reported as in Ahmad Riza Khan’s hand (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "1320 AH / 1902 CE reported (secondary report; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 111); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-hashiya-jami-afkar",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "حاشية جامع الأفكار",
+      "transliteration": "Ḥāshiyah ʿalā Jāmiʿ al-Afkār",
+      "translation": null,
+      "language": "Persian; astronomy topic reported (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 112); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-wasail-razawiyya-jafr",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "الوسائل الرضوية للمسائل الجفرية",
+      "transliteration": "al-Wasāʾil al-Raḍawiyyah li-l-Masāʾil al-Jafriyyah",
+      "translation": null,
+      "language": "Arabic; subject label in source is jafr (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "1322 AH / 1904 CE reported (secondary report; unverified)",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, p. 113); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-hashiya-zij-bahadur",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "حاشية على زيج بهادر خاني",
+      "transliteration": "Ḥāshiyah ʿalā Zīj Bahādur Khānī",
+      "translation": null,
+      "language": "Persian; zij/astronomical tables subject reported; reported as in Ahmad Riza Khan’s hand (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, pp. 114–115); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    },
+    {
+      "id": "ala-ms-sample-two-arabic-poems",
+      "scholarSlug": "ahmad-raza-khan",
+      "originalTitle": "قصيدتان مشتملتان على 313 شعرا",
+      "transliteration": "Qaṣīdatān Mushtamilatān ʿalā 313 Shiʿran",
+      "translation": null,
+      "language": "Arabic; source says two poems totaling 313 verses (reported in a secondary manuscript-sample list; witness not inspected)",
+      "subject": "Subject as stated in the source title/list only; the work was not inspected",
+      "purpose": "Not established from the reported title alone.",
+      "authorship": "under_review",
+      "date": "Not stated for this sample in the consulted list",
+      "sourceIds": [
+        "ALA-MASUD-AHMAD-AR"
+      ],
+      "passages": [],
+      "notes": "Secondary manuscript-sample lead only. The article supplies this title and locator (Book’s manuscript-sample section, pp. 116–119); no manuscript image, shelfmark, colophon, or full text was directly examined. The transliteration is editorial and provisional. Do not infer authorship beyond the source’s specific wording about hand/copying."
+    }
   ],
   "investigations": [
-    { "id": "ala-fauz-argument-structure", "scholarSlug": "ahmad-raza-khan", "title": "The argument structure of Fauz-i-Mubin and its reported geometric reasoning", "field": "History of astronomy / history of science in South Asia", "historicalProblem": "What does the available evidence establish about the structure and mathematical style of Fauz-i-Mubin, and what remains unverified until the Urdu text is examined?", "historicalContext": "Siddiqui situates the work amid early twentieth-century debates over Earth's motion and reports that a 1919 planetary-alignment prediction prompted a series of writings by Ahmad Raza Khan. His paper describes the work as a polemical response drawing on contemporary scientific vocabulary, geometry, logic, and religious sources. The newspaper story, chronology, and the work's arguments must be independently checked rather than taken from a sympathetic introduction as settled fact.", "method": "Read Siddiqui's complete article and inspected the referenced 2005 English rendering's edition matter and cited passage locator. Checked Rekhta's catalogue metadata for an Urdu-language 197-page copy contributed by Rampur Raza Library, but its page images were gated after the free allowance. Recorded Siddiqui's translations as mediated quotations; did not transcribe or translate Urdu, reconstruct the diagram, test the physical claims, or independently verify the 1919 newspaper reports.", "observationsOrCalculations": "The author-preface excerpt as quoted by Siddiqui divides the arguments into 12, 50, and 43 items, whose stated total is 105. A later translated excerpt uses equal segments and comparisons of distances in a geometric diagram, then draws a physical inference about attraction, repulsion, and Earth's motion. Only the count sum was arithmetically checked; the geometry, translation, and physical inference were not independently tested.", "reportedResult": "The available evidence supports a source-linked description of how one 2023 article reports the treatise's self-described structure and one translated geometric argument. It does not establish the original edition date, the exact Urdu wording, the soundness of the calculations, or the truth of the work's stationary-Earth conclusion.", "whatWasNew": "This dossier converts a weakly documented catalogue entry into a reviewable research record with distinct mediation, edition, and evidence limits. It does not promote devotional claims, article praise, the author's own priority statements, or historical conclusions into verified scientific findings.", "limitations": "Only one academic article was read; its author says detailed analysis of the astronomical works is outside the article's primary focus. The 2005 English edition is community-produced and has unverified front-matter claims. Rekhta's Urdu pages were inaccessible after a registration gate, so no direct Urdu collation was possible. First-edition date, newspaper sources, calculation accuracy, diagram interpretation, biography, and independent reception remain open. Earth's motion is treated here only as a historical debate topic, not as a live scientific controversy.", "laterInfluence": "Not assessed. No transmission, scholarly reception, or influence claim is made from the source material consulted in this bounded batch.", "claims": [
-      { "id": "ala-biographical-scope", "text": "Siddiqui gives Ahmad Riza Khan's birth year as 1856 and birthplace as Bareilly; Sanyal independently places his life in 1856–1921 and contextualizes his role in North Indian Muslim scholarship.", "sourceIds": ["ALA-SIDDIQUI-2023", "ALA-SANYAL-1998"], "locator": "Siddiqui, pp. 61–62; Sanyal, pp. 636–637, 645", "sourceType": "academic_research", "confidence": "high", "uncertainty": "Both are secondary accounts; Sanyal gives year-level dates, not exact birth or death dates." },
-      { "id": "ala-birth-context", "text": "Sanyal describes Ahmad Riza Khan as born in 1856 into a well-to-do, learned Pathan family in Bareilly and situates him in the intellectual climate of North India before and after the 1857 revolt.", "sourceIds": ["ALA-SANYAL-1998"], "locator": "Sanyal, pp. 636–637", "sourceType": "academic_research", "confidence": "high", "uncertainty": "This is a historian's contextual summary, not a primary family record." },
-      { "id": "ala-education", "text": "Sanyal reports that Ahmad Riza Khan was educated at home by his father, Maulana Naqi Ali Khan.", "sourceIds": ["ALA-SANYAL-1998"], "locator": "Sanyal, p. 637", "sourceType": "academic_research", "confidence": "high", "uncertainty": "A full chronology of his teachers and curriculum remains to be established from biographical and educational sources." },
-      { "id": "ala-rational-sciences", "text": "Sanyal writes that by the 1880s Ahmad Riza was known among North Indian ulama as a gifted scholar with an intellectual bent toward rational sciences including logic, mathematics, and Islamic law.", "sourceIds": ["ALA-SANYAL-1998"], "locator": "Sanyal, p. 637 and note 8", "sourceType": "academic_research", "confidence": "high", "uncertainty": "This supports historical context and scholarly reputation, not the correctness or originality of specific mathematical calculations." },
-      { "id": "ala-fatwa-work", "text": "Sanyal identifies fatwa-writing as Ahmad Riza Khan's single most important scholarly activity and a primary means by which he established his reputation and influence.", "sourceIds": ["ALA-SANYAL-1998"], "locator": "Sanyal, p. 643", "sourceType": "academic_research", "confidence": "high", "uncertainty": "The full fatwa corpus and its publication history are outside this focused pass." },
-      { "id": "ala-article-limit", "text": "Siddiqui states that detailed analysis of Ahmad Raza Khan's astronomical work is not the article's primary focus.", "sourceIds": ["ALA-SIDDIQUI-2023"], "locator": "Siddiqui, p. 61", "sourceType": "academic_research", "confidence": "high", "uncertainty": "This reports the article's explicit scope statement." },
-      { "id": "ala-four-treatises", "text": "Siddiqui lists four related astronomy writings: Muʿīn-i-Mubīn (1919), Fauz-i-Mubin (1920), al-Kalimah al-Mulhamah (1920), and Nuzūl-i-Āyāt-i-Furqān (1921).", "sourceIds": ["ALA-SIDDIQUI-2023"], "locator": "Siddiqui, p. 63", "sourceType": "academic_research", "confidence": "medium", "uncertainty": "The article's list is one secondary account; title forms and dates require verification against first editions and catalogues. The date of Fauz-i-Mubin conflicts with the 2005 English edition's introductory matter." },
-      { "id": "ala-porta-context", "text": "Siddiqui reports that a 1919 planetary-alignment prediction was narrated to Ahmad Raza Khan and prompted works on Earth's motion; the cited newspaper reports were not independently consulted.", "sourceIds": ["ALA-SIDDIQUI-2023", "ALA-PORTA-NEWSPAPERS"], "locator": "Siddiqui, pp. 62–64", "sourceType": "academic_research", "confidence": "medium", "uncertainty": "The contemporaneous newspapers and original 1919 text have not been independently checked." },
-      { "id": "ala-fauz-date", "text": "Siddiqui lists Fauz-i-Mubin as 1920, while a 2005 English edition's introductory matter gives 1919; the first-edition date is unresolved.", "sourceIds": ["ALA-SIDDIQUI-2023", "ALA-FAUZ-EN-2005"], "locator": "Siddiqui, p. 63; 2005 English edition, introductory matter, printed p. 4", "sourceType": "academic_research", "confidence": "high", "uncertainty": "Neither source is the inspected Urdu first-edition imprint; composition and publication dates may differ." },
-      { "id": "ala-fauz-structure", "text": "Siddiqui quotes a translated preface in which the work's author states a total of 105 arguments arranged in groups of 12, 50, and 43.", "sourceIds": ["ALA-SIDDIQUI-2023", "ALA-FAUZ-EN-2005"], "locator": "Siddiqui, pp. 67–68; quoted from Raza 2005, pp. 8–9", "sourceType": "academic_research", "confidence": "medium", "uncertainty": "The preface has not been checked in Urdu; this records the author's stated organization, not the validity or originality of the arguments." },
-      { "id": "ala-geometric-argument", "text": "Siddiqui reproduces a translated geometric argument in which equal line segments and distance comparisons are used to support a physical conclusion against Earth's motion.", "sourceIds": ["ALA-SIDDIQUI-2023", "ALA-FAUZ-EN-2005"], "locator": "Siddiqui, pp. 69–70; cites Raza 2005, p. 101", "sourceType": "academic_research", "confidence": "medium", "uncertainty": "No direct Urdu collation, diagram reconstruction, independent proof check, or physical validation has been performed." },
-      { "id": "ala-no-validity-claim", "text": "The present dossier documents historical arguments and does not present the treatise's stationary-Earth conclusion or its author's claims of proof as findings of modern astronomy.", "sourceIds": ["ALA-SIDDIQUI-2023", "ALA-FAUZ-EN-2005"], "locator": "Scope and limitations of this dossier; compare Siddiqui pp. 69–70 and the 2005 edition's introductory claims", "sourceType": "academic_research", "confidence": "high", "uncertainty": "A full scientific-historical evaluation would require expert review of the original mathematical reasoning; the historical conclusion is not adopted as current science." }
-    ], "state": "draft" }
+    {
+      "id": "ala-fauz-argument-structure",
+      "scholarSlug": "ahmad-raza-khan",
+      "title": "The argument structure of Fauz-i-Mubin and its reported geometric reasoning",
+      "field": "History of astronomy / history of science in South Asia",
+      "historicalProblem": "What does the available evidence establish about the structure and mathematical style of Fauz-i-Mubin, and what remains unverified until the Urdu text is examined?",
+      "historicalContext": "Siddiqui situates the work amid early twentieth-century debates over Earth's motion and reports that a 1919 planetary-alignment prediction prompted a series of writings by Ahmad Raza Khan. His paper describes the work as a polemical response drawing on contemporary scientific vocabulary, geometry, logic, and religious sources. The newspaper story, chronology, and the work's arguments must be independently checked rather than taken from a sympathetic introduction as settled fact.",
+      "method": "Read Siddiqui's complete article and inspected the referenced 2005 English rendering's edition matter and cited passage locator. Checked Rekhta's catalogue metadata for an Urdu-language 197-page copy contributed by Rampur Raza Library, but its page images were gated after the free allowance. Recorded Siddiqui's translations as mediated quotations; did not transcribe or translate Urdu, reconstruct the diagram, test the physical claims, or independently verify the 1919 newspaper reports.",
+      "observationsOrCalculations": "The author-preface excerpt as quoted by Siddiqui divides the arguments into 12, 50, and 43 items, whose stated total is 105. A later translated excerpt uses equal segments and comparisons of distances in a geometric diagram, then draws a physical inference about attraction, repulsion, and Earth's motion. Only the count sum was arithmetically checked; the geometry, translation, and physical inference were not independently tested.",
+      "reportedResult": "The available evidence supports a source-linked description of how one 2023 article reports the treatise's self-described structure and one translated geometric argument. It does not establish the original edition date, the exact Urdu wording, the soundness of the calculations, or the truth of the work's stationary-Earth conclusion.",
+      "whatWasNew": "This dossier converts a weakly documented catalogue entry into a reviewable research record with distinct mediation, edition, and evidence limits. It does not promote devotional claims, article praise, the author's own priority statements, or historical conclusions into verified scientific findings.",
+      "limitations": "Only one academic article was read; its author says detailed analysis of the astronomical works is outside the article's primary focus. The 2005 English edition is community-produced and has unverified front-matter claims. Rekhta's Urdu pages were inaccessible after a registration gate, so no direct Urdu collation was possible. First-edition date, newspaper sources, calculation accuracy, diagram interpretation, biography, and independent reception remain open. Earth's motion is treated here only as a historical debate topic, not as a live scientific controversy.",
+      "laterInfluence": "Not assessed. No transmission, scholarly reception, or influence claim is made from the source material consulted in this bounded batch.",
+      "claims": [
+        {
+          "id": "ala-biographical-scope",
+          "text": "Siddiqui gives Ahmad Riza Khan's birth year as 1856 and birthplace as Bareilly; Sanyal independently places his life in 1856–1921 and contextualizes his role in North Indian Muslim scholarship.",
+          "sourceIds": [
+            "ALA-SIDDIQUI-2023",
+            "ALA-SANYAL-1998"
+          ],
+          "locator": "Siddiqui, pp. 61–62; Sanyal, pp. 636–637, 645",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Both are secondary accounts; Sanyal gives year-level dates, not exact birth or death dates."
+        },
+        {
+          "id": "ala-birth-context",
+          "text": "Sanyal describes Ahmad Riza Khan as born in 1856 into a well-to-do, learned Pathan family in Bareilly and situates him in the intellectual climate of North India before and after the 1857 revolt.",
+          "sourceIds": [
+            "ALA-SANYAL-1998"
+          ],
+          "locator": "Sanyal, pp. 636–637",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This is a historian's contextual summary, not a primary family record."
+        },
+        {
+          "id": "ala-education",
+          "text": "Sanyal reports that Ahmad Riza Khan was educated at home by his father, Maulana Naqi Ali Khan.",
+          "sourceIds": [
+            "ALA-SANYAL-1998"
+          ],
+          "locator": "Sanyal, p. 637",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "A full chronology of his teachers and curriculum remains to be established from biographical and educational sources."
+        },
+        {
+          "id": "ala-rational-sciences",
+          "text": "Sanyal writes that by the 1880s Ahmad Riza was known among North Indian ulama as a gifted scholar with an intellectual bent toward rational sciences including logic, mathematics, and Islamic law.",
+          "sourceIds": [
+            "ALA-SANYAL-1998"
+          ],
+          "locator": "Sanyal, p. 637 and note 8",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This supports historical context and scholarly reputation, not the correctness or originality of specific mathematical calculations."
+        },
+        {
+          "id": "ala-fatwa-work",
+          "text": "Sanyal identifies fatwa-writing as Ahmad Riza Khan's single most important scholarly activity and a primary means by which he established his reputation and influence.",
+          "sourceIds": [
+            "ALA-SANYAL-1998"
+          ],
+          "locator": "Sanyal, p. 643",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The full fatwa corpus and its publication history are outside this focused pass."
+        },
+        {
+          "id": "ala-article-limit",
+          "text": "Siddiqui states that detailed analysis of Ahmad Raza Khan's astronomical work is not the article's primary focus.",
+          "sourceIds": [
+            "ALA-SIDDIQUI-2023"
+          ],
+          "locator": "Siddiqui, p. 61",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This reports the article's explicit scope statement."
+        },
+        {
+          "id": "ala-four-treatises",
+          "text": "Siddiqui lists four related astronomy writings: Muʿīn-i-Mubīn (1919), Fauz-i-Mubin (1920), al-Kalimah al-Mulhamah (1920), and Nuzūl-i-Āyāt-i-Furqān (1921).",
+          "sourceIds": [
+            "ALA-SIDDIQUI-2023"
+          ],
+          "locator": "Siddiqui, p. 63",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The article's list is one secondary account; title forms and dates require verification against first editions and catalogues. The date of Fauz-i-Mubin conflicts with the 2005 English edition's introductory matter."
+        },
+        {
+          "id": "ala-porta-context",
+          "text": "Siddiqui reports that a 1919 planetary-alignment prediction was narrated to Ahmad Raza Khan and prompted works on Earth's motion; the cited newspaper reports were not independently consulted.",
+          "sourceIds": [
+            "ALA-SIDDIQUI-2023",
+            "ALA-PORTA-NEWSPAPERS"
+          ],
+          "locator": "Siddiqui, pp. 62–64",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The contemporaneous newspapers and original 1919 text have not been independently checked."
+        },
+        {
+          "id": "ala-fauz-date",
+          "text": "Siddiqui lists Fauz-i-Mubin as 1920, while a 2005 English edition's introductory matter gives 1919; the first-edition date is unresolved.",
+          "sourceIds": [
+            "ALA-SIDDIQUI-2023",
+            "ALA-FAUZ-EN-2005"
+          ],
+          "locator": "Siddiqui, p. 63; 2005 English edition, introductory matter, printed p. 4",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Neither source is the inspected Urdu first-edition imprint; composition and publication dates may differ."
+        },
+        {
+          "id": "ala-fauz-structure",
+          "text": "Siddiqui quotes a translated preface in which the work's author states a total of 105 arguments arranged in groups of 12, 50, and 43.",
+          "sourceIds": [
+            "ALA-SIDDIQUI-2023",
+            "ALA-FAUZ-EN-2005"
+          ],
+          "locator": "Siddiqui, pp. 67–68; quoted from Raza 2005, pp. 8–9",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The preface has not been checked in Urdu; this records the author's stated organization, not the validity or originality of the arguments."
+        },
+        {
+          "id": "ala-geometric-argument",
+          "text": "Siddiqui reproduces a translated geometric argument in which equal line segments and distance comparisons are used to support a physical conclusion against Earth's motion.",
+          "sourceIds": [
+            "ALA-SIDDIQUI-2023",
+            "ALA-FAUZ-EN-2005"
+          ],
+          "locator": "Siddiqui, pp. 69–70; cites Raza 2005, p. 101",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "No direct Urdu collation, diagram reconstruction, independent proof check, or physical validation has been performed."
+        },
+        {
+          "id": "ala-no-validity-claim",
+          "text": "The present dossier documents historical arguments and does not present the treatise's stationary-Earth conclusion or its author's claims of proof as findings of modern astronomy.",
+          "sourceIds": [
+            "ALA-SIDDIQUI-2023",
+            "ALA-FAUZ-EN-2005"
+          ],
+          "locator": "Scope and limitations of this dossier; compare Siddiqui pp. 69–70 and the 2005 edition's introductory claims",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "A full scientific-historical evaluation would require expert review of the original mathematical reasoning; the historical conclusion is not adopted as current science."
+        }
+      ],
+      "state": "draft"
+    },
+    {
+      "id": "ala-scholarly-life-and-works",
+      "scholarSlug": "ahmad-raza-khan",
+      "title": "Education, fatwa-writing, Qadiri affiliation, and major works",
+      "field": "Biography / history of Islamic scholarship",
+      "historicalProblem": "What can current academic studies establish about Khan’s education, scholarly practice, spiritual affiliation, institutional activity, and selected major works without treating devotional stories or later work counts as verified facts?",
+      "historicalContext": "Ahmad Riza Khan worked in late-nineteenth- and early-twentieth-century North India. Sanyal’s 1998 article and 2005 monograph place him among the ulama of Bareilly and the Ahl-e Sunnat movement, and describe a scholarly career spanning legal responsa, Sufi leadership, institutional activity, Qur’an translation, and separate astronomy-related writings.",
+      "method": "Compared relevant portions of Sanyal’s 1998 peer-reviewed article (pp. 636–637, 645) and monograph (chapter 3, pp. 51–77; madrasa discussion p. 113). Claims are attributed to those secondary works, and the monograph’s use of later biographical narratives is disclosed. No Urdu primary biography, first-edition title page, manuscript, or original passage was collated. A prefatory first-person passage in the Fatawa collection was also read through searchable digital text and compared with a separate online transcription; the year numeral differs (PDF OCR 1282; transcription 1286), and the page image remains unchecked.",
+      "observationsOrCalculations": "This is a source comparison and chronology, not a mathematical reconstruction. Years are retained at the precision given by Sanyal; the 1905–06 pilgrimage remains an interval. The first-person preface says his father appointed him to issue fatwas while he was under fourteen, gives his birth as 10 Shawwal 1272 AH, and says he began issuing opinions; the exact appointment year cannot be transcribed confidently because digital text witnesses differ.",
+      "reportedResult": "The sources support a fuller draft outline of Khan’s training, fatwa practice, Qadiri affiliation, travel, school foundation, and selected works. They do not establish a complete bibliography or validate claims made in the astronomy treatises. A first-person prefatory report narrows the early fatwa chronology, while its year numeral remains unverified.",
+      "whatWasNew": "No priority, scientific correctness, or exhaustive-work-count claim is made. The source comparison adds a distinction between the 1911 publication of Kanz al-Iman and the later editorial history of the Fatawa-e Rizwiyya collection.",
+      "limitations": "The monograph is secondary and its biographical anecdotes sometimes cite Zafar ud-Din Bihari; that Urdu biography was not consulted. Primary editions of Kanz al-Iman and Fatawa-e Rizwiyya were not inspected. This dossier’s online scan was consulted for selected chapters, not read cover to cover. The prefatory page image has not been visually collated; one PDF OCR extraction and one HTML transcription disagree on whether the year is 1282 or 1286 AH. The account is retrospective even though it is first-person.",
+      "laterInfluence": "Sanyal describes the later collection and publication of Khan’s writings by his family and followers; this batch does not trace subsequent reception or circulation.",
+      "claims": [
+        {
+          "id": "ala-life-education",
+          "text": "Sanyal identifies Naqi Ali Khan as Ahmad Riza’s most important teacher and says he studied the Dars-i Nizami syllabus at home, inheriting his father’s rational-sciences tradition.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005",
+            "ALA-SANYAL-1998"
+          ],
+          "locator": "Book pp. 55–56; article p. 636",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The account is secondary; it does not supply a complete class-by-class curriculum or a primary teaching certificate."
+        },
+        {
+          "id": "ala-life-fatwa-career",
+          "text": "Sanyal reports that after completing his studies at about fourteen, Khan’s father entrusted him with writing fatwas; by the 1880s he was known as a mufti and responded to questions from Bareilly and farther away.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005",
+            "ALA-SANYAL-1998"
+          ],
+          "locator": "Book pp. 61, 87; article pp. 636–637",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The age-fourteen episode is mediated through Bihari’s later biography; the 1998 article independently supports fatwa-writing’s centrality but not that precise age."
+        },
+        {
+          "id": "ala-life-qadiri-1877",
+          "text": "Sanyal dates Khan’s Qadiri discipleship to Shah Al-e Rasul of Marehra to 1877 and says Nuri Miyan later guided his spiritual development.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005"
+          ],
+          "locator": "p. 61",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The relationship is recorded through secondary scholarship; no initiation document was examined."
+        },
+        {
+          "id": "ala-life-hajj-1878",
+          "text": "Sanyal reports that Ahmad Riza and his father undertook pilgrimage to Mecca in 1878.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005"
+          ],
+          "locator": "p. 63",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "No itinerary or contemporary travel record was checked."
+        },
+        {
+          "id": "ala-life-mujaddid-1900",
+          "text": "Sanyal recounts that at the October 1900 Ahl-e Sunnat meeting in Patna a speaker called Khan the mujaddid of the current Islamic century and that the gathering was said to concur.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005"
+          ],
+          "locator": "pp. 64–66",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "This is a movement honorific reported through later biography, not an independent assessment or universally accepted title."
+        },
+        {
+          "id": "ala-life-manzar-1904",
+          "text": "Sanyal identifies Madrasa Manzar al-Islam in Bareilly as founded by Ahmad Riza in 1904; her 1998 article independently notes a Bareilly madrasa founded in that year.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005",
+            "ALA-SANYAL-1998"
+          ],
+          "locator": "Book p. 113; article p. 637",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Institutional records and the first prospectus were not consulted."
+        },
+        {
+          "id": "ala-life-hajj-1905",
+          "text": "Sanyal records a second pilgrimage to Mecca and Medina in 1905–06 and discusses legal opinions written during the visit.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005"
+          ],
+          "locator": "p. 73",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The source gives a two-year interval; exact departure and return dates remain unknown."
+        },
+        {
+          "id": "ala-life-kanz-1911",
+          "text": "Sanyal reports that Khan’s Urdu Qur’an translation, Kanz al-Iman fi Tarjuma(t) al-Qur’an, was published in Muradabad in 1911; her later Encyclopaedia of the Qur’an entry also gives Muradabad 1911 and lists a 1911 edition.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005",
+            "ALA-SANYAL-EQ-2001"
+          ],
+          "locator": "Sanyal, monograph p. 77; “Ahmad Rida Khan,” pp. 203–204",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "Both scholarly references are by Usha Sanyal, so they are not independent corroboration. The original edition title page and a specific first-edition catalogue record remain uninspected; community listings give conflicting 1910/1912 dates and title-form variation."
+        },
+        {
+          "id": "ala-life-fatawa-corpus",
+          "text": "Sanyal describes Fatawa-e Rizwiyya as a later collection containing many, but not all, of Khan’s legal opinions; she says only two appear to have been published in his lifetime and notes damage to manuscripts during later editorial work.",
+          "sourceIds": [
+            "ALA-SANYAL-BOOK-2005"
+          ],
+          "locator": "pp. 71–72",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "Volume title pages, contents, manuscript witnesses, and publication chronology were not independently collated."
+        },
+        {
+          "id": "ala-life-first-fatwa-self-report",
+          "text": "In a first-person preface to the later Fatawa collection, Ahmad Riza Khan says his father appointed him to issue fatwas on 14 Shaʿban while he was not yet fourteen; he says he then began issuing opinions and his father corrected his errors. The searchable PDF text prints 1282 AH but spells the year with “eighty-six”; a separate transcription reads 1286 AH.",
+          "sourceIds": [
+            "ALA-FATAWA-V1A-PRIMARY",
+            "ALA-FATAWA-V1A-TRANSCRIPTION"
+          ],
+          "locator": "Vol. 1, part A, prefatory text, viewer text p. 94/590; online transcription entries #17228–17229",
+          "sourceType": "primary_source",
+          "confidence": "medium",
+          "uncertainty": "This is a retrospective authorial statement preserved in a later edition. The digital numeral conflicts with the number spelled out in words, and the page image has not been checked; no exact year/day conversion is asserted."
+        }
+      ],
+      "state": "draft"
+    },
+    {
+      "id": "ala-masud-manuscript-inventory",
+      "scholarSlug": "ahmad-raza-khan",
+      "title": "Reported manuscript inventory of mathematical and related works",
+      "field": "History of mathematics, astronomy, and manuscript bibliography",
+      "historicalProblem": "What titles and dates does one secondary Arabic biographical inventory report, and what can be safely inferred before its manuscript images are inspected?",
+      "historicalContext": "The online Arabic study identifies a section as manuscripts of Ahmad Riza Khan and says the author held images of about 100 manuscripts. It then lists twenty items said to concern rational sciences. The list is reproduced through a community forum rather than a manuscript catalogue.",
+      "method": "Read the inventory entries and a later sample-manuscript list in the same article. Titles and dates were recorded as leads; transliterations are provisional. No manuscript image or shelfmark was accessible, and no title was translated into a technical conclusion.",
+      "observationsOrCalculations": "The inventory lists twenty entries dated 1296–1336 AH (reported as 1878–1917 CE). One date inconsistency was found: the same article pairs 1296 AH with 1878 CE in the inventory and with 1828 CE in a later sample caption for the same title.",
+      "reportedResult": "The source provides twenty candidate manuscript titles, including works whose titles mention circles, calendars, stars, time, and calculation. These records establish what this secondary inventory reports, not the manuscripts’ authorship, dates, contents, or scientific validity.",
+      "whatWasNew": "A structured, explicitly provisional bibliography lead list was added to the research dossier, and an internal date-conversion conflict was flagged instead of silently normalizing it.",
+      "limitations": "The forum repost is secondary and devotional in context; inventory images, shelfmarks, full bibliographic apparatus, and the listed manuscripts were not checked. Several transliterations may reflect online text/OCR errors. No priority, correctness, completeness, or contribution claim is made.",
+      "laterInfluence": "Not investigated.",
+      "claims": [
+        {
+          "id": "ala-manuscript-inventory-twenty",
+          "text": "Muhammad Masud Ahmad’s Arabic biographical study reports twenty manuscript titles under a section headed “Manuscripts of Ahmad Riza” and says the author held images of about 100 manuscripts.",
+          "sourceIds": [
+            "ALA-MASUD-AHMAD-AR"
+          ],
+          "locator": "Manuscripts section, items 1–20",
+          "sourceType": "community_lead",
+          "confidence": "low",
+          "uncertainty": "The online repost has no shelfmarks or linked images for these twenty entries; the count and attributions are reported by one secondary source only."
+        },
+        {
+          "id": "ala-manuscript-date-conflict",
+          "text": "The same article gives two incompatible Gregorian equivalents for the date 1296 AH attached to Aṭāʾib al-Iksīr: 1878 in its list and 1828 in a later sample caption.",
+          "sourceIds": [
+            "ALA-MASUD-AHMAD-AR"
+          ],
+          "locator": "Manuscripts list, item 1; later sample list, item 9",
+          "sourceType": "community_lead",
+          "confidence": "high",
+          "uncertainty": "This establishes an internal inconsistency in the consulted repost only; it does not establish the manuscript’s true date."
+        },
+        {
+          "id": "ala-burhan-print-and-manuscript-trail",
+          "text": "The Arabic biographical study cites Maʿārif Raza (Karachi, 1983), pp. 163–223, reports a handwritten copy attributed to Ahmad Riza Khan in the author’s Karachi library, and says the treatise was printed and published in Bareilly.",
+          "sourceIds": [
+            "ALA-MASUD-AHMAD-AR"
+          ],
+          "locator": "References [190]–[191]",
+          "sourceType": "community_lead",
+          "confidence": "low",
+          "uncertainty": "The cited issue, manuscript, Bareilly edition, publication date, and printer were not inspected; the report does not provide a shelfmark."
+        },
+        {
+          "id": "ala-burhan-language-conflict",
+          "text": "The Arabic biography’s later sample list labels the al-Burhān al-Qawīm manuscript Arabic, while Alahazrat Network labels the work Persian.",
+          "sourceIds": [
+            "ALA-MASUD-AHMAD-AR",
+            "ALA-AH-NET-BURHAN"
+          ],
+          "locator": "Arabic study, manuscript sample p. 106; Alahazrat Network work page",
+          "sourceType": "community_lead",
+          "confidence": "high",
+          "uncertainty": "This records disagreement between two community-hosted descriptions, not the language of an inspected witness or edition."
+        },
+        {
+          "id": "ala-manuscript-samples-eighteen",
+          "text": "The Arabic biographical study has a separate manuscript-samples section listing eighteen items with selected language, handwriting, subject, or printed-page details; some overlap with its twenty-title inventory.",
+          "sourceIds": [
+            "ALA-MASUD-AHMAD-AR"
+          ],
+          "locator": "Manuscript samples, printed pp. 95–119",
+          "sourceType": "community_lead",
+          "confidence": "low",
+          "uncertainty": "The forum repost transmits descriptions, not the manuscript images themselves; handwriting, identity, and listed languages remain reports until the cited pages/witnesses are inspected."
+        }
+      ],
+      "state": "draft"
+    }
   ],
   "recognition": [],
-  "openQuestions": ["Obtain and inspect the Urdu edition catalogued by Rekhta/Rampur Raza Library, including title page, publication imprint, preface, diagram, and the passages translated at Raza 2005 pp. 8–9 and 101.", "Identify and compare the relevant Urdu first edition and magazine publication of Muʿīn-i-Mubīn; resolve the 1919/1920 date differences across the four related treatises.", "Read Sanyal's biographies and independent scholarship for a sourced life and context; don't use Siddiqui's article as sole independent confirmation.", "Locate the New York Times, Marlborough Express, Pittsburgh Press and Puke Times reports cited by Siddiqui; determine what Porta actually predicted and distinguish report date from event date.", "Reconstruct the geometric argument and verify its translation, diagram, Euclidean references, premises, and inference with a history-of-mathematics reviewer.", "Survey the four related astronomy texts and other mathematical/timekeeping writings through library catalogues and original editions; do not rely on devotional work-count websites.", "Commission human review of Urdu-English translation and transliteration before publishing any direct quotation or detailed method reconstruction."]
+  "openQuestions": [
+    "Collate the passages in Zafar ud-Din Bihari’s Urdu biography and other early records that Sanyal cites; verify age-fourteen fatwa-writing, 1877 discipleship, 1878 pilgrimage, and the 1900 Patna episode.",
+    "Inspect the cited manuscript image and the 2005 Qibla Numa scan; collate title, script, date and folios. The reported 1324 AH / 1906 date is a secondary-list lead, not yet an independently verified manuscript or publication date.",
+    "Locate and inspect Maʿārif Raza (Karachi, 1983), pp. 163–223, and the manuscript copy reported in the author’s Karachi library; identify the Bareilly edition’s title page and resolve the reported Arabic/Persian language conflict.",
+    "Inspect the Arabic biographical study’s sample pages 95–119 and the cited manuscript images; verify which descriptions refer to the same witness, distinguish authorial handwriting from a copy made by another person, and record shelfmarks.",
+    "Inspect a copy of the earliest Kanz al-Iman edition and its title page/colophon to confirm date, title form, place, printer, collaborators, and whether any commentary accompanied it. Sanyal’s 2005 monograph and her Encyclopaedia of the Qur’an entry both report Muradabad 1911, but they share an author and do not replace primary-edition inspection; community listings give 1910 or 1912.",
+    "Map the Fatawa-e Rizwiyya volume history using title pages, contents, surviving manuscripts, and library catalogues; Rekhta now identifies one 1994 volume-12 edition, but the complete sequence and editorial history remain to be checked.",
+    "Locate the New York Times, Marlborough Express, Pittsburgh Press and Puke Times reports cited by Siddiqui; determine what Porta actually predicted and distinguish report date from event date.",
+    "Reconstruct the geometric argument and verify its translation, diagram, Euclidean references, premises, and inference with a history-of-mathematics reviewer.",
+    "Survey the four related astronomy texts and other mathematical/timekeeping writings through library catalogues and original editions; do not rely on devotional work-count websites.",
+    "Commission human review of Urdu-English translation and transliteration before publishing any direct quotation or detailed method reconstruction.",
+    "Visually inspect the prefatory page of Fatawa-e Rizwiyya vol. 1A (viewer text p. 94/590) to resolve whether the appointment-year numeral reads 1282 or 1286 AH; separately locate and collate the 14 Shaʿban 1336 letter that retrospectively states fifty years of fatwa-writing."
+  ]
 }

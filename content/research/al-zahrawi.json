@@ -46,7 +46,16 @@
       "sourceType": "institutional_catalogue",
       "stableUrl": "https://iiif.biblissima.fr/collections/manifest/c02ca84ba85c8151f51ecff51d001bd44e37434b",
       "consulted": true,
-      "notes": "Catalogue describes this as the thirtieth and final section of al-Taṣrīf, records Maghribī script and instrument figures, and links the Gallica digital object and IIIF manifest. The image sequence was not directly inspected in this pass; do not cite a folio or claim to have read the manuscript from its metadata."
+      "notes": "Biblissima's BnF-derived record dates this witness to the sixteenth century, describes 112 paper folios in Maghribī script with instrument figures, and says the final quire and the treatise-specific preface are in a more modern hand. It links the Gallica digital object and IIIF manifest. The image sequence was not directly inspected in this pass; these are catalogue statements, not an image autopsy. The catalogue's death-date wording (500 AH/1106–07 CE) and authority-file dates differ, so this record is not used to settle al-Zahrāwī's chronology."
+    },
+    {
+      "id": "ZAH-UPENN-LJS435",
+      "title": "Maqālah fī al-ʿamal bi-al-yad, LJS 435",
+      "authorOrInstitution": "University of Pennsylvania, Kislak Center for Special Collections, Rare Books and Manuscripts; Digital Walters / BiblioPhilly manuscript record",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://bibliophilly.library.upenn.edu/viewer.php?id=LJS+435",
+      "consulted": true,
+      "notes": "Catalogue describes an Arabic witness copied in AH 869/1464, 108 leaves, with portions of chapter two and all of chapter three of the three-chapter surgical treatise. It records a colophon on f. 107v, two naskh hands, contemporary marginal corrections, later added pointing, and numerous instrument illustrations in black or black-and-red ink. The viewer exposes digitized pages, but manuscript images were not inspected in this research pass; these details are catalogue metadata. This is a separate witness from BnF Arabe 2953."
     },
     {
       "id": "ZAH-BL-ADD36617",
@@ -105,12 +114,12 @@
       "title": "Surgical training in the preface and the changing life of instrument drawings",
       "field": "History of medicine / surgery / manuscript illustration",
       "historicalProblem": "How does the surgical treatise present the risks of untrained operative practice, and what should historians account for when using later copies of its instrument illustrations?",
-      "historicalContext": "The surgical treatise is the final section of al-Taṣrīf. Hamarneh's 1962 study reports a passage from its preface about four fatal outcomes and compares drawings in Arabic witnesses with later Latin/vernacular reproductions. The British Library catalogue documents one later Latin witness copied in fourteenth-century Italy; BnF Arabe 2953 is a digitized Arabic witness whose catalogue describes instrument illustrations. These witnesses belong to different moments in transmission and must not be treated as authorial originals without qualification.",
-      "method": "This batch compares source descriptions rather than reconstructing an operation: Hamarneh's account of the preface and illustration comparisons is checked against institutional catalogue records for BnF Arabe 2953 and BL Add MS 36617, and against the BNF catalogue record for the 1973 critical edition. The named manuscript images and edition pages are queued for direct collation before any individual instrument or procedure is asserted.",
-      "observationsOrCalculations": "Hamarneh states that the surgical section is the work's final treatise and reports four tragic outcomes in the preface associated with inadequate anatomy and operative skill. He notes that many drawings in later reproductions differ substantially from Arabic manuscript drawings. BL records coloured instrument drawings across ff. 1r–51r in its Latin copy and a colophon on f. 51r. BnF metadata identifies Arabe 2953 as the final treatise and says it contains instrument figures; these descriptions do not establish the exact appearance of a particular tool or folio.",
+      "historicalContext": "The surgical treatise is the final section of al-Taṣrīf. Hamarneh's 1962 study reports a passage from its preface about four fatal outcomes and compares drawings in Arabic witnesses with later Latin/vernacular reproductions. The British Library catalogue documents one later Latin witness copied in fourteenth-century Italy. BnF Arabe 2953 is catalogued as a sixteenth-century, 112-folio paper copy whose final quire and treatise-specific preface are in a more modern hand. Penn's LJS 435 is a distinct Arabic witness catalogued as completed in AH 869/1464, with portions of chapter two and all of chapter three. Neither witness's images have yet been examined in this project, so catalogue descriptions are not an image autopsy and neither codex is treated as an authorial original.",
+      "method": "This batch compares source descriptions rather than reconstructing an operation: Hamarneh's account of the preface and illustration comparisons is checked against institutional catalogue records for BnF Arabe 2953, Penn LJS 435, and BL Add MS 36617, and against the BNF catalogue record for the 1973 critical edition. The two distinct Arabic witnesses offer different catalogued hands, dates, and coverage; their named manuscript images and edition pages are queued for direct collation before any individual instrument or procedure is asserted.",
+      "observationsOrCalculations": "Hamarneh states that the surgical section is the work's final treatise and reports four tragic outcomes in the preface associated with inadequate anatomy and operative skill. He notes that many drawings in later reproductions differ substantially from Arabic manuscript drawings. BL records coloured instrument drawings across ff. 1r–51r in its Latin copy and a colophon on f. 51r. BnF's catalogue describes Arabe 2953 as a sixteenth-century paper manuscript of 112 folios with instrument figures, and says its final quire and treatise-specific preface are in a more modern hand. Penn's catalogue separately describes LJS 435, copied in AH 869/1464, as a 108-leaf Arabic witness with partial chapter two and all of chapter three, two naskh hands, marginal corrections, and numerous instrument illustrations. These distinct witnesses provide better defined collation targets, but catalogue descriptions do not establish variant readings or drawing transmission until their images are compared directly.",
       "reportedResult": "The consulted evidence supports a careful, limited conclusion: the transmitted treatise's preface, as reported by Hamarneh, foregrounds anatomical knowledge and practical competence; instrument images have a copy and translation history in which later reproductions can depart from Arabic manuscript drawings. Exact text, image variants, and the author's own wording remain to be verified against the 1973 edition and digitized manuscript.",
       "whatWasNew": "No claim of the first surgical manual, a first instrument, or sole invention is made. This case documents the text's reported pedagogical framing and an image-transmission problem that affects how scientific illustrations should be presented.",
-      "limitations": "The Arabic passage and manuscript page images were not directly inspected; Hamarneh is the intermediary for the preface claim and his article dates to 1962. BL Add MS 36617 digital images are listed as unavailable. BnF Arabe 2953 is linked to Gallica/IIIF but the image sequence was not retrieved in this pass. No surgical technique is reproduced as practical advice. The four cases are not independently corroborated here.",
+      "limitations": "The Arabic passage and manuscript page images were not directly inspected; Hamarneh is the intermediary for the preface claim and his article dates to 1962. BnF Arabe 2953's catalogue description is metadata, not image inspection; Gallica blocked retrieval of the IIIF manifest during this pass. Penn LJS 435 has an online image viewer, but its images have not yet been inspected; catalogue data alone do not establish textual readings or figure variants. The BnF note that the preface is in a more modern hand makes direct collation especially important. BL Add MS 36617 digital images are listed as unavailable. No surgical technique is reproduced as practical advice. The four cases are not independently corroborated here.",
       "laterInfluence": "The BL catalogue and Hamarneh describe Latin transmission and reception, but this investigation does not trace a specific preface passage or instrument design into a named later author. Such influence requires separate textual comparison.",
       "claims": [
         {
@@ -150,6 +159,24 @@
           "uncertainty": "The description is catalogue evidence, not direct inspection of the manuscript leaves."
         },
         {
+          "id": "zah-bnf-2953-codicology",
+          "text": "The BnF-derived catalogue describes Arabe 2953 as a sixteenth-century paper manuscript of 112 folios with Maghribī script and instrument figures, and states that its final quire and treatise-specific preface are in a more modern hand.",
+          "sourceIds": ["ZAH-BNF-ARABE2953"],
+          "locator": "Biblissima IIIF record, Date and Description / Physical Description fields",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "This is a catalogue description, not direct codicological inspection. The relative date of the 'more modern' hand and its relation to the main text are not specified; no folio or image has been verified."
+        },
+        {
+          "id": "zah-penn-ljs435-witness",
+          "text": "Penn's catalogue describes LJS 435 as an Arabic copy completed in AH 869/1464, with 108 leaves, portions of chapter two and all of chapter three, and numerous surgical-instrument illustrations; it also records two naskh hands and marginal corrections.",
+          "sourceIds": ["ZAH-UPENN-LJS435"],
+          "locator": "Penn Libraries / Digital Walters, Manuscript Overview, Physical Description, Script, Decoration, and Date",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "Catalogue metadata has been consulted, but the digitized manuscript images and colophon on f. 107v have not been directly inspected in this batch."
+        },
+        {
           "id": "zah-latin-transmission",
           "text": "The BL catalogue identifies the Latin surgical treatise in Add MS 36617 as Gerard of Cremona's translation and records a colophon that attributes translation from Arabic to Latin to Gerard.",
           "sourceIds": ["ZAH-BL-ADD36617"],
@@ -175,7 +202,8 @@
   "openQuestions": [
     "Read the relevant preface pages and figure commentary in Spink and Lewis (1973), record exact Arabic and English page locators, and collate Hamarneh's account.",
     "Open BnF Arabe 2953 through the Gallica IIIF manifest, identify the preface and one specific instrument folio, and record manuscript folio and digital canvas identifiers.",
-    "Compare that Arabic image with one Latin witness illustration and document variants without assuming later copies preserve authorial drawings.",
+    "Inspect Penn LJS 435's digitized images, identify folios for an instrument figure and the colophon at f. 107v, and record the viewer's stable image identifiers.",
+    "Compare an Arabic manuscript image with one Latin witness illustration and document variants without assuming later copies preserve authorial drawings.",
     "Build the remaining biography, bibliography, and separate evidence-led investigations across dentistry, cautery, trauma, fractures, and other sections only after source passages are inspected.",
     "Do not turn historical procedures into modern clinical guidance."
   ]

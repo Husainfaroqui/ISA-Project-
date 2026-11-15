@@ -28,7 +28,27 @@
    "url": "https://mathshistory.st-andrews.ac.uk/BEA/banu_musa_bea.pdf",
    "tier": "academic_research",
    "read": true,
-   "notes": "Read in full. The only fully read source on the Banu Musa, so Banu Musa claims are single-source."
+   "notes": "Read in full. Primary source for the existing Batch 2A Banu Musa claims and works. The later Pingree and Casulleras source records support the new public collective-biography summary; they have not been retroactively applied to the older claims."
+  },
+  {
+   "id": "BMU-PINGREE-1988",
+   "title": "Banū Mūsā",
+   "author": "David Pingree",
+   "publication": "Encyclopaedia Iranica, vol. III, fasc. 7, pp. 716–717 (1988; updated 2016)",
+   "url": "https://www.iranicaonline.org/articles/banu-musa-the-name-applied-to-three-brothers-abbasid-astronomers-whose-father-was-musa-b/",
+   "tier": "academic_research",
+   "read": true,
+   "notes": "Read in full. Used with Casulleras for the public collective-biography summary; this synthesis cites earlier Arabic sources that remain to be checked directly."
+  },
+  {
+   "id": "BMU-CASULLERAS-2007",
+   "title": "Banū Mūsā",
+   "author": "Josep Casulleras",
+   "publication": "The Biographical Encyclopedia of Astronomers, pp. 92–94 (Springer, 2007); hosted by ISMI",
+   "url": "https://ismi.mpiwg-berlin.mpg.de/biography/Banu_Musa_BEA.htm",
+   "tier": "academic_research",
+   "read": true,
+   "notes": "Read in full. Used with Pingree for the public collective-biography summary; explicitly cautions that separate biographies cannot be reconstructed from the surviving evidence."
   },
   {
    "id": "SEP-K",
@@ -124,6 +144,7 @@
    "region": "Iraq",
    "period": "early",
    "dates": "9th century",
+   "biography": "The Banū Mūsā were three brothers—Muḥammad, Aḥmad, and Ḥasan, sons of Mūsā ibn Shākir—active in ninth-century Baghdad. Pingree describes their upbringing and scientific activity there; Casulleras cautions that the surviving record does not support separate full biographies. Their shared patronage of translation and research is summarized in the cited group contribution, without assigning every commission or work to one brother.",
    "disciplines": [
     "Astronomy",
     "Mathematics",
@@ -1882,6 +1903,31 @@
     {
      "source": "SEP-K",
      "locator": "§5.1",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "54e5d9a4-64b9-47b4-9936-cd5b8cf15244",
+   "scholar": "banu-musa",
+   "title": "Collective scientific and translation patronage",
+   "text": "Pingree and Casulleras describe the Banū Mūsā brothers collectively as patrons of scientific activity and translation in ninth-century Baghdad. The surviving record does not justify assigning every commission or translated work to a specific brother.",
+   "kind": "translation_or_preservation",
+   "confidence": "medium",
+   "discipline": "Philosophy",
+   "period": "9th century",
+   "prior": "Greek scientific works and Abbasid-era translation activity in Baghdad, as summarized by the cited scholars.",
+   "detail": "A cautious group-level summary of modern academic biographies. Underlying Arabic notices and individual translator commissions still need direct source-level review.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "BMU-PINGREE-1988",
+     "locator": "entry: background",
+     "tier": "academic_research"
+    },
+    {
+     "source": "BMU-CASULLERAS-2007",
+     "locator": "entry: background",
      "tier": "academic_research"
     }
    ]
