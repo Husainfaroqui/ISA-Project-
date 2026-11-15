@@ -19,6 +19,9 @@ Object.assign(copy.ar,{mission:"متحف حيّ للبحث والاكتشاف",h
 Object.assign(copy.en,{manuscript_e:"From the Original Pages of History",manuscript_profile:"Explore al-Khwārizmī’s profile →"});
 Object.assign(copy.ur,{manuscript_e:"تاریخ کے اصل اوراق سے",manuscript_profile:"الخوارزمی کا پروفائل دیکھیں ←"});
 Object.assign(copy.ar,{manuscript_e:"من الصفحات الأصلية للتاريخ",manuscript_profile:"استكشف ملف الخوارزمي ←"});
+Object.assign(copy.en,{objects_e:"The collection · selected originals",objects_h:"Objects of Knowledge",objects_p:"Surviving objects and manuscript copies, identified with their repositories and historical limits."});
+Object.assign(copy.ur,{objects_e:"مجموعہ · منتخب اصل آثار",objects_h:"علمی ورثے کے تاریخی آثار",objects_p:"محفوظ تاریخی اشیاء اور مخطوطات، ان کے کتب خانوں اور تاریخی حدود کے ساتھ۔"});
+Object.assign(copy.ar,{objects_e:"المجموعة · مختارات أصلية",objects_h:"آثار المعرفة",objects_p:"قطع باقية ونسخ مخطوطات مع تحديد مجموعاتها وحدودها التاريخية."});
 const txt = (l: Lang, k: string) => copy[l][k] ?? k;
 const imageBySlug: Record<string, string> = { "ahmad-raza-khan":"/images/ill-knowledge.svg", "al-khwarizmi":"/images/ill-algebra.svg", "ibn-al-haytham":"/images/ill-optics.svg", "al-biruni":"/images/ill-astronomy.svg", "ibn-sina":"/images/ill-medicine.svg" };
 // Prefer scientific diagrams over fabricated faces when authenticated portraits are unavailable.
@@ -36,6 +39,24 @@ const card = (s: Scholar, l: Lang, featured = false) => {
 function bindDargahFallback(root:ParentNode){root.querySelectorAll<HTMLImageElement>("img[data-dargah]").forEach(img=>img.addEventListener("error",()=>{img.src="/images/dargah-arch.svg";img.alt="Illustrative study of a domed shrine; not a photograph or exact rendering of the Dargah";const badge=img.parentElement?.querySelector("span");if(badge)badge.textContent="Architectural illustration · not a photograph";const credit=img.closest(".scholar-card")?.querySelector(".media-credit");if(credit)credit.textContent="Original architectural illustration, shown only if the linked photograph cannot load."},{once:true}));}
 
 export async function homeMount(el: HTMLElement, lang: Lang) {
+  const museumViewer = el.querySelector<HTMLDialogElement>(".museum-viewer");
+  const museumImg = museumViewer?.querySelector<HTMLImageElement>(".museum-viewer-stage img");
+  const museumCaption = museumViewer?.querySelector<HTMLElement>(".museum-viewer-toolbar p");
+  const museumObjects: Record<string, { src: string; alt: string; caption: string; source: string }> = {
+    astrolabe: { src: "/images/homepage/rasulid-astrolabe-1291.jpg", alt: "Rasulid astrolabe made in Yemen in 1291", caption: "Astrolabe of ʿUmar ibn Yūsuf · Yemen, 1291 · The Met 91.1.535a–h · Public Domain", source: "https://www.metmuseum.org/art/collection/search/444408" },
+    "blue-quran": { src: "/images/homepage/blue-quran-folio.jpg", alt: "Gold and silver script on indigo parchment", caption: "Folio from the Blue Qur’an · 9th–10th century · The Met 2004.88 · Public Domain", source: "https://www.metmuseum.org/art/collection/search/454662" }
+  };
+  el.querySelectorAll<HTMLButtonElement>("[data-museum-image]").forEach(button => button.addEventListener("click", () => {
+    const item = museumObjects[button.dataset.museumImage ?? ""];
+    if (!item || !museumViewer || !museumImg) return;
+    museumImg.src = item.src; museumImg.alt = item.alt;
+    if (museumCaption) museumCaption.textContent = item.caption;
+    const link = museumViewer.querySelector<HTMLAnchorElement>("[data-museum-source]");
+    if (link) link.href = item.source;
+    museumViewer.showModal();
+  }));
+  museumViewer?.querySelector("[data-museum-close]")?.addEventListener("click", () => museumViewer.close());
+  museumViewer?.addEventListener("click", event => { if (event.target === museumViewer) museumViewer.close(); });
   const t = (k:string) => txt(lang,k), repo = await getRepo();
   el.querySelectorAll<HTMLElement>("[data-i18n]").forEach(n => { const v=copy[lang][n.dataset.i18n!]; if(v)n.textContent=v; });
   const queryLabel=el.querySelector<HTMLLabelElement>('label[for="homeQuery"]'); if(queryLabel)queryLabel.textContent=t("search");
