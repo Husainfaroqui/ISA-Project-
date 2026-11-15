@@ -28,3 +28,41 @@ body{background:var(--bg);font-size:1.02rem}header{background:var(--green);color
 .dossier-content{display:grid;gap:1.4rem}.dossier-investigation,.dossier-works>article{padding:clamp(1rem,2.5vw,1.6rem);background:var(--parchment);border:1px solid var(--line)}.dossier-investigation h3{font:500 clamp(1.45rem,2.5vw,2rem)/1.2 Georgia,serif}.dossier-investigation h4,.dossier-works h4{font:600 1rem/1.4 Georgia,serif}.dossier-analysis{display:grid;grid-template-columns:minmax(10rem,.3fr) minmax(0,.7fr);gap:.6rem 1rem}.dossier-analysis dt{font-weight:650;color:var(--text-link)}.dossier-analysis dd{margin:0;line-height:1.6}.dossier-investigation>ul{padding-inline-start:1.3rem}.dossier-investigation li{margin:.6rem 0}.dossier-investigation a,.dossier-works a{color:var(--text-link)}.dossier-subheading{margin:.8rem 0 0;font:500 1.5rem Georgia,serif}.dossier-works{display:grid;gap:.8rem}.dossier-works h4 span{font-weight:400}.dossier-works blockquote{margin:1rem 0;padding:1rem 1.25rem;border-inline-start:3px solid var(--gold);background:var(--quote-bg);font:italic 1.12rem/1.6 Georgia,serif}.dossier-works blockquote footer{margin-top:.6rem;font:normal .8rem/1.5 system-ui;color:var(--muted)}.dossier-open-questions{padding:1rem;background:var(--parchment);border:1px solid var(--line)}.dossier-open-questions summary{cursor:pointer;color:var(--text-link);font-weight:650}.dossier-open-questions li{margin:.4rem 0}
 @media(max-width:48rem){.dossier-analysis{grid-template-columns:1fr;gap:.15rem}.dossier-analysis dd{margin-bottom:.7rem}}
 .scholar-visual-archive{grid-template-columns:minmax(15rem,1.1fr) minmax(0,1fr)}.scholar-artifact-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr));gap:1rem}.scholar-artifact{min-width:0;margin:0;padding:.65rem;background:#fffaf0;border:1px solid var(--line);box-shadow:0 10px 26px #17281b12}.scholar-artifact>a{display:block;height:18rem;overflow:hidden;background:#f4ecd9}.scholar-visual-archive img{height:100%;max-height:100%;object-fit:contain}.scholar-artifact figcaption{padding:.65rem .1rem .15rem;overflow-wrap:anywhere}.scholar-artifact figcaption a{display:inline-block;margin-top:.35rem;color:var(--text-link)}.scholar-visual-archive figcaption,.collection-honesty{line-height:1.55;overflow-wrap:anywhere}
+/* HOME PAGE - SCHOLAR OF THE DAY MOBILE FIX */
+@media (max-width: 48rem) {
+  .scholar-spotlight {
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 1.25rem;
+    padding: 1rem;
+  }
+
+  .spotlight-visual {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+  }
+
+  .spotlight-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .spotlight-copy {
+    width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .spotlight-copy h3 {
+    font-size: clamp(1.7rem, 7vw, 2.2rem);
+    overflow-wrap: anywhere;
+  }
+
+  .spotlight-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+}
