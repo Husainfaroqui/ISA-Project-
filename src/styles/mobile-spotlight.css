@@ -1,0 +1,100 @@
+.scholar-spotlight {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(1.1rem, 2.7vw, 2.5rem);
+  align-items: center;
+  min-width: 0;
+}
+
+.spotlight-visual,
+.spotlight-copy {
+  min-width: 0;
+}
+
+.spotlight-visual {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+.spotlight-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  background: var(--parchment, #f8f1dd);
+}
+
+.spotlight-copy {
+  display: grid;
+  gap: 0.8rem;
+  min-width: 0;
+}
+
+.spotlight-copy h3,
+.spotlight-copy p,
+.spotlight-copy a,
+.spotlight-copy .spotlight-title,
+.spotlight-copy .spotlight-bio,
+.spotlight-copy .spotlight-work {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.spotlight-copy h3 {
+  margin: 0;
+  line-height: 1.1;
+}
+
+.spotlight-copy .spotlight-title {
+  margin: 0;
+  font-weight: 600;
+  color: var(--muted, #5b6660);
+}
+
+.spotlight-copy .spotlight-bio,
+.spotlight-copy .spotlight-work {
+  margin: 0;
+}
+
+.spotlight-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.spotlight-actions .btn {
+  min-width: 0;
+}
+
+@media (max-width: 48rem) {
+  .scholar-spotlight {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .spotlight-visual {
+    max-width: min(28rem, 100%);
+    margin: 0 auto;
+  }
+
+  .spotlight-copy h3 {
+    font-size: clamp(2rem, 7vw, 2.8rem);
+  }
+}
+
+@media (max-width: 33rem) {
+  .spotlight-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .spotlight-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
