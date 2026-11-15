@@ -1,10 +1,16 @@
 import "./styles/main.css";
+import "./styles/redesign.css";
 import header from "./pages/header.html?raw";
 import footer from "./pages/footer.html?raw";
 import { homeHtml, homeMount } from "./pages/home";
 import { directory } from "./pages/directory";
 import { profile } from "./pages/profile";
+import { contributionPage } from "./pages/contribution";
+import { timelinePage } from "./pages/timeline";
+import { libraryPage } from "./pages/library";
+import { adminPage } from "./pages/admin";
 import { parse, go, stored, swapLang } from "./lib/router";
+import { errorHtml } from "./pages/states";
 import { T, tr, dir, LANGS, cName, termName, type Lang } from "./lib/i18n";
 
 const app = document.getElementById("app")!;
@@ -29,10 +35,16 @@ async function render() {
   app.innerHTML = header.replaceAll("{L}", l) + `<main id="top"></main>` + footer.replaceAll("{L}", l);
   app.querySelectorAll<HTMLButtonElement>(".lang button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === l)));
   const main = app.querySelector<HTMLElement>("main")!; let title = "Islamic Science Archive (ISA)";
-  if (r.name === "home") { main.innerHTML = homeHtml.replaceAll("{L}", l); homeMount(main); }
+  try {
+  if (r.name === "home") { main.innerHTML = homeHtml.replaceAll("{L}", l); await homeMount(main, l); }
   else if (r.name === "directory") { await directory(main, l); title = tr(l, "t") + " – ISA"; }
+  else if (r.name === "library") { await libraryPage(main,l); title = "Manuscript & Historical Books Library – ISA"; }
   else if (r.name === "profile") { title = (await profile(main, l, r.slug)) + " – ISA"; }
+  else if (r.name === "contribution") { title = (await contributionPage(main, l, r.slug, r.id)) + " – ISA"; }
+  else if (r.name === "timeline") { await timelinePage(main, l); title = tr(l, "tl") + " – ISA"; }
+  else if (r.name === "admin") { await adminPage(main, l); title = "ISA Admin – Islamic Science Archive"; }
   else main.innerHTML = `<section><div class="wrap"><h1>404</h1><p><a href="/${l}/">${tr(l, "back")}</a></p></div></section>`;
+  } catch (e) { console.error(e); main.innerHTML = `<section><div class="wrap">${errorHtml(l, { kind: "error", message: String((e as Error)?.message ?? e) })}</div></section>`; }
   i18n(app, l); head(l, title);
   const h = location.hash && app.querySelector(location.hash); (h as HTMLElement | null)?.scrollIntoView(); if (!location.hash) scrollTo(0, 0);
 }

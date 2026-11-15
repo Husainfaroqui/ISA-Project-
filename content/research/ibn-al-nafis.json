@@ -1,0 +1,241 @@
+{
+  "scholarSlug": "ibn-al-nafis",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "ʿAlāʾ al-Dīn ʿAlī ibn Abī al-Ḥazm Ibn al-Nafīs was a physician whose *Sharḥ tashrīḥ al-Qānūn* comments on the anatomical material in Avicenna's *Canon*. This batch is limited to its account of blood's route between the heart's right and left sides; it does not supply a complete biography.",
+      "claimIds": ["naf-identity-work"],
+      "gaps": ["Establish dates, training, hospital appointments, and bibliography from Arabic biographical sources and specialist studies; preserve disagreement over his birth year."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "A surviving British Library manuscript of the commentary, Or 14154, was copied in 842 AH / 1439 CE. This is a manuscript copy date, not the date when Ibn al-Nafīs composed the work or its pulmonary passage. The Berlin witness used in the twentieth-century discovery history and other witnesses require a separate transmission chronology.",
+      "claimIds": ["naf-qdl-copy-date", "naf-discovery-history"],
+      "gaps": ["Collate composition-date claims against dated early witnesses and primary biographies; do not infer a composition year from a later copy.", "Establish the identity and shelfmark history of the Berlin manuscript described by al-Tatawi and Meyerhof."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "In the passage as translated by Max Meyerhof and cited by John B. West, Ibn al-Nafīs rejects a visible or invisible channel through the interventricular septum and states that blood reaches the left ventricle from the lung after passing through the right ventricle. A further passage mentions perceptible passages between the pulmonary artery and pulmonary vein. These claims belong to a medieval account that also explains blood in relation to air and pneuma; the dossier distinguishes its specific anatomical route from modern physiology and does not call the author a modern physiologist.",
+      "claimIds": ["naf-no-septal-passage", "naf-pulmonary-route", "naf-vessel-passages", "naf-historical-physiology"],
+      "gaps": ["Transcribe and collate the Arabic passage in the 1439 Or 14154 witness and the Wellcome WMS Or. 51 witness against Meyerhof's translation and the later Arabic edition.", "Determine whether the separate sentence on manāfidh belongs to the same textual context and how editors translate the term; do not claim Ibn al-Nafīs observed capillaries."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The passage is described in modern scholarship as predating comparable European accounts by centuries, but direct transmission to Servetus or later European anatomists is not established in the sources consulted. The dossier therefore records an early attested description and leaves influence as an open question rather than implying a documented chain of borrowing.",
+      "claimIds": ["naf-first-attestation", "naf-transmission-limit"],
+      "gaps": ["Trace transmission inside Arabic medical scholarship and investigate proposed European routes using manuscript, translation, and citation evidence."]
+    }
+  },
+  "sources": [
+    {
+      "id": "NAF-WEST-2008",
+      "title": "Ibn al-Nafis, the pulmonary circulation, and the Islamic Golden Age",
+      "authorOrInstitution": "John B. West, Journal of Applied Physiology 105(6) (2008), pp. 1877–1880",
+      "publicationDate": "2008",
+      "sourceType": "academic_research",
+      "stableUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2612469/",
+      "consulted": true,
+      "notes": "Full article content was available through the indexed open-access copy. West reproduces Meyerhof's English translation and gives Berlin manuscript folio locators 46r and 65r–v. This is a secondary source for the English wording, not a new translation or direct collation of the Arabic. West stresses that the commentary's later European transmission is unproved."
+    },
+    {
+      "id": "NAF-QDL-OR14154",
+      "title": "Sharḥ tashrīḥ al-qānūn, British Library Or 14154, ff. 247v–334v",
+      "authorOrInstitution": "Ibn al-Nafīs; manuscript held by the British Library, digitized by Qatar Digital Library",
+      "publicationDate": "Copy completed 15 Shaʿbān 842 AH / 31 January 1439 CE",
+      "sourceType": "primary_source",
+      "stableUrl": "https://www.qdl.qa/en/archive/81055/vdc_100066152341.0x000003",
+      "consulted": true,
+      "notes": "The catalogue record and 175-image sequence were consulted; a leaf page, item page, and IIIF manifest are available. Record foliation is British Library ff. 247v–334v; viewer sequence is separate. The manuscript is a primary witness, but the pulmonary passage has not yet been transcribed or visually collated in this project. Public Domain use is stated by QDL."
+    },
+    {
+      "id": "NAF-QDL-F270R",
+      "title": "Or 14154, f. 270r, viewer image 46/175",
+      "authorOrInstitution": "British Library: Oriental Manuscripts; Qatar Digital Library",
+      "sourceType": "primary_source",
+      "stableUrl": "https://www.qdl.qa/en/archive/81055/vdc_100069648793.0x000099",
+      "consulted": true,
+      "notes": "The viewer record identifies this as manuscript page 270r and sequence image 46/175. This is not the same locator as Berlin manuscript fol. 46r cited in Meyerhof/West. No claim is made that this QDL leaf contains the pulmonary passage until it is directly read."
+    },
+    {
+      "id": "NAF-WELLCOME-OR51",
+      "title": "WMS Or. 51: Ibn an-Nafis, Commentary on Avicenna's Canon of Medicine",
+      "authorOrInstitution": "Wellcome Collection, Oriental Arabic Manuscripts",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://wellcomecollection.org/works/sc3nmcx8",
+      "consulted": true,
+      "notes": "Catalogue record describes a manuscript of the commentary and provides an online digital image under CC BY 4.0. The image is a separate manuscript witness from BL Or 14154; the displayed leaf and pulmonary passage have not yet been matched."
+    },
+    {
+      "id": "NAF-TAQAWIYA-1988",
+      "title": "Kitāb Sharḥ tashrīḥ al-Qānūn",
+      "authorOrInstitution": "Ibn al-Nafīs; edited by Salmān Qaṭāyah, Cairo, al-Hayʾah al-Miṣrīyah al-ʿĀmmah lil-Kitāb",
+      "publicationDate": "1988",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://wellcomecollection.org/works/hdsrcsz9",
+      "consulted": true,
+      "notes": "Wellcome catalogue identifies a 455-page Arabic edition. The edition itself was not read in this batch; it is a direct-text collation lead, not evidence that the passage was verified against the edition."
+    },
+    {
+      "id": "NAF-CHÉHADÉ-1955",
+      "title": "Ibn an-Nafis et la découverte de la circulation pulmonaire",
+      "authorOrInstitution": "ʿAbd al-Karīm Chéhadé, Institut français de Damas, 1955",
+      "publicationDate": "1955",
+      "sourceType": "academic_research",
+      "stableUrl": "https://wellcomecollection.org/works/efx5a2sw",
+      "consulted": true,
+      "notes": "Wellcome bibliographic record says the 54-page study includes Arabic facsimiles and French translations from BnF Arabe 2939 and an anonymous commentary witness. The study itself was not directly read in this pass; it is an important collation lead, not a consulted passage source."
+    }
+  ],
+  "works": [
+    {
+      "id": "naf-sharh-tashrih-al-qanun",
+      "scholarSlug": "ibn-al-nafis",
+      "originalTitle": "شرح تشريح القانون",
+      "transliteration": "Sharḥ tashrīḥ al-qānūn",
+      "translation": "Commentary on the Anatomy of the Canon",
+      "language": "Arabic; English wording below is Max Meyerhof's translation as reproduced by John B. West",
+      "subject": "Anatomy and physiology within a commentary on Avicenna's Canon of Medicine",
+      "purpose": "The work comments on the anatomical sections of the Canon. This record follows its rejection of septal passage and account of blood moving between the two sides of the heart through the lung.",
+      "authorship": "academically_supported",
+      "date": "A 1439 CE copy survives in British Library Or 14154; composition date is not established by the witnesses examined here.",
+      "sourceIds": ["NAF-WEST-2008", "NAF-QDL-OR14154", "NAF-QDL-F270R", "NAF-WELLCOME-OR51", "NAF-TAQAWIYA-1988", "NAF-CHÉHADÉ-1955"],
+      "digitizedUrl": "https://www.qdl.qa/en/archive/81055/vdc_100066152341.0x000003",
+      "passages": [
+        {
+          "workId": "naf-sharh-tashrih-al-qanun",
+          "sourceId": "NAF-WEST-2008",
+          "editionOrShelfmark": "Max Meyerhof's English translation as reproduced in John B. West, Journal of Applied Physiology 105(6), 2008",
+          "language": "English translation from Arabic, mediated through Meyerhof and quoted by West",
+          "originalPassage": "The text denies a visible or invisible channel through the heart's septum; in a second passage it states that blood enters the left ventricle from the lung after passing through the right ventricle.",
+          "translation": "Paraphrase of West's reproduction of Meyerhof's translation; not a verbatim quotation or a fresh translation from Arabic.",
+          "printedPage": "West pp. 1878–1879; Berlin manuscript locators reported as fol. 46r and fol. 65r–v",
+          "chapterOrSection": "Commentary on the heart in the anatomical discussion of Avicenna's Canon",
+          "explanation": "The two passages make separate claims: the septum does not transmit blood, and the route to the left heart is through the lung. In the same historical model, blood is refined and combines with air/pneuma to generate spirit. This is not a complete modern account of circulation, and the QDL manuscript leaf has not been shown to correspond to the Berlin folio numbering."
+        },
+        {
+          "workId": "naf-sharh-tashrih-al-qanun",
+          "sourceId": "NAF-WEST-2008",
+          "editionOrShelfmark": "Meyerhof's translation of Berlin manuscript, as quoted by West",
+          "language": "English translation from Arabic, mediated through Meyerhof and quoted by West",
+          "originalPassage": "A further passage refers to perceptible passages between the pulmonary artery and pulmonary vein.",
+          "translation": "Paraphrase; not a verbatim quotation or new translation. The Arabic term reported in the source is manāfidh.",
+          "printedPage": "West p. 1879; Berlin manuscript fol. 46r",
+          "chapterOrSection": "Pulmonary vessels, in the anatomical discussion of the heart",
+          "explanation": "This records the text's description of communications between the named vessels. It does not mean the author observed capillaries microscopically; that stronger modern equivalence is not adopted here."
+        }
+      ],
+      "notes": "The West/Meyerhof wording is checked against an accessible article; no direct Arabic collation was performed. Manuscript folio identifiers must always include the shelfmark, as Berlin fol. 46r and viewer item Or 14154 f. 270r are not interchangeable."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "naf-pulmonary-transit-textual-claim",
+      "scholarSlug": "ibn-al-nafis",
+      "title": "Rejecting septal passage and routing blood through the lung",
+      "field": "Medicine / history of anatomy and physiology",
+      "historicalProblem": "What exactly does Ibn al-Nafīs's commentary claim about movement between the heart's ventricles, and which claims should be kept separate when explaining it today?",
+      "historicalContext": "Galenic and Avicennian accounts included passage through the interventricular septum and described blood, air, and pneuma in terms unlike current physiology. In Meyerhof's translation, as cited by West, Ibn al-Nafīs rejects visible and invisible pores in the septum and says blood reaches the left cavity from the lung. A separate sentence describes passages between the pulmonary artery and pulmonary vein. This case preserves those textual distinctions and does not retrospectively turn the full medical model into modern circulation physiology.",
+      "method": "The work is read here through the two translated passages West quotes from Meyerhof: one locates the denial of septal passage at Berlin MS fol. 46r; the other states the lung route at fol. 65r–v. The separate vessel-passage sentence is also located at Berlin fol. 46r. QDL's online Or 14154 copy and Wellcome's WMS Or. 51 are recorded as collation witnesses, but their image text has not been transcribed. No modern experiment is attributed to Ibn al-Nafīs.",
+      "observationsOrCalculations": "The translated argument distinguishes: (1) no visible or invisible passage through the septum; (2) blood reaches the left ventricle by way of the lung after leaving the right; and (3) perceptible passages connect the pulmonary artery and pulmonary vein. The text also retains its historical ideas about blood refinement, air, and spirit. These should not be collapsed into the modern concept of complete double circulation or microscopic capillaries.",
+      "reportedResult": "The passages support an early, clearly articulated account of blood passing from the right heart through the lung to the left heart and a rejection of interventricular septal pores. The evidence is a translation of a primary text reported by Meyerhof and West, with manuscript witnesses available for future checking; this project has not yet independently read the Arabic wording.",
+      "whatWasNew": "No unrestricted worldwide-priority claim is made. West and the manuscript-based accounts identify this as an early description and place it centuries before the comparable European texts discussed there. The possibility of direct transmission to Servetus or later European anatomists remains unestablished.",
+      "limitations": "Meyerhof's translation was not independently checked against the Arabic manuscript; West's wording is secondary transmission. QDL Or 14154 is a 1439 copy and its folio numbering differs from the Berlin witness used for the cited passage. The scanned pages are accessible, but the relevant leaf in this witness was not yet read. Wellcome WMS Or. 51 is another catalogue-identified witness, not proof of the exact reading. The source passage does not establish a modern capillary observation, a complete modern physiological model, or a demonstrated path of influence into Europe.",
+      "laterInfluence": "Not established. West notes that the source does not trace the commentary's readers or a route to Servetus. Similarity between later accounts is not proof of direct transmission.",
+      "claims": [
+        {
+          "id": "naf-identity-work",
+          "text": "Qatar Digital Library identifies Or 14154 as Ibn al-Nafīs's commentary on anatomical material in Avicenna's Canon of Medicine.",
+          "sourceIds": ["NAF-QDL-OR14154"],
+          "locator": "QDL catalogue record: title and content description",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "This catalogue evidence identifies the work represented by the copy; it does not by itself establish every reading in the text."
+        },
+        {
+          "id": "naf-qdl-copy-date",
+          "text": "The British Library Or 14154 copy was completed on 15 Shaʿbān 842 AH, corresponding to 31 January 1439 CE; this is the copy date, not the work's composition date.",
+          "sourceIds": ["NAF-QDL-OR14154"],
+          "locator": "QDL record, colophon at f. 334v, lines 12–15; date conversion in catalogue",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "The colophon is transcribed in the institutional catalogue; the manuscript image itself has not been independently read in this batch."
+        },
+        {
+          "id": "naf-no-septal-passage",
+          "text": "Meyerhof's translation, as reproduced by West, reports Ibn al-Nafīs denying both visible and invisible passages through the interventricular septum.",
+          "sourceIds": ["NAF-WEST-2008"],
+          "locator": "West, pp. 1878–1879, quoting Meyerhof; Berlin MS fol. 46r",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The translated wording and Berlin folio locator are secondary evidence here; Arabic collation remains outstanding."
+        },
+        {
+          "id": "naf-pulmonary-route",
+          "text": "Meyerhof's translation, as reproduced by West, reports the route to the left ventricle through the lung after blood leaves the right ventricle.",
+          "sourceIds": ["NAF-WEST-2008"],
+          "locator": "West, p. 1879, quoting Meyerhof; Berlin MS fol. 65r–v",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The project has not directly read the Arabic folio or compared manuscript variants."
+        },
+        {
+          "id": "naf-vessel-passages",
+          "text": "West reports a separate Meyerhof-translated passage describing perceptible passages between the pulmonary artery and pulmonary vein.",
+          "sourceIds": ["NAF-WEST-2008"],
+          "locator": "West, p. 1879, quoting Meyerhof; Berlin MS fol. 46r",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Do not equate the text's manāfidh with directly observed microscopic capillaries; the Arabic passage and translation require separate philological review."
+        },
+        {
+          "id": "naf-historical-physiology",
+          "text": "The commentary's translated account retains historical concepts of blood refinement, air, and spirit; rejecting a septal route did not make the whole model equivalent to modern physiology.",
+          "sourceIds": ["NAF-WEST-2008"],
+          "locator": "West, discussion of the historical Galenic model and terminology",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "A fuller intellectual-context study should also compare Ibn Sīnā's anatomy and Ibn al-Nafīs's other physiological passages."
+        },
+        {
+          "id": "naf-first-attestation",
+          "text": "The pulmonary route is attested in Ibn al-Nafīs's commentary centuries before the European descriptions discussed by West; this batch does not claim he was the first person anywhere to conceive of such a route.",
+          "sourceIds": ["NAF-WEST-2008", "NAF-CHÉHADÉ-1955"],
+          "locator": "West, article discussion of the commentary and European texts; Chéhadé bibliographic record identifies an earlier manuscript-based study",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "Chéhadé's book and primary facsimiles were not read in this pass; prior accounts outside the consulted sources have not been exhaustively audited."
+        },
+        {
+          "id": "naf-transmission-limit",
+          "text": "The sources consulted do not establish that Ibn al-Nafīs's pulmonary passage reached Servetus or later European anatomists.",
+          "sourceIds": ["NAF-WEST-2008"],
+          "locator": "West, pp. 1879–1880; Islam Museum's linked synthesis explicitly notes that the source does not trace readership or transmission",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This is a limit of the evidence examined in this batch, not proof that no route of transmission ever existed."
+        },
+        {
+          "id": "naf-discovery-history",
+          "text": "Modern scholarly recognition of the pulmonary passage followed the manuscript research of Muhyi al-Din al-Tatawi and Meyerhof's translations; this twentieth-century recovery history is distinct from the medieval date of composition.",
+          "sourceIds": ["NAF-WEST-2008"],
+          "locator": "West, pp. 1877–1878 and note on Tatawi's thesis / Meyerhof translations",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "Original dissertation and the complete Meyerhof publications have not yet been directly examined."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Visually inspect and transcribe the relevant Arabic passage from Berlin witness fol. 46r and fol. 65r–v using an accessible edition or facsimile; record exact version and image IDs.",
+    "Locate the corresponding passages in BL Or 14154's scanned sequence and Wellcome WMS Or. 51; do not assume their folio numbering matches Berlin's.",
+    "Read Meyerhof's 1924/1935 publications and Chéhadé's 1955 Arabic-French facsimile study, compare wording, and record disagreements.",
+    "Read the 1988 Arabic edition by Qaṭāyah and assess its textual basis and apparatus against the manuscript witnesses.",
+    "Investigate earlier Arabic and Greek accounts and the debate over European transmission before making stronger priority or influence claims.",
+    "Build a fuller biography, works list, intellectual context, and separate medical/philosophical investigations after bibliography and primary texts are established."
+  ]
+}

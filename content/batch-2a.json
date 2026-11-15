@@ -1,0 +1,2176 @@
+{
+ "sources": [
+  {
+   "id": "DSB-K",
+   "title": "Al-Khwārizmī",
+   "author": "G. J. Toomer",
+   "publication": "Dictionary of Scientific Biography, vol. 7, pp. 358–365 (New York: Charles Scribner's Sons, 1973); read via the St Andrews-hosted copy",
+   "url": "https://mathshistory.st-andrews.ac.uk/DSB/Al-Khwarizmi.pdf",
+   "tier": "academic_research",
+   "read": true,
+   "notes": "Read in full. The hosted copy has no page numbers, so claim locators are entry-level topics. Cites the medieval Arabic sources (Fihrist, al-Tabari, al-Mas'udi) and modern editions."
+  },
+  {
+   "id": "BEA-K",
+   "title": "Khwarizmi: Muhammad ibn Musa",
+   "author": "Sonja Brentjes",
+   "publication": "Biographical Encyclopedia of Astronomers (Springer, 2007)",
+   "url": "https://mathshistory.st-andrews.ac.uk/BEA/al_khwarizmi_bea.pdf",
+   "tier": "academic_research",
+   "read": true,
+   "notes": "Read in full. Independent of DSB-K in authorship and date; locators are entry-level topics."
+  },
+  {
+   "id": "BEA-BM",
+   "title": "Banū Mūsā",
+   "author": "Josep Casulleras",
+   "publication": "Biographical Encyclopedia of Astronomers (Springer, 2007)",
+   "url": "https://mathshistory.st-andrews.ac.uk/BEA/banu_musa_bea.pdf",
+   "tier": "academic_research",
+   "read": true,
+   "notes": "Read in full. The only fully read source on the Banu Musa, so Banu Musa claims are single-source."
+  },
+  {
+   "id": "SEP-K",
+   "title": "al-Kindi",
+   "author": "Peter Adamson",
+   "publication": "Stanford Encyclopedia of Philosophy, first published 1 Dec 2006, substantive revision 25 Apr 2024",
+   "url": "https://plato.stanford.edu/ENTRIES/al-kindi/",
+   "tier": "academic_research",
+   "read": true,
+   "notes": "Read in full (peer-reviewed reference). Single source for al-Kindi; a second independent reference is still needed. Locators are SEP section numbers."
+  },
+  {
+   "id": "L-MT",
+   "title": "Abu Ja'far Muhammad ibn Musa Al-Khwarizmi (MacTutor biography)",
+   "author": "J. J. O'Connor and E. F. Robertson",
+   "publication": "MacTutor History of Mathematics Archive, University of St Andrews",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+   "tier": "academic_research",
+   "read": false,
+   "notes": "Only search excerpts seen; NOT READ. No locators recorded."
+  },
+  {
+   "id": "L-DAB",
+   "title": "Banū Mūsā",
+   "author": "J. al-Dabbagh",
+   "publication": "Dictionary of Scientific Biography, vol. 1, pp. 443–446 (1970)",
+   "url": null,
+   "tier": "academic_research",
+   "read": false,
+   "notes": "Cited in BEA-BM; NOT READ."
+  },
+  {
+   "id": "L-HILL",
+   "title": "The Book of Ingenious Devices (Kitāb al-ḥiyal), translation",
+   "author": "Donald R. Hill (trans.)",
+   "publication": "Dordrecht: D. Reidel, 1979",
+   "url": null,
+   "tier": "academic_research",
+   "read": false,
+   "notes": "Cited in BEA-BM; NOT READ. Needed for any device-level claim about the Banu Musa."
+  },
+  {
+   "id": "L-ROS",
+   "title": "The Algebra of Mohammed ben Musa",
+   "author": "Frederic Rosen (ed. and trans.)",
+   "publication": "London, 1831",
+   "url": null,
+   "tier": "academic_research",
+   "read": false,
+   "notes": "Edition cited in DSB-K (called 'careless' there); NOT READ."
+  },
+  {
+   "id": "L-ADM",
+   "title": "Al-Kindi",
+   "author": "Peter Adamson",
+   "publication": "New York: Oxford University Press, 2007",
+   "url": null,
+   "tier": "academic_research",
+   "read": false,
+   "notes": "Cited in SEP-K; NOT READ. Candidate second source for al-Kindi."
+  },
+  {
+   "id": "L-POP",
+   "title": "Popular web pages (e.g. Big Think) and Wikipedia-derived pages on the Banu Musa and al-Khwarizmi",
+   "author": null,
+   "publication": "various",
+   "url": null,
+   "tier": "disputed_uncertain",
+   "read": false,
+   "notes": "Search excerpts only; reliability uncertain; never sufficient evidence."
+  }
+ ],
+ "scholars": [
+  {
+   "slug": "al-khwarizmi",
+   "name_en": "Muhammad ibn Musa al-Khwarizmi",
+   "kind": "individual",
+   "region": "Iraq",
+   "period": "early",
+   "dates": "c. 780 – c. 850 CE (approximate)",
+   "disciplines": [
+    "Mathematics",
+    "Algebra",
+    "Astronomy",
+    "Geography"
+   ],
+   "dates_note": "c. 780 – c. 850 (BEA); before 800 – after 847 (DSB)"
+  },
+  {
+   "slug": "banu-musa",
+   "name_en": "Banu Musa (the sons of Musa ibn Shakir)",
+   "kind": "group",
+   "region": "Iraq",
+   "period": "early",
+   "dates": "9th century",
+   "disciplines": [
+    "Astronomy",
+    "Mathematics",
+    "Geometry",
+    "Mechanical inventions"
+   ],
+   "dates_note": "9th century"
+  },
+  {
+   "slug": "muhammad-ibn-musa-ibn-shakir",
+   "name_en": "Muhammad ibn Musa ibn Shakir (of the Banu Musa)",
+   "kind": "individual",
+   "region": "Iraq",
+   "period": "early",
+   "dates": "born early 9th century – January or February 873",
+   "disciplines": [
+    "Astronomy"
+   ],
+   "dates_note": "born at the beginning of the 9th century; died January or February 873"
+  },
+  {
+   "slug": "ahmad-ibn-musa-ibn-shakir",
+   "name_en": "Ahmad ibn Musa ibn Shakir (of the Banu Musa)",
+   "kind": "individual",
+   "region": "Iraq",
+   "period": "early",
+   "dates": "9th century",
+   "disciplines": [
+    "Astronomy",
+    "Geometry"
+   ],
+   "dates_note": "born at the beginning of the 9th century; died in the 9th century"
+  },
+  {
+   "slug": "al-hasan-ibn-musa-ibn-shakir",
+   "name_en": "al-Hasan ibn Musa ibn Shakir (of the Banu Musa)",
+   "kind": "individual",
+   "region": "Iraq",
+   "period": "early",
+   "dates": "9th century",
+   "disciplines": [],
+   "dates_note": "born at the beginning of the 9th century; died in the 9th century"
+  },
+  {
+   "slug": "al-kindi",
+   "name_en": "Abu Yusuf Ya'qub ibn Ishaq al-Kindi",
+   "kind": "individual",
+   "region": "Iraq",
+   "period": "early",
+   "dates": "c. 800 – c. 870 CE (approximate)",
+   "disciplines": [
+    "Philosophy",
+    "Optics",
+    "Mathematics",
+    "Astronomy",
+    "Pharmacology"
+   ],
+   "dates_note": "born c. 800 (inferred); died after 866, usually early 870s"
+  }
+ ],
+ "claims": [
+  {
+   "id": "K-01",
+   "scholar": "al-khwarizmi",
+   "section": "Biography",
+   "text": "His origin is uncertain: the epithet al-Khwarizmi suggests Khwarizm (south of the Aral Sea), Ibn al-Nadim says he came from there, but al-Tabari also calls him al-Qutrubbulli (a district near Baghdad); DSB suggests his ancestors, not he, may have come from Khwarizm.",
+   "label": "DISPUTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: origin and epithets"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: origins"
+    }
+   ],
+   "note": "Both sources say the evidence is mixed.",
+   "needs": ""
+  },
+  {
+   "id": "K-02",
+   "scholar": "al-khwarizmi",
+   "section": "Biography",
+   "text": "His religion is read differently: DSB takes al-Tabari's epithet al-Majusi to mean at most Zoroastrian forebears (the pious preface of the Algebra shows an orthodox Muslim), while BEA reads the epithet as indicating a Zoroastrian rather than a Muslim.",
+   "label": "DISPUTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: epithet al-Majusi"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: origins"
+    }
+   ],
+   "note": "The two sources differ.",
+   "needs": ""
+  },
+  {
+   "id": "K-03",
+   "scholar": "al-khwarizmi",
+   "section": "Biography",
+   "text": "He worked in Baghdad in close connection with the Abbasid court, especially under Caliph al-Ma'mun (reigned 813–833).",
+   "label": "VERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: House of Wisdom and al-Ma'mun"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: opening paragraph"
+    }
+   ],
+   "note": "Both read sources agree.",
+   "needs": ""
+  },
+  {
+   "id": "K-04",
+   "scholar": "al-khwarizmi",
+   "section": "Biography",
+   "text": "DSB says he became a member of the House of Wisdom under al-Ma'mun; BEA reports that Ibn al-Nadim attaches him to it but notes considerable modern controversy over what the institution was (library, or translation and research institution).",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: House of Wisdom and al-Ma'mun"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: opening paragraph"
+    }
+   ],
+   "note": "Membership rests on a medieval report; the institution's nature is disputed.",
+   "needs": ""
+  },
+  {
+   "id": "K-05",
+   "scholar": "al-khwarizmi",
+   "section": "Biography",
+   "text": "His dates are approximate: BEA gives born c. 780 and died c. 850; DSB gives born before 800 and died after 847.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-K",
+     "locator": "entry: dates"
+    },
+    {
+     "id": "DSB-K",
+     "locator": "entry: dates"
+    }
+   ],
+   "note": "The two are compatible but differ in precision. No exact dates are known.",
+   "needs": ""
+  },
+  {
+   "id": "K-06",
+   "scholar": "al-khwarizmi",
+   "section": "Biography",
+   "text": "Reports that he went on a mission to the Khazars, or took part in a geodetic expedition, are disputed: DSB thinks the Khazar and Seven Sleepers envoy was probably the Banu Musa's Muhammad; BEA says he may have joined expeditions but doubts the first has been raised (King 2000).",
+   "label": "DISPUTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: Khazar mission"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: expeditions"
+    }
+   ],
+   "note": "Possible confusion with a Banu Musa brother (see B-01).",
+   "needs": ""
+  },
+  {
+   "id": "K-07",
+   "scholar": "al-khwarizmi",
+   "section": "Biography",
+   "text": "He dedicated his Algebra and his astronomical work (the zij) to al-Ma'mun.",
+   "label": "VERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: dedications"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "K-08",
+   "scholar": "al-khwarizmi",
+   "section": "Works",
+   "text": "Surviving and lost works: the Algebra survives in Arabic; the Hindu-numerals arithmetic is lost in Arabic but survives in Latin; the original zij is lost in Arabic and survives only in Latin versions of later revisions; the Geography and a Jewish-calendar treatise survive in Arabic; a Chronicle is lost but quoted by historians.",
+   "label": "VERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: works"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "note": "Both read sources agree on survival status.",
+   "needs": ""
+  },
+  {
+   "id": "K-09",
+   "scholar": "al-khwarizmi",
+   "section": "Works",
+   "text": "The Algebra, al-Kitab al-mukhtasar fi hisab al-jabr wa'l-muqabala ('The Compendious Book on Calculation by Completion and Balancing'), treats equations of the first and second degree (reduced to six standard forms by 'completion' and 'balancing'), then mensuration, commercial problems and inheritance problems.",
+   "label": "VERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the Algebra"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "note": "Described as practical mathematics, not an abstract treatise.",
+   "needs": ""
+  },
+  {
+   "id": "K-10",
+   "scholar": "al-khwarizmi",
+   "section": "Works",
+   "text": "The Algebra uses no symbols (even for numerals): everything is written out in words, with shay' ('thing'), mal (square) and jidhr (root).",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the Algebra"
+    }
+   ],
+   "note": "Single source among those read.",
+   "needs": ""
+  },
+  {
+   "id": "K-11",
+   "scholar": "al-khwarizmi",
+   "section": "Contributions",
+   "text": "His Algebra is the first known (reported) work on algebra written in Arabic. This does not make it the first algebra anywhere: DSB stresses that Greek and Hindu algebra had already advanced further.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    },
+    {
+     "id": "DSB-K",
+     "locator": "entry: sources of the Algebra"
+    }
+   ],
+   "note": "DSB says 'we are told' it was the first in Arabic: a report, not a proven fact.",
+   "needs": ""
+  },
+  {
+   "id": "K-12",
+   "scholar": "al-khwarizmi",
+   "section": "Contributions",
+   "text": "Where his algebraic methods came from is disputed: arguments for Hindu sources (rhetorical style, rule of three, circle formulas) and for Greek geometry (Euclid II); a closely related Hebrew treatise, Mishnat ha-Middot, is dated either c. 150 CE (Gandz) or to an early Islamic period (Sarfatti), so the direction of borrowing is unsettled.",
+   "label": "DISPUTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: sources of the Algebra"
+    }
+   ],
+   "note": "Reported as an open scholarly dispute.",
+   "needs": ""
+  },
+  {
+   "id": "K-13",
+   "scholar": "al-khwarizmi",
+   "section": "Contributions",
+   "text": "His treatise on Hindu numerals (Arabic title uncertain) expounds the digits 1–9, zero and place value; DSB thinks it likely that the decimal place-value system was a recent arrival from India and that his work was the first to expound it systematically, noting the Latin text is probably much altered.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: Hindu numerals"
+    }
+   ],
+   "note": "Hedged in the source ('likely enough'). Not a claim that he invented the numerals.",
+   "needs": ""
+  },
+  {
+   "id": "K-14",
+   "scholar": "al-khwarizmi",
+   "section": "Transmission",
+   "text": "The Algebra was translated into Latin by at least two translators and strongly influenced elementary algebra in Arabic, Persian, Ottoman Turkish, Latin and European vernaculars.",
+   "label": "VERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    },
+    {
+     "id": "DSB-K",
+     "locator": "entry: influence and transmission"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "K-15",
+   "scholar": "al-khwarizmi",
+   "section": "Transmission",
+   "text": "DSB names Robert of Chester and Gerard of Cremona as the 12th-century Latin translators of the algebraic part; it notes the attribution to Gerard is complicated by a free adaptation also ascribed to him. The Latin Hindu-numerals text (early 12th century) led to 'algorismus' and the word 'algorithm'.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: influence and transmission"
+    }
+   ],
+   "note": "Single source.",
+   "needs": ""
+  },
+  {
+   "id": "K-16",
+   "scholar": "al-khwarizmi",
+   "section": "Contributions",
+   "text": "His zij is a revision in the Zij al-Sindhind tradition, mixing Indian (Hindu) parameters and methods, Sasanian elements and Ptolemaic material.",
+   "label": "VERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the zij"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: the zij"
+    }
+   ],
+   "note": "Specifics differ in emphasis between the sources.",
+   "needs": ""
+  },
+  {
+   "id": "K-17",
+   "scholar": "al-khwarizmi",
+   "section": "Contributions",
+   "text": "The sources disagree on observations in the zij: DSB finds no trace of original observation in the extant tables (while noting the lost original introduction reportedly discussed Baghdad observations under al-Ma'mun giving an obliquity of 23°33′), whereas BEA says the tables include values determined by observations during al-Ma'mun's reign.",
+   "label": "DISPUTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the zij"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: the zij"
+    }
+   ],
+   "note": "Preserved as a disagreement.",
+   "needs": ""
+  },
+  {
+   "id": "K-18",
+   "scholar": "al-khwarizmi",
+   "section": "Transmission",
+   "text": "No Arabic copy of his zij survives; it is known through Latin translation (probably by Adelard of Bath, early 12th century) of the revision by Maslama al-Majriti (d. 1007–08), and through the Toledan Tables. Later astronomers including al-Farghani and al-Biruni commented on it.",
+   "label": "VERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the zij"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: the zij"
+    }
+   ],
+   "note": "Commentators noted for relationships in Sub-batch 2B/2C.",
+   "needs": ""
+  },
+  {
+   "id": "K-19",
+   "scholar": "al-khwarizmi",
+   "section": "Contributions",
+   "text": "His Geography, Kitab surat al-ard, is mostly lists of coordinates arranged by climate zone; it is related to Ptolemy's Geography but not a translation of it, and DSB reports it is more accurate in areas ruled by Islam (notably a shorter Mediterranean) and introduces errors of its own. A derivation from a map, possibly al-Ma'mun's, is a scholar's conjecture.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the Geography"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "note": "DSB adds that it was unknown in Europe until the late 19th century.",
+   "needs": ""
+  },
+  {
+   "id": "K-20",
+   "scholar": "al-khwarizmi",
+   "section": "Works",
+   "text": "His Jewish-calendar treatise dates to no earlier than 823/824 (it carries an example for that year).",
+   "label": "VERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: dating of works"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "K-21",
+   "scholar": "al-khwarizmi",
+   "section": "Works",
+   "text": "His astrolabe writings survive only fragmentarily and scholars differ on whether the fragments are genuine; DSB thinks the content was probably drawn from earlier works.",
+   "label": "DISPUTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    },
+    {
+     "id": "DSB-K",
+     "locator": "entry: astrolabe works"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "K-22",
+   "scholar": "al-khwarizmi",
+   "section": "Assessment",
+   "text": "DSB's judgement is that his scientific achievements were modest but extremely influential, because they transmitted Indian and Greek knowledge at a favorable time; BEA stresses the substantial influence of the Algebra. Other scholars' rankings differ (see lead L-MT, not read).",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: assessment"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "note": "An evaluation by the entry's author, recorded as such.",
+   "needs": ""
+  },
+  {
+   "id": "B-01",
+   "scholar": "banu-musa",
+   "section": "Biography",
+   "text": "The Banu Musa were three sons of Musa ibn Shakir: (Jafar) Muhammad (died January or February 873), Abu al-Qasim Ahmad and al-Hasan (both died in the 9th century); all born in Baghdad at the start of the 9th century. BEA says separate biographies are quite impossible.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: header and opening"
+    }
+   ],
+   "note": "One source. Not to be confused with al-Khwarizmi, whom some reports call 'Muhammad ibn Musa the astronomer' (see K-06).",
+   "needs": ""
+  },
+  {
+   "id": "B-02",
+   "scholar": "banu-musa",
+   "section": "Biography",
+   "text": "Their father Musa ibn Shakir is described as a reformed bandit who became an astronomer or astrologer and a friend of al-Ma'mun; after his death al-Ma'mun became guardian of the brothers and sent them to the House of Wisdom.",
+   "label": "UNDER REVIEW",
+   "tier": "later_traditional",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: background"
+    }
+   ],
+   "note": "BEA says 'is described as': biographical tradition, unchecked.",
+   "needs": ""
+  },
+  {
+   "id": "B-03",
+   "scholar": "banu-musa",
+   "section": "Biography",
+   "text": "They worked with al-Ma'mun and his successors on geodetic surveys and on contracting public works, became wealthy, and used part of their wealth to sponsor scientific research and translation.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: background"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "B-04",
+   "scholar": "banu-musa",
+   "section": "Relationships",
+   "text": "They obtained classical manuscripts from Byzantium by sending agents or travelling; on one trip Muhammad met Thabit ibn Qurra of Harran and brought him to Baghdad, where he joined their circle; Hunayn ibn Ishaq is described as part of their team.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: background"
+    }
+   ],
+   "note": "Relationships with Thabit and Hunayn to be recorded in Sub-batch 2B.",
+   "needs": "Second source."
+  },
+  {
+   "id": "B-05",
+   "scholar": "banu-musa",
+   "section": "Works",
+   "text": "About 20 books are known under the Banu Musa on astronomy, mechanics and mathematics; the majority of the astronomical works are lost.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: background"
+    },
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    }
+   ],
+   "note": "Count as stated in BEA-BM.",
+   "needs": ""
+  },
+  {
+   "id": "B-06",
+   "scholar": "banu-musa",
+   "section": "Works",
+   "text": "Muhammad's works include On the Visibility of the Crescent, a Book on the Beginning of the World, and a book variously titled on the motion of the celestial spheres / astronomy, which criticises the Ptolemaic system by explaining daily motion through rotation of all spheres and denying a ninth sphere.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "B-07",
+   "scholar": "banu-musa",
+   "section": "Works",
+   "text": "Ahmad is reportedly the author of a geometric proof that there is no ninth sphere, texts on questions discussed with Sanad ibn 'Ali, a zij mentioned by Ibn Yunus (who also mentions a zij by the three brothers), and a Reasoning on the Trisection of an Angle.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    },
+    {
+     "id": "BEA-BM",
+     "locator": "entry: mathematics"
+    }
+   ],
+   "note": "BEA words these as 'reportedly'.",
+   "needs": ""
+  },
+  {
+   "id": "B-08",
+   "scholar": "banu-musa",
+   "section": "Works",
+   "text": "The Book on the Solar Year was traditionally attributed to Thabit ibn Qurra, but recent research cited by BEA indicates it is most likely a misattribution and the work of the Banu Musa.",
+   "label": "ATTRIBUTION UNCERTAIN",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    }
+   ],
+   "note": "Attribution moved by later research; one source.",
+   "needs": ""
+  },
+  {
+   "id": "B-09",
+   "scholar": "banu-musa",
+   "section": "Works",
+   "text": "Their Book on the Measurement of Plane and Spherical Figures was recast by Nasir al-Din al-Tusi (13th century) and translated into Latin by Gerard of Cremona (12th century) as Liber trium fratrum de geometria and Verba filiorum Moysi filii Sekir; BEA says its contents appear in works by Thabit ibn Qurra, Ibn al-Haytham, Fibonacci, Jordanus de Nemore and Roger Bacon.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: mathematics"
+    }
+   ],
+   "note": "Influence claims are BEA's, not independently checked.",
+   "needs": ""
+  },
+  {
+   "id": "B-10",
+   "scholar": "banu-musa",
+   "section": "Works",
+   "text": "Other geometry works attributed to them include three books related to Apollonius' Conics, a book on a proposition proved by Galen, and a Book on an Oblong Round Figure, which concerns the ellipse and describes the string-and-pegs ('gardener's') construction.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: mathematics"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "B-11",
+   "scholar": "banu-musa",
+   "section": "Works",
+   "text": "BEA says they produced major work in mechanics that marks significant advances over Philo of Byzantium and Hero of Alexandria, whose works Muslim engineers knew well; its reference list cites the Kitab al-Hiyal (ed. al-Hassan, Aleppo 1981) and Hill's 1979 translation.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: mechanics"
+    }
+   ],
+   "note": "BEA does not describe individual devices here. Device-level claims need Hill (L-HILL).",
+   "needs": ""
+  },
+  {
+   "id": "B-12",
+   "scholar": "banu-musa",
+   "section": "Works",
+   "text": "Popular pages claim about 100 devices, early gas masks, a 'first programmable machine', a date around 850 and a division of labor between the brothers (Ahmad in engineering) that BEA does not give (BEA assigns astronomy and geometry works to Ahmad).",
+   "label": "UNVERIFIED",
+   "tier": "disputed_uncertain",
+   "sources": [],
+   "note": "Not used as evidence. Verify against Hill's translation.",
+   "needs": "Hill (1979) and al-Hassan (1981)."
+  },
+  {
+   "id": "B-13",
+   "scholar": "banu-musa",
+   "section": "Biography",
+   "text": "Muhammad's son Nu'aym ibn Muhammad ibn Musa wrote a Book on Geometric Propositions, continuing the family tradition.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: closing"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "Q-01",
+   "scholar": "al-kindi",
+   "section": "Biography",
+   "text": "Abu Yusuf Ya'qub ibn Ishaq al-Kindi belonged to the Arab tribe of Kinda (hence 'philosopher of the Arabs'); he was born in Basra and educated in Baghdad.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.1"
+    }
+   ],
+   "note": "Single source.",
+   "needs": ""
+  },
+  {
+   "id": "Q-02",
+   "scholar": "al-kindi",
+   "section": "Biography",
+   "text": "His dates are approximate: he died after 866 CE, usually put in the early 870s; his birth date is harder to pin down and is usually reckoned as around 800, inferred from service under al-Ma'mun (reign ended 833) and association with al-Mu'tasim (reigned 833–842).",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.1"
+    }
+   ],
+   "note": "Inference, not a recorded date.",
+   "needs": ""
+  },
+  {
+   "id": "Q-03",
+   "scholar": "al-kindi",
+   "section": "Biography",
+   "text": "His career peaked under al-Mu'tasim, to whom he dedicated On First Philosophy and whose son Ahmad he tutored.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.1"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "Q-04",
+   "scholar": "al-kindi",
+   "section": "Relationships",
+   "text": "He oversaw one of the two main groups of translators of the 9th century (the other led by Hunayn ibn Ishaq): the 'Kindi circle' rendered Greek philosophy and science into Arabic. He seems to have mediated between patrons and the translators, many of them Syrian Christians.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.1"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§6"
+    }
+   ],
+   "note": "The circle produced the Theology of Aristotle (SEP §2.1). Relationship to Hunayn for Sub-batch 2B.",
+   "needs": ""
+  },
+  {
+   "id": "Q-05",
+   "scholar": "al-kindi",
+   "section": "Works",
+   "text": "Ibn al-Nadim's Fihrist (10th century) lists works ascribed to him, hundreds of treatises, with scientific and mathematical titles outnumbering philosophical ones; many are lost, and a single manuscript held in Istanbul preserves most of his extant philosophical writings.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.2"
+    }
+   ],
+   "note": "No shelfmark is given in SEP-K, so none is recorded.",
+   "needs": ""
+  },
+  {
+   "id": "Q-06",
+   "scholar": "al-kindi",
+   "section": "Works",
+   "text": "On First Philosophy survives incomplete (first part, four sections); it argues the world is not eternal and God is a simple 'true One'. Its argument against eternity follows John Philoponus; SEP judges the argument weak and its success unclear.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.2"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§3.3"
+    }
+   ],
+   "note": "A synthesis of Greek arguments, not an independent invention.",
+   "needs": ""
+  },
+  {
+   "id": "Q-07",
+   "scholar": "al-kindi",
+   "section": "Works",
+   "text": "On the Intellect survives in Arabic (few copies) and Latin and is the first treatise in the Arabic tradition to give a taxonomy of types of intellect.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.2"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§4.2"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "Q-08",
+   "scholar": "al-kindi",
+   "section": "Contributions",
+   "text": "His optics follows Euclid and Ptolemy (vision by rays emitted from the eye along straight lines) and criticises shortcomings in Euclid's optics; On Perspectives survives only in Latin. SEP says aspects of his account anticipate Ibn al-Haytham, who some decades later was first to explain vision accurately.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§5.1"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§1.2"
+    }
+   ],
+   "note": "Not an anticipation of modern optics: see M-Q1.",
+   "needs": ""
+  },
+  {
+   "id": "Q-09",
+   "scholar": "al-kindi",
+   "section": "Works",
+   "text": "On Rays (De radiis) survives only in Latin and its authenticity is disputed: a strong case against has been made (Matton 2022), while SEP says it may be partly based on authentic material.",
+   "label": "DISPUTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§5.1"
+    }
+   ],
+   "note": "Do not credit al-Kindi with its theory without further evidence.",
+   "needs": ""
+  },
+  {
+   "id": "Q-10",
+   "scholar": "al-kindi",
+   "section": "Contributions",
+   "text": "He wrote many works on astrology, treating it as a rational science with a physical theory of astral causation, and cosmological treatises (e.g. On the Prostration of the Outermost Sphere); his astrology was the most influential part of his work for Latin authors.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§5.2"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§6"
+    }
+   ],
+   "note": "See M-Q2 for the modern assessment.",
+   "needs": ""
+  },
+  {
+   "id": "Q-11",
+   "scholar": "al-kindi",
+   "section": "Contributions",
+   "text": "His extant scientific corpus is sizable (drugs, music, astrology, mathematics); he applied mathematics, especially geometry, across fields, and optics and medicine are well represented.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.2"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§5.1"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "Q-12",
+   "scholar": "al-kindi",
+   "section": "Contributions",
+   "text": "His thought draws on Aristotle (main authority), Neoplatonism (Proclus, Plotinus), Philoponus, and Greek mathematical authors such as Euclid and Nicomachus.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§2.1"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "Q-13",
+   "scholar": "al-kindi",
+   "section": "Legacy",
+   "text": "Al-'Amiri was a second-generation student of his through Abu Zayd al-Balkhi; Isaac Israeli and Miskawayh were influenced by him; later Arabic authors rarely cite him after the 10th century, while Latin authors valued his astrology and some translated works.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§6"
+    }
+   ],
+   "note": "Persons not yet in the archive.",
+   "needs": ""
+  },
+  {
+   "id": "Q-14",
+   "scholar": "al-kindi",
+   "section": "Works",
+   "text": "On Definitions, ascribed to him, has doubted authenticity; it is almost certainly at least a product of his circle, composed in several strata.",
+   "label": "ATTRIBUTION UNCERTAIN",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§2.2"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "Q-15",
+   "scholar": "al-kindi",
+   "section": "Assessment",
+   "text": "SEP calls him the first self-identified philosopher in the Arabic tradition. This is the entry author's characterisation.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.1"
+    }
+   ],
+   "note": "Evaluative; not independently verified.",
+   "needs": ""
+  },
+  {
+   "id": "M-Q1",
+   "scholar": "al-kindi",
+   "section": "Modern assessment",
+   "text": "Modern optics explains vision by light entering the eye, not by rays emitted from the eye; the emission model was superseded.",
+   "label": "MODERN SCIENTIFIC ASSESSMENT",
+   "tier": "modern_assessment",
+   "sources": [],
+   "note": "Drafted by ISA from standard knowledge; no citation yet.",
+   "needs": "Cite an optics or history-of-science reference."
+  },
+  {
+   "id": "M-Q2",
+   "scholar": "al-kindi",
+   "section": "Modern assessment",
+   "text": "Astrology has no empirical support in modern science; ISA records it as part of the historical natural philosophy of the period.",
+   "label": "MODERN SCIENTIFIC ASSESSMENT",
+   "tier": "modern_assessment",
+   "sources": [],
+   "note": "Drafted by ISA; no citation yet.",
+   "needs": "Cite a history-of-science or astronomy reference."
+  },
+  {
+   "id": "M-B1",
+   "scholar": "banu-musa",
+   "section": "Modern assessment",
+   "text": "Modern astronomy does not use physical celestial spheres; the Banu Musa critique concerns the internal structure of the Ptolemaic cosmos and is a historical argument.",
+   "label": "MODERN SCIENTIFIC ASSESSMENT",
+   "tier": "modern_assessment",
+   "sources": [],
+   "note": "Drafted by ISA; no citation yet.",
+   "needs": "Cite a history-of-astronomy reference."
+  }
+ ],
+ "works": [
+  {
+   "id": "W-K1",
+   "scholar": "al-khwarizmi",
+   "title": "al-Kitab al-mukhtasar fi hisab al-jabr wa'l-muqabala",
+   "alt": [
+    "Hisab al-jabr wa'l-muqabala",
+    "The Algebra"
+   ],
+   "translation": "The Compendious Book on Calculation by Completion and Balancing (DSB)",
+   "year": "composed under al-Ma'mun (813–833)",
+   "yearSource": "DSB-K, BEA-K",
+   "subject": "Algebra, mensuration, inheritance problems",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the Algebra"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "notes": "Editions per DSB-K: Rosen (Arabic and English, London 1831, called careless); Mashrafa and Ahmad (Cairo 1939); Latin by Robert of Chester (ed. Karpinski 1915) and a Latin version probably by Gerard of Cremona.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "Both Rosen's and the Cairo edition rest on Oxford, Bodleian I 918, 1 (as printed in DSB-K); other manuscripts exist, e.g. Berlin 5955 no. 6, ff. 60r–95v (reported in DSB-K via Anbouba). Shelfmarks as printed in DSB-K, not independently checked."
+  },
+  {
+   "id": "W-K2",
+   "scholar": "al-khwarizmi",
+   "title": "Hindu-numerals arithmetic (Arabic title uncertain)",
+   "alt": [
+    "Kitab hisab al-'adad al-hindi (possible)",
+    "Kitab al-jam' wa'l-tafriq bi hisab al-hind (possible)"
+   ],
+   "translation": "Treatise on calculation with the Hindu numerals (DSB)",
+   "year": "after the Algebra",
+   "yearSource": "DSB-K, BEA-K",
+   "subject": "Arithmetic with Hindu numerals",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: Hindu numerals"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "notes": "Arabic text lost; survives in Latin (editions: Boncompagni 1857; Vogel 1963, per DSB-K).",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "Unique Latin manuscript (DSB-K); no shelfmark recorded."
+  },
+  {
+   "id": "W-K3",
+   "scholar": "al-khwarizmi",
+   "title": "Zij al-Sindhind",
+   "alt": [
+    "Zij of al-Khwarizmi",
+    "Astronomical tables"
+   ],
+   "translation": "Astronomical handbook after the Sindhind",
+   "year": "under al-Ma'mun (813–833)",
+   "yearSource": "DSB-K, BEA-K",
+   "subject": "Astronomical tables (Indian, Sasanian, Ptolemaic elements)",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the zij"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: the zij"
+    }
+   ],
+   "notes": "Original lost; known through Latin of al-Majriti's revision (edited by Suter 1914; Neugebauer 1962, per DSB-K and BEA-K).",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "Latin manuscripts of the revision exist (DSB-K); no shelfmarks recorded"
+  },
+  {
+   "id": "W-K4",
+   "scholar": "al-khwarizmi",
+   "title": "Kitab surat al-ard",
+   "alt": [
+    "Book of the Form of the Earth",
+    "Geography"
+   ],
+   "translation": "Book of the Form of the Earth (DSB)",
+   "year": "tentatively soon after 816–817 (DSB; insecure)",
+   "yearSource": "DSB-K",
+   "subject": "Geography (coordinate lists)",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the Geography"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "notes": "Edited by von Mžik (Leipzig 1926) from the sole manuscript (DSB-K).",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "Unique manuscript (DSB-K); no shelfmark recorded."
+  },
+  {
+   "id": "W-K5",
+   "scholar": "al-khwarizmi",
+   "title": "Istikhraj ta'rikh al-yahud",
+   "alt": [],
+   "translation": "Extraction of the Jewish Era (DSB)",
+   "year": "not before 823/824",
+   "yearSource": "DSB-K, BEA-K",
+   "subject": "Jewish calendar",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: dating of works"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "notes": "Printed in al-Rasa'il al-mutafarriqa fi'l-hay'a (Hyderabad 1948), per DSB-K.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-K6",
+   "scholar": "al-khwarizmi",
+   "title": "Astrolabe writings (Kitab 'amal al-asturlab and related title)",
+   "alt": [],
+   "translation": "Books on constructing and operating the astrolabe",
+   "year": "unknown",
+   "yearSource": "DSB-K, BEA-K",
+   "subject": "Astrolabe",
+   "authorship_status": "attribution_uncertain",
+   "sources": [
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    },
+    {
+     "id": "DSB-K",
+     "locator": "entry: astrolabe works"
+    }
+   ],
+   "notes": "Fragments only; genuineness debated.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "Fragments in manuscripts reported by DSB-K; no shelfmark recorded here"
+  },
+  {
+   "id": "W-K7",
+   "scholar": "al-khwarizmi",
+   "title": "Kitab al-tarikh (Chronicle)",
+   "alt": [],
+   "translation": "Chronicle",
+   "year": "unknown",
+   "yearSource": "DSB-K, BEA-K",
+   "subject": "History",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: Chronicle"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ],
+   "notes": "Lost; quoted by historians.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-B1",
+   "scholar": "banu-musa",
+   "title": "Kitab al-hiyal",
+   "alt": [
+    "Kitab al-hiyal al-nafi'a",
+    "Book of Ingenious Devices"
+   ],
+   "translation": "Book of Ingenious Devices",
+   "year": "unknown",
+   "yearSource": "(not given in sources read)",
+   "subject": "Mechanics",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: mechanics"
+    }
+   ],
+   "notes": "Cited in BEA-BM: edition by A. Y. al-Hassan (Aleppo 1981); English translation by D. R. Hill (Reidel 1979). Both are unread leads.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "Not stated in the sources read."
+  },
+  {
+   "id": "W-B2",
+   "scholar": "banu-musa",
+   "title": "Kitab ma'rifat masahat al-ashkal al-basita wa'l-kuriyya",
+   "alt": [
+    "Liber trium fratrum de geometria",
+    "Verba filiorum Moysi filii Sekir"
+   ],
+   "translation": "Book on the Measurement of Plane and Spherical Figures",
+   "year": "unknown",
+   "yearSource": "(not given in sources read)",
+   "subject": "Geometry",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: mathematics"
+    }
+   ],
+   "notes": "Latin by Gerard of Cremona (12th c.); recension by al-Tusi (13th c.) per BEA-BM.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-B3",
+   "scholar": "banu-musa",
+   "title": "Book on the Solar Year",
+   "alt": [],
+   "translation": "Book on the Solar Year",
+   "year": "unknown",
+   "yearSource": "(not given in sources read)",
+   "subject": "Astronomy",
+   "authorship_status": "attribution_uncertain",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    }
+   ],
+   "notes": "Traditionally attributed to Thabit ibn Qurra; later research indicates the Banu Musa.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-M1",
+   "scholar": "muhammad-ibn-musa-ibn-shakir",
+   "title": "On the Visibility of the Crescent",
+   "alt": [],
+   "translation": "On the Visibility of the Crescent",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Astronomy",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    }
+   ],
+   "notes": "",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-M2",
+   "scholar": "muhammad-ibn-musa-ibn-shakir",
+   "title": "Kitab harakat al-aflak",
+   "alt": [
+    "Kitab al-hay'a",
+    "Kitab harakat al-falak al-ula"
+   ],
+   "translation": "Book on the Motion of the Celestial Spheres (variant titles)",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Astronomy; critique of the Ptolemaic system",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    }
+   ],
+   "notes": "",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-M3",
+   "scholar": "muhammad-ibn-musa-ibn-shakir",
+   "title": "Book on the Beginning of the World",
+   "alt": [],
+   "translation": "Book on the Beginning of the World",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Astronomy/cosmology",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    }
+   ],
+   "notes": "",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-A1",
+   "scholar": "ahmad-ibn-musa-ibn-shakir",
+   "title": "Reasoning on the Trisection of an Angle",
+   "alt": [],
+   "translation": "Reasoning on the Trisection of an Angle",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Geometry",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: mathematics"
+    }
+   ],
+   "notes": "Reportedly by Ahmad.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-A2",
+   "scholar": "ahmad-ibn-musa-ibn-shakir",
+   "title": "Book on a geometric proof that there is no ninth sphere",
+   "alt": [],
+   "translation": "(descriptive title as given in BEA)",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Astronomy; geometry",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: astronomy"
+    }
+   ],
+   "notes": "Reportedly by Ahmad.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-Q1",
+   "scholar": "al-kindi",
+   "title": "On First Philosophy",
+   "alt": [
+    "Fi al-falsafa al-ula"
+   ],
+   "translation": "On First Philosophy",
+   "year": "under al-Mu'tasim (833–842), to whom it is dedicated",
+   "yearSource": "SEP-K",
+   "subject": "Metaphysics",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.2"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§3.1"
+    }
+   ],
+   "notes": "Editions and translations are listed in SEP-K's bibliography (e.g. Abu Rida; Rashed and Jolivet; Adamson and Pormann); details not recorded here.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "Istanbul manuscript preserves it (SEP-K); no shelfmark recorded."
+  },
+  {
+   "id": "W-Q2",
+   "scholar": "al-kindi",
+   "title": "On the Intellect",
+   "alt": [],
+   "translation": "On the Intellect",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Psychology/epistemology",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.2"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§4.2"
+    }
+   ],
+   "notes": "Few Arabic copies; also in Latin.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-Q3",
+   "scholar": "al-kindi",
+   "title": "On Perspectives (Latin title as in SEP)",
+   "alt": [
+    "De aspectibus"
+   ],
+   "translation": "On Perspectives",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Optics",
+   "authorship_status": "academically_supported",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.2"
+    },
+    {
+     "id": "SEP-K",
+     "locator": "§5.1"
+    }
+   ],
+   "notes": "Preserved only in Latin.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-Q4",
+   "scholar": "al-kindi",
+   "title": "On Rays (De radiis)",
+   "alt": [],
+   "translation": "On Rays",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Physics/astral influence",
+   "authorship_status": "attribution_uncertain",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§5.1"
+    }
+   ],
+   "notes": "Only in Latin; authenticity disputed.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  },
+  {
+   "id": "W-Q5",
+   "scholar": "al-kindi",
+   "title": "On Definitions",
+   "alt": [],
+   "translation": "On Definitions",
+   "year": "unknown",
+   "yearSource": "(not given)",
+   "subject": "Philosophical terminology",
+   "authorship_status": "attribution_uncertain",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§2.2"
+    }
+   ],
+   "notes": "Authenticity doubted; probably a product of his circle.",
+   "original_script_title": null,
+   "language": "Arabic (per the sources' titles); not otherwise stated",
+   "manuscripts": "none recorded in the sources read"
+  }
+ ],
+ "contributions": [
+  {
+   "id": "fa4c9fb1-03c2-55c8-a642-e7fd250d0d09",
+   "scholar": "al-khwarizmi",
+   "title": "Algebra treatise: systematic reduction to standard forms",
+   "text": "A compendium that reduces first- and second-degree problems to six standard forms using 'completion' (al-jabr) and 'balancing' (al-muqabala), with worked applications to mensuration, trade and inheritance, written entirely in words. Reported as the first known algebra work in Arabic.",
+   "kind": "mathematical_development",
+   "confidence": "high",
+   "discipline": "Algebra",
+   "period": "813–833",
+   "prior": "Greek and Hindu algebraic knowledge, which had advanced further in places but did not resemble this presentation (DSB).",
+   "detail": "A practical, systematic handbook that fixed the terminology and form later Arabic algebra and Latin translations used. Not the first algebra, and the source of its methods is disputed (K-12).",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "DSB-K",
+     "locator": "entry: the Algebra",
+     "tier": "academic_research"
+    },
+    {
+     "source": "BEA-K",
+     "locator": "entry: works",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "83d85f9a-56e9-5e8b-86b0-590a7e8bbe8d",
+   "scholar": "al-khwarizmi",
+   "title": "Exposition of the Hindu numerals and place value",
+   "text": "An arithmetic treatise using the digits 1–9, zero and the place-value system, preserved only in Latin; DSB thinks he was probably the first to expound the decimal system systematically in Arabic.",
+   "kind": "commentary_or_synthesis",
+   "confidence": "medium",
+   "discipline": "Mathematics",
+   "period": "after the Algebra",
+   "prior": "The Hindu numerals and decimal place value reached Baghdad from India; alphabetic and sexagesimal systems were in use (DSB).",
+   "detail": "A systematic exposition for Arabic readers. DSB hedges ('likely enough'); the Arabic original is lost and the Latin text may be altered. Not a claim that he invented the numerals.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "DSB-K",
+     "locator": "entry: Hindu numerals",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "aff01f46-0918-5f0b-be1a-e33a5bd212fb",
+   "scholar": "al-khwarizmi",
+   "title": "Zij: revision of the Sindhind astronomical tradition",
+   "text": "A set of astronomical tables and rules revising the Zij al-Sindhind, mixing Indian, Sasanian and Ptolemaic elements; the original is lost and known only through later revisions.",
+   "kind": "commentary_or_synthesis",
+   "confidence": "medium",
+   "discipline": "Astronomy",
+   "period": "813–833",
+   "prior": "Earlier Zij al-Sindhind handbooks (BEA names al-Fazari), the Zij al-Shah and Ptolemy's tables (DSB, BEA).",
+   "detail": "A revision for al-Ma'mun that spread Indian astronomical methods and, via Latin, reached Europe. Whether it contains original observations is disputed (K-17).",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "DSB-K",
+     "locator": "entry: the zij",
+     "tier": "academic_research"
+    },
+    {
+     "source": "BEA-K",
+     "locator": "entry: the zij",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "c7782d75-168c-547d-b437-30359b05a505",
+   "scholar": "al-khwarizmi",
+   "title": "Geography: coordinate tables of the known world",
+   "text": "A list of latitudes and longitudes of places grouped by climate zone, related to but different from Ptolemy's Geography, with a shorter Mediterranean and errors of its own.",
+   "kind": "commentary_or_synthesis",
+   "confidence": "medium",
+   "discipline": "Geography",
+   "period": "after 816–817 (tentative)",
+   "prior": "Ptolemy's Geography and probably al-Ma'mun's world map (a conjecture, DSB).",
+   "detail": "A more accurate map than Ptolemy's for Islamic lands according to DSB; unknown in Europe until the 19th century.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "DSB-K",
+     "locator": "entry: the Geography",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "29a1d0c9-153b-5096-8588-ef059dc7804e",
+   "scholar": "banu-musa",
+   "title": "Mechanical devices (Kitab al-hiyal)",
+   "text": "A work on mechanical devices attributed to the three brothers jointly; BEA says their mechanics marks significant advances over Philo of Byzantium and Hero of Alexandria. Device-level details need Hill's translation.",
+   "kind": "technical_improvement",
+   "confidence": "medium",
+   "discipline": "Mechanical inventions",
+   "period": "9th century",
+   "prior": "The works of Philo and Hero, extensively known to Muslim engineers (BEA).",
+   "detail": "BEA's judgement only; individual devices and inventors are not established from the sources read (popular claims are UNVERIFIED, B-12).",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "BEA-BM",
+     "locator": "entry: mechanics",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "9021e4b3-0989-5300-989f-a798518dcd45",
+   "scholar": "banu-musa",
+   "title": "Book on the Measurement of Plane and Spherical Figures",
+   "text": "A geometry treatise on measuring plane and spherical figures, attributed to the brothers jointly.",
+   "kind": "mathematical_development",
+   "confidence": "medium",
+   "discipline": "Geometry",
+   "period": "9th century",
+   "prior": "Greek geometry, including Archimedes and Apollonius, available in Arabic (BEA mentions Apollonius in related works).",
+   "detail": "BEA calls it one of the fundamental medieval geometry texts: recast by al-Tusi, translated by Gerard of Cremona, and reflected in later authors.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "BEA-BM",
+     "locator": "entry: mathematics",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "ebba9a06-2820-599c-b1bc-5d77bd2842b8",
+   "scholar": "banu-musa",
+   "title": "Sponsoring the acquisition and translation of classical works",
+   "text": "The brothers funded the search for Greek manuscripts in Byzantium and employed translators, including Thabit ibn Qurra and Hunayn ibn Ishaq (per BEA).",
+   "kind": "translation_or_preservation",
+   "confidence": "medium",
+   "discipline": "Philosophy",
+   "period": "9th century",
+   "prior": "Greek scientific texts not yet in Arabic.",
+   "detail": "BEA credits them with greatly promoting the translation movement; details on specific books are not given.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "BEA-BM",
+     "locator": "entry: background",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "d8fabdc1-229f-5f33-a4f3-598f68f5c6c0",
+   "scholar": "muhammad-ibn-musa-ibn-shakir",
+   "title": "Critique of the Ptolemaic ninth sphere",
+   "text": "Attributed to Muhammad: a book arguing that the daily motion of the heavens comes from rotation of all spheres, denying the ninth sphere that moves them in Ptolemy's scheme.",
+   "kind": "theoretical_contribution",
+   "confidence": "medium",
+   "discipline": "Astronomy",
+   "period": "9th century",
+   "prior": "Ptolemy's nine-sphere scheme.",
+   "detail": "A historical argument within Ptolemaic cosmology. Not a claim about modern astronomy (M-B1).",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "BEA-BM",
+     "locator": "entry: astronomy",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "09f3e909-87a4-5e3d-89da-353032c24906",
+   "scholar": "ahmad-ibn-musa-ibn-shakir",
+   "title": "Geometric proof against a ninth sphere (reported)",
+   "text": "Reportedly by Ahmad: a geometric demonstration that no sphere exists beyond the sphere of the fixed stars.",
+   "kind": "theoretical_contribution",
+   "confidence": "low",
+   "discipline": "Astronomy",
+   "period": "9th century",
+   "prior": "Ptolemy's ninth sphere.",
+   "detail": "Reported attribution only (BEA words it 'reportedly'); the text is not known to survive.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "BEA-BM",
+     "locator": "entry: astronomy",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "00abce26-d8e1-5a7f-8c54-f0a4e27fc7d1",
+   "scholar": "al-kindi",
+   "title": "On First Philosophy: Greek arguments for a created world and a simple God",
+   "text": "A treatise adapting Greek, especially Philoponus' and Neoplatonic, arguments to argue the world began and that God is a simple 'true One', dedicated to al-Mu'tasim.",
+   "kind": "commentary_or_synthesis",
+   "confidence": "high",
+   "discipline": "Philosophy",
+   "period": "833–842",
+   "prior": "Aristotle, Neoplatonic texts and Philoponus' arguments against eternity (SEP).",
+   "detail": "Presented as Arabic philosophy's first systematic metaphysics in SEP's characterisation (Q-15), but its argument for a beginning follows Philoponus.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "SEP-K",
+     "locator": "§1.2",
+     "tier": "academic_research"
+    },
+    {
+     "source": "SEP-K",
+     "locator": "§3.3",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "b4f098f0-f948-5e77-b6c8-92fec6218cec",
+   "scholar": "al-kindi",
+   "title": "Leading a translation circle",
+   "text": "He led one of two main translation groups, whose output included the Theology of Aristotle and other Greek works, mediating between patrons and translators.",
+   "kind": "translation_or_preservation",
+   "confidence": "medium",
+   "discipline": "Philosophy",
+   "period": "9th century",
+   "prior": "Greek philosophy and science not yet in Arabic.",
+   "detail": "The extent of his own translating versus organizing is not settled in the source ('seems to have been a mediator').",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "SEP-K",
+     "locator": "§1.1",
+     "tier": "academic_research"
+    },
+    {
+     "source": "SEP-K",
+     "locator": "§6",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "1441df13-e94f-58a2-a752-0d883671d97c",
+   "scholar": "al-kindi",
+   "title": "Geometric optics and critique of Euclid",
+   "text": "Optical work (On Perspectives, Latin only) using geometry and the Euclid–Ptolemy tradition, including criticism of Euclid's theory of vision.",
+   "kind": "commentary_or_synthesis",
+   "confidence": "medium",
+   "discipline": "Optics",
+   "period": "9th century",
+   "prior": "Euclid's and Ptolemy's optics (vision by rays from the eye).",
+   "detail": "Followed the emission model, later superseded; Ibn al-Haytham explained vision accurately some decades later (SEP).",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "SEP-K",
+     "locator": "§5.1",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "3a3b98d6-7e45-5e0e-aa50-4326cdf97784",
+   "scholar": "al-kindi",
+   "title": "On Rays (authenticity disputed)",
+   "text": "A Latin-only treatise explaining physical and astral interaction by rays; its authorship is contested.",
+   "kind": "disputed_attribution",
+   "confidence": "uncertain",
+   "discipline": "Astronomy",
+   "period": "9th century",
+   "prior": "Euclidean ray geometry.",
+   "detail": "SEP notes a strong case against his authorship (Matton 2022) while allowing it may rest on authentic material.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "SEP-K",
+     "locator": "§5.1",
+     "tier": "academic_research"
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "E-K1",
+   "scholar": "al-khwarizmi",
+   "type": "birth",
+   "title": "Birth (approximate)",
+   "year_earliest": 780,
+   "year_latest": 780,
+   "date_certainty": "approximate",
+   "date_note": "BEA gives c. 780; DSB gives before 800.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Born around 780 per BEA; DSB says only before 800.",
+   "sources": [
+    {
+     "id": "BEA-K",
+     "locator": "entry: dates"
+    },
+    {
+     "id": "DSB-K",
+     "locator": "entry: dates"
+    }
+   ]
+  },
+  {
+   "id": "E-K2",
+   "scholar": "al-khwarizmi",
+   "type": "institution",
+   "title": "Active in Baghdad under al-Ma'mun",
+   "year_earliest": 813,
+   "year_latest": 833,
+   "date_certainty": "approximate",
+   "date_note": "The years are al-Ma'mun's reign; his exact period of activity is not documented.",
+   "confidence": "medium",
+   "label": "VERIFIED",
+   "description": "Worked in Baghdad in close connection with the court, especially under al-Ma'mun (reigned 813–833).",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: House of Wisdom and al-Ma'mun"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: opening paragraph"
+    }
+   ]
+  },
+  {
+   "id": "E-K3",
+   "scholar": "al-khwarizmi",
+   "type": "work_composed",
+   "title": "Algebra and zij composed and dedicated to al-Ma'mun",
+   "year_earliest": 813,
+   "year_latest": 833,
+   "date_certainty": "approximate",
+   "date_note": "Exact years unknown.",
+   "confidence": "medium",
+   "label": "VERIFIED",
+   "description": "Both works were composed under al-Ma'mun and dedicated to him; DSB places them in the earlier part of his career.",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: dedications"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ]
+  },
+  {
+   "id": "E-K4",
+   "scholar": "al-khwarizmi",
+   "type": "work_composed",
+   "title": "Jewish-calendar treatise",
+   "year_earliest": 823,
+   "year_latest": 824,
+   "date_certainty": "approximate",
+   "date_note": "Sources phrase the dating differently.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Dated by an internal calculation to 823–824 (DSB); BEA says not before 823/824.",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: dating of works"
+    },
+    {
+     "id": "BEA-K",
+     "locator": "entry: works"
+    }
+   ]
+  },
+  {
+   "id": "E-K5",
+   "scholar": "al-khwarizmi",
+   "type": "work_composed",
+   "title": "Geography (tentative date)",
+   "year_earliest": 816,
+   "year_latest": 817,
+   "date_certainty": "approximate",
+   "date_note": "Single insecure inference.",
+   "confidence": "low",
+   "label": "UNDER REVIEW",
+   "description": "DSB reports a tentative dating by Nallino to soon after 816–817, drawn from internal evidence in the text, and calls the inference far from secure.",
+   "sources": [
+    {
+     "id": "DSB-K",
+     "locator": "entry: the Geography"
+    }
+   ]
+  },
+  {
+   "id": "E-K6",
+   "scholar": "al-khwarizmi",
+   "type": "death",
+   "title": "Death (approximate)",
+   "year_earliest": 850,
+   "year_latest": 850,
+   "date_certainty": "approximate",
+   "date_note": "BEA gives c. 850; DSB gives after 847.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Died around 850 per BEA; DSB says after 847.",
+   "sources": [
+    {
+     "id": "BEA-K",
+     "locator": "entry: dates"
+    },
+    {
+     "id": "DSB-K",
+     "locator": "entry: dates"
+    }
+   ]
+  },
+  {
+   "id": "E-B1",
+   "scholar": "banu-musa",
+   "type": "institution",
+   "title": "Brothers become al-Ma'mun's wards and enter the House of Wisdom",
+   "year_earliest": 813,
+   "year_latest": 833,
+   "date_certainty": "approximate",
+   "date_note": "Years are al-Ma'mun's reign; exact date unknown.",
+   "confidence": "low",
+   "label": "UNDER REVIEW",
+   "description": "After their father's death al-Ma'mun oversaw their education and sent them to the House of Wisdom (a biographical tradition).",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: background"
+    }
+   ]
+  },
+  {
+   "id": "E-M1",
+   "scholar": "muhammad-ibn-musa-ibn-shakir",
+   "type": "death",
+   "title": "Death of Muhammad ibn Musa",
+   "year_earliest": 873,
+   "year_latest": 873,
+   "date_certainty": "exact",
+   "date_note": "The sources give the year with the month uncertain.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Died January or February 873.",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: header and opening"
+    }
+   ]
+  },
+  {
+   "id": "E-Q1",
+   "scholar": "al-kindi",
+   "type": "birth",
+   "title": "Birth (approximate, inferred)",
+   "year_earliest": 800,
+   "year_latest": 800,
+   "date_certainty": "approximate",
+   "date_note": "An inference, not a recorded date.",
+   "confidence": "low",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Usually reckoned to have been born around 800, inferred from service under al-Ma'mun and the court of al-Mu'tasim; born in Basra, educated in Baghdad.",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.1"
+    }
+   ]
+  },
+  {
+   "id": "E-Q2",
+   "scholar": "al-kindi",
+   "type": "institution",
+   "title": "Association with al-Mu'tasim's court; On First Philosophy dedicated to him",
+   "year_earliest": 833,
+   "year_latest": 842,
+   "date_certainty": "approximate",
+   "date_note": "Years are the reign; exact dates not given.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Al-Mu'tasim reigned 833–842; al-Kindi dedicated On First Philosophy to him and tutored his son Ahmad.",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.1"
+    }
+   ]
+  },
+  {
+   "id": "E-Q3",
+   "scholar": "al-kindi",
+   "type": "death",
+   "title": "Death (approximate)",
+   "year_earliest": 870,
+   "year_latest": 870,
+   "date_certainty": "approximate",
+   "date_note": "SEP: after 866, usually early 870s.",
+   "confidence": "low",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Died after 866, usually put in the early 870s (SEP's summary gives c. 870).",
+   "sources": [
+    {
+     "id": "SEP-K",
+     "locator": "§1.1"
+    }
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "id": "R-1",
+   "scholar": "muhammad-ibn-musa-ibn-shakir",
+   "related": "banu-musa",
+   "type": "member_of",
+   "description": "One of the three sons of Musa ibn Shakir known collectively as the Banu Musa; BEA says their biographies cannot be separated.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: header and opening"
+    }
+   ]
+  },
+  {
+   "id": "R-2",
+   "scholar": "ahmad-ibn-musa-ibn-shakir",
+   "related": "banu-musa",
+   "type": "member_of",
+   "description": "One of the three sons of Musa ibn Shakir known collectively as the Banu Musa; BEA says their biographies cannot be separated.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: header and opening"
+    }
+   ]
+  },
+  {
+   "id": "R-3",
+   "scholar": "al-hasan-ibn-musa-ibn-shakir",
+   "related": "banu-musa",
+   "type": "member_of",
+   "description": "One of the three sons of Musa ibn Shakir known collectively as the Banu Musa; BEA says their biographies cannot be separated.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "sources": [
+    {
+     "id": "BEA-BM",
+     "locator": "entry: header and opening"
+    }
+   ]
+  }
+ ],
+ "leads": [
+  "Banu Musa: read Hill's 1979 translation (L-HILL) and al-Dabbagh's DSB entry (L-DAB) before recording any device-level claim or individual invention; check popular claims B-12.",
+  "Relationships to add in Sub-batch 2B once those scholars exist: Muhammad ibn Musa → Thabit ibn Qurra (brought to Baghdad); Banu Musa → Hunayn ibn Ishaq; al-Kindi (translation circle) ↔ Hunayn ibn Ishaq; al-Khwarizmi's zij → al-Farghani and al-Biruni (commentators).",
+  "al-Kindi: find a second independent reference (e.g. Adamson 2007, L-ADM, or a reference-work entry) before any VERIFIED label.",
+  "al-Khwarizmi: read the MacTutor biography (L-MT) and Rosen (L-ROS); obtain Karpinski and Mashrafa/Ahmad editions; check manuscript shelfmarks (Oxford Bodleian, Berlin) in library catalogues.",
+  "Modern-assessment claims M-Q1, M-Q2, M-B1 need citations from qualified reviewers.",
+  "Human review of all Urdu and Arabic text; Arabic/Urdu names for the new scholars are pending (only al-Khwarizmi has unreviewed standard forms)."
+ ]
+}

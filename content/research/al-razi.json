@@ -1,0 +1,268 @@
+{
+  "scholarSlug": "al-razi",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī (865–925 CE) was a physician and philosopher associated with Rayy. The Stanford Encyclopedia of Philosophy reports biographical accounts of hospital work in Rayy and Baghdad. These broad facts are supported here by a modern scholarly reference; a full biography still requires primary and specialist sources.",
+      "claimIds": ["razi-bio-dates", "razi-bio-career"],
+      "gaps": ["Birth and death dates need fuller source comparison.", "Family, education, teachers, travels, students and chronological life events have not been established in this dossier."]
+    },
+    "timeline": { "state": "in_progress", "text": "Only the broad life range 865–925 CE is currently recorded.", "claimIds": ["razi-bio-dates"], "gaps": ["Dated life events and work chronology require source-by-source research."] },
+    "fields": { "state": "draft", "text": "Medicine and ethics are represented by surviving works. One modern study of al-Rāzī's medical writing discusses case records, group outcomes, and explicit limits on certainty; this evidence is not equivalent to modern clinical-trial methods. Other philosophical positions must be distinguished between al-Rāzī's own surviving texts and reports by later critics.", "claimIds": ["razi-philosophy-evidence", "razi-pormann-patient-records", "razi-pormann-not-modern-trial"], "gaps": ["Build separate evidence-led investigations for clinical practice, medicine, ethics, philosophical disputes and alchemical attributions."] },
+    "legacy": { "state": "draft", "text": "A broad account of later influence has not yet been assembled.", "claimIds": [], "gaps": ["Trace Latin and Arabic transmission with specialist sources and verifiable edition history."] }
+  },
+  "sources": [
+    {
+      "id": "RZ-PRIMARY-1848",
+      "title": "A Treatise on the Small-Pox and Measles",
+      "authorOrInstitution": "Abū Bakr al-Rāzī; translated by William Alexander Greenhill; Sydenham Society",
+      "sourceType": "primary_source",
+      "publicationDate": "1848",
+      "stableUrl": "https://wellcomecollection.org/works/g87eufac",
+      "consulted": true,
+      "notes": "Digitized translation of al-Judarī wa-al-ḥasbah. Wellcome identifies 268 online images and a Public Domain Mark. University of Iowa's Heirs of Hippocrates record says Greenhill used a Leiden Arabic manuscript and consulted earlier Greek, Latin and English versions. The passage pagination is pp. 34–35 (chapter III); collate the scan image before final review."
+    },
+    {
+      "id": "RZ-PRIMARY-1766",
+      "title": "Rhazes de variolis et morbillis: Arabice et Latine; cum aliis nonnullis eiusdem argumenti",
+      "authorOrInstitution": "Abū Bakr al-Rāzī; edited by John Channing",
+      "sourceType": "primary_source",
+      "publicationDate": "1766",
+      "stableUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rhazes_de_variolis_et_morbillis_-_Arabice_et_Latine_%3B_cum_aliis_nonnullis_eiusdem_argumenti_%28IA_1911274.med.yale.edu%29.pdf",
+      "consulted": true,
+      "notes": "Arabic text with parallel Latin translation, London: William Bowyer, 1766. The editor's preface says the Arabic was printed from a Leiden Library manuscript apograph prepared under H. Schultens by Eberhard Schedius; it is an early printed textual witness, not an autograph or a modern critical edition. The relevant OCR transcription is at printed Arabic pp. 38 and Latin p. 39; check the page images before treating OCR spellings as diplomatic text."
+    },
+    {
+      "id": "RZ-AUB-1872-CATALOGUE",
+      "title": "Kitāb fī al-jadarī wa-al-ḥaṣbah (1872 digitized edition record)",
+      "authorOrInstitution": "American University of Beirut Libraries, Saab Medical Library",
+      "sourceType": "institutional_catalogue",
+      "publicationDate": "1872",
+      "stableUrl": "https://www.aub.edu.lb/Libraries/sml/resources/Pages/DigitizedHistorical.aspx",
+      "consulted": true,
+      "notes": "AUB's Historical Collection page lists its digitized 1872 Arabic edition. Its linked legacy archive page did not return readable content in this pass. This establishes a library-held/digitized edition lead, not passage-level verification. A Google Books record attributes the edition to al-Madrasah al-Kulīyah al-Sūrīyah al-Injīlīyah, Beirut, 1872, 112 pages."
+    },
+    {
+      "id": "RZ-IOWA-HEIRS",
+      "title": "Heirs of Hippocrates, record 62: Rhazes, A Treatise on the Small-Pox and Measles",
+      "authorOrInstitution": "University of Iowa Libraries, John Martin Rare Book Room",
+      "sourceType": "institutional_catalogue",
+      "publicationDate": "1848 edition record",
+      "stableUrl": "https://heirs.lib.uiowa.edu/record.php?id=62",
+      "consulted": true,
+      "notes": "States that Greenhill used an Arabic manuscript from the public library at Leiden and compared the 1548 Greek, 1766 Latin and 1748 English versions. Its passage references map the symptom chapter to Greenhill pp. 34–35. This is a library catalogue description, not a collation of the cited manuscript."
+    },
+    {
+      "id": "RZ-FLEMMING-2019",
+      "title": "Galen and the Plague",
+      "authorOrInstitution": "Rebecca Flemming, in Galen's Περὶ Ἀλυπίας and the History of the Roman Empire",
+      "sourceType": "academic_research",
+      "publicationDate": "2019",
+      "stableUrl": "https://brill.com/display/book/edcoll/9789004383302/BP000018.pdf",
+      "consulted": true,
+      "notes": "At pp. 237–240 and note 74, Flemming discusses al-Rāzī's symptom comparisons and says the Arabic text remains unedited/unpublished while relying on Greenhill. That statement appears to conflict with the 1766 Arabic-Latin printed edition consulted here; clarify the scope of 'unpublished' before repeating it."
+    },
+    {
+      "id": "RZ-SEP-2025",
+      "title": "Abu Bakr al-Razi",
+      "authorOrInstitution": "Peter Adamson, Stanford Encyclopedia of Philosophy",
+      "sourceType": "academic_research",
+      "publicationDate": "2025-05-14 revision",
+      "stableUrl": "https://plato.stanford.edu/entries/abu-bakr-al-razi/",
+      "consulted": true,
+      "notes": "Consulted for high-level biography, surviving philosophical works, and source-critical distinction between al-Rāzī's own texts and hostile later reports. Not a substitute for medical primary-source study."
+    },
+    {
+      "id": "RZ-WELLCOME-CATALOGUE",
+      "title": "A treatise on the small-pox and measles (catalogue record)",
+      "authorOrInstitution": "Wellcome Collection; item supplied through Medical Heritage Library by Yale's Harvey Cushing / John Hay Whitney Medical Library",
+      "sourceType": "institutional_catalogue",
+      "publicationDate": "1848 edition",
+      "stableUrl": "https://wellcomecollection.org/works/g87eufac",
+      "consulted": true,
+      "notes": "Establishes edition, translator, digitized item, languages and rights statement."
+    },
+    {
+      "id": "RZ-PORMANN-2013",
+      "title": "Qualifying and quantifying medical uncertainty in 10th-century Baghdad: Abu Bakr al-Razi",
+      "authorOrInstitution": "Peter E. Pormann, Journal of the Royal Society of Medicine 106(9), pp. 370–372",
+      "sourceType": "academic_research",
+      "publicationDate": "2013",
+      "stableUrl": "https://journals.sagepub.com/doi/pdf/10.1177/0141076813496515",
+      "consulted": true,
+      "notes": "Read the article. It analyzes al-Razi's reports of case records, patient groups, comparative outcomes, and qualified uncertainty using passages from al-Hawi and al-Shukuk. Its translation and interpretation are mediated through Pormann; note 9 cites the 1993 Muhaqqiq edition, and the article itself flags difficult manuscript readings and a revised interpretation. It does not make these procedures equivalent to modern clinical trials."
+    }
+  ],
+  "works": [
+    {
+      "id": "razi-jadari-hasbah",
+      "scholarSlug": "al-razi",
+      "originalTitle": "الجدري والحصبة",
+      "transliteration": "al-Judarī wa-al-ḥasbah",
+      "translation": "On Smallpox and Measles",
+      "language": "Arabic; consulted English translation",
+      "subject": "Differentiation, prognosis and historical treatment of smallpox and measles",
+      "purpose": "The surviving translated treatise discusses the diseases in chapters on their causes, symptoms, prognosis and regimen.",
+      "authorship": "reviewed",
+      "date": "The consulted Wellcome catalogue describes the 1848 translation; this dossier does not yet establish the composition date of the Arabic work.",
+      "sourceIds": ["RZ-PRIMARY-1848", "RZ-WELLCOME-CATALOGUE"],
+      "digitizedUrl": "https://wellcomecollection.org/works/g87eufac",
+      "passages": [
+        {
+          "workId": "razi-jadari-hasbah",
+          "sourceId": "RZ-PRIMARY-1848",
+          "editionOrShelfmark": "Greenhill translation, London: Sydenham Society, 1848",
+          "language": "English translation from Arabic",
+        "originalPassage": "The English translation reads: “there is not in the Measles so much pain of the back as in the Small-Pox”.",
+        "translation": "Published English translation by Greenhill; no new translation is claimed.",
+        "printedPage": "34–35",
+        "chapterOrSection": "Chapter III; symptoms preceding eruption",
+        "explanation": "The phrase is confirmed in searchable transcription of the scanned 1848 edition. University of Iowa's Heirs of Hippocrates record identifies Greenhill's Leiden manuscript source and confirms his use of earlier versions. The image still needs visual collation."
+      },
+      {
+        "workId": "razi-jadari-hasbah",
+        "sourceId": "RZ-PRIMARY-1766",
+        "editionOrShelfmark": "John Channing, London: William Bowyer, 1766; Arabic text and parallel Latin translation, from a Leiden manuscript apograph",
+        "language": "Arabic with parallel Latin",
+        "originalPassage": "غير أنه لا يكون في الحصبة من وجع الظهر ما يكون مع الجدري ولا في الجدري من الكرب والتغشي ما يكون مع الحصبة",
+        "translation": "Channing's parallel Latin renders the comparison: “Atqui illam, in morbillis non comitabitur dolor dorsi tantus, quantus in variolis; nec in variolis è contra, moeror et nausea, quantæ cum morbillis sunt; nisi variolae sint pravae.” No new English translation is supplied here.",
+        "printedPage": "Arabic p. 38; Latin p. 39",
+        "pdfPage": "OCR pages labeled [38]–[39]",
+        "chapterOrSection": "Chapter III; symptoms indicating eruption",
+        "explanation": "The Arabic and parallel Latin text in the 1766 edition supports a comparison of symptom descriptions. The transcription is OCR extracted; the actual page image and manuscript variants have not yet been collated."
+        }
+      ],
+      "notes": "Do not claim that al-Rāzī discovered either disease. Do not present the historical humoral explanatory framework or its treatments as current medical guidance."
+    },
+    {
+      "id": "razi-hawi",
+      "scholarSlug": "al-razi",
+      "transliteration": "al-Ḥāwī fī al-ṭibb",
+      "translation": "The Comprehensive Book on Medicine",
+      "subject": "Medical compilation",
+      "authorship": "reviewed",
+      "sourceIds": ["RZ-SEP-2025"],
+      "passages": [],
+      "notes": "SEP describes the work as a large collection of medical notes compiled by al-Rāzī's students after his death. Its structure and manuscript history need further research."
+    },
+    {
+      "id": "razi-mansuri",
+      "scholarSlug": "al-razi",
+      "transliteration": "al-Manṣūrī fī al-ṭibb",
+      "translation": "The Book for al-Manṣūr",
+      "subject": "Medicine",
+      "authorship": "reviewed",
+      "sourceIds": ["RZ-SEP-2025"],
+      "passages": [],
+      "notes": "A substantial medical work dedicated to the governor of Rayy, according to the consulted scholarly reference. Exact title variants, structure and primary edition require verification."
+    },
+    {
+      "id": "razi-tibb-ruhani",
+      "scholarSlug": "al-razi",
+      "transliteration": "al-Ṭibb al-rūḥānī",
+      "translation": "The Spiritual Medicine",
+      "subject": "Ethics and spiritual advice",
+      "authorship": "reviewed",
+      "sourceIds": ["RZ-SEP-2025"],
+      "passages": [],
+      "notes": "SEP identifies this as one of two surviving complete philosophical works devoted solely to a philosophical topic. A primary-edition passage is not yet transcribed here."
+    },
+    {
+      "id": "razi-shukuk-galen",
+      "scholarSlug": "al-razi",
+      "transliteration": "al-Shukūk ʿalā Jālīnūs",
+      "translation": "Doubts about Galen",
+      "subject": "Critical examination of Galenic medical writings",
+      "authorship": "reviewed",
+      "sourceIds": ["RZ-SEP-2025", "RZ-PORMANN-2013"],
+      "passages": [],
+      "notes": "The SEP points to a modern Arabic critical edition and French translation (Koetschet, 2019); edition-level study is pending."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "razi-smallpox-measles-differentiation",
+      "scholarSlug": "al-razi",
+      "title": "Comparing symptoms of smallpox and measles in al-Judarī wa-al-ḥasbah",
+      "field": "Medicine / history of clinical description",
+      "historicalProblem": "The treatise asks how the two illnesses may be distinguished and what symptoms precede eruption; this entry studies the surviving textual description, not the diseases as a modern diagnostic guide.",
+      "historicalContext": "Greenhill's 1848 translation opens with a discussion of earlier accounts associated with Galen, then presents al-Rāzī's own causal theory and descriptions. The conceptual language includes humoral medicine.",
+      "method": "In the consulted translated passage, the text compares symptom patterns and their relative frequency, including back pain and anxiety/nausea. This supports a description of comparative clinical writing; it does not by itself prove a controlled experiment or establish how the observations were collected.",
+      "observationsOrCalculations": "Chapter III lists prodromal symptoms and contrasts some as more characteristic of one disease than the other (Greenhill, pp. 34–35, §1; Iowa record 62).",
+      "reportedResult": "The historical author presents a symptom-based distinction between the two illnesses, embedded in a broader theory of bodily humours and disease processes.",
+      "whatWasNew": "Not established. The treatise's own historical argument and priority claims require comparison with earlier and contemporary sources; ISA does not label al-Rāzī the discoverer of smallpox or measles.",
+      "limitations": "The passage is now located in a 1766 Arabic-Latin printed edition and in Greenhill's 1848 English translation, but both page images still require visual collation and the Arabic print is not a substitute for checking its Leiden manuscript witness. Channing's 1766 text claims to print the Arabic from a Leiden manuscript; Rebecca Flemming's 2019 chapter says the Arabic text remains unpublished while relying on Greenhill, a bibliographic discrepancy that needs clarification (possibly 'no modern critical edition'). Historical disease categories do not map cleanly onto every modern diagnostic category.",
+      "laterInfluence": "Not yet researched at the level of editions and transmission.",
+      "claims": [
+        {
+          "id": "razi-bio-dates",
+          "text": "The Stanford Encyclopedia of Philosophy gives al-Rāzī's life dates as 865–925 CE (251–313 AH).",
+          "sourceIds": ["RZ-SEP-2025"],
+          "locator": "Opening paragraph",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "A broader comparison of specialist biographies and primary biographical notices is pending."
+        },
+        {
+          "id": "razi-bio-career",
+          "text": "The Stanford Encyclopedia of Philosophy reports that biographers say al-Rāzī ran hospitals in Rayy and Baghdad.",
+          "sourceIds": ["RZ-SEP-2025"],
+          "locator": "Life and Works section",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "This is reported through later biographers; the individual accounts have not been traced in this dossier."
+        },
+        {
+          "id": "razi-symptom-comparison",
+          "text": "Greenhill's translation presents relative symptom differences between measles and smallpox, including back pain and anxiety/nausea.",
+          "sourceIds": ["RZ-PRIMARY-1848", "RZ-PRIMARY-1766"],
+          "locator": "Channing Arabic p. 38 and Latin p. 39; Greenhill English pp. 34–35, Chapter III",
+          "sourceType": "primary_source",
+          "confidence": "medium",
+          "uncertainty": "Arabic and Latin OCR transcriptions and searchable Greenhill text consulted; page images and the Leiden manuscript witness require collation."
+        },
+        {
+          "id": "razi-philosophy-evidence",
+          "text": "Al-Rāzī's surviving medical works provide stronger direct evidence for his medical thought than hostile later reports provide for some disputed philosophical positions.",
+          "sourceIds": ["RZ-SEP-2025"],
+          "locator": "Opening paragraph; Life and Works",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This summarizes the source-critical distinction made by the consulted scholarly reference; each philosophical topic still needs its own assessment."
+        }
+      ],
+      "state": "draft"
+    },
+    {
+      "id": "razi-medical-uncertainty-records",
+      "scholarSlug": "al-razi",
+      "title": "Patient records, group outcomes, and qualified certainty in al-Razi's medical writing",
+      "field": "History of medicine / medical epistemology",
+      "historicalProblem": "How does the evidence presented by Peter Pormann characterize al-Razi's use of patient records and numerical outcomes, and what limits should be kept on modern comparisons?",
+      "historicalContext": "Pormann places al-Razi's clinical writing in the hospital environments of Rayy and Baghdad and examines reported passages from al-Hawi and Doubts about Galen. These texts engage Greek medical authorities while drawing on reported observations and patient records.",
+      "method": "Read Pormann's 2013 article and recorded its references to the 1993 Muhaqqiq Arabic edition of Doubts about Galen. This dossier paraphrases Pormann's English translations and interpretation; it does not claim direct collation of the Arabic edition or manuscripts.",
+      "observationsOrCalculations": "Pormann reports a passage discussing about 300 cases among roughly 2,000 whose outcomes differed from a stated expectation, and interprets it as evidence that al-Razi cautioned against absolute certainty. He also discusses group outcomes and a comparison involving treated and untreated patients. The numerical report is not a modern trial dataset, and its original context and manuscript readings require direct checking.",
+      "reportedResult": "The article supports a bounded account of reported case recording, numerical comparison, and explicit qualification of medical certainty in al-Razi's writing. Pormann notes that al-Razi does not clearly identify the condition in the approximately 2,000-patient passage and cautions against treating its account as a modern formal method.",
+      "whatWasNew": "This creates a distinct evidence-linked investigation beyond the smallpox/measles treatise, connecting al-Razi's accounts of records and uncertain outcomes to a named modern study and its cited Arabic edition.",
+      "limitations": "This is one modern article's analysis and translation, not a new translation or independent verification. The cited 1993 Arabic edition and manuscript witnesses were not inspected. The text's difficult readings and Pormann's revised interpretation are explicitly noted in the article. No claim is made that al-Razi invented clinical trials, statistics, or modern evidence-based medicine; no historical treatment is medical advice.",
+      "laterInfluence": "Not assessed in this bounded study.",
+      "claims": [
+        { "id": "razi-pormann-patient-records", "text": "Pormann reports that al-Razi refers in Doubts about Galen to recording patient names and clinical developments in Baghdad and Rayy when comparing outcomes with Galenic accounts.", "sourceIds": ["RZ-PORMANN-2013"], "locator": "p. 370", "sourceType": "academic_research", "confidence": "medium", "uncertainty": "This is mediated through Pormann's translation and account; the Arabic edition and manuscript witnesses have not been collated here." },
+        { "id": "razi-pormann-uncertainty", "text": "Pormann translates a passage in which al-Razi reports approximately 300 contrary outcomes among about 2,000 patients and argues that prognosis should not be stated with absolute certainty.", "sourceIds": ["RZ-PORMANN-2013"], "locator": "p. 371, citing al-Razi 1993, p. 63, lines 14–18", "sourceType": "academic_research", "confidence": "medium", "uncertainty": "The article says the condition is not clear, cites corrections based on a fresh manuscript examination, and does not establish the numbers independently in this dossier." },
+        { "id": "razi-pormann-not-modern-trial", "text": "Pormann discusses group and comparison practices while explicitly questioning whether a later European theoretical concept of patient groups can be applied; the present dossier does not equate the evidence with modern clinical trials.", "sourceIds": ["RZ-PORMANN-2013"], "locator": "pp. 371–372", "sourceType": "academic_research", "confidence": "high", "uncertainty": "A full historiographic comparison would require Pormann's cited sources and the Arabic passages to be examined directly." }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Which Arabic manuscript(s) underlie Greenhill's translation, and how does the translated passage compare with the Arabic text?",
+    "What is the composition date of al-Judarī wa-al-ḥasbah, and what evidence supports it?",
+    "Which earlier Greek, Syriac and Arabic texts contain comparable disease descriptions?",
+    "What evidence supports clinical observation, and what claims about experimentation are unsupported?",
+    "Which specific medical/alchemical writings are securely attributed to al-Rāzī, and what are their manuscript witnesses?",
+    "What primary and specialist sources can establish the details of his life in Rayy and Baghdad?"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "scholarSlug": "al-kindi",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Abū Yūsuf Yaʿqūb ibn Isḥāq al-Kindī was a ninth-century philosopher and scholar whose writings covered mathematics, science, and philosophy. Peter Adamson's Stanford Encyclopedia account places his life approximately around 800–870 CE and describes his role in the Baghdad translation milieu. This focused dossier concerns one work attributed to him; it is not a complete biography.",
+      "claimIds": ["kind-identity", "kind-translation-context"],
+      "gaps": ["Reconcile the differing death-date traditions and complete the biography from Arabic biographical sources and specialist studies.", "Audit the catalogue's individual work and contribution claims against primary texts and independent scholarship."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The cryptanalysis treatise is assigned to al-Kindī's ninth-century milieu, but the sources consulted do not establish an exact composition year. The modern date of an edition and the date of a surviving manuscript image must not be substituted for composition date.",
+      "claimIds": ["kind-work-date-limit"],
+      "gaps": ["Establish the treatise's manuscript witness, copy date, and composition-date argument from the critical edition and catalogue records."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "Ismāʿīl Durmuş's TDV encyclopedia entry describes al-Kindī's *Risāla fī istikhrāj al-muʿammā* as distinguishing substitution and transposition, including their combination, and discussing frequency ranks alongside letter combinations and likely conventional openings. This is a secondary account of a medieval text. It supports a bounded description of a multi-clue procedure, not the claim that every cipher can be solved, that he invented all cryptography, or that the work is equivalent to modern statistical cryptanalysis.",
+      "claimIds": ["kind-work-attribution", "kind-method-components", "kind-survival-priority"],
+      "gaps": ["Read the Arabic critical text and its apparatus directly, especially edition volume I, pp. 213–259; transcribe and translate a bounded passage with page-level locators.", "Determine which examples and limitations belong to al-Kindī's text versus editorial headings, notes, or later summaries."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "TDV identifies al-Kindī's treatise as the earliest surviving work on message concealment and recovery it discusses, while also reporting an earlier *Kitāb al-Muʿammā* attributed to al-Khalīl ibn Aḥmad. The defensible claim is therefore about the earliest surviving treatise identified by this reference, not an absolute invention priority or proof that no earlier practice existed.",
+      "claimIds": ["kind-survival-priority", "kind-earlier-attribution"],
+      "gaps": ["Review TDV's bibliography and the critical edition's evidence for earlier cryptological writing; trace later Arabic treatises without presuming direct borrowing."]
+    }
+  },
+  "sources": [
+    {
+      "id": "KND-TDV-MUAMMA",
+      "title": "MUAMMA",
+      "authorOrInstitution": "İsmail Durmuş, TDV İslâm Ansiklopedisi, vol. 30, pp. 319–320",
+      "publicationDate": "2020 digital edition; print volume 30",
+      "sourceType": "reference_work",
+      "stableUrl": "https://islamansiklopedisi.org.tr/muamma#1",
+      "consulted": true,
+      "notes": "Read the Turkish encyclopedia entry at its al-Kindī discussion and bibliography. It reports his distinctions among substitution, transposition, and combined systems, and summarizes letter-frequency ranking, letter compatibility, and conventional openings. It cites the primary edition and provides its text page ranges; this source is a modern reference work, not the primary text itself."
+    },
+    {
+      "id": "KND-SEP-ADAMSON",
+      "title": "Al-Kindi",
+      "authorOrInstitution": "Peter Adamson, Stanford Encyclopedia of Philosophy",
+      "publicationDate": "First published 2006; substantive revision 25 April 2024",
+      "sourceType": "academic_research",
+      "stableUrl": "https://plato.stanford.edu/entries/al-kindi/",
+      "consulted": true,
+      "notes": "Read the sections on life and works. Gives approximate dates, Baghdad education and court context, describes the translation circle, and reports the breadth of works. This source is not used as evidence for the cryptanalysis procedure."
+    },
+    {
+      "id": "KND-MARAYATI-1987",
+      "title": "Risāla fī istiḫrāj al-muʿammā, in ʿIlm al-taʿmiya wa-istiḫrāj al-muʿammā ʿinda al-ʿArab, vol. I",
+      "authorOrInstitution": "Al-Kindī; edited within the volume by Muḥammad Marāyātī, Yaḥyā Mīr ʿĀlam, and Ḥassān al-Ṭayyān",
+      "publicationDate": "Damascus, 1987",
+      "sourceType": "primary_source",
+      "stableUrl": "https://islamansiklopedisi.org.tr/muamma#1",
+      "consulted": false,
+      "notes": "The edition itself has not yet been directly consulted in this batch. TDV bibliography identifies al-Kindī's text at vol. I, pp. 213–259, and the TDV prose cites parts of that range. A direct edition scan or physical copy is required before recording a passage as independently collated."
+    },
+    {
+      "id": "KND-MARAYATI-2003-CATALOGUE",
+      "title": "Al-Kindi's Treatise on Cryptanalysis, volume 1",
+      "authorOrInstitution": "Bibliographic record, Google Books; KFCRIS and KACST edition",
+      "publicationDate": "2003",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://books.google.com/books/about/Al_Kindi_s_Treatise_on_Cryptanalysis.html?hl=en&id=IhoVAQAAIAAJ&output=html_text",
+      "consulted": true,
+      "notes": "Catalogue metadata and table of contents consulted. It lists separate sections on frequency of letter occurrence and letter combinations, but this record is not evidence for the Arabic text's wording. The Arabic text and English translation in the volume have not been consulted here."
+    }
+  ],
+  "works": [
+    {
+      "id": "kind-risala-istikharaj-al-muamma",
+      "scholarSlug": "al-kindi",
+      "originalTitle": "رسالة في استخراج المعمى",
+      "transliteration": "Risāla fī istiḫrāj al-muʿammā",
+      "translation": "Epistle on Recovering Concealed Writing",
+      "language": "Arabic",
+      "subject": "Methods for classifying and recovering concealed writing",
+      "purpose": "The title and introductory description concern methods for recovering meanings from writing made obscure by unfamiliar signs. The work's detailed context and addressee require direct collation.",
+      "authorship": "academically_supported",
+      "date": "Associated with al-Kindī's ninth-century milieu; exact composition date not established by sources consulted here.",
+      "sourceIds": ["KND-TDV-MUAMMA", "KND-MARAYATI-1987", "KND-MARAYATI-2003-CATALOGUE"],
+      "digitizedUrl": "https://islamansiklopedisi.org.tr/muamma#1",
+      "passages": [
+        {
+          "workId": "kind-risala-istikharaj-al-muamma",
+          "sourceId": "KND-TDV-MUAMMA",
+          "editionOrShelfmark": "Durmuş's Turkish summary, checked against its bibliography for the cited 1987 edition",
+          "language": "Turkish secondary account; English paraphrase",
+          "originalPassage": "The reference describes al-Kindī as distinguishing substitution and transposition, explaining their combined use, and discussing frequency ranks, letter combinations that can or cannot occur, and likely formulaic openings in correspondence.",
+          "translation": "English paraphrase of the modern reference work, not a translation of al-Kindī's Arabic text.",
+          "printedPage": "TDV vol. 30, pp. 319–320; online paragraphs 121–124. Primary edition cited by TDV: vol. I, text pp. 213–259.",
+          "chapterOrSection": "TDV entry MUAMMA, section 1/2, discussion of cryptographic treatises and al-Kindī",
+          "explanation": "The specific method summary is mediated through Durmuş. The edition pages are reported by the reference and have not been independently inspected; no direct Arabic quotation, worked example, or calculation is claimed here."
+        }
+      ],
+      "notes": "Keep the literature's label 'cryptanalysis' separate from a claim of modern statistical theory. The primary text remains a collation task, and not all contents of the 2003 volume have been verified against the 1987 edition."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "kind-cryptanalysis-method-summary",
+      "scholarSlug": "al-kindi",
+      "title": "A multi-clue method in al-Kindī's treatise on concealed writing",
+      "field": "Mathematics / history of cryptanalysis",
+      "historicalProblem": "What method components does a specialist reference attribute to al-Kindī's surviving treatise, and how far can those claims be taken before the Arabic text is directly collated?",
+      "historicalContext": "The Arabic reference distinguishes technical message concealment and recovery from literary riddles. It reports older writing about concealment and an earlier book attributed to al-Khalīl, then identifies al-Kindī's treatise as the earliest surviving work in its account. This dossier records those claims as a modern source's description, not a settled universal priority claim.",
+      "method": "Read İsmail Durmuş's Turkish TDV entry, especially the al-Kindī discussion and bibliography (online paragraphs 121–124; print vol. 30, pp. 319–320). Use its citations to locate the 1987 edition, vol. I, pp. 213–259, and record that edition as not yet consulted. Peter Adamson's SEP article was read only for the scholar's general context, not for the cryptanalysis method. No operational demonstration or new translation was attempted.",
+      "observationsOrCalculations": "The TDV account names multiple analytical cues: classification of substitution and transposition (including a combined form), ranking letters by frequency in Arabic, checking letter combinations, and considering conventional openings of letters or speeches. The dossier does not add a modern frequency table, a plaintext example, sample-size threshold, or claim that these cues guarantee recovery.",
+      "reportedResult": "The sources support a bounded account that the treatise, as summarized by TDV, sets out a multi-clue approach to concealed writing. The 1987 critical edition provides a specific path for future verification, but its Arabic text has not yet been directly checked here.",
+      "whatWasNew": "No claim of invention of cryptography, absolute world priority, earliest statistical inference, universal solvability, or direct European transmission is made. TDV's narrower characterization is 'the first surviving work' in the field it describes; it also reports an earlier work attributed to al-Khalīl.",
+      "limitations": "The primary Arabic edition and apparatus have not been read in this batch. Method details are a Turkish reference-work summary, not a fresh translation of the treatise. The modern labels 'frequency analysis' and 'cryptanalysis' may not map exactly to the author's terms. The manuscript witness, composition date, editorial interventions, examples, and textual variants remain unverified.",
+      "laterInfluence": "Not assessed. TDV lists later Arabic works, but a list does not establish direct borrowing or a transmission chain from al-Kindī to any particular author.",
+      "claims": [
+        {
+          "id": "kind-identity",
+          "text": "Peter Adamson's SEP account identifies Abū Yūsuf Yaʿqūb ibn Isḥāq al-Kindī as a ninth-century philosopher and gives approximate dates of ca. 800–870 CE.",
+          "sourceIds": ["KND-SEP-ADAMSON"],
+          "locator": "SEP, section 1.1, Life",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The dates are approximate; other reference traditions give different death dates."
+        },
+        {
+          "id": "kind-translation-context",
+          "text": "Adamson describes al-Kindī as overseeing one of two major ninth-century translator groups and as mediating between patrons and translators.",
+          "sourceIds": ["KND-SEP-ADAMSON"],
+          "locator": "SEP, section 1.1, Life",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This is a modern scholarly synthesis; translator-by-translator relationships require separate primary and specialist evidence."
+        },
+        {
+          "id": "kind-work-attribution",
+          "text": "TDV lists Yaʿqūb ibn Isḥāq al-Kindī as author of Risāla fī istiḫrāj al-muʿammā and cites the text within the 1987 critical edition.",
+          "sourceIds": ["KND-TDV-MUAMMA", "KND-MARAYATI-1987"],
+          "locator": "TDV MUAMMA, paragraphs 116 and bibliography; cited text range vol. I, pp. 213–259",
+          "sourceType": "reference_work",
+          "confidence": "high",
+          "uncertainty": "The critical edition and its manuscript evidence have not yet been independently reviewed."
+        },
+        {
+          "id": "kind-method-components",
+          "text": "Durmuş's TDV account attributes to al-Kindī distinctions among substitution, transposition, and their combination, plus frequency ranking, letter-combination checks, and likely conventional openings as aids to recovering concealed writing.",
+          "sourceIds": ["KND-TDV-MUAMMA"],
+          "locator": "TDV MUAMMA, paragraphs 123–124; print vol. 30, pp. 319–320",
+          "sourceType": "reference_work",
+          "confidence": "high",
+          "uncertainty": "This accurately records the reference's summary; exact Arabic wording and the underlying examples still require direct edition collation."
+        },
+        {
+          "id": "kind-survival-priority",
+          "text": "TDV identifies al-Kindī's treatise as the earliest surviving work on message concealment and recovery in the tradition discussed there.",
+          "sourceIds": ["KND-TDV-MUAMMA"],
+          "locator": "TDV MUAMMA, paragraph 121",
+          "sourceType": "reference_work",
+          "confidence": "medium",
+          "uncertainty": "This is a surviving-text claim within one reference account, not proof of absolute invention priority or absence of earlier lost practice."
+        },
+        {
+          "id": "kind-earlier-attribution",
+          "text": "TDV reports a Kitāb al-Muʿammā attributed to al-Khalīl ibn Aḥmad before listing al-Kindī's treatise, but does not present that earlier text as a surviving witness in the passage consulted.",
+          "sourceIds": ["KND-TDV-MUAMMA"],
+          "locator": "TDV MUAMMA, paragraph 116",
+          "sourceType": "reference_work",
+          "confidence": "medium",
+          "uncertainty": "The attribution and contents of the earlier work require separate source review; it is included here only to delimit priority claims."
+        },
+        {
+          "id": "kind-work-date-limit",
+          "text": "The sources consulted here do not establish an exact composition year for al-Kindī's cryptanalysis treatise.",
+          "sourceIds": ["KND-TDV-MUAMMA", "KND-MARAYATI-1987"],
+          "locator": "TDV chronology and bibliography; edition metadata not directly inspected",
+          "sourceType": "reference_work",
+          "confidence": "high",
+          "uncertainty": "A more precise date may be argued in the edition or specialist literature not yet consulted."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Obtain and read the 1987 critical edition, especially Arabic text pp. 213–259; check the relevant method passages at pp. 216–219 against Durmuş's summary and record exact Arabic and translation.",
+    "Inspect editorial notes about headings, corrections, the seven-leaf example, and any omitted or emended letter counts before repeating numerical claims.",
+    "Identify the manuscript shelfmark and copy date from the edition and a library catalogue; keep witness date separate from composition date.",
+    "Compare the 1987 Arabic edition with the 2003 Arabic-English edition, noting whether page numbers and editorial choices differ.",
+    "Investigate the earlier work attributed to al-Khalīl and later Arabic cryptological works before making stronger priority or influence claims.",
+    "Complete the broader al-Kindī dossier across mathematics, medicine, optics, and philosophy; audit each existing catalogue contribution against sources and disputed attributions."
+  ]
+}

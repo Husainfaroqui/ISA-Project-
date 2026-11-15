@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://isa.example/schemas/scientist-dossier.schema.json",
+  "title": "ISA Scientist Research Dossier",
+  "description": "A local-first, evidence-linked dossier. Empty or unresolved fields are allowed; fabricated evidence is not.",
+  "type": "object",
+  "required": ["scholarSlug", "dossierState", "sections", "sources", "works", "investigations", "recognition", "openQuestions"],
+  "properties": {
+    "scholarSlug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "dossierState": { "$ref": "#/$defs/state" },
+    "lastResearched": { "type": "string", "format": "date" },
+    "sections": {
+      "type": "object",
+      "required": ["biography", "timeline", "fields", "legacy"],
+      "properties": {
+        "biography": { "$ref": "#/$defs/researchedText" },
+        "timeline": { "$ref": "#/$defs/researchedText" },
+        "fields": { "$ref": "#/$defs/researchedText" },
+        "education": { "$ref": "#/$defs/researchedText" },
+        "legacy": { "$ref": "#/$defs/researchedText" }
+      },
+      "additionalProperties": false
+    },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "works": { "type": "array", "items": { "$ref": "#/$defs/work" } },
+    "investigations": { "type": "array", "items": { "$ref": "#/$defs/investigation" } },
+    "recognition": { "type": "array", "items": { "$ref": "#/$defs/recognition" } },
+    "openQuestions": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "state": { "enum": ["not_started", "in_progress", "draft", "reviewed", "published", "blocked"] },
+    "tier": { "enum": ["primary_source", "academic_research", "institutional_catalogue", "reference_work", "community_lead"] },
+    "researchedText": {
+      "type": "object",
+      "required": ["state", "text", "claimIds"],
+      "properties": { "state": { "$ref": "#/$defs/state" }, "text": { "type": "string" }, "claimIds": { "type": "array", "items": { "type": "string" } }, "gaps": { "type": "array", "items": { "type": "string" } } },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "authorOrInstitution", "sourceType", "consulted"],
+      "properties": { "id": { "type": "string" }, "title": { "type": "string" }, "authorOrInstitution": { "type": "string" }, "sourceType": { "$ref": "#/$defs/tier" }, "publicationDate": { "type": "string" }, "stableUrl": { "type": "string", "format": "uri" }, "consulted": { "type": "boolean" }, "notes": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "claim": {
+      "type": "object",
+      "required": ["id", "text", "sourceIds", "sourceType", "confidence"],
+      "properties": { "id": { "type": "string" }, "text": { "type": "string" }, "sourceIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 }, "locator": { "type": "string" }, "sourceType": { "$ref": "#/$defs/tier" }, "confidence": { "enum": ["high", "medium", "low", "unresolved"] }, "uncertainty": { "type": "string" }, "modernAssessment": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "passage": {
+      "type": "object",
+      "required": ["workId", "sourceId", "editionOrShelfmark", "language", "originalPassage"],
+      "properties": { "workId": { "type": "string" }, "sourceId": { "type": "string" }, "editionOrShelfmark": { "type": "string" }, "language": { "type": "string" }, "originalPassage": { "type": "string" }, "translation": { "type": "string" }, "printedPage": { "type": "string" }, "pdfPage": { "type": "string" }, "chapterOrSection": { "type": "string" }, "explanation": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "work": {
+      "type": "object",
+      "required": ["id", "scholarSlug", "transliteration", "subject", "authorship", "sourceIds", "passages"],
+      "properties": { "id": { "type": "string" }, "scholarSlug": { "type": "string" }, "originalTitle": { "type": "string" }, "transliteration": { "type": "string" }, "translation": { "type": "string" }, "language": { "type": "string" }, "subject": { "type": "string" }, "purpose": { "type": "string" }, "authorship": { "$ref": "#/$defs/state" }, "date": { "type": "string" }, "sourceIds": { "type": "array", "items": { "type": "string" } }, "digitizedUrl": { "type": "string", "format": "uri" }, "passages": { "type": "array", "items": { "$ref": "#/$defs/passage" } }, "notes": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "investigation": {
+      "type": "object",
+      "required": ["id", "scholarSlug", "title", "field", "historicalProblem", "historicalContext", "claims", "state"],
+      "properties": { "id": { "type": "string" }, "scholarSlug": { "type": "string" }, "title": { "type": "string" }, "field": { "type": "string" }, "historicalProblem": { "type": "string" }, "historicalContext": { "type": "string" }, "method": { "type": "string" }, "observationsOrCalculations": { "type": "string" }, "reportedResult": { "type": "string" }, "whatWasNew": { "type": "string" }, "limitations": { "type": "string" }, "laterInfluence": { "type": "string" }, "claims": { "type": "array", "items": { "$ref": "#/$defs/claim" } }, "state": { "$ref": "#/$defs/state" } },
+      "additionalProperties": false
+    },
+    "recognition": {
+      "type": "object",
+      "required": ["label", "rationale", "sourceIds", "confidence", "state"],
+      "properties": { "label": { "type": "string" }, "rationale": { "type": "string" }, "sourceIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 }, "confidence": { "enum": ["high", "medium", "low"] }, "state": { "$ref": "#/$defs/state" } },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,182 @@
+{
+  "scholarSlug": "al-zahrawi",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Abū al-Qāsim al-Zahrāwī (Latinized as Albucasis) was an Andalusi physician associated with Córdoba. This batch studies one passage from the surgical treatise at the end of his *Kitāb al-Taṣrīf* and the history of its illustrated witnesses; it is not a complete biography.",
+      "claimIds": ["zah-identity-and-work"],
+      "gaps": ["Build a sourced biography from Arabic biographical witnesses and specialist scholarship; distinguish secure evidence from later honorifics and approximate dates."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The *Kitāb al-Taṣrīf* is generally dated to the late tenth or early eleventh century. The surgical treatise was translated into Latin by Gerard of Cremona in the twelfth century; surviving illustrated copies are later witnesses and should not be confused with the author's own manuscript.",
+      "claimIds": ["zah-latin-transmission", "zah-manuscript-witness"],
+      "gaps": ["Establish composition chronology and translation dates from the Arabic/Latin witnesses, colophons, and critical edition rather than adopting rounded dates from summaries."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "The passage examined here concerns surgical education and judgement: Hamarneh's published account of the treatise's preface reports four disastrous cases attributed to physicians operating without adequate anatomical and practical preparation. Hamarneh also compares illustrations in Arabic manuscript witnesses with later Latin and vernacular reproductions, noting that many later drawings were modified. These are claims mediated through a 1960s scholarly study and require collation with the 1973 Arabic-English edition and manuscript images.",
+      "claimIds": ["zah-preface-training", "zah-drawing-variants"],
+      "gaps": ["Collate Hamarneh's translated preface passage with Spink and Lewis's 1973 Arabic-English critical edition and the manuscript witness used for its text.", "Identify exact folios and compare the instrument drawing in BnF Arabe 2953 against a Latin witness before curating an image or assigning a particular instrument.", "Research instruments and operative methods as separate investigations; do not import modern clinical interpretations or present historical procedures as medical advice."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The British Library catalogues a fourteenth-century illustrated Latin translation of the surgical treatise and records a colophon attributing translation from Arabic to Gerard of Cremona. Hamarneh discusses the Latin text's reception and illustration history, but this batch does not trace a specific procedure into a later author's work or establish priority for any instrument.",
+      "claimIds": ["zah-latin-transmission", "zah-manuscript-witness", "zah-no-priority-claim"],
+      "gaps": ["Trace transmission and influence with specific textual parallels, manuscript evidence, or citations; avoid broad claims of sole invention or 'father of surgery'."]
+    }
+  },
+  "sources": [
+    {
+      "id": "ZAH-HAMARNEH-1962",
+      "title": "Drawings and Pharmacy in al-Zahrāwī's 10th-Century Surgical Treatise",
+      "authorOrInstitution": "Sami Khalaf Hamarneh, Smithsonian Institution, Museum of History and Technology, Bulletin 228, Paper 22 (1962), pp. 81–94",
+      "publicationDate": "1962",
+      "sourceType": "academic_research",
+      "stableUrl": "https://www.gutenberg.org/files/26038/26038-h/26038-h.htm",
+      "consulted": true,
+      "notes": "Full text consulted. At printed pp. 83–85 Hamarneh outlines the work and compares Arabic manuscript illustrations with later Latin/vernacular copies; at p. 87 he reports a translated account from the surgical preface about four fatal outcomes after unskilled operations and emphasizes anatomical and practical preparation. The source is a secondary study, not a direct reading of the Arabic passage; its own modern clinical/historical assessments are not adopted without corroboration."
+    },
+    {
+      "id": "ZAH-BNF-ARABE2953",
+      "title": "Al-maqāla fī al-ʿamal bi-al-yad, BnF Arabe 2953: IIIF manuscript record",
+      "authorOrInstitution": "Bibliothèque nationale de France, Département des Manuscrits; catalogued through Biblissima IIIF Collections",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://iiif.biblissima.fr/collections/manifest/c02ca84ba85c8151f51ecff51d001bd44e37434b",
+      "consulted": true,
+      "notes": "Catalogue describes this as the thirtieth and final section of al-Taṣrīf, records Maghribī script and instrument figures, and links the Gallica digital object and IIIF manifest. The image sequence was not directly inspected in this pass; do not cite a folio or claim to have read the manuscript from its metadata."
+    },
+    {
+      "id": "ZAH-BL-ADD36617",
+      "title": "Add MS 36617: illustrated Latin Chirurgia and Arabic-Latin glossary",
+      "authorOrInstitution": "British Library, Archives and Manuscripts Catalogue",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://searcharchives.bl.uk/catalog/032-002055067",
+      "consulted": true,
+      "notes": "Catalogue describes a first-half-fourteenth-century Italian parchment witness of Gerard of Cremona's Latin translation, coloured instrument drawings on ff. 1r–51r, an Arabic-Latin glossary on ff. 52r–63v, and a translation colophon on f. 51r. It explicitly says digitized images are currently unavailable, so no image autopsy is claimed."
+    },
+    {
+      "id": "ZAH-SPINK-LEWIS-1973",
+      "title": "Albucasis: On Surgery and Instruments",
+      "authorOrInstitution": "Al-Zahrāwī; edited, translated, and annotated by M. S. Spink and G. L. Lewis, Wellcome Institute of the History of Medicine, 1973",
+      "publicationDate": "1973",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://catalogue.bnf.fr/ark:/12148/cb353753649",
+      "consulted": true,
+      "notes": "BNF bibliographic record identifies a definitive Arabic text with facing English translation, commentary, and illustrations. The edition itself was not consulted in this batch; it is the next primary-text collation target."
+    }
+  ],
+  "works": [
+    {
+      "id": "zah-maqala-surgery",
+      "scholarSlug": "al-zahrawi",
+      "originalTitle": "المقالة في العمل باليد",
+      "transliteration": "Al-maqāla fī al-ʿamal bi-al-yad",
+      "translation": "Treatise on Surgical Practice / On Surgery",
+      "language": "Arabic; translated into Latin by Gerard of Cremona; 1973 critical Arabic-English edition catalogued but not read in this batch",
+      "subject": "Surgery, surgical education, operative practice, and illustrated instruments",
+      "purpose": "The thirtieth and final treatise of the *Kitāb al-Taṣrīf* discusses surgery. This entry follows its preface's reported concern with training and the later transmission of its illustrations.",
+      "authorship": "under_review",
+      "date": "Part of a work generally placed in the late tenth or early eleventh century; the exact composition date is not established in this batch.",
+      "sourceIds": ["ZAH-HAMARNEH-1962", "ZAH-BNF-ARABE2953", "ZAH-BL-ADD36617", "ZAH-SPINK-LEWIS-1973"],
+      "digitizedUrl": "https://gallica.bnf.fr/ark:/12148/btv1b84061750",
+      "passages": [
+        {
+          "workId": "zah-maqala-surgery",
+          "sourceId": "ZAH-HAMARNEH-1962",
+          "editionOrShelfmark": "Hamarneh, Smithsonian Bulletin 228, Paper 22; reports his translation/reading of the preface; compare Spink and Lewis 1973",
+          "language": "English rendering discussed by Hamarneh from the Arabic surgical preface",
+          "originalPassage": "Hamarneh reports that the preface recounts four tragic outcomes involving physicians who attempted operations without adequate anatomical knowledge and practical preparation.",
+          "translation": "Paraphrase of Hamarneh's report, not a verbatim quotation or a new translation from Arabic.",
+          "printedPage": "Hamarneh p. 87",
+          "chapterOrSection": "Preface to the thirtieth treatise, as discussed by Hamarneh",
+          "explanation": "This records the historical author's stated rationale as transmitted through Hamarneh. It supports a claim about how the treatise frames surgical competence, not a universal account of medieval training, the factual details of the four cases, or current clinical guidance."
+        }
+      ],
+      "notes": "The Arabic BnF manuscript is discoverable and digitized, but its images and the critical edition have not yet been read in this project. The British Library Latin witness's images are currently unavailable according to its catalogue."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "zah-preface-training-and-illustration-transmission",
+      "scholarSlug": "al-zahrawi",
+      "title": "Surgical training in the preface and the changing life of instrument drawings",
+      "field": "History of medicine / surgery / manuscript illustration",
+      "historicalProblem": "How does the surgical treatise present the risks of untrained operative practice, and what should historians account for when using later copies of its instrument illustrations?",
+      "historicalContext": "The surgical treatise is the final section of al-Taṣrīf. Hamarneh's 1962 study reports a passage from its preface about four fatal outcomes and compares drawings in Arabic witnesses with later Latin/vernacular reproductions. The British Library catalogue documents one later Latin witness copied in fourteenth-century Italy; BnF Arabe 2953 is a digitized Arabic witness whose catalogue describes instrument illustrations. These witnesses belong to different moments in transmission and must not be treated as authorial originals without qualification.",
+      "method": "This batch compares source descriptions rather than reconstructing an operation: Hamarneh's account of the preface and illustration comparisons is checked against institutional catalogue records for BnF Arabe 2953 and BL Add MS 36617, and against the BNF catalogue record for the 1973 critical edition. The named manuscript images and edition pages are queued for direct collation before any individual instrument or procedure is asserted.",
+      "observationsOrCalculations": "Hamarneh states that the surgical section is the work's final treatise and reports four tragic outcomes in the preface associated with inadequate anatomy and operative skill. He notes that many drawings in later reproductions differ substantially from Arabic manuscript drawings. BL records coloured instrument drawings across ff. 1r–51r in its Latin copy and a colophon on f. 51r. BnF metadata identifies Arabe 2953 as the final treatise and says it contains instrument figures; these descriptions do not establish the exact appearance of a particular tool or folio.",
+      "reportedResult": "The consulted evidence supports a careful, limited conclusion: the transmitted treatise's preface, as reported by Hamarneh, foregrounds anatomical knowledge and practical competence; instrument images have a copy and translation history in which later reproductions can depart from Arabic manuscript drawings. Exact text, image variants, and the author's own wording remain to be verified against the 1973 edition and digitized manuscript.",
+      "whatWasNew": "No claim of the first surgical manual, a first instrument, or sole invention is made. This case documents the text's reported pedagogical framing and an image-transmission problem that affects how scientific illustrations should be presented.",
+      "limitations": "The Arabic passage and manuscript page images were not directly inspected; Hamarneh is the intermediary for the preface claim and his article dates to 1962. BL Add MS 36617 digital images are listed as unavailable. BnF Arabe 2953 is linked to Gallica/IIIF but the image sequence was not retrieved in this pass. No surgical technique is reproduced as practical advice. The four cases are not independently corroborated here.",
+      "laterInfluence": "The BL catalogue and Hamarneh describe Latin transmission and reception, but this investigation does not trace a specific preface passage or instrument design into a named later author. Such influence requires separate textual comparison.",
+      "claims": [
+        {
+          "id": "zah-identity-and-work",
+          "text": "The British Library identifies Abū al-Qāsim al-Zahrāwī as the author of the surgical treatise that forms the thirtieth and final part of the Kitāb al-Taṣrīf.",
+          "sourceIds": ["ZAH-BL-ADD36617", "ZAH-BNF-ARABE2953"],
+          "locator": "BL Add MS 36617 scope and contents; BnF Arabe 2953 description",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "Institutional catalogues identify the work and manuscript contents; they do not establish every textual reading or the exact date of composition."
+        },
+        {
+          "id": "zah-preface-training",
+          "text": "Hamarneh reports that al-Zahrāwī's surgical preface recounts four tragic cases and warns of operations attempted without sufficient anatomical knowledge and practical preparation.",
+          "sourceIds": ["ZAH-HAMARNEH-1962"],
+          "locator": "Hamarneh, printed p. 87",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The Arabic preface and Spink-Lewis translation have not been directly collated; the reported cases are not independently corroborated here."
+        },
+        {
+          "id": "zah-drawing-variants",
+          "text": "Hamarneh compares drawings in Arabic manuscript witnesses with later Latin and vernacular reproductions and reports that many later drawings were substantially modified.",
+          "sourceIds": ["ZAH-HAMARNEH-1962"],
+          "locator": "Hamarneh, printed pp. 83–86; discussion of Figs. 1–8",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "This claim summarizes Hamarneh's comparison. The specific manuscript and printed images have not yet been independently re-compared in the project."
+        },
+        {
+          "id": "zah-manuscript-witness",
+          "text": "BL Add MS 36617 is catalogued as a first-half-fourteenth-century Italian parchment copy of Gerard of Cremona's Latin translation, with coloured instrument drawings and a translation colophon; the catalogue says its digitized images are currently unavailable.",
+          "sourceIds": ["ZAH-BL-ADD36617"],
+          "locator": "BL catalogue: date range, ff. 1r–51r, decoration, colophon, digitised content",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "The description is catalogue evidence, not direct inspection of the manuscript leaves."
+        },
+        {
+          "id": "zah-latin-transmission",
+          "text": "The BL catalogue identifies the Latin surgical treatise in Add MS 36617 as Gerard of Cremona's translation and records a colophon that attributes translation from Arabic to Latin to Gerard.",
+          "sourceIds": ["ZAH-BL-ADD36617"],
+          "locator": "BL catalogue: contents and f. 51r colophon description",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "The colophon is reported in the catalogue; its manuscript image was not inspected in this pass."
+        },
+        {
+          "id": "zah-no-priority-claim",
+          "text": "The evidence in this batch supports discussion of pedagogy and illustration transmission but does not establish priority for any surgical procedure or instrument.",
+          "sourceIds": ["ZAH-HAMARNEH-1962", "ZAH-SPINK-LEWIS-1973"],
+          "locator": "Scope limitation for this investigation; compare Hamarneh's account with the unconsulted critical edition",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Instrument-by-instrument comparison with earlier and later texts remains to be conducted."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Read the relevant preface pages and figure commentary in Spink and Lewis (1973), record exact Arabic and English page locators, and collate Hamarneh's account.",
+    "Open BnF Arabe 2953 through the Gallica IIIF manifest, identify the preface and one specific instrument folio, and record manuscript folio and digital canvas identifiers.",
+    "Compare that Arabic image with one Latin witness illustration and document variants without assuming later copies preserve authorial drawings.",
+    "Build the remaining biography, bibliography, and separate evidence-led investigations across dentistry, cautery, trauma, fractures, and other sections only after source passages are inspected.",
+    "Do not turn historical procedures into modern clinical guidance."
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "scholarSlug": "banu-musa",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Banū Mūsā (the sons of Mūsā ibn Shākir) were a scholarly group active in ninth-century Baghdad. This dossier keeps the three brothers together where the surviving catalogue and work tradition attribute texts collectively; it does not assign the fountain model below to one brother.",
+      "claimIds": ["bmu-collective-attribution"],
+      "gaps": ["Build a sourced collective biography from specialist scholarship and early biographical witnesses; distinguish the brothers' individual careers where evidence supports it."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The Kitāb al-ḥiyal is generally associated with the ninth-century Baghdad milieu. The often repeated circa-830 composition date is not established by the specific manuscript record consulted here; the 1209 Berlin-Gotha manuscript is a later witness, not the date of composition.",
+      "claimIds": ["bmu-manuscript-witness"],
+      "gaps": ["Establish composition chronology from the Arabic edition, colophons, and specialist analysis; do not infer it from the date of a copy."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "The examined case is a water-and-wind-operated fountain in a public educational excerpt headed “Model 1.” That heading is the excerpt's label; a separate Hill-based account numbers seven fountain designs as models 88–94 in the 1979 translation. The text describes alternate lily-like and spear-like jets and names tanks, pipes, and a divider plate. The correspondence between the excerpt's label and Hill's numbering needs checking in the complete translation.",
+      "claimIds": ["bmu-model1-description", "bmu-alternation-mechanism", "bmu-numbering-scope"],
+      "gaps": ["Read the full Hill translation and Arabic edition at the Model 1 locator; compare device text and illustration against the Berlin-Gotha or Vatican manuscript image.", "Research the brothers' mathematical, astronomical, and other engineering writings as separate sourced investigations."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The Kitāb al-ḥiyal is catalogued as a work on ingenious devices and survives in multiple manuscript witnesses. This batch establishes one translated device description and its group attribution; it does not trace later adoption or establish invention priority.",
+      "claimIds": ["bmu-collective-attribution", "bmu-manuscript-witness"],
+      "gaps": ["Trace transmission and later use through specific manuscript, citation, or design evidence rather than resemblance alone."]
+    }
+  },
+  "sources": [
+    {
+      "id": "BMU-HILL-EXCERPT",
+      "title": "Ingenious Devices: CIE excerpt labelled “Model 1,” A Many-Shaped Water Fountain",
+      "authorOrInstitution": "Banū Mūsā, translated and annotated by Donald R. Hill (1979); excerpt reproduced by the Center for the Study of Islam and Democracy",
+      "publicationDate": "1979 (translation); excerpt date not stated",
+      "sourceType": "primary_source",
+      "stableUrl": "https://static-gcs.edit.site/users-files/d12c036aeb01dbdb4df46a61c09a9d54/cie_beyond-1001-nights.pdf?dl=1",
+      "consulted": true,
+      "notes": "The accessible source reproduces a selection from Hill's 1979 translation under the editor's heading “Model 1,” with locators to pp. 50–51 and 222–223, 236–237. It is mediated access to a translation, not direct consultation of Hill's complete book or Arabic text. Do not silently treat the educational excerpt's label as Hill's numbering for all devices."
+    },
+    {
+      "id": "BMU-ISMI-HIYAL",
+      "title": "Kitāb al-ḥiyal (Banū Mūsá): work and manuscript catalogue",
+      "authorOrInstitution": "Islamic Scientific Manuscripts Initiative, Max Planck Institute for the History of Science",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/node/3939373",
+      "consulted": true,
+      "notes": "Catalogue identifies Arabic title, collective author, technology subject, a summary of about 100 small machines, and six manuscript witnesses. Metadata is not a direct reading of a manuscript or device passage."
+    },
+    {
+      "id": "BMU-HILL-RECORD",
+      "title": "The Book of Ingenious Devices (Kitāb al-ḥiyal)",
+      "authorOrInstitution": "Wellcome Collection catalogue; Banū Mūsā; translated and annotated by Donald R. Hill",
+      "publicationDate": "1979",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://wellcomecollection.org/works/x67rqd9z",
+      "consulted": true,
+      "notes": "Bibliographic record identifies the translation, publisher, physical description, languages, and contributors. It does not expose the Model 1 text."
+    },
+    {
+      "id": "BMU-ZKM-WITNESS",
+      "title": "Kitāb al-ḥiyal: digital manuscript exhibition record",
+      "authorOrInstitution": "ZKM | Center for Art and Media Karlsruhe; manuscript courtesy of Staatsbibliothek zu Berlin and Stiftung Preußischer Kulturbesitz",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://zkm.de/en/artwork/kitab-al-hiyal-the-book-of-ingenious-devices",
+      "consulted": true,
+      "notes": "Exhibition page displays a manuscript page and identifies a digitized 1209 manuscript. The page is a discovery route to historical imagery; the present dossier has not inspected the full manuscript sequence or confirmed the precise folio for the fountain passage."
+    },
+    {
+      "id": "BMU-FSTC-ALHASSANI-2008",
+      "title": "The Self Changing Fountain of Banu Musa bin Shakir",
+      "authorOrInstitution": "Salim T. S. Al-Hassani, Foundation for Science, Technology and Civilisation (FSTC), Muslim Heritage",
+      "publicationDate": "2008-03-10",
+      "sourceType": "community_lead",
+      "stableUrl": "https://muslimheritage.com/the-self-changing-fountain-of-banu-musa-bin-shakir/",
+      "consulted": true,
+      "notes": "Read the article, including its references and note 1. It analyzes seven fountain designs and says Hill's English translation numbers them as models 88–94 (Hill 1979, pp. 218–231). The article provides modern explanatory drawings and 3D reconstructions; these are not manuscript images or direct evidence of historical operation. Used here only to distinguish the article's sequence numbering from the “Model 1” heading in the CIE excerpt."
+    }
+  ],
+  "works": [
+    {
+      "id": "bmu-kitab-al-hiyal",
+      "scholarSlug": "banu-musa",
+      "originalTitle": "كتاب الحيل",
+      "transliteration": "Kitāb al-ḥiyal",
+      "translation": "The Book of Ingenious Devices",
+      "language": "Arabic; Donald R. Hill's 1979 English translation consulted indirectly through a reproduced excerpt",
+      "subject": "Hydraulic, pneumatic, and mechanical devices",
+      "purpose": "The work describes devices and their construction; this entry examines the translated description of Model 1, a fountain designed to produce alternating jet shapes.",
+      "authorship": "under_review",
+      "date": "Associated with the ninth-century Banū Mūsā; exact composition date not established in this pass.",
+      "sourceIds": ["BMU-HILL-EXCERPT", "BMU-ISMI-HIYAL", "BMU-HILL-RECORD", "BMU-ZKM-WITNESS"],
+      "digitizedUrl": "https://ismi.mpiwg-berlin.mpg.de/node/3939373",
+      "passages": [
+        {
+          "workId": "bmu-kitab-al-hiyal",
+          "sourceId": "BMU-HILL-EXCERPT",
+          "editionOrShelfmark": "Donald R. Hill, translation and annotations, 1979; excerpt reproduced in the Center for the Study of Islam and Democracy PDF",
+          "language": "English translation from Arabic, consulted via a reproduced excerpt",
+          "originalPassage": "The fountain is described as producing lily-like or spear-like jets, operating by wind while it blows, and alternating through water flow.",
+          "translation": "Paraphrase of the reproduced Hill translation excerpt; not a verbatim quotation and not a new translation.",
+          "printedPage": "Hill pp. 50–51; additional excerpted technical discussion pp. 222–223, 236–237",
+      "chapterOrSection": "CIE excerpt item headed “Model 1,” A Many-Shaped Water Fountain; correspondence to Hill's device numbering unresolved",
+      "explanation": "The excerpt identifies a fountain, divider plate, outlet pipes, and connected tanks as parts of the arrangement. Al-Hassani separately reports that Hill numbers the seven fountain devices 88–94. The CIE item heading may be an editorial sequence label; compare Hill's full pages and figures before assigning a Hill model number. Exact plumbing and operation also require checking against the Arabic edition and a manuscript witness."
+        }
+      ],
+      "notes": "Keep collective authorship explicit. The accessible translated excerpt is not a substitute for checking the complete Hill translation, Ahmad al-Hassan's Arabic edition, and manuscript diagrams."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "bmu-model1-alternating-fountain",
+      "scholarSlug": "banu-musa",
+      "title": "The CIE excerpt labelled “Model 1”: a fountain with alternating jet forms",
+      "field": "Engineering / hydraulics / history of technology",
+      "historicalProblem": "What does the mediated translation excerpt say about the fountain's operation, and how should its “Model 1” heading be related to the model numbering in Hill's complete translation?",
+      "historicalContext": "The Kitāb al-ḥiyal is catalogued as an Arabic work attributed collectively to Banū Mūsā and represented by several manuscript witnesses. Donald R. Hill published a translation and annotation in 1979. The device passage is a short reproduced excerpt, headed “Model 1” by the educational source; Al-Hassani's separate Hill-based article says the seven fountains are models 88–94 in the English edition. The entire translation and Arabic text have not been checked to resolve this numbering relation.",
+      "method": "According to the reproduced translation excerpt, the design uses a fountain divided by a plate, pipes, and connected tanks. The excerpt says it can produce a lily-like jet or a spear-like jet, operate by wind while wind blows, and be made to alternate through water flow. The source excerpt does not provide enough verified detail here to reconstruct the complete hydraulic circuit or demonstrate the device experimentally.",
+      "observationsOrCalculations": "No measured quantities, experiment report, or reproducible performance data are present in the consulted excerpt. The evidence is a design description in an English translation reproduced second-hand.",
+      "reportedResult": "The translated excerpt reports an intended fountain capable of two different jet forms and describes wind and flowing water as operating/alternation mechanisms. This is a text-level report, not a claim that a surviving device was built or independently tested.",
+      "whatWasNew": "No novelty, first-invention, or priority claim is made. Establishing how this design relates to earlier devices or later hydraulic mechanisms requires comparative textual and material evidence.",
+      "limitations": "Hill's complete 1979 book and the Arabic edition were not directly read in this pass; the consulted passage is a mediated excerpt. The “Model 1” label is reproduced from the CIE selection and must not be mistaken for a verified device number in Hill. Al-Hassani's 88–94 sequence is a separate secondary report. The relevant manuscript folio, diagram, exact pipe routing, and textual variants have not been verified. Collective attribution to the Banū Mūsā is retained; the design is not assigned to Aḥmad, Muḥammad, or al-Ḥasan individually. No working reconstruction or performance experiment was conducted.",
+      "laterInfluence": "Not established by this batch. The manuscript's survival and later technical resemblance alone do not prove transmission or influence.",
+      "claims": [
+        {
+          "id": "bmu-collective-attribution",
+          "text": "ISMI catalogues the Kitāb al-ḥiyal under the collective author Banū Mūsā; this dossier therefore attributes the work at group level and leaves individual authorship unresolved.",
+          "sourceIds": ["BMU-ISMI-HIYAL", "BMU-HILL-RECORD"],
+          "locator": "ISMI work record author field; Wellcome catalogue contributors and translation note",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "Catalogue attribution does not settle whether particular sections or devices were composed by one brother or collaboratively."
+        },
+        {
+          "id": "bmu-manuscript-witness",
+          "text": "ISMI lists six manuscript witnesses for the Kitāb al-ḥiyal; ZKM identifies a digitized Berlin-Gotha manuscript dated 1209, a copy centuries later than the work's ninth-century association.",
+          "sourceIds": ["BMU-ISMI-HIYAL", "BMU-ZKM-WITNESS"],
+          "locator": "ISMI manuscript-witness list; ZKM medium/material record",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "The present pass has not examined manuscript colophons or the complete digitized witness; the 1209 date is reported by the institution."
+        },
+        {
+          "id": "bmu-model1-description",
+          "text": "The reproduced excerpt of Hill's translation describes Model 1 as a fountain intended to form either a lily-like or spear-like jet.",
+          "sourceIds": ["BMU-HILL-EXCERPT"],
+          "locator": "Model 1, excerpted Hill translation, Hill pp. 50–51",
+          "sourceType": "primary_source",
+          "confidence": "medium",
+          "uncertainty": "The claim is based on a reproduced English translation excerpt; the full translation and Arabic manuscript passage have not been collated."
+        },
+        {
+          "id": "bmu-alternation-mechanism",
+          "text": "The excerpt says the fountain can be operated by wind and can alternate through water flow; the complete hydraulic pathway is not reconstructed from the material consulted.",
+          "sourceIds": ["BMU-HILL-EXCERPT"],
+          "locator": "Model 1, excerpted Hill translation, Hill pp. 50–51",
+          "sourceType": "primary_source",
+          "confidence": "medium",
+          "uncertainty": "Mechanism details require direct checking of Hill's complete explanation, diagrams, Arabic text, and manuscript witness."
+        },
+        {
+          "id": "bmu-numbering-scope",
+          "text": "The CIE educational selection labels its reproduced fountain excerpt “Model 1,” while Al-Hassani reports that Hill's seven fountain designs in the 1979 English translation are numbered 88–94; the dossier therefore treats “Model 1” as the excerpt's heading until Hill's full volume is checked.",
+          "sourceIds": ["BMU-HILL-EXCERPT", "BMU-FSTC-ALHASSANI-2008"],
+          "locator": "CIE excerpt heading and Hill pp. 50–51, 222–223, 236–237; Al-Hassani, note 1, citing Hill pp. 218–231",
+          "sourceType": "community_lead",
+          "confidence": "medium",
+          "uncertainty": "Neither Hill's cited pages nor the 1981 Arabic edition have been collated here; the page references may describe different sections or editorial numbering."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Read Donald R. Hill's complete 1979 translation and Ahmad al-Hassan's 1981 Arabic edition at Model 1, recording all page and figure locators.",
+    "Find the exact Model 1 folio in the Berlin-Gotha and Vatican witnesses; compare its drawing and wording with the editions.",
+    "Establish the textual basis for the composition date and distinguish it from the 1209 copy date.",
+    "Research individual biographies, mathematics, astronomy, and other works without collapsing the three brothers into one undifferentiated biography.",
+    "Trace specific reception evidence before making claims about later influence or invention priority."
+  ]
+}

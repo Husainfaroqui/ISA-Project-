@@ -1,0 +1,241 @@
+{
+  "scholarSlug": "al-farghani",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Abū al-ʿAbbās Aḥmad ibn Muḥammad ibn Kathīr al-Farghānī was a ninth-century astronomer known for a concise compendium of Ptolemaic astronomy. Gregg DeYoung's biographical entry says few personal details are known; it dates the compendium between 833 and 857 and distinguishes its documented Arabic, Hebrew, and Latin transmission from more tentative engineering attributions. This dossier studies one passage, not the full biography.",
+      "claimIds": ["far-identity", "far-compendium-date"],
+      "gaps": ["Investigate the Arabic biographical notices and manuscript evidence behind the approximate life chronology.", "Audit the Nilometer, canal, astrolabe, and other contributions separately; do not infer engineering authorship from association alone."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The compendium is dated after al-Maʾmūn's death in 833 and before 857 by DeYoung. The 1669 Golius bilingual edition is a later printed witness, not the composition date. No exact date for the chapter 8 numerical passage is established here.",
+      "claimIds": ["far-compendium-date", "far-golius-date"],
+      "gaps": ["Build a manuscript transmission timeline from the 16 witnesses recorded by ISMI and specialist textual studies."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "In chapter 8 of the compendium, the Latin text reproduced from Golius's 1669 edition reports 56⅔ miles for one degree of the Earth's circumference, multiplies by 360 to give 20,400 miles, and gives the diameter as about 6,500 miles. The arithmetic 56⅔ × 360 = 20,400 checks. Dividing 20,400 by the medieval approximation 22/7 gives about 6,491, so the rounded 6,500 and variant readings must be preserved. Sally P. Ragep classifies these as the Maʾmūnī values and contrasts them with a different Ptolemaic value. The text reports inherited astronomical measurements; this is not presented as al-Farghānī's own field measurement or a modern-unit estimate.",
+      "claimIds": ["far-degree-value", "far-circumference-calculation", "far-diameter-rounding", "far-mamuni-context", "far-chapter-witness-locators"],
+      "gaps": ["Collate the Arabic text of chapter 8 and the 1669 Latin against a modern critical edition and several manuscript witnesses.", "Establish the precise unit meant by mīl and its cubit basis from the Arabic passage and specialist metrology; do not convert to kilometres until that is resolved."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The compendium circulated in Arabic and was translated into Latin and Hebrew. This passage contributes a reported Earth-size parameter to the treatise's cosmographic framework. Neither the numerical value nor the text's European reception proves that al-Farghānī personally performed the survey, and the familiar Columbus story requires separate evidence about units and transmission.",
+      "claimIds": ["far-transmission", "far-priority-limit"],
+      "gaps": ["Trace the text's reception through identified manuscripts, translations, and quotations; assess the Columbus narrative from primary travel and astronomical texts."]
+    }
+  },
+  "sources": [
+    {
+      "id": "FAR-TOYNBEE-1895",
+      "title": "Dante Studies and Researches: Dante's Obligations to Alfraganus",
+      "authorOrInstitution": "Paget Toynbee, scanned edition hosted by the Warburg Institute",
+      "publicationDate": "1895",
+      "sourceType": "academic_research",
+      "stableUrl": "https://resources.warburg.sas.ac.uk/pdf/enb1600b2447548.pdf",
+      "consulted": true,
+      "notes": "Read the scan at printed pp. 59–60 and 66–67, 74–75. Toynbee identifies the fifth printed edition (E) as Golius's Amsterdam 1669 bilingual Arabic-Latin edition and transcribes its chapter 8 Latin passage on the degree, circumference, and diameter of the Earth. He reports variants among earlier Latin editions, including a more exact diameter reading. This is an older intermediary transcription and textual comparison, not direct collation of the Arabic manuscript."
+    },
+    {
+      "id": "FAR-RAGEP-2023",
+      "title": "Al-Jaghmīnī’s Short Tract on the Volumes of the Planetary and Stellar Bodies: Editio princeps and Translation",
+      "authorOrInstitution": "Sally P. Ragep, Nazariyat 9(2), 2023, pp. 113–145",
+      "publicationDate": "2023",
+      "sourceType": "academic_research",
+      "stableUrl": "https://www.nazariyat.org/content/5-sayilar/19-cilt-9-sayi-2/4-sally-p-ragep/4_sally_p_ragep_en.pdf",
+      "consulted": true,
+      "notes": "Read the article and notes. In note 37 (printed p. 122), Ragep identifies al-Farghānī's chapter 8 values as 56⅔ miles per degree, a 20,400-mile circumference, and an approximately 6,500-mile diameter, and describes these alongside al-Bīrūnī's as Maʾmūnī values. The article is about al-Jaghmīnī, so this note is contextual corroboration rather than a full study of al-Farghānī."
+    },
+    {
+      "id": "FAR-BEA-DEYOUNG",
+      "title": "Farghānī: Abū al-ʿAbbās Aḥmad ibn Muḥammad ibn Kathīr al-Farghānī",
+      "authorOrInstitution": "Gregg DeYoung, Biographical Encyclopedia of Astronomers (Springer Reference, 2007), p. 357; hosted by ISMI",
+      "publicationDate": "2007",
+      "sourceType": "academic_research",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/biography/Farghani_BEA.htm",
+      "consulted": true,
+      "notes": "Read the full biographical entry. It dates the compendium after 833 and before 857, notes Latin and Hebrew transmission and sparse biography, and distinguishes the surviving astrolabe treatise from more tentative Nilometer/canal associations."
+    },
+    {
+      "id": "FAR-ISMI-WORK",
+      "title": "Jawāmiʿ ʿilm al-nujūm",
+      "authorOrInstitution": "Islamic Scientific Manuscripts Initiative (ISMI), Max Planck Institute for the History of Science",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/text/136041",
+      "consulted": true,
+      "notes": "Consulted the work record: Arabic title and aliases, author attribution, 30-chapter outline, ninth-century date metadata, and 16 listed manuscript witnesses. The record identifies chapter 8 with the sizes of the Earth and planets. It is catalogue evidence, not a reading of each witness."
+    },
+    {
+      "id": "FAR-GOLIUS-1669",
+      "title": "Elementa astronomica, arabice & latine",
+      "authorOrInstitution": "Aḥmad ibn Muḥammad al-Farghānī; edited, translated, and annotated by Jacob Golius; ETH-Bibliothek Zürich, Rar 4155",
+      "publicationDate": "Amsterdam, 1669",
+      "sourceType": "primary_source",
+      "stableUrl": "https://doi.org/10.3931/e-rara-1298",
+      "consulted": false,
+      "notes": "The ETH catalogue record and digitized edition metadata were checked. Its downloadable scan was not successfully opened in this research pass; chapter 8's Latin wording is therefore cited through Toynbee's 1895 transcription, and the Arabic has not been collated. The record identifies the edition as Arabic and Latin and the scan as public domain."
+    },
+    {
+      "id": "FAR-DIJKSTERHUIS-2012",
+      "title": "The Mutual Making of Sciences and Humanities: Willebrord Snellius, Jacob Golius, and the Early Modern Entanglement of Mathematics and Philology",
+      "authorOrInstitution": "Fokko Jan Dijksterhuis, in Rens Bod, Jaap Maat, and Thijs Weststeijn (eds.), The Making of the Humanities, vol. II: From Early Modern to Modern Disciplines, pp. 73–92",
+      "publicationDate": "2012",
+      "sourceType": "academic_research",
+      "stableUrl": "https://uplopen.com/books/531/files/9bf27f1a-7da5-4fdf-8a71-f5d1a68b654c.pdf",
+      "consulted": true,
+      "notes": "Read printed pp. 80 and 90, including note 44. Identifies chapter 8's Latin in Golius 1669, first part, pp. 30–34; Arabic in the following part, pp. 30–34 counted backwards; and Golius's annotations on pp. 71–75. It says both the Golius edition and a Leiden manuscript transmit 56⅔, 20,400 and 6,500, and points to Abdukhalimov (1999), pp. 150–151, for Leiden/Bodleian differences. This is a scholarly account and locator, not direct collation of those witnesses."
+    }
+  ],
+  "works": [
+    {
+      "id": "far-jawami-ilm-al-nujum",
+      "scholarSlug": "al-farghani",
+      "originalTitle": "جوامع علم النجوم وأصول الحركات السماوية",
+      "transliteration": "Jawāmiʿ ʿilm al-nujūm wa-uṣūl al-ḥarakāt al-samāwiyya",
+      "translation": "Compendium of the Science of the Stars and Principles of Celestial Motions",
+      "language": "Arabic; Latin translation in the 1669 Golius edition",
+      "subject": "Ptolemaic astronomy, cosmography, and celestial motions",
+      "purpose": "A 30-chapter compendium of astronomical topics. The focused passage is chapter 8, on the sizes of the Earth and planets.",
+      "authorship": "academically_supported",
+      "date": "Composed after 833 and before 857 according to DeYoung; the 1669 Golius edition is a later bilingual printed witness.",
+      "sourceIds": ["FAR-TOYNBEE-1895", "FAR-RAGEP-2023", "FAR-BEA-DEYOUNG", "FAR-ISMI-WORK", "FAR-GOLIUS-1669"],
+      "digitizedUrl": "https://doi.org/10.3931/e-rara-1298",
+      "passages": [
+        {
+          "workId": "far-jawami-ilm-al-nujum",
+          "sourceId": "FAR-TOYNBEE-1895",
+          "editionOrShelfmark": "Latin chapter 8 in the Golius (Amsterdam, 1669) edition, reproduced and identified by Paget Toynbee; ETH-Bibliothek copy Rar 4155 is separately catalogued",
+          "language": "Latin primary text as transcribed by Toynbee; English paraphrase",
+          "originalPassage": "The chapter assigns 56⅔ miles to a degree of the Earth's circumference, multiplies by the circle's 360 degrees to give 20,400 miles, then states a diameter of 6,500 miles using a circumference-to-diameter approximation. The precise arithmetic from 20,400 and 22/7 is about 6,491, and Toynbee records edition variants around this figure.",
+          "translation": "Paraphrase of the Latin passage transcribed by Toynbee; not a fresh translation from Arabic.",
+          "printedPage": "Toynbee pp. 74–75 (transcription and calculation); Golius 1669, chapter 8. Toynbee's discussion of variant editions: pp. 66–67, note 2.",
+          "chapterOrSection": "Jawāmiʿ, chapter 8, Earth dimensions; ISMI chapter heading: sizes of the Earth and planets",
+          "explanation": "The listed figures are in the historical text's miles. Their relation to modern miles or kilometres is not asserted. The exact value 20,400 is a product of the transmitted degree value; the diameter is rounded in Golius's edition. The reported measurement belongs to the astronomical tradition and is not evidence that al-Farghānī personally conducted the survey."
+        }
+      ],
+      "notes": "The Latin text is accessible here through Toynbee's checked printed transcription. Dijksterhuis supplies exact locators for the Latin and Arabic chapter 8 in the 1669 Golius edition and notes a Leiden manuscript witness, but the page images and Arabic text have not been directly collated in this dossier."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "far-earth-measurement-chapter-8",
+      "scholarSlug": "al-farghani",
+      "title": "The degree-based Earth measure in chapter 8",
+      "field": "Astronomy / mathematical cosmography / history of geodesy",
+      "historicalProblem": "What numerical chain does the surviving Latin transmission of al-Farghānī's chapter 8 report for the Earth's circumference and diameter, and what textual and unit limits affect its interpretation?",
+      "historicalContext": "Al-Farghānī's compendium is a 30-chapter exposition of astronomical topics. Chapter 8 concerns Earth and planetary sizes. Ragep describes al-Farghānī's figures as Maʾmūnī values and contrasts them with another inherited circumference parameter. That contextual label does not establish that al-Farghānī personally measured the meridian.",
+      "method": "Read Toynbee's scanned 1895 publication at printed pp. 74–75, where he transcribes the Latin of Golius 1669, chapter 8, and states the arithmetic relation. Check the stated multiplication independently: 56⅔ × 360 = 20,400. Use the approximation 22/7 only to understand the stated diameter scale: 20,400 ÷ (22/7) ≈ 6,490.9, while the Golius text gives 6,500. Keep this arithmetic reconstruction separate from an exact transcription of the Arabic. Compare Ragep's note 37 and DeYoung's biography for context; record the direct Golius scan and Arabic collation as pending.",
+      "observationsOrCalculations": "The reported degree value multiplied by the full circle yields the stated circumference exactly: 56⅔ × 360 = 20,400 historical miles. Applying a 22/7 circumference-to-diameter approximation yields approximately 6,491, while the Golius wording gives a rounded 6,500. Toynbee reports earlier Latin-edition variants with a more exact figure, demonstrating that the printed transmission is not textually uniform.",
+      "reportedResult": "The passage, in Toynbee's transcription of Golius 1669, reports 56⅔ historical miles per degree, a 20,400-mile circumference, and a rounded 6,500-mile diameter. The calculation is coherent at the stated degree-to-circumference step; the diameter is rounded, and edition variants exist.",
+      "whatWasNew": "No claim is made that al-Farghānī originated the measurement, conducted the field survey, achieved modern geodetic precision, or supplied a directly convertible modern unit. This is a textual study of a reported inherited parameter and its arithmetic presentation.",
+      "limitations": "The Arabic chapter and the 1669 page images were not directly collated. The primary values are accessed through Toynbee's Latin transcription, Ragep's later contextual note, and Dijksterhuis's scholarly locator/transmission summary. Dijksterhuis reports a Leiden manuscript with the same values and points to Leiden/Bodleian differences, but those witnesses were not read here. The medieval mile's exact cubit basis and modern length have not been established. The chapter's account of the survey's historical context needs checking in the Arabic text before stronger claims about the measurement event are made.",
+      "laterInfluence": "DeYoung documents Latin translations and extensive European circulation; Toynbee documents Dante's use of the Latin tradition. This batch does not infer that every later reader used the same edition or that the work alone caused a particular voyage or geographic decision.",
+      "claims": [
+        {
+          "id": "far-identity",
+          "text": "Gregg DeYoung identifies Aḥmad ibn Muḥammad ibn Kathīr al-Farghānī as a ninth-century astronomer and notes that few biographical details are known.",
+          "sourceIds": ["FAR-BEA-DEYOUNG"],
+          "locator": "BEA entry, opening biography",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Personal life details remain sparse in the reference literature consulted."
+        },
+        {
+          "id": "far-compendium-date",
+          "text": "DeYoung dates the composition of al-Farghānī's compendium after al-Maʾmūn's death in 833 and before 857 CE.",
+          "sourceIds": ["FAR-BEA-DEYOUNG"],
+          "locator": "BEA entry, compendium paragraph",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "This is a scholarly date range, not a precise year or the date of the surviving 1669 edition."
+        },
+        {
+          "id": "far-golius-date",
+          "text": "The Arabic-Latin edition prepared by Jacob Golius was published posthumously in Amsterdam in 1669.",
+          "sourceIds": ["FAR-BEA-DEYOUNG", "FAR-GOLIUS-1669"],
+          "locator": "BEA entry on transmission; ETH Rar 4155 catalogue record",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "This is the edition date, not the treatise's composition date."
+        },
+        {
+          "id": "far-degree-value",
+          "text": "The Latin passage transcribed by Toynbee from Golius's chapter 8 gives 56⅔ historical miles for one degree of the Earth's circumference.",
+          "sourceIds": ["FAR-TOYNBEE-1895", "FAR-RAGEP-2023"],
+          "locator": "Toynbee pp. 74–75, quoting Golius 1669, ch. 8; Ragep 2023, p. 122 n. 37",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The Arabic reading and unit definition have not been directly checked in this batch."
+        },
+        {
+          "id": "far-circumference-calculation",
+          "text": "The reported 56⅔ miles per degree multiplied by 360 gives the chapter's circumference value of 20,400 historical miles.",
+          "sourceIds": ["FAR-TOYNBEE-1895", "FAR-RAGEP-2023"],
+          "locator": "Toynbee p. 74 and calculation note p. 75; Ragep 2023, p. 122 n. 37",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The multiplication is directly reproducible; the underlying unit is not yet converted to a modern length."
+        },
+        {
+          "id": "far-diameter-rounding",
+          "text": "Golius's chapter 8 gives the Earth's diameter as 6,500 miles, while Toynbee reports more exact variant readings in other Latin editions; 20,400 divided by 22/7 is approximately 6,491.",
+          "sourceIds": ["FAR-TOYNBEE-1895"],
+          "locator": "Toynbee pp. 66–67 n. 2 and p. 74",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The 22/7 operation is an arithmetic interpretation of the approximate circumference-to-diameter relation; textual variants need checking against Arabic witnesses."
+        },
+        {
+          "id": "far-mamuni-context",
+          "text": "Ragep characterizes al-Farghānī's 56⅔-mile degree, 20,400-mile circumference, and approximately 6,500-mile diameter as Maʾmūnī values, contrasting them with another tradition's different values.",
+          "sourceIds": ["FAR-RAGEP-2023"],
+          "locator": "Ragep 2023, printed p. 122 n. 37 and surrounding discussion pp. 121–122",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The contextual label does not establish al-Farghānī's personal participation in measurement."
+        },
+        {
+          "id": "far-transmission",
+          "text": "DeYoung records Arabic, Hebrew, and Latin transmission of al-Farghānī's compendium and identifies the 1669 edition as Arabic text with a new Latin translation and notes.",
+          "sourceIds": ["FAR-BEA-DEYOUNG", "FAR-ISMI-WORK"],
+          "locator": "BEA entry on transmission; ISMI work record and witness list",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Specific lines of textual dependence among the translations and manuscript families require separate stemmatic research."
+        },
+        {
+          "id": "far-priority-limit",
+          "text": "The consulted sources support reporting a historical value in the text but do not support an absolute claim that al-Farghānī invented the measurement or personally performed it.",
+          "sourceIds": ["FAR-RAGEP-2023", "FAR-BEA-DEYOUNG"],
+          "locator": "Ragep 2023, p. 122 n. 37; BEA entry, limited biographical record",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Further Arabic-source research may clarify the passage's account of the measurement's origin and participants."
+        },
+        {
+          "id": "far-chapter-witness-locators",
+          "text": "Dijksterhuis locates chapter 8's Latin text in Golius's 1669 first part, pp. 30–34, the Arabic in the following part at pp. 30–34 counted backwards, and Golius's annotations at pp. 71–75; he also reports matching Earth-size values in a Leiden manuscript and directs readers to a Leiden/Bodleian comparison.",
+          "sourceIds": ["FAR-DIJKSTERHUIS-2012", "FAR-GOLIUS-1669"],
+          "locator": "Dijksterhuis, p. 90 n. 44; compare p. 80",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "These are locators and a secondary report, not direct verification of the printed pages or manuscript readings; the cited Abdukhalimov comparison remains to be read."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Open the ETH Rar 4155 scan at the printed chapter 8 page and compare the Latin with Toynbee's transcription; capture exact printed folio/page and stable image locator.",
+    "Read the corresponding Arabic chapter 8 directly in the Golius scan and at least one manuscript witness; record Arabic page/folio, shelfmark, and textual differences.",
+    "Consult the 1998 Harvard critical edition and facsimile edited by Yavuz Unat, Şinasi Tekin, and Gönül Alpay Tekin; compare its text, translation, and notes with Golius.",
+    "Establish the historical mile's relation to the cubit from the Arabic text and specialist metrology before any conversion to kilometres or modern miles.",
+    "Check the reported Maʾmūn-era measurement narrative against the primary Arabic wording and compare the distinct Ptolemaic and Maʾmūnī parameter traditions.",
+    "Audit the Earth-size passage alongside chapters 21–22 on planetary distances and magnitudes; keep each transmitted calculation and its variants distinct.",
+    "Investigate the Columbus narrative through Columbus's own writings, the relevant Latin editions, and scholarship on the difference between Arabic and Italian miles."
+  ]
+}

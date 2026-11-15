@@ -1,0 +1,240 @@
+{
+  "scholarSlug": "thabit-ibn-qurra",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Thābit ibn Qurra was a ninth-century mathematician, astronomer, and translator associated with Baghdad and the Banū Mūsā circle. This dossier examines his treatise on amicable numbers; its evidence does not complete the broader catalogue audit of his geometry, astronomy, mechanics, or translations.",
+      "claimIds": ["tha-identity", "tha-work-attribution"],
+      "gaps": ["Reconcile birth dates and religious/cultural descriptors across biographical sources; do not infer an identity label from one modern account.", "Audit his other catalogue works and contributions against specific editions and manuscript witnesses."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The amicable-number treatise is attributed to Thābit and known in Arabic manuscript witnesses and later editions. The consulted sources do not supply a precise composition year; Thābit's ninth-century lifetime is not a date for this particular text.",
+      "claimIds": ["tha-identity", "tha-witnesses"],
+      "gaps": ["Date the surviving Ayasofya and Paris witnesses from their codices and colophons; distinguish copy dates from composition.", "Establish when the treatise was composed using primary biographical and manuscript evidence."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "Thābit's *Treatise on the Derivation of the Amicable Numbers in an Easy Way* gives a sufficient rule for producing amicable pairs when three specified expressions are prime. In modern notation, for n > 1, let p₁ = 3·2ⁿ − 1, p₂ = 3·2ⁿ⁻¹ − 1, and p₃ = 9·2²ⁿ⁻¹ − 1. If all three are prime, then 2ⁿp₁p₂ and 2ⁿp₃ are amicable. For n = 2 this yields 220 and 284; direct proper-divisor sums verify the pair. The theorem does not generate every amicable pair, and the modern symbols are not Thābit's notation.",
+      "claimIds": ["tha-rule", "tha-example-220-284", "tha-proof-structure"],
+      "gaps": ["Read Saʿīdān's 1977 Arabic edition directly and transcribe proposition 10 with exact line/page locators; compare the Russian/Arabic edition and the two catalogued witnesses.", "Check the algebraic normalization of each parameter against the Arabic wording and the edition's apparatus before presenting a full formal translation."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The pair 220 and 284 predates Thābit's treatise in the account of Iamblichus. The distinctive contribution supported here is the general prime-conditioned rule and its proof, not the discovery of that particular pair or of amicable-number relationships themselves. Brentjes and Hogendijk offer a possible reconstruction of how he may have arrived at the rule, but explicitly treat that reconstruction as conjectural. Later transmission and any claim that Thābit himself discovered additional pairs require separate evidence.",
+      "claimIds": ["tha-prior-pair-attestation", "tha-discovery-reconstruction-limit", "tha-later-pair-limit"],
+      "gaps": ["Read Iamblichus directly and compare its textual history with the Arabic preface.", "Read Hogendijk's 1985 study before assessing whether Thābit himself found 17,296 and 18,416.", "Trace medieval transmission through Arabic, Hebrew, and Latin sources without treating formulaic reuse as proof of direct borrowing."]
+    }
+  },
+  "sources": [
+    {
+      "id": "THA-BRENTJES-HOGENDIJK-1989",
+      "title": "Notes on Thabit ibn Qurra and his rule for amicable numbers",
+      "authorOrInstitution": "Sonja Brentjes and Jan P. Hogendijk, Historia Mathematica 16(4), 1989, pp. 373–378",
+      "publicationDate": "November 1989",
+      "sourceType": "academic_research",
+      "stableUrl": "https://www.academia.edu/625007/Notes_on_Thabit_ibn_Qurra_and_his_rule_for_amicable_numbers",
+      "consulted": true,
+      "notes": "Read the author-uploaded full paper. The authors say their analysis is based on the Arabic original and cite Saʿīdān 1977; they summarize proposition 10 in modern notation, describe the ten-proposition structure, distinguish the earlier pair 220/284 in Iamblichus, and present a conjectural reconstruction of how Thābit may have developed the rule. Their conjecture is not treated here as a report from Thābit."
+    },
+    {
+      "id": "THA-DSB-MACTUTOR",
+      "title": "Thabit (836–901)",
+      "authorOrInstitution": "J. J. O'Connor and E. F. Robertson, MacTutor History of Mathematics, University of St Andrews",
+      "publicationDate": "Last updated November 1999",
+      "sourceType": "reference_work",
+      "stableUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Thabit/",
+      "consulted": true,
+      "notes": "Read the biography and amicable-numbers section. It reports the theorem after nine preliminary lemmas, identifies the 220/284 Pythagoras story as almost certainly false in light of Iamblichus, and points to Brentjes–Hogendijk and Hogendijk 1985 for specialist analysis. It is a reference synthesis, not the primary text."
+    },
+    {
+      "id": "THA-ISMI-WORK-54215",
+      "title": "Thābit ibn Qurrah fī al-aʿdād al-mutaḥābbah",
+      "authorOrInstitution": "Islamic Scientific Manuscripts Initiative (ISMI), Max Planck Institute for the History of Science",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/text/54215",
+      "consulted": true,
+      "notes": "Consulted the Arabic title, aliases, attribution, number-theory subject, note identifying ten propositions, and two manuscript-witness records. This establishes a catalogue trail, not a direct reading of either witness."
+    },
+    {
+      "id": "THA-ISMI-AYASOFYA-4830",
+      "title": "Ayasofya 4830, ff. 110a–121b: witness of the amicable-numbers treatise",
+      "authorOrInstitution": "Süleymaniye Manuscript Library, catalogued by ISMI",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/witness/168652",
+      "consulted": true,
+      "notes": "ISMI identifies this witness and gives folios 110a–121b. No images or folios were inspected in this batch."
+    },
+    {
+      "id": "THA-ISMI-PARIS-2457",
+      "title": "Manuscrits-Orient Arabe 2457: witness of the amicable-numbers treatise",
+      "authorOrInstitution": "Bibliothèque nationale de France, catalogued by ISMI",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/witness/199850",
+      "consulted": true,
+      "notes": "ISMI identifies this Paris witness. It supplies no folio range on the consulted record; the manuscript itself has not been inspected."
+    },
+    {
+      "id": "THA-SAIDAN-1977",
+      "title": "Kitāb al-aʿdād al-mutaḥābba li-Thābit ibn Qurra",
+      "authorOrInstitution": "Thābit ibn Qurra; edited by Aḥmad Saʿīdān, Amman",
+      "publicationDate": "1977",
+      "sourceType": "primary_source",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/text/54215",
+      "consulted": false,
+      "notes": "ISMI and Brentjes–Hogendijk bibliographies identify this Arabic edition. The volume itself has not been read in this batch; article page references to Saʿīdān pp. 33 and 50–53 are reported through the 1989 study."
+    },
+    {
+      "id": "THA-HOGENDIJK-1985",
+      "title": "Thabit ibn Qurra and the pair of amicable numbers 17296, 18416",
+      "authorOrInstitution": "Jan P. Hogendijk, Historia Mathematica 12(3), 1985, pp. 269–273",
+      "publicationDate": "1985",
+      "sourceType": "academic_research",
+      "stableUrl": "https://doi.org/10.1016/0315-0860(85)90025-4",
+      "consulted": false,
+      "notes": "Cited by the ISMI record, MacTutor, and the 1989 paper; not read in this batch. No claim is made here that Thābit himself discovered this later pair."
+    }
+  ],
+  "works": [
+    {
+      "id": "tha-treatise-amicable-numbers",
+      "scholarSlug": "thabit-ibn-qurra",
+      "originalTitle": "كتاب الأعداد المتحابة",
+      "transliteration": "Kitāb al-aʿdād al-mutaḥābba; also Maqālah fī istiḫrāj al-aʿdād al-mutaḥābba bi-suhūlat al-maslak ilā ḏālika",
+      "translation": "Book on Amicable Numbers; Treatise on Deriving Amicable Numbers by an Easy Method",
+      "language": "Arabic; modern formula below is normalized notation from a scholarly analysis",
+      "subject": "Number theory: prime-conditioned construction and proof of amicable pairs",
+      "purpose": "To set out and prove a rule for deriving amicable numbers, following preliminary propositions about divisor sums, perfect numbers, and abundant or deficient numbers.",
+      "authorship": "academically_supported",
+      "date": "Attributed to Thābit ibn Qurra; exact composition date not established in the sources consulted.",
+      "sourceIds": ["THA-BRENTJES-HOGENDIJK-1989", "THA-DSB-MACTUTOR", "THA-ISMI-WORK-54215", "THA-ISMI-AYASOFYA-4830", "THA-ISMI-PARIS-2457", "THA-SAIDAN-1977", "THA-HOGENDIJK-1985"],
+      "digitizedUrl": "https://ismi.mpiwg-berlin.mpg.de/text/54215",
+      "passages": [
+        {
+          "workId": "tha-treatise-amicable-numbers",
+          "sourceId": "THA-BRENTJES-HOGENDIJK-1989",
+          "editionOrShelfmark": "Arabic original analyzed by Brentjes and Hogendijk; critical edition: A. Saʿīdān, Kitāb al-aʿdād al-mutaḥābba (1977); witnesses include Ayasofya 4830 and BnF Arabe 2457",
+          "language": "Arabic primary text as analyzed in English scholarship; modern paraphrase",
+          "originalPassage": "Proposition 10 states a conditional construction: with n greater than 1, form three prime candidates equivalent in modern notation to 3·2ⁿ−1, 3·2ⁿ⁻¹−1, and 9·2²ⁿ⁻¹−1; multiplying the first two by 2ⁿ gives one number and multiplying the third by 2ⁿ gives its amicable partner. The paper describes the proof through proper-divisor sums and propositions prepared earlier in the treatise.",
+          "translation": "Paraphrase of the scholarly analysis of the Arabic text; not a fresh translation or direct transcription.",
+          "printedPage": "Brentjes–Hogendijk pp. 374–375; they cite Saʿīdān 1977, pp. 50–53 for proposition 10 and the proof, and pp. 33, 50 for the introduction and proposition context.",
+          "chapterOrSection": "Treatise, proposition 10; propositions 1–9 provide preliminary divisor-sum and geometric-series results",
+          "explanation": "The formula is expressed in modern notation and is sufficient, not a characterization of all amicable pairs. For n=2 the candidates are 5, 11, and 71, yielding 220 and 284. The article's proposed route by which Thābit may have discovered the rule is explicitly conjectural."
+        }
+      ],
+      "notes": "The Arabic edition and manuscripts have not been directly collated in this project. Distinguish the older attestation of 220 and 284 from the general rule and proof attributed to Thābit."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "tha-amicable-number-rule",
+      "scholarSlug": "thabit-ibn-qurra",
+      "title": "Thābit's prime-conditioned rule for amicable pairs",
+      "field": "Mathematics / number theory / history of mathematics",
+      "historicalProblem": "What does the medieval treatise's rule guarantee, how does its n=2 case work, and what can modern scholars responsibly say about Thābit's contribution without confusing a conjectural discovery path with the text's proof?",
+      "historicalContext": "An amicable pair consists of two distinct integers where each is the sum of the other's proper divisors. The pair 220 and 284 is attested in Iamblichus' fourth-century account before Thābit. Brentjes and Hogendijk describe Thābit's treatise as a ten-proposition work whose tenth proposition states and proves a conditional rule after nine supporting propositions. Their paper analyzes the Arabic original, but this project has not independently consulted the 1977 Arabic edition or manuscript images.",
+      "method": "Read the full Brentjes–Hogendijk 1989 article, especially pp. 374–377, which states the theorem in modern notation, maps the ten propositions, summarizes the proof, and explores a possible derivation. Cross-check the theorem's attribution and earlier 220/284 pair against MacTutor, and record the ISMI work and witness metadata. Independently verify the n=2 case: p₁=11, p₂=5, p₃=71, A=4·11·5=220, B=4·71=284; the proper divisors of 220 sum to 284 and those of 284 sum to 220. Keep the article's reconstruction of the discovery route labelled as conjecture.",
+      "observationsOrCalculations": "For n=2, p₁=3·2²−1=11, p₂=3·2¹−1=5, and p₃=9·2³−1=71, all prime. The constructed numbers are 220 and 284. Their proper-divisor sums verify the relation directly: 1+2+4+5+10+11+20+22+44+55+110=284; 1+2+4+71+142=220. For other n, the rule only applies when all three candidates are prime; it does not promise a pair for every n or generate every amicable pair.",
+      "reportedResult": "The article and reference sources support attribution to Thābit of a proved sufficient rule for producing some amicable pairs. Its n=2 instance yields the known pair 220/284, which predates the treatise in Iamblichus' account. The novelty established here is the general conditional rule and its proof, not the discovery of that pair.",
+      "whatWasNew": "The scholarly article describes the rule as a substantial result beyond the number-theoretic knowledge available in Greek antiquity. No absolute priority claim is made about all number theory, the concept of amicable numbers, or the pair 220/284. No claim is made that Thābit's rule finds all amicable pairs.",
+      "limitations": "The primary Arabic edition by Saʿīdān and the Ayasofya and Paris witnesses were not directly read. The theorem is reproduced from Brentjes and Hogendijk's modern notation and their reported collation of Arabic. Their reconstruction of how Thābit may have found the formula is an explicitly inferential hypothesis, not testimony in the treatise. The famous attribution of 220/284 to Pythagoras is not accepted as historical fact; MacTutor notes Iamblichus' earlier attestation and describes the Pythagorean story as almost certainly false. The later pair 17,296/18,416 and claims about Thābit's own calculation of it await Hogendijk 1985.",
+      "laterInfluence": "ISMI and Brentjes–Hogendijk bibliography document later mathematical discussion and the 1985 study of a second pair. This batch does not trace a full Arabic-Hebrew-Latin transmission chain or assert direct borrowing by any named later mathematician.",
+      "claims": [
+        {
+          "id": "tha-identity",
+          "text": "The consulted biographical reference describes Thābit ibn Qurra as a ninth-century mathematician who worked on number theory, astronomy, and statics.",
+          "sourceIds": ["THA-DSB-MACTUTOR"],
+          "locator": "MacTutor, summary and biography sections",
+          "sourceType": "reference_work",
+          "confidence": "high",
+          "uncertainty": "Life dates and cultural/religious descriptors differ among modern sources; this claim is limited to the reference consulted."
+        },
+        {
+          "id": "tha-work-attribution",
+          "text": "The amicable-numbers treatise is attributed to Thābit in the ISMI work record and in the specialist study based on its Arabic text.",
+          "sourceIds": ["THA-ISMI-WORK-54215", "THA-BRENTJES-HOGENDIJK-1989", "THA-SAIDAN-1977"],
+          "locator": "ISMI work record; Brentjes–Hogendijk pp. 373–374; Saʿīdān edition cited there",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The project has not checked the edition's manuscript stemma or directly compared title and attribution statements in the witnesses."
+        },
+        {
+          "id": "tha-witnesses",
+          "text": "ISMI lists two manuscript witnesses for the treatise: Süleymaniye Ayasofya 4830, folios 110a–121b, and BnF Manuscrits-Orient Arabe 2457.",
+          "sourceIds": ["THA-ISMI-WORK-54215", "THA-ISMI-AYASOFYA-4830", "THA-ISMI-PARIS-2457"],
+          "locator": "ISMI work and witness records",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "The images, folio contents, dates, and textual relationship of the witnesses were not examined."
+        },
+        {
+          "id": "tha-rule",
+          "text": "Brentjes and Hogendijk report that proposition 10 gives a rule: for n>1, if 3·2ⁿ−1, 3·2ⁿ⁻¹−1, and 9·2²ⁿ⁻¹−1 are prime, then 2ⁿ times the product of the first two and 2ⁿ times the third form an amicable pair.",
+          "sourceIds": ["THA-BRENTJES-HOGENDIJK-1989", "THA-SAIDAN-1977"],
+          "locator": "Brentjes–Hogendijk pp. 374–375; Saʿīdān 1977, proposition 10, pp. 50–53 as cited in the article",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This is modern notation from a modern analysis of the Arabic text, not a direct transcription from the edition by this project."
+        },
+        {
+          "id": "tha-example-220-284",
+          "text": "The rule's n=2 instance gives 220 and 284; their proper-divisor sums are 284 and 220 respectively.",
+          "sourceIds": ["THA-BRENTJES-HOGENDIJK-1989"],
+          "locator": "Theorem application at n=2; divisor lists discussed in Brentjes–Hogendijk pp. 375–376",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The modern arithmetic is independently checked here; it does not establish who first found the pair."
+        },
+        {
+          "id": "tha-proof-structure",
+          "text": "Brentjes and Hogendijk describe the treatise as ten propositions; propositions 1–9 prepare divisor-sum and geometric-series results for proposition 10, which states and proves the amicable-number rule.",
+          "sourceIds": ["THA-BRENTJES-HOGENDIJK-1989", "THA-ISMI-WORK-54215"],
+          "locator": "Brentjes–Hogendijk pp. 374–375; ISMI work record note",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This structure is reported through the modern study and catalogue metadata; direct proposition-by-proposition Arabic collation remains pending."
+        },
+        {
+          "id": "tha-prior-pair-attestation",
+          "text": "Brentjes and Hogendijk identify Iamblichus' account as an earlier attestation of the amicable pair 220/284; the article treats the proposed Pythagorean origin as a tradition, not proven authorship.",
+          "sourceIds": ["THA-BRENTJES-HOGENDIJK-1989", "THA-DSB-MACTUTOR"],
+          "locator": "Brentjes–Hogendijk pp. 374–375; MacTutor amicable-numbers section",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Iamblichus' text and its transmission were not independently collated in this batch."
+        },
+        {
+          "id": "tha-discovery-reconstruction-limit",
+          "text": "Brentjes and Hogendijk propose a possible route by which Thābit could have generalized from 220/284 to the rule, but present it as a conjectural reconstruction rather than an account stated by Thābit.",
+          "sourceIds": ["THA-BRENTJES-HOGENDIJK-1989"],
+          "locator": "Brentjes–Hogendijk pp. 375–378",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The authors' reconstruction is an interpretation of the proof structure, not direct evidence of the historical discovery process."
+        },
+        {
+          "id": "tha-later-pair-limit",
+          "text": "The consulted MacTutor and ISMI references point to Hogendijk's 1985 study of 17,296 and 18,416, but that article has not yet been read here, so this dossier makes no claim that Thābit himself calculated that pair.",
+          "sourceIds": ["THA-DSB-MACTUTOR", "THA-ISMI-WORK-54215", "THA-HOGENDIJK-1985"],
+          "locator": "MacTutor references 13; ISMI work bibliography",
+          "sourceType": "reference_work",
+          "confidence": "high",
+          "uncertainty": "The underlying 1985 article is not consulted; its attribution argument remains an open question."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Read Saʿīdān's 1977 Arabic edition, especially pp. 33 and 50–53; record the exact Arabic text of the prologue and proposition 10 with a fresh translation and apparatus notes.",
+    "Compare proposition 10 in the 1977 edition and the 1984 Russian/Arabic edition; document variant readings and the basis of each edition.",
+    "Inspect Ayasofya 4830 ff. 110a–121b and BnF Arabe 2457, if digitized, for copy dates, proposition layout, numerical examples, and variants.",
+    "Read Iamblichus' relevant passage in a critical edition to verify the earlier attestation of 220/284 and the status of the Pythagorean anecdote.",
+    "Read Hogendijk's 1985 study before assigning the pair 17,296/18,416 to Thābit himself.",
+    "Compare medieval Arabic and Hebrew witnesses for later circulation of the rule and establish any direct European transmission with explicit citations.",
+    "Expand the Thābit dossier to his translation of Euclid's Elements, the *Mafrūḍāt*, mechanics, and astronomical work, treating each subject and attribution separately."
+  ]
+}

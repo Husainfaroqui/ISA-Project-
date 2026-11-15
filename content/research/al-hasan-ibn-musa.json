@@ -1,0 +1,159 @@
+{
+  "scholarSlug": "al-hasan-ibn-musa-ibn-shakir",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Al-Ḥasan ibn Mūsā ibn Shākir was one of the three brothers known collectively as the Banū Mūsā and active in ninth-century Baghdad. The Biographical Encyclopedia of Astronomers cautions that separate biographies of the brothers are quite impossible to write from the surviving evidence. This draft therefore records one disputed work attribution, not a full individual biography.",
+      "claimIds": ["hasan-group-context", "hasan-biography-limit"],
+      "gaps": ["Examine early biographical notices and manuscript catalogues before adding individual dates, education, or a distinct career narrative."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The consulted reference accounts place al-Ḥasan in the ninth-century Banū Mūsā circle but do not establish a precise personal chronology for this work. The treatise discussed below is reported lost; no composition date or manuscript witness was verified.",
+      "claimIds": ["hasan-group-context", "hasan-ellipse-attribution"],
+      "gaps": ["Locate the early bibliographic notice and determine whether any title, date, or witness information survives beyond later reference summaries."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "David Pingree's Encyclopaedia Iranica entry attributes a lost work on the ellipse to al-Ḥasan. The ISMI-hosted Banū Mūsā biography instead lists a Book on an Oblong Round Figure among works attributed to the brothers collectively and says it concerns the ellipse and a string-and-pegs construction. The sources do not establish that these differently rendered titles are certainly the same work or settle individual authorship. No ellipse construction is reconstructed here because the attributed text is lost and no passage was consulted.",
+      "claimIds": ["hasan-ellipse-attribution", "hasan-group-title", "hasan-title-equivalence-unresolved"],
+      "gaps": ["Check the Arabic title and its bibliographic source in the cited editions of Ibn al-Nadīm and later biographical dictionaries.", "Search manuscript catalogues and specialist studies for fragments, quotations, or a secure identification between the ellipse title and the group's Book on an Oblong Round Figure.", "Keep the lost-work record separate from established works in the public profile unless attribution and title identity are reviewed."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The evidence supports documenting a historical attribution and its limits, not a verified personal invention, surviving procedure, or transmission claim. The Banū Mūsā group's geometry has a separately documented reception, but that collective history cannot by itself establish al-Ḥasan's individual role in it.",
+      "claimIds": ["hasan-ellipse-attribution", "hasan-biography-limit", "hasan-influence-not-established"],
+      "gaps": ["Trace reception only through identifiable texts and citations; do not transfer the collective reception of the brothers' extant geometry to this lost work."]
+    }
+  },
+  "sources": [
+    {
+      "id": "HAS-IRANICA-BANU-MUSA",
+      "title": "Banū Mūsā",
+      "authorOrInstitution": "David Pingree, Encyclopaedia Iranica, vol. III, fasc. 7, pp. 716–717",
+      "publicationDate": "1988; updated online 2016",
+      "sourceType": "reference_work",
+      "stableUrl": "https://www.iranicaonline.org/articles/banu-musa-the-name-applied-to-three-brothers-abbasid-astronomers-whose-father-was-musa-b/",
+      "consulted": true,
+      "notes": "Read the online entry. It says that only one work is attributed to the third brother, Ḥasan: Kitāb al-shakl al-mudawwar al-mustaṭīl, now lost, on the ellipse. This is a specialist reference's report of an attribution, not direct evidence from the lost work."
+    },
+    {
+      "id": "HAS-ISMI-BEA-BANU-MUSA",
+      "title": "Banū Mūsā",
+      "authorOrInstitution": "Josep Casulleras, Biographical Encyclopedia of Astronomers (Springer Reference, 2007), hosted by ISMI",
+      "publicationDate": "2007",
+      "sourceType": "academic_research",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/biography/Banu_Musa_BEA.htm",
+      "consulted": true,
+      "notes": "Read the biography. It says separate biographies are quite impossible from the evidence; its work list names a Book on an Oblong Round Figure under the Banū Mūsā collectively and describes it as concerning the ellipse and a string-and-pegs construction. It does not explicitly identify this title with Iranica's title attributed to Ḥasan."
+    },
+    {
+      "id": "HAS-CLAGETT-1964",
+      "title": "Archimedes in the Middle Ages, vol. I: The Arabo-Latin Tradition",
+      "authorOrInstitution": "Marshall Clagett, University of Wisconsin Press; digitized copy hosted by Harvard Mathematics Department",
+      "publicationDate": "1964",
+      "sourceType": "academic_research",
+      "stableUrl": "https://abel.math.harvard.edu/archive/archimedes09/pdf/Banu_Musa.pdf",
+      "consulted": true,
+      "notes": "Read the opening discussion in the digitized text, especially printed pp. 226 and 239. Clagett notes the scarcity of evidence distinguishing the brothers, mentions a treatise on the ellipse attributed to al-Ḥasan, and separately gives the extant plane-and-spherical-figures treatise a collective title naming Muḥammad, al-Ḥasan, and Aḥmad. The discussion does not provide a surviving passage from the lost ellipse work."
+    }
+  ],
+  "works": [
+    {
+      "id": "hasan-lost-ellipse-treatise",
+      "scholarSlug": "al-hasan-ibn-musa-ibn-shakir",
+      "transliteration": "Kitāb al-shakl al-mudawwar al-mustaṭīl (title as reported by Iranica)",
+      "translation": "Book on the Oblong Round Figure (a related title rendered in the ISMI-hosted group biography; equivalence unverified)",
+      "language": "Arabic title reported in a reference work; original text not located",
+      "subject": "Geometry; ellipse",
+      "purpose": "A lost work reported by Iranica as concerning the ellipse. The relationship to the similarly described group-attributed Book on an Oblong Round Figure remains unresolved.",
+      "authorship": "under_review",
+      "date": "Undated in the consulted sources; associated with the ninth-century Banū Mūsā context only.",
+      "sourceIds": ["HAS-IRANICA-BANU-MUSA", "HAS-ISMI-BEA-BANU-MUSA", "HAS-CLAGETT-1964"],
+      "passages": [],
+      "notes": "This is a reported lost-work attribution, not a verified surviving text or accepted public contribution. No original passage, procedure, or manuscript witness has been found in this pass."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "hasan-ellipse-work-attribution",
+      "scholarSlug": "al-hasan-ibn-musa-ibn-shakir",
+      "title": "The attribution and identity of a lost ellipse treatise",
+      "field": "History of mathematics / textual attribution",
+      "historicalProblem": "What can the surviving reference literature establish about a geometry work associated with al-Ḥasan ibn Mūsā, and does it identify the same work that the Banū Mūsā biography lists collectively?",
+      "historicalContext": "The brothers' works are often catalogued collectively, and a specialist biography warns that their individual lives are difficult to separate. A reported ellipse title provides a useful test case for how individual and group attributions should be represented in ISA.",
+      "method": "Compare the explicit individual attribution in Encyclopaedia Iranica with the group-level title and description in the ISMI-hosted Biographical Encyclopedia of Astronomers, then check Clagett's discussion of attribution and surviving collective geometry. No lost-text reconstruction is attempted.",
+      "observationsOrCalculations": "No quantitative or geometrical reconstruction is possible from the materials consulted: the ellipse work is reported lost and no passage from it was found.",
+      "reportedResult": "Iranica attributes one lost ellipse work to Ḥasan; ISMI lists an ellipse-related work under the Banū Mūsā collectively. Clagett also reports an individual attribution while emphasizing the scarcity of evidence separating the brothers. The evidence does not settle title equivalence or authorship beyond the reference accounts' reported attribution.",
+      "whatWasNew": "No invention, priority, construction method, or individual discovery claim is established. This batch improves catalogue accuracy by making the conflict and limits explicit.",
+      "limitations": "The early bibliographical notices cited by these scholars, the Arabic title in its source context, relevant editions, and manuscript catalogues were not directly collated. The text is reported lost; absence of a located witness here is not proof that no witness or quotation survives.",
+      "laterInfluence": "Not established for this reported lost work. The documented reception of the Banū Mūsā group's extant geometry cannot be assigned to this title without evidence.",
+      "claims": [
+        {
+          "id": "hasan-group-context",
+          "text": "The reference accounts place al-Ḥasan among the three ninth-century brothers known collectively as the Banū Mūsā.",
+          "sourceIds": ["HAS-IRANICA-BANU-MUSA", "HAS-ISMI-BEA-BANU-MUSA"],
+          "locator": "Iranica opening; ISMI-hosted BEA header and opening",
+          "sourceType": "reference_work",
+          "confidence": "high",
+          "uncertainty": "This establishes group context, not an independently reconstructed personal biography."
+        },
+        {
+          "id": "hasan-biography-limit",
+          "text": "Casulleras states that it is quite impossible to write separate biographies of the three brothers from the available evidence; individual life narratives therefore require particular caution.",
+          "sourceIds": ["HAS-ISMI-BEA-BANU-MUSA", "HAS-CLAGETT-1964"],
+          "locator": "ISMI-hosted BEA biography section; Clagett, printed p. 226",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This is a statement about the evidence available to those authors, not a claim that no further archival or textual evidence could be found."
+        },
+        {
+          "id": "hasan-ellipse-attribution",
+          "text": "Iranica reports a now-lost Kitāb al-shakl al-mudawwar al-mustaṭīl on the ellipse as the one work attributed to the third brother, Ḥasan.",
+          "sourceIds": ["HAS-IRANICA-BANU-MUSA", "HAS-CLAGETT-1964"],
+          "locator": "Iranica, vol. III, fasc. 7, p. 717; Clagett, printed p. 226",
+          "sourceType": "reference_work",
+          "confidence": "medium",
+          "uncertainty": "This is a reported bibliographical attribution; the work is lost in the cited accounts and no primary text or witness was consulted."
+        },
+        {
+          "id": "hasan-group-title",
+          "text": "The ISMI-hosted BEA lists a Book on an Oblong Round Figure under the Banū Mūsā collectively and describes it as an ellipse-related work using a string-and-pegs construction.",
+          "sourceIds": ["HAS-ISMI-BEA-BANU-MUSA"],
+          "locator": "BEA section on works in geometry",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "This is a secondary description and collective attribution; it is not direct evidence that al-Ḥasan alone authored the work."
+        },
+        {
+          "id": "hasan-title-equivalence-unresolved",
+          "text": "The consulted sources do not demonstrate that Iranica's Arabic title attributed to Ḥasan and the BEA's Book on an Oblong Round Figure are certainly the same bibliographical work.",
+          "sourceIds": ["HAS-IRANICA-BANU-MUSA", "HAS-ISMI-BEA-BANU-MUSA", "HAS-CLAGETT-1964"],
+          "locator": "Compare Iranica p. 717, BEA geometry works section, and Clagett p. 226",
+          "sourceType": "academic_research",
+          "confidence": "unresolved",
+          "uncertainty": "Confirming the title relationship requires checking the Arabic forms, source citations, and relevant catalogues or editions."
+        },
+        {
+          "id": "hasan-influence-not-established",
+          "text": "No specific later influence or priority for the lost ellipse work is established by this evidence; group-level reception of another extant geometry treatise cannot be transferred to it.",
+          "sourceIds": ["HAS-ISMI-BEA-BANU-MUSA", "HAS-CLAGETT-1964"],
+          "locator": "BEA discussion of collective geometry and Clagett, printed pp. 225–226",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "A broader history of ellipse constructions and the lost work's reception has not been undertaken."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Trace the Iranica and Clagett title attribution to its cited early bibliographical witnesses; verify the Arabic title and the underlying wording.",
+    "Determine whether Kitāb al-shakl al-mudawwar al-mustaṭīl and the Book on an Oblong Round Figure are one work, related works, or distinct records.",
+    "Search Arabic and Latin manuscript catalogues, editions, and later citations for a surviving witness, excerpt, or independent description of the lost work.",
+    "Only after that review, decide whether the public scholar profile should list a work at individual or collective attribution level."
+  ]
+}

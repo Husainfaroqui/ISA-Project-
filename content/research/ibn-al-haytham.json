@@ -1,0 +1,211 @@
+{
+  "scholarSlug": "ibn-al-haytham",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Ibn al-Haytham was an eleventh-century scholar whose Kitāb al-Manāẓir (Optics) treats light, vision, perception, and optical errors across seven books. A. I. Sabra's translation and introduction describes the life accounts as late and sometimes conflicting and surveys the Arabic manuscript tradition. The familiar stories about a Nile engineering project and confinement are not needed for the investigation here and should not be repeated without checking their biographical witnesses.",
+      "claimIds": ["hay-dates-and-life-limits", "hay-optics-seven-books"],
+      "gaps": ["Compare Ibn al-Qifṭī and Ibn Abī Uṣaybiʿa biographies and record exact primary locators.", "Collate the Arabic edition and at least one manuscript witness for the passage below."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The Optics was composed in Arabic in the first half of the eleventh century according to Sabra's introduction; the seven-book work circulated in Arabic manuscript form and later in Latin translation. This entry gives no exact composition year. Sabra identifies a 1983 Arabic text of Books I–III as the basis for his 1989 English translation.",
+      "claimIds": ["hay-optics-date-window", "hay-arabic-edition-basis"],
+      "gaps": ["Establish composition and copying dates from colophons and manuscript comparison.", "Map the Latin translation's witnesses, date, and translator attribution from primary catalogues."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "This batch studies one optical argument in Book I, chapter 3: light from the illuminated atmosphere is directed through aligned apertures into a dark chamber, and the observed illuminated spots are tested by screening apertures and interrupting their paths with an opaque body. Sabra's translation reports that Ibn al-Haytham uses the arrangement to argue for rectilinear propagation. The dossier records the historical claim in its own conceptual setting and does not equate it with all of modern geometrical optics.",
+      "claimIds": ["hay-chamber-observation", "hay-rectilinear-conclusion", "hay-historical-method-caution"],
+      "gaps": ["Inspect the Arabic page image and diagram/layout in the 1983 edition and compare the cited Arabic witnesses listed by Sabra.", "Check whether this passage's terminology and argument differ across the Arabic and Latin traditions."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "Sabra's introduction describes the later Latin *Perspectiva* / *De aspectibus* as influential in medieval European optics and documents a complex transmission history. This dossier does not call Ibn al-Haytham 'the first scientist' and does not claim that modern experimental science began with one person.",
+      "claimIds": ["hay-latin-reception"],
+      "gaps": ["Support influence statements with particular Latin manuscript readings and recipient texts rather than a general lineage alone."]
+    }
+  },
+  "sources": [
+    {
+      "id": "HAY-SABRA-1989",
+      "title": "The Optics of Ibn al-Haytham, Books I–III: On Direct Vision, vol. I, Translation",
+      "authorOrInstitution": "Ibn al-Haytham; translated, introduced, and commented on by A. I. Sabra, Warburg Institute, University of London",
+      "publicationDate": "1989",
+      "sourceType": "primary_source",
+      "stableUrl": "https://resources.warburg.sas.ac.uk/pdf/ffh360b2205460.pdf",
+      "consulted": true,
+      "notes": "Scanned edition consulted. Book I, chapter 3 gives the chamber/aperture experiment at printed pp. 23–26, especially paragraphs 29–37 at pp. 23–26. Sabra's introduction states that the English translation is based on the Arabic text published in Kuwait in 1983. This dossier reads the published English translation, not the Arabic manuscript or Arabic page image. Warburg identifies this scan as CC BY-NC 3.0."
+    },
+    {
+      "id": "HAY-SABRA-ARABIC-1983",
+      "title": "Kitāb al-Manāẓir, Books I–III: Arabic text",
+      "authorOrInstitution": "Ibn al-Haytham; edition by A. I. Sabra, National Council for Culture, Arts and Letters, Kuwait",
+      "publicationDate": "1983",
+      "sourceType": "primary_source",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/text/127841",
+      "consulted": true,
+      "notes": "ISMI's text/work record and Sabra's introduction identify the 1983 Arabic edition as the basis of the 1989 translation. The Arabic text itself was not directly inspected in this pass; keep it as a collation lead until page images are checked."
+    },
+    {
+      "id": "HAY-ISMI-MANAZIR",
+      "title": "Kitāb al-manāẓir (Ibn al-Haytham): text and manuscript records",
+      "authorOrInstitution": "Islamic Scientific Manuscripts Initiative, Max Planck Institute for the History of Science",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/text/127841",
+      "consulted": true,
+      "notes": "ISMI record identifies the work and links manuscript/text records including Istanbul, Topkapı Sarayı Müzesi, Ahmet III 3339. Catalogue metadata is not a substitute for direct manuscript examination."
+    },
+    {
+      "id": "HAY-DSB-1972",
+      "title": "Ibn al-Haytham",
+      "authorOrInstitution": "A. I. Sabra, Dictionary of Scientific Biography, vol. 6, pp. 189–210 (1972); digitized by MacTutor History of Mathematics Archive",
+      "publicationDate": "1972",
+      "sourceType": "academic_research",
+      "stableUrl": "https://mathshistory.st-andrews.ac.uk/DSB/Al-Haytham.pdf",
+      "consulted": true,
+      "notes": "Reference study used for catalogue-level biographical caution. Sabra identifies false attributions among works associated with Ibn al-Haytham; this dossier does not transfer those attributions to the Optics or use the DSB as the source of the experimental passage."
+    },
+    {
+      "id": "HAY-WARBURG-CATALOGUE",
+      "title": "The Optics of Ibn al-Haytham, Books I–III, On Direct Vision (catalogue record)",
+      "authorOrInstitution": "Warburg Institute, University of London",
+      "publicationDate": "1989",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://commons.warburg.sas.ac.uk/concern/published_works/r494vk17h?locale=en",
+      "consulted": true,
+      "notes": "Catalogue record identifies Sabra's translated edition and downloadable volume. The scanned book's license is CC BY-NC 3.0; redistribution or use of long passages should follow those terms."
+    }
+  ],
+  "works": [
+    {
+      "id": "hay-kitāb-al-manazir",
+      "scholarSlug": "ibn-al-haytham",
+      "originalTitle": "كتاب المناظر",
+      "transliteration": "Kitāb al-Manāẓir",
+      "translation": "The Book of Optics",
+      "language": "Arabic; Sabra's consulted edition provides an English translation of Books I–III",
+      "subject": "Direct vision, light, optical perception, and errors of sight",
+      "purpose": "Book I opens by investigating the properties of sight, light, and vision; this record focuses on one argument about the rectilinear propagation of light from illuminated air.",
+      "authorship": "under_review",
+      "date": "Sabra places composition in the first half of the eleventh century; no exact year is asserted here.",
+      "sourceIds": ["HAY-SABRA-1989", "HAY-SABRA-ARABIC-1983", "HAY-ISMI-MANAZIR"],
+      "digitizedUrl": "https://resources.warburg.sas.ac.uk/pdf/ffh360b2205460.pdf",
+      "passages": [
+        {
+          "workId": "hay-kitāb-al-manazir",
+          "sourceId": "HAY-SABRA-1989",
+          "editionOrShelfmark": "Sabra translation of the 1983 Arabic edition, Warburg Institute, 1989",
+          "language": "English translation from Arabic",
+          "originalPassage": "“light rectilinearly radiates from every part of the illuminated air in all opposite directions”",
+          "translation": "Sabra's published translation; a short excerpt, not a new translation.",
+          "printedPage": "26",
+          "chapterOrSection": "Book I, chapter 3, paragraph [37]; experiment described in paragraphs [29]–[36]",
+          "explanation": "The preceding instructions describe two dark chambers and aligned apertures, observation of separate light spots at dawn, blocking one aperture, and interrupting a ray-path with an opaque body. The passage states the text's inference from that setup; it is not presented here as a modern controlled-laboratory protocol or a proof of every modern account of light."
+        }
+      ],
+      "notes": "Sabra's published English translation can be checked against the 1983 Arabic edition and cited Arabic manuscripts. The project has not yet performed that collation."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "hay-two-chamber-rectilinear-light",
+      "scholarSlug": "ibn-al-haytham",
+      "title": "Testing the paths of dawn light through aligned apertures",
+      "field": "Optics / history of physics",
+      "historicalProblem": "How does Book I, chapter 3 support the claim that light radiates in straight lines, and what does the text count as evidence for that conclusion?",
+      "historicalContext": "The Optics examines visible light and vision through a mathematical and physical account that engages earlier Greek optical theories. This case is limited to the reasoning in Sabra's translation of one chapter; broader claims about Ibn al-Haytham's priority, experimental method, or complete theory require separate textual evidence.",
+      "method": "The passage instructs an observer to use nested dark chambers. Dawn light enters through a large opening and then through aligned holes in a common wall; the observer marks the expected straight paths and watches for light spots opposite the holes. Blocking one hole removes its corresponding spot while the other remains. An opaque screen placed along a path intercepts the light and causes the spot to disappear; removing the screen restores it. The text uses these contrasts to argue that the observed light proceeds along rectilinear paths.",
+      "observationsOrCalculations": "Sabra translates the reported observations as separate spots appearing opposite the apertures, each wider than its opening, with the rest of the chamber dark except for weak light; screening one hole removes the associated spot. Paragraphs [33]–[37] describe moving an opaque object across the interval, the spot appearing on the obstruction, and the inference about straight-line propagation.",
+      "reportedResult": "The text concludes that light from illuminated atmosphere reaches opposite places along straight lines. This is the historical author's stated inference in Book I, chapter 3, not a claim that this passage contains the entirety of modern optics.",
+      "whatWasNew": "No priority claim is made. The case documents a specific setup, observation, and inference in the transmitted text; establishing its relation to earlier Greek and later Arabic or Latin optical work requires comparative study.",
+      "limitations": "The project consulted Sabra's 1989 English translation, not the Arabic manuscript image or the 1983 Arabic page. The physical setup has not been reconstructed or independently replicated, and the dossier does not establish which manuscript readings Sabra adopted for each sentence. The terms and explanation belong to the historical text; do not silently equate them with modern ray optics or call the passage the origin of experimental science.",
+      "laterInfluence": "Sabra's introduction surveys a Latin translation known as Perspectiva or De aspectibus and its later reception. This draft does not trace the present passage into a specific Latin manuscript or later author's text.",
+      "claims": [
+        {
+          "id": "hay-dates-and-life-limits",
+          "text": "Sabra's scholarly account treats Ibn al-Haytham's biographical sources as late and sometimes conflicting; this dossier does not use later anecdotes as established facts.",
+          "sourceIds": ["HAY-SABRA-1989", "HAY-DSB-1972"],
+          "locator": "Sabra introduction, section I, 'Sources for the life and works'; DSB biography",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The biographical notices themselves have not been collated in this batch."
+        },
+        {
+          "id": "hay-optics-seven-books",
+          "text": "Sabra describes the Optics as a seven-book work, with Books I–III treating rectilinear radiation and direct vision, and later books treating reflection and refraction.",
+          "sourceIds": ["HAY-SABRA-1989"],
+          "locator": "Introduction, pp. xiii–xiv",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The dossier studies only one passage from Book I."
+        },
+        {
+          "id": "hay-optics-date-window",
+          "text": "Sabra's introduction places composition of the Optics in the first half of the eleventh century, without fixing an exact year in the cited overview.",
+          "sourceIds": ["HAY-SABRA-1989"],
+          "locator": "Preface, p. xii",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "This is a broad modern dating assessment; manuscript colophons and arguments need separate review."
+        },
+        {
+          "id": "hay-arabic-edition-basis",
+          "text": "Sabra states that his 1989 Books I–III translation is based on an Arabic text published in Kuwait in 1983.",
+          "sourceIds": ["HAY-SABRA-1989", "HAY-SABRA-ARABIC-1983"],
+          "locator": "Sabra introduction, p. xiv",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "The Arabic edition itself has not been directly collated in this pass."
+        },
+        {
+          "id": "hay-chamber-observation",
+          "text": "In Sabra's translation of Book I, chapter 3, paragraphs [29]–[36], the text describes nested dark chambers, aligned apertures, separate light spots at dawn, and screening/blocking steps that alter the observed spots.",
+          "sourceIds": ["HAY-SABRA-1989"],
+          "locator": "Book I, chapter 3, paragraphs [29]–[36], printed pp. 23–26",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "This reports the published translation; the Arabic wording and manuscript variants still need collation."
+        },
+        {
+          "id": "hay-rectilinear-conclusion",
+          "text": "Paragraph [37] concludes from the preceding chamber observation that light from illuminated air radiates rectilinearly toward opposite directions.",
+          "sourceIds": ["HAY-SABRA-1989"],
+          "locator": "Book I, chapter 3, paragraph [37], printed p. 26",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "This is the author's conclusion as rendered in Sabra's translation; it is not a modern replication or complete modern theory of light."
+        },
+        {
+          "id": "hay-historical-method-caution",
+          "text": "This passage contains an explicit procedure, reported observations, and an inference, but it does not by itself justify calling Ibn al-Haytham the inventor of modern experimental science.",
+          "sourceIds": ["HAY-SABRA-1989"],
+          "locator": "Book I, chapter 3, paragraphs [29]–[37]; comparison scope of this dossier",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "The negative priority caution follows from the bounded scope of the passage; a full comparative history is outside this batch."
+        },
+        {
+          "id": "hay-latin-reception",
+          "text": "Sabra's introduction reports that the Latin Optics circulated as Perspectiva or De aspectibus and became influential in later medieval European optics.",
+          "sourceIds": ["HAY-SABRA-1989"],
+          "locator": "Preface, pp. xii–xiii",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "Specific manuscript witnesses and textual borrowing are not traced in this case study."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Which Arabic manuscript readings underlie Sabra's English rendering of paragraphs [29]–[37], and do the diagrams or layout clarify the geometry of the apparatus?",
+    "Can the 1983 Arabic edition and at least one manuscript witness (including the ISMI-linked Topkapı Ahmet III 3339 record) be collated for the chapter 3 passage?",
+    "How does this chamber argument relate textually to earlier Greek optical works and to later Arabic commentaries such as Kamāl al-Dīn al-Fārisī's Tanqīḥ al-Manāẓir?",
+    "Which Latin manuscript witness preserves this specific chamber passage, and how does its wording compare with the Arabic and Sabra translation?",
+    "What account of Ibn al-Haytham's experimental procedures can be supported by comparing several primary passages rather than a single example?"
+  ]
+}

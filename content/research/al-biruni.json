@@ -1,0 +1,241 @@
+{
+  "scholarSlug": "al-biruni",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Abū Rayḥān al-Bīrūnī's work spans astronomy, mathematics, mathematical geography, chronology, and the study of India. This case uses his first-person account of a horizon-dip measurement at Nandana as transmitted in Kitāb Taḥdīd nihāyāt al-amākin. It does not add an exact event date from the later date of a book or infer a complete itinerary from this single passage.",
+      "claimIds": ["bir-author-record", "bir-event-date-caution"],
+      "gaps": ["Compare the dates and wording across the primary Arabic editions of Taḥdīd and al-Qānūn al-Masʿūdī.", "Build a sourced biography from early Arabic notices and critical modern scholarship rather than relying on a single popular biography."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "The Taḥdīd was completed in 416 AH (1025–26 CE) according to specialist catalogues and the article examined here. That is the date of the work, not automatically the date of every observation it records. Baloch reproduces the author's account of staying at Nandana and testing the method there, but the passage does not give a specific Gregorian year for that observation.",
+      "claimIds": ["bir-tahdid-date", "bir-event-date-caution"],
+      "gaps": ["Check the Arabic colophon and work's composition chronology in the manuscript and critical edition.", "Establish when the Nandana observation occurred from direct dated evidence, if any; do not substitute 416 AH for it."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "In the Nandana passage, the author describes looking from a mountain summit toward the horizon, measuring its dip relative to a horizontal line, determining the mountain's vertical height, and using a right-triangle relation to infer Earth's radius. The modern equation is an explanatory reconstruction, not a transcription of his notation. A significant numerical transcription problem remains: Baloch discusses ambiguous/misprinted digits in the mountain-height value and supplies alternative readings. This dossier therefore records the observation and geometric structure but does not publish a verified final radius value.",
+      "claimIds": ["bir-nandana-account", "bir-dip-observation", "bir-height-text-uncertainty", "bir-geometric-method", "bir-radius-result-pending"],
+      "gaps": ["Inspect the Arabic facsimile and compare the 1962 printed edition's digits against manuscript Fatih 3386; Baloch's notes show the number is not straightforward.", "Compare this Taḥdīd account with the two al-Qānūn versions and identify which mountain-height method belongs to which text.", "Recalculate the reported sexagesimal quantities only after establishing the reading and local cubit unit from the Arabic witness and editorial apparatus."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The passage documents a specific medieval mathematical-geographical procedure and its reported application. It does not support a claim that al-Bīrūnī invented the general principle of horizon-dip measurement: Baloch's discussion notes an earlier account involving Sanad ibn ʿAlī, as reported by al-Bīrūnī. Later influence and practical uptake are not established by this passage alone.",
+      "claimIds": ["bir-priority-caution", "bir-influence-scope"],
+      "gaps": ["Trace earlier measurement methods cited by al-Bīrūnī through their primary witnesses.", "Research reception and later use through manuscript, instrument, and citation evidence rather than similarity of formulas alone."]
+    }
+  },
+  "sources": [
+    {
+      "id": "BIR-BALOCH-1987",
+      "title": "Berûnî and His Experiment at Nandana",
+      "authorOrInstitution": "Nabi Bakhsh Khan Baloch, Erdem 3(9), pp. 673–731",
+      "publicationDate": "1987",
+      "sourceType": "academic_research",
+      "stableUrl": "https://doi.org/10.32704/erdem.1987.9.673",
+      "consulted": true,
+      "notes": "Full article consulted. At pp. 708–710 the author reproduces the Arabic text of the Taḥdīd account in Appendix I and provides an English translation described as close to the original. Baloch records the 34-arcminute dip and explains that the printed mountain-height digits are ambiguous/misprinted; he discusses alternate readings and their calculation effect. This dossier attributes the transcription and translation to Baloch and does not claim an independent reading of the Arabic facsimile."
+    },
+    {
+      "id": "BIR-TAHDID-ARABIC-1962",
+      "title": "Kitāb taḥdīd nihāyāt al-amākin li-taṣḥīḥ masāfāt al-masākin",
+      "authorOrInstitution": "Abū Rayḥān al-Bīrūnī; edited by Muḥammad Tāwīt al-Tanjī, Ankara, 1962",
+      "publicationDate": "1962",
+      "sourceType": "primary_source",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/text/59366",
+      "consulted": false,
+      "notes": "ISMI identifies the Arabic work, edition, and two witnesses including Süleymaniye Fatih 3386. Baloch states that the Arabic text reproduced in his Appendix I comes from the printed edition. The edition and manuscript page images have not yet been independently inspected in this project."
+    },
+    {
+      "id": "BIR-ISMI-TAHDID",
+      "title": "Kitāb taḥdīd nihāyāt al-amākin li-taṣḥīḥ masāfāt al-masākin: text and manuscript witnesses",
+      "authorOrInstitution": "Islamic Scientific Manuscripts Initiative, Max Planck Institute for the History of Science",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/text/59366",
+      "consulted": true,
+      "notes": "Catalogue identifies Arabic title, subject, two manuscript witnesses, the 1962 edition, and Jamil Ali's 1967 English translation. Catalogue metadata is not a manuscript autopsy."
+    },
+    {
+      "id": "BIR-ALI-1967",
+      "title": "The Determination of the Coordinates of Positions for the Correction of Distances between Cities",
+      "authorOrInstitution": "Al-Bīrūnī; translated by Jamil Ali, American University of Beirut Press",
+      "publicationDate": "1967",
+      "sourceType": "academic_research",
+      "stableUrl": "https://www.aub.edu.lb/aubpress/pages/thedeterminationofcoordinates.aspx",
+      "consulted": true,
+      "notes": "AUB Press record states that the translation is based on P. Tavit al-Tanji's edition of the Istanbul manuscript Sultan Fatih 3386, published in 1962. The full book's Nandana pages were not directly read in this pass; the source is a translation and edition lead, not the translation used for the short passage below."
+    },
+    {
+      "id": "BIR-KING-2008",
+      "title": "Cartography in the Traditional Islamic and South Asian Societies, chapter 8",
+      "authorOrInstitution": "J. B. Harley and David Woodward, eds., The History of Cartography, vol. 2, book 1; section by F. Jamil Ragep and others",
+      "publicationDate": "2008",
+      "sourceType": "academic_research",
+      "stableUrl": "https://press.uchicago.edu/books/hoc/HOC_V2_B1/HOC_VOLUME2_Book1_chapter8.pdf",
+      "consulted": true,
+      "notes": "Used for methodological cross-check: it distinguishes the square-plate/alidade mountain-height procedure in Taḥdīd from a two-position altitude method reported in al-Qānūn, and notes precision constraints. This dossier does not merge those distinct descriptions."
+    },
+    {
+      "id": "BIR-BEA",
+      "title": "Biruni",
+      "authorOrInstitution": "F. Jamil Ragep, Biographical Encyclopedia of Astronomers, Springer Reference; hosted by the Institute for the History of Arabic-Islamic Science, McGill University",
+      "publicationDate": "2007",
+      "sourceType": "reference_work",
+      "stableUrl": "https://islamsci.mcgill.ca/RASI/BEA/Biruni_BEA.htm",
+      "consulted": true,
+      "notes": "Reference biography and bibliography used as orientation only. The measurement case is grounded in the text and specialist edition/history sources above, not in a popular priority narrative."
+    }
+  ],
+  "works": [
+    {
+      "id": "bir-tahdid-geodesy",
+      "scholarSlug": "al-biruni",
+      "originalTitle": "كتاب تحديد نهايات الأماكن لتصحيح مسافات المساكن",
+      "transliteration": "Kitāb taḥdīd nihāyāt al-amākin li-taṣḥīḥ masāfāt al-masākin",
+      "translation": "The Determination of the Coordinates of Positions for the Correction of Distances between Cities",
+      "language": "Arabic; Jamil Ali's 1967 English translation is separately catalogued",
+      "subject": "Mathematical geography, astronomical measurement, and methods for determining coordinates and distances",
+      "purpose": "The work develops methods for determining geographical positions and distances. This dossier examines the account of a horizon-dip method for deriving Earth's radius.",
+      "authorship": "under_review",
+      "date": "Completed 416 AH (1025–26 CE) according to the specialist work catalogue and Baloch's account; the Nandana observation is not separately dated in the passage examined here.",
+      "sourceIds": ["BIR-BALOCH-1987", "BIR-TAHDID-ARABIC-1962", "BIR-ISMI-TAHDID", "BIR-ALI-1967"],
+      "digitizedUrl": "https://ismi.mpiwg-berlin.mpg.de/text/59366",
+      "passages": [
+        {
+          "workId": "bir-tahdid-geodesy",
+          "sourceId": "BIR-BALOCH-1987",
+          "editionOrShelfmark": "Baloch, Appendix I, Arabic text reproduced from the 1962 printed edition; English translation pp. 708–710",
+          "language": "English translation from Arabic, as published by Baloch",
+          "originalPassage": "“the line ... dipped ... by ... 0° 34′”",
+          "translation": "Baloch's published English translation; ellipses mark omitted words; not a new translation.",
+          "printedPage": "708–710 (Baloch article); printed Arabic edition pages require direct collation",
+          "chapterOrSection": "Taḥdīd account of the Nandana measurement; Baloch Appendix I",
+          "explanation": "The first-person narrative locates the observation at Nandana, describes a sightline from the mountain summit to the horizon, reports a 34-arcminute dip from a horizontal line, and gives a vertical mountain height. Baloch's footnote identifies ambiguity and probable printing errors in the height's sexagesimal digits; therefore no final radius number is approved here."
+        }
+      ],
+      "notes": "Distinguish the measured horizon dip from a mountain's elevation angle observed at a distant ground station. Also distinguish the height measurement described in Taḥdīd from the different two-position method described in al-Qānūn."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "bir-nandana-horizon-dip",
+      "scholarSlug": "al-biruni",
+      "title": "A horizon-dip measurement at Nandana and the text's unresolved digits",
+      "field": "Mathematical geography / geodesy / history of astronomy",
+      "historicalProblem": "How does al-Bīrūnī describe measuring the Earth's radius from a mountain-top horizon dip, and how should a modern account handle uncertainty in the printed numerical data?",
+      "historicalContext": "Baloch's 1987 article reproduces the Arabic account from the printed Taḥdīd edition and provides a close English translation. It identifies the Nandana narrative as one of multiple versions also recorded in al-Qānūn al-Masʿūdī. The History of Cartography distinguishes the Taḥdīd mountain-height instrument from a separate two-position altitude method in al-Qānūn; they must not be blended into one procedure.",
+      "method": "In the Taḥdīd account as translated by Baloch, al-Bīrūnī sights from a mountain summit toward the apparent horizon and measures the angle of dip from a fixed horizontal line. He separately measures the mountain's vertical height. The text then relates those quantities to the Earth-centred geometry through a right triangle and sexagesimal trigonometric values. In a distinct mountain-height procedure described in Taḥdīd, a square plate with an alidade and a plumb/vertical projection is used; this is not the two-ground-station technique reported for al-Qānūn.",
+      "observationsOrCalculations": "The translated Taḥdīd passage reports a horizon dip of 0°34′. It gives a mountain height in Nandana's cloth-measuring cubits, but Baloch's critical note says the printed Arabic digits are ambiguous and likely misprinted; he considers readings including 652-8-53 and 652-3-58. The resulting radius values are consequently not reported here as settled. The article also flags a misprint in another sexagesimal intermediate. No modern-unit conversion is attempted.",
+      "reportedResult": "The text records an attempted geometric determination of Earth's radius at Nandana. This dossier verifies the reported observation and method structure through a published Arabic reproduction and translation, but withholds a final numerical radius pending examination of the manuscript/edition readings and recalculation.",
+      "whatWasNew": "No novelty or priority claim is made. Baloch's article itself discusses an earlier measurement account associated with Sanad ibn ʿAlī in al-Bīrūnī's narrative, so this case cannot support calling al-Bīrūnī the inventor of horizon-dip measurement.",
+      "limitations": "The project's evidence is Baloch's 1987 reproduction/translation and catalogue descriptions; the 1962 Arabic edition and Fatih 3386 manuscript images were not directly inspected. The height numeral and arithmetic are textually uncertain. A separate 2008 specialist study warns of instrument precision limits for an extremely small angle in the related mountain-height measurement procedure. Atmospheric refraction and site/instrument uncertainty are not recalculated here. The actual Nandana observation date remains unknown in this passage.",
+      "laterInfluence": "Not established in this batch. The survival of a description and mathematical similarity to later methods do not by themselves show transmission or practical adoption.",
+      "claims": [
+        {
+          "id": "bir-author-record",
+          "text": "ISMI identifies the Taḥdīd as an Arabic practical-geography work attributed to Abū Rayḥān al-Bīrūnī and lists two manuscript witnesses.",
+          "sourceIds": ["BIR-ISMI-TAHDID"],
+          "locator": "Work record, author/language/subject and manuscript witnesses",
+          "sourceType": "institutional_catalogue",
+          "confidence": "high",
+          "uncertainty": "Catalogue metadata identifies the work and witnesses but does not independently establish every passage's authorship or textual state."
+        },
+        {
+          "id": "bir-tahdid-date",
+          "text": "The Taḥdīd is dated to 416 AH (1025–26 CE) in the source tradition and specialist cataloguing; this is the work's completion date, not a securely established date for the Nandana observation.",
+          "sourceIds": ["BIR-BALOCH-1987", "BIR-ISMI-TAHDID"],
+          "locator": "Baloch, section V, p. 708; ISMI work record and references",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The colophon and exact conversion are not directly checked from the manuscript in this project."
+        },
+        {
+          "id": "bir-event-date-caution",
+          "text": "The translated first-person passage places the observation at Nandana but does not give its calendar year; the work's 416 AH completion date is not used as the event date.",
+          "sourceIds": ["BIR-BALOCH-1987"],
+          "locator": "Baloch, section V, pp. 708–710",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "A dated external witness for the observation has not been identified."
+        },
+        {
+          "id": "bir-nandana-account",
+          "text": "Baloch reproduces and translates al-Bīrūnī's first-person Taḥdīd account of staying at Nandana and testing the horizon-dip method there.",
+          "sourceIds": ["BIR-BALOCH-1987", "BIR-TAHDID-ARABIC-1962"],
+          "locator": "Baloch, section V and Appendix I, pp. 708–710",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The project has not yet collated Baloch's reproduced Arabic against manuscript Fatih 3386 or the 1962 edition images."
+        },
+        {
+          "id": "bir-dip-observation",
+          "text": "The Taḥdīd passage as translated by Baloch reports that the horizon sightline dipped 0°34′ below the horizontally fixed line from the mountain summit.",
+          "sourceIds": ["BIR-BALOCH-1987"],
+          "locator": "Baloch, Appendix I translation, pp. 708–709",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The reading is supported by the reproduced translation; the underlying Arabic page remains to be checked."
+        },
+        {
+          "id": "bir-height-text-uncertainty",
+          "text": "Baloch notes ambiguous or misprinted Arabic sexagesimal digits for the reported mountain height and discusses multiple possible readings, including 652-8-53 and 652-3-58.",
+          "sourceIds": ["BIR-BALOCH-1987"],
+          "locator": "Baloch, p. 710 and footnote 75I",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Baloch argues that one reading better matches the calculation, but the original scan and manuscript need direct examination before ISA selects or publishes a radius value."
+        },
+        {
+          "id": "bir-geometric-method",
+          "text": "The Nandana account uses a mountain-top horizon dip and vertical mountain height in an Earth-centred right-triangle relation; the separate instrument procedure in Taḥdīd should be distinguished from the two-position altitude method recorded in al-Qānūn.",
+          "sourceIds": ["BIR-BALOCH-1987", "BIR-KING-2008"],
+          "locator": "Baloch, pp. 708–710; History of Cartography, pp. 184–185 and fig. 8.5",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The exact Arabic construction and calibration need direct comparison with the edition's figures and manuscript."
+        },
+        {
+          "id": "bir-radius-result-pending",
+          "text": "The final numerical radius is deliberately left unresolved in this dossier because the reported mountain-height digits and a related intermediate value are flagged as misprinted or ambiguous by the transcribing scholar.",
+          "sourceIds": ["BIR-BALOCH-1987"],
+          "locator": "Baloch, pp. 710–711, notes 75I–75III",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Direct image-level collation may resolve the issue; no value is accepted until that collation and a reproducible recalculation are completed."
+        },
+        {
+          "id": "bir-priority-caution",
+          "text": "Baloch's article notes an earlier horizon-dip measurement account associated with Sanad ibn ʿAlī as transmitted by al-Bīrūnī, so this passage does not establish al-Bīrūnī's priority for the principle.",
+          "sourceIds": ["BIR-BALOCH-1987"],
+          "locator": "Baloch, discussion preceding section V and note 75",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The earlier account also requires primary-source study; this is a caution against unsupported priority, not a complete genealogy of the method."
+        },
+        {
+          "id": "bir-influence-scope",
+          "text": "This batch provides no evidence for later practical use or direct transmission of the Nandana method; those claims require separate documentary evidence.",
+          "sourceIds": ["BIR-KING-2008"],
+          "locator": "History of Cartography discussion and cited bibliography",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "A broader manuscript and instrument history has not been researched in this batch."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "What do the Arabic manuscript images of Fatih 3386 and the 1962 al-Tanjī edition actually read for the mountain height, the intermediate trigonometric value, and the radius?",
+    "Can the digits in Baloch's Appendix I be collated against the Arabic line and the alternate readings he discusses, without relying on the arithmetic to decide the text circularly?",
+    "How does the Taḥdīd account differ word-for-word from the Nandana accounts in al-Qānūn al-Masʿūdī and Kitāb al-Tafhīm?",
+    "Which measurement steps are observed by al-Bīrūnī in the passage, and which instrument/setup details belong to the separate square-plate mountain-height procedure?",
+    "What physical and atmospheric uncertainties affect the 34-arcminute dip, the reported height, and any conversion from Nandana cubits to modern length?",
+    "What earlier measurements did al-Bīrūnī attribute to Sanad ibn ʿAlī, and what primary source supports that account?",
+    "What documentary evidence, if any, shows later scholars or surveyors using this specific procedure?"
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "scholarSlug": "jabir-ibn-hayyan",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Jābir ibn Ḥayyān is the name attached to a large Arabic alchemical corpus, but the existence, identity, and relation of an individual author to that corpus remain disputed. Ibn al-Nadīm's tenth-century Fihrist preserves an early biographical notice that, as read and translated by later scholarship, reports doubts already circulating while Ibn al-Nadīm himself affirms Jābir's existence. That is evidence for a medieval debate and bibliographic tradition, not independent proof of every later biographical detail.",
+      "claimIds": ["jabir-fihrist-notice", "jabir-historicity-open"],
+      "gaps": ["Collate the Fihrist notice against an Arabic critical edition and a reliable translation, recording the exact wording and pagination.", "Separate early attestations of Jābir from later biographical accretions; establish what evidence can support dates, origin, teachers, and death."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "A tenth-century bibliographic notice is an early surviving witness to the Jābir tradition. Paul Kraus proposed that much of the corpus was composed by multiple authors in the late ninth and tenth centuries; Fuat Sezgin defended an eighth-century single-author attribution. Later scholars have proposed intermediate models, and recent discussion continues to call the question unresolved. Proposed dates for corpus collections rely partly on internal textual analysis and must not be converted into a secure personal timeline for Jābir.",
+      "claimIds": ["jabir-kraus-thesis", "jabir-sezgin-thesis", "jabir-current-dispute", "jabir-corpus-date-clusters"],
+      "gaps": ["Check the original editions and arguments behind Kraus's and Sezgin's corpus chronologies.", "Record each securely dated manuscript witness and distinguish manuscript date from composition date."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "The writings ascribed to Jābir range across alchemical theory and related topics. This dossier studies the history of attribution and corpus formation only. It does not yet assign any particular recipe, apparatus, experiment, or discovery to a historical Jābir.",
+      "claimIds": ["jabir-corpus-scope", "jabir-genizah-catalogue-witness"],
+      "gaps": ["Build a title-by-title catalogue from manuscript witnesses and scholarly editions, tracking variant titles, language, date, attribution, and textual dependencies.", "Only after textual witnesses are identified, choose one passage for transcription, translation, and method analysis."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The Jābirian corpus is important for research into Arabic alchemical literature and its transmission, but claims about a single founder, priority, or direct influence need to be tied to specific texts and witnesses. The Arabic Jābirian corpus must also be kept distinct from the later Latin author conventionally called (Pseudo-)Geber unless a particular transmission relationship is evidenced.",
+      "claimIds": ["jabir-legacy-caution"],
+      "gaps": ["Trace individual Arabic texts and later translations through manuscript and reception evidence.", "Research the Latin Geber identification separately; do not treat name reuse as proof of identity or direct translation."]
+    }
+  },
+  "sources": [
+    {
+      "id": "JAB-NLM-ALCHEMY10",
+      "title": "Islamic Medical Manuscripts: Alchemy 10",
+      "authorOrInstitution": "U.S. National Library of Medicine, History of Medicine Division",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://www.nlm.nih.gov/hmd/arabic/alchemy10.html",
+      "consulted": true,
+      "notes": "Institutional research guide summarizing the Kraus, Sezgin, and intermediate authorship positions; it gives tentative internal-evidence date groupings for corpus collections and reports NLM manuscript holdings. The date groupings are the guide's summary, not independently checked here against manuscripts or the cited studies."
+    },
+    {
+      "id": "JAB-ROBERTS-2022",
+      "title": "Byzantine Engagement with Islamicate Alchemy",
+      "authorOrInstitution": "Alexandre M. Roberts, Isis 113(3)",
+      "publicationDate": "2022",
+      "sourceType": "academic_research",
+      "stableUrl": "https://doi.org/10.1086/721264",
+      "consulted": true,
+      "notes": "Peer-reviewed journal article. Its section 'The Jabirian Corpus' says the authenticity and even historicity question remains unresolved, summarizes Haq's critique of Kraus, cautions that this is not definitive proof of a single author, and states that the corpus took shape before the tenth century, with some material perhaps as early as the eighth. These are the author's assessment, not an independent manuscript dating exercise in this dossier."
+    },
+    {
+      "id": "JAB-HAQ-THESIS-1990",
+      "title": "A Critical Study of Jabir ibn Hayyan's Kitab al-Ahjar 'ala Ra'y Balinas",
+      "authorOrInstitution": "Syed Nomanul Haq, PhD thesis, University College London",
+      "publicationDate": "1990",
+      "sourceType": "academic_research",
+      "stableUrl": "https://discovery.ucl.ac.uk/id/eprint/10125139/1/Haq_10125139_thesis.pdf",
+      "consulted": true,
+      "notes": "The abstract explicitly argues against presupposing Kraus's plural-authorship/late-dating conclusions and presents evidence for an earlier translation in the Kitab al-Ahjar study. This is a significant counterargument, not a conclusive demonstration that one historical Jābir wrote the entire corpus. The thesis states that the problem remains controversial."
+    },
+    {
+      "id": "JAB-PELLEGRINO-2021",
+      "title": "Historiography and New Directions in Jābirian Studies",
+      "authorOrInstitution": "Samantha Pellegrino, Institute of Islamic Occult Studies",
+      "publicationDate": "2021",
+      "sourceType": "academic_research",
+      "stableUrl": "https://www.islamicoccult.org/pellegrino",
+      "consulted": true,
+      "notes": "Research overview mapping historiographical positions and explaining Kraus, Sezgin, and Haq. Used as a secondary orientation aid, not as a substitute for the underlying monographs or primary texts."
+    },
+    {
+      "id": "JAB-FIHRIST-DODGE-1970",
+      "title": "The Fihrist of al-Nadīm: A Tenth-Century Survey of Muslim Culture",
+      "authorOrInstitution": "Ibn al-Nadīm; edited and translated by Bayard Dodge, Columbia University Press",
+      "publicationDate": "1970",
+      "sourceType": "primary_source",
+      "stableUrl": "https://wellcomecollection.org/works/ss46u33r",
+      "consulted": true,
+      "notes": "Wellcome's record verifies the two-volume English/Arabic edition bibliographically. The Jābir passage itself has not been collated from this edition in this pass; the report about its contents is cited through Haq and modern research, not claimed as a direct transcription here."
+    },
+    {
+      "id": "JAB-FLUGEL-FIHRIST-1871",
+      "title": "Kitāb al-Fihrist, vol. 1",
+      "authorOrInstitution": "Ibn al-Nadīm; edited by Gustav Flügel, with Johannes Roediger",
+      "publicationDate": "1871",
+      "sourceType": "primary_source",
+      "stableUrl": "https://archive.org/details/kitabalfihrist00ibna",
+      "consulted": true,
+      "notes": "The digitized Arabic edition is available from Internet Archive. Gabriele Ferrario's 2021 peer-reviewed article gives the Jābir section as Flügel vol. 1, pp. 354–358 and the Dodge English translation as pp. 853–862; Haq cites the passage at Flügel p. 355, lines 11–21. The printed page images themselves still need direct collation."
+    },
+    {
+      "id": "JAB-FERRARIO-2021",
+      "title": "Alchemy in the Cairo Genizah: the Nachlass of an Untidy Jewish Alchemist",
+      "authorOrInstitution": "Gabriele Ferrario, Asiatische Studien – Études Asiatiques 75(2)",
+      "publicationDate": "2021",
+      "sourceType": "academic_research",
+      "stableUrl": "https://doi.org/10.1515/asia-2021-0007",
+      "consulted": true,
+      "notes": "Peer-reviewed article that edits, transcribes, and translates Cambridge University Library fragment T-S Ar.35.104, a Judaeo-Arabic bibliographic text about Jābirian works. Ferrario argues it is independent from, but related to, Ibn al-Nadīm's list, and cautiously proposes it may witness one of Jābir's otherwise lost catalogues. Ferrario also states that Jābir's historicity, identity, and corpus dating remain debated."
+    }
+  ],
+  "works": [
+    {
+      "id": "jabir-attributed-corpus",
+      "scholarSlug": "jabir-ibn-hayyan",
+      "transliteration": "Jābirian alchemical corpus (writings attributed to Jābir ibn Ḥayyān)",
+      "language": "Arabic",
+      "subject": "A body of alchemical writings transmitted under the name Jābir ibn Ḥayyān",
+      "purpose": "Research object for studying corpus attribution, composition, dating, manuscript witnesses, and textual transmission; no unified authorial purpose is assumed.",
+      "authorship": "under_review",
+      "date": "Disputed and likely not uniform across all texts. Scholarly proposals range from an eighth-century single-author model to later multi-author or layered corpus models; no date is assigned here to the corpus as a whole.",
+      "sourceIds": ["JAB-NLM-ALCHEMY10", "JAB-ROBERTS-2022", "JAB-HAQ-THESIS-1990"],
+      "passages": [],
+      "notes": "This is a corpus-level bibliographic record, not a claim that a single author wrote every text. No individual procedure or discovery is assigned to Jābir in this dossier."
+    },
+    {
+      "id": "jabir-genizah-catalogue-ts-ar-35-104",
+      "scholarSlug": "jabir-ibn-hayyan",
+      "transliteration": "Judaeo-Arabic catalogue of Jābirian books, Cambridge University Library T-S Ar.35.104",
+      "translation": "A fragmentary bibliographic text listing works and reading order for collections transmitted as Jābirian",
+      "language": "Judaeo-Arabic",
+      "subject": "A catalogue-like text about Jābirian books and collections, including a collection called the One Hundred and Eleven Books and an index of those books",
+      "purpose": "The text itself describes an index that enables readers to know the books' names; whether it is a witness to a lost catalogue associated with Jābir is Ferrario's cautious identification.",
+      "authorship": "under_review",
+      "date": "Manuscript fragment; date and relationship to the lost Arabic catalogue are not established in this dossier.",
+      "sourceIds": ["JAB-FERRARIO-2021"],
+      "passages": [
+        {
+          "workId": "jabir-genizah-catalogue-ts-ar-35-104",
+          "sourceId": "JAB-FERRARIO-2021",
+          "editionOrShelfmark": "Cambridge University Library, T-S Ar.35.104, P2, 1 recto, lines 1–14; published edition and translation in Ferrario 2021",
+          "language": "Ferrario's English translation from Judaeo-Arabic",
+          "originalPassage": "“a book that is the index for these books, so that you know their names”",
+          "translation": "Ferrario's published English translation; excerpt only, not a new translation.",
+          "printedPage": "21 (article pagination)",
+          "pdfPage": "22",
+          "chapterOrSection": "Section 3.3, P2 1 recto, lines 1–14",
+          "explanation": "The excerpt is a modern translation of a fragment's self-description. Ferrario argues the fragment is independent of but related to Ibn al-Nadīm's list and may preserve one of Jābir's lost catalogues; the identification and its relation to an individual historical author remain tentative."
+        }
+      ],
+      "notes": "Ferrario's edition presents the Judaeo-Arabic text, Arabic-character transcription, translation, manuscript image, and codicological discussion. The text is evidence for medieval transmission and cataloguing of writings identified as Jābirian; it does not independently prove that Jābir himself authored the surviving fragment or whole corpus."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "jabir-authorship-and-dating",
+      "scholarSlug": "jabir-ibn-hayyan",
+      "title": "Who wrote the Jābirian corpus, and when did its texts take shape?",
+      "field": "History of alchemy / Arabic intellectual history / textual history",
+      "historicalProblem": "How should a historian describe writings transmitted under one author's name when medieval witnesses report doubts, the corpus is extensive and textually uneven, and modern scholarship disagrees about its authorship and chronology?",
+      "historicalContext": "The tenth-century Fihrist is discussed by modern scholars as preserving both early skepticism around Jābir and Ibn al-Nadīm's own assertion that Jābir existed. In the twentieth century, Kraus argued for a late, plural corpus; Sezgin defended an eighth-century individual author. Haq challenged important Kraus arguments without settling the whole question. Roberts (2022) explicitly says the question is unresolved and cautions that Haq's critique is not definitive proof of a single author.",
+      "method": "Compare the positions as historiographical arguments; separate (1) the possible existence of a historical person, (2) the authorship of each treatise, (3) the formation date of collections, (4) the dates of surviving manuscripts, and (5) later attribution. For each text, require a traceable witness, edition, and argument before adding a scientific procedure or biographical fact.",
+      "observationsOrCalculations": "The sources disagree on whether one historical Jābir can be identified with the whole corpus. NLM summarizes Kraus's multiple-author late-ninth-century position, Sezgin's single eighth-century author position, and intermediate positions. Roberts calls the dispute unresolved, while reporting that corpus formation predates the tenth century and that some material may be as early as the eighth. NLM's more specific collection date clusters are recorded as tentative institutional summaries and have not been independently verified here.",
+      "reportedResult": "The defensible present result is historiographical: 'Jābir ibn Ḥayyān' is a name attached to a substantial corpus whose authorship and dating remain contested. This evidence does not support attributing any particular experiment, apparatus, or discovery to one individual in this dossier.",
+      "whatWasNew": "No scientific priority claim is made. The dossier's contribution is to make uncertainty and evidence provenance explicit before any text-level scientific reconstruction is attempted.",
+      "limitations": "The Fihrist notice has not yet been directly collated in Arabic or checked against Dodge's full translation. Kraus and Sezgin's monographs and manuscript catalogues were not consulted directly in this pass. Haq's 1990 thesis and Roberts's 2022 article are secondary arguments, not manuscript autopsies performed here. No Jābirian manuscript image, recipe, diagram, or laboratory procedure has been examined.",
+      "laterInfluence": "Not assessed in this batch. Any future account must distinguish the Arabic corpus ascribed to Jābir from Latin Geber works and demonstrate specific textual links rather than infer identity from a shared name.",
+      "claims": [
+        {
+          "id": "jabir-genizah-catalogue-witness",
+          "text": "Ferrario publishes Cambridge Genizah fragment T-S Ar.35.104 with a Judaeo-Arabic text describing an index of Jābirian books; he argues it is independent from but related to Ibn al-Nadīm's list and cautiously suggests it may witness one of Jābir's lost catalogues.",
+          "sourceIds": ["JAB-FERRARIO-2021"],
+          "locator": "Sections 3.3 and 3.5, pp. 21, 25–27; manuscript shelfmark Cambridge University Library T-S Ar.35.104",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The possible identification with a lost catalogue is Ferrario's scholarly hypothesis; fragment date and authorship are not established here, and it does not prove a historical Jābir wrote it."
+        },
+        {
+          "id": "jabir-fihrist-notice",
+          "text": "Syed Nomanul Haq's study reports that Ibn al-Nadīm's Fihrist preserves an early biography of Jābir and records contemporary doubts as well as Ibn al-Nadīm's own affirmation of Jābir's existence.",
+          "sourceIds": ["JAB-HAQ-THESIS-1990"],
+          "locator": "Introduction, pp. 5–6 of thesis pagination; discussion cites Fihrist ed. Flügel, p. 355, lines 11–21",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The Arabic passage and Bayard Dodge translation have not been directly collated in this pass; this claim reports Haq's reading of the source."
+        },
+        {
+          "id": "jabir-historicity-open",
+          "text": "The historicity of a single scholar named Jābir ibn Ḥayyān and the attribution of the full corpus to that person remain unresolved in current specialist discussion.",
+          "sourceIds": ["JAB-ROBERTS-2022", "JAB-PELLEGRINO-2021"],
+          "locator": "Roberts, 'The Jabirian Corpus'; Pellegrino, opening overview",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This describes the state of scholarly debate; it does not demonstrate that no historical Jābir existed."
+        },
+        {
+          "id": "jabir-kraus-thesis",
+          "text": "Paul Kraus argued that the corpus was produced by multiple authors and largely belongs to the late ninth and tenth centuries.",
+          "sourceIds": ["JAB-NLM-ALCHEMY10", "JAB-HAQ-THESIS-1990"],
+          "locator": "NLM research guide; Haq thesis abstract, pp. 1–2",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Kraus's original volumes were not consulted directly in this pass; the claim is reported through later scholarly sources."
+        },
+        {
+          "id": "jabir-sezgin-thesis",
+          "text": "Fuat Sezgin rejected Kraus's conclusion and argued for a single historical Jābir ibn Ḥayyān writing in the eighth century.",
+          "sourceIds": ["JAB-NLM-ALCHEMY10", "JAB-PELLEGRINO-2021"],
+          "locator": "NLM research guide; Pellegrino, historiographical overview",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "Sezgin's original arguments were not directly checked here; this is a source-attributed summary of his position, not an endorsed conclusion."
+        },
+        {
+          "id": "jabir-current-dispute",
+          "text": "Alexandre M. Roberts states that Haq's critique weakens several of Kraus's arguments but is not definitive proof that one man wrote the corpus; Roberts describes the authorship question as unresolved.",
+          "sourceIds": ["JAB-ROBERTS-2022"],
+          "locator": "Section 'The Jabirian Corpus'",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This accurately reports Roberts's assessment; it does not resolve the debate independently."
+        },
+        {
+          "id": "jabir-corpus-date-clusters",
+          "text": "The NLM research guide tentatively assigns different corpus collections to different periods, including a possible second-half ninth-century Kitāb al-Raḥmah and later collections; Roberts more broadly says the corpus took shape before the tenth century, with some material perhaps as early as the eighth.",
+          "sourceIds": ["JAB-NLM-ALCHEMY10", "JAB-ROBERTS-2022"],
+          "locator": "NLM paragraphs 3–4; Roberts, section 'The Jabirian Corpus'",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The NLM guide's collection dates are based on internal evidence and are expressly tentative; individual manuscripts and underlying dating studies have not been checked here."
+        },
+        {
+          "id": "jabir-corpus-scope",
+          "text": "The name Jābir ibn Ḥayyān is associated with numerous Arabic alchemical writings, but describing them collectively does not establish a single author or uniform composition date.",
+          "sourceIds": ["JAB-NLM-ALCHEMY10", "JAB-ROBERTS-2022"],
+          "locator": "NLM overview; Roberts, section 'The Jabirian Corpus'",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The catalogue and textual history of individual works remains incomplete in this project."
+        },
+        {
+          "id": "jabir-legacy-caution",
+          "text": "A specific relationship between Arabic Jābirian writings and Latin Geber texts must be established text by text and cannot be inferred solely from the name Geber.",
+          "sourceIds": ["JAB-PELLEGRINO-2021"],
+          "locator": "Opening overview, discussion of Latin (Pseudo-)Geber identification",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "This dossier has not examined Latin manuscripts or translation histories; the claim sets a research rule, not a complete transmission finding."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "What exactly does the Arabic Fihrist text say about Jābir's existence, identity, and titles, and how does Dodge translate it?",
+    "Can Cambridge University Library T-S Ar.35.104 be dated more precisely, and what evidence supports or challenges Ferrario's proposed relation to a lost Jābirian catalogue?",
+    "Which early external attestations establish the circulation of specific Jābirian texts, independent of later author biographies?",
+    "For each corpus collection, what are the oldest dated manuscript witnesses, and how do those dates relate to proposed composition dates?",
+    "Which specific Kitāb al-Raḥmah manuscript supports the NLM's tentative second-half ninth-century date, and what internal evidence underlies it?",
+    "How do Kraus's original manuscript catalogues and Sezgin's additions compare with current library catalogues and digitized witnesses?",
+    "What individual Jābirian work has enough accessible primary text and manuscript evidence to support a properly bounded scientific-method investigation?",
+    "How should Latin Geber works be related to Arabic Jābirian writings on the basis of specific textual witnesses and transmission evidence?"
+  ]
+}

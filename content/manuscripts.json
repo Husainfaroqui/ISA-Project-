@@ -1,0 +1,23 @@
+[
+  {
+    "id": "qdl-delhi-arabic-1897-khuzai-algebra-commentary",
+    "scholarSlug": "al-khwarizmi",
+    "workTitle": "Sharḥ al-mukhtaṣar fī al-jabr wa-al-muqābalah",
+    "title": "Al-Khuzāʿī’s commentary on al-Khwārizmī’s algebra",
+    "originalTitle": "شرح مختصر الشيخ أبي بكر محمد بن موسى الخوارزمي في الجبر والمقابلة",
+    "language": "Arabic",
+    "date": "Copy completed 18 January 1627; commentary completed 1211",
+    "materialType": "later_commentary_copy",
+    "repository": "British Library, Oriental Manuscripts (digitized by Qatar Digital Library)",
+    "catalogueReference": "Delhi Arabic 1897, ff. 1r–124v",
+    "sourceUrl": "https://www.qdl.qa/en/archive/81055/vdc_100083376667.0x000003",
+    "catalogueUrl": "https://searcharchives.bl.uk/catalog/032-003372160",
+    "iiifManifestUrl": "https://www.qdl.qa/en/iiif/81055/vdc_100042392200.0x000001/manifest",
+    "imageUrl": "https://iiif.qdl.qa/iiif/images/81055/vdc_100042392200.0x000001/Delhi%20Arabic%201897_0233.jp2/full/%211200%2C1200/0/default.jpg",
+    "attribution": "Qatar Digital Library / British Library, Delhi Arabic 1897",
+    "licence": "Qatar Digital Library record states Public Domain",
+    "classification": "later_commentary_copy",
+    "description": "A digitized leaf from the Arabic commentary on al-Khwārizmī’s algebra. The commentary is attributed to Muḥammad ibn Aḥmad al-Khuzāʿī; the surviving codex was copied in 1627. It is not an autograph by al-Khwārizmī.",
+    "connection": "The text explicitly comments on al-Khwārizmī’s algebraic work; British Library catalogue records the contents and folio range."
+  }
+]

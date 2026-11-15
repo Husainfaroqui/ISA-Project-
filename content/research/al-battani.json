@@ -1,0 +1,230 @@
+{
+  "scholarSlug": "al-battani",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "This focused dossier studies one part of Abū ʿAbd Allāh Muḥammad ibn Jābir ibn Sinān al-Battānī's astronomical work: the solar parameters reported in his zīj. Benno van Dalen's Biographical Encyclopedia of Astronomers entry, hosted by ISMI, places his observations at Raqqa and records the surviving transmission of the Ṣābiʾ Zīj. It does not attempt a full biography or harmonize variant life dates beyond that reference's reported bounds.",
+      "claimIds": ["bat-identity", "bat-raqqa-observations", "bat-zij-witness"],
+      "gaps": ["Compare the Arabic biographical notices and the manuscript evidence behind disputed life dates, family history, and observatory chronology.", "Expand the dossier to separate investigations of eclipses, lunar theory, geography, instruments, and the zīj's tables."]
+    },
+    "timeline": {
+      "state": "draft",
+      "text": "Mozaffari places the solar observation year in the Yazdigird calendar year 251, corresponding to 15 April 882–14 April 883, and says the observations took place after 882 CE. Van Dalen reports a broader Raqqa observing period of 877–918. These dates describe reported observations, not the composition date of the whole zīj or the date of its surviving Escorial copy.",
+      "claimIds": ["bat-observation-date", "bat-raqqa-observations", "bat-zij-witness"],
+      "gaps": ["Check the dated observations and era conversion directly against Nallino's Latin and Arabic text and the Escorial witness.", "Establish the composition history and relationship of the two editions mentioned by Ibn al-Nadīm without treating the surviving manuscript date as the work's date."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "The zīj reports a Ptolemaic solar-model eccentricity of 2;4,45 parts when the deferent radius is 60, and a tropical-year value of 365;14,26 days. Converting the latter's sexagesimal day fraction gives 365 days, 5 hours, 46 minutes, 24 seconds. The historical eccentricity belongs to the geocentric eccentric-circle model; it is not the modern Keplerian eccentricity of Earth's orbit. A separate calculation using e/R=2;4,45/60 gives a maximum equation near 1°59′9.1″, close to the rounded 1°59′10″ value reported in the later table tradition. This arithmetic check is explanatory, not a fresh reading of the Arabic witness.",
+      "claimIds": ["bat-eccentricity", "bat-qmax-check", "bat-tropical-year", "bat-model-distinction"],
+      "gaps": ["Read Nallino, Pars I, chapter 28, printed pp. 43–48, and compare its Latin with the Arabic text and apparatus; this page locator is currently known through Nothaft's 2024 footnote.", "Check the table of the equation of centre in Nallino, Pars II, pp. 78–83, column by column against the reported parameter.", "Determine precisely how Nallino and later authors derive the year value from the text and distinguish a direct observation from a derived table parameter.", "Audit the model's observational method and error sources before evaluating accuracy or priority."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "Nothaft identifies the Toledan Tables' maximum solar equation of 1;59,10° as implying the eccentricity 2;4,45 associated with al-Battānī. This supports a specific reception trail for a parameter in Latin astronomical tables. Van Dalen separately documents later readers and translators of the zīj. Neither fact makes the historical geocentric model identical to modern astronomy or proves direct borrowing in every later work that uses a similar value.",
+      "claimIds": ["bat-toledan-transmission", "bat-later-reception-limit"],
+      "gaps": ["Trace the table value through the manuscripts and textual versions of the Toledan Tables and test whether the source attribution is explicit in each witness.", "Investigate the zīj's Arabic, Castilian, Hebrew, and Latin transmission as separate documentary chains.", "Do not turn later claims about Copernicus, Tycho, or European science into priority or causal claims without passage-level evidence."]
+    }
+  },
+  "sources": [
+    {
+      "id": "BAT-MOZAFFARI-2013",
+      "title": "Limitations of Methods: The Accuracy of the Values Measured for the Earth's/Sun's Orbital Elements in the Middle East, A.D. 800–1500, Part 1",
+      "authorOrInstitution": "S. Mohammad Mozaffari, Journal for the History of Astronomy 44 (2013), pp. 313–332",
+      "publicationDate": "2013",
+      "sourceType": "academic_research",
+      "stableUrl": "https://www.shpltd.co.uk/Mozaffari%20Limitations%20Of%20Methods%20Part%201.pdf",
+      "consulted": true,
+      "notes": "Read the article's model definition, Table 1 and its notes. Printed p. 323 lists al-Battānī in Yazdigird year 251 (15 April 882–14 April 883) with reported and recomputed solar parameters. Printed p. 329 note 3 reports e=2;4,45, qmax=1;59,10, tropical year 365;14,26 days, and observations after 882. This is a modern analysis of medieval data, not a direct collation of Nallino's edition in this project."
+    },
+    {
+      "id": "BAT-BEA-VAN-DALEN-2007",
+      "title": "Battānī: Abū ʿAbd Allāh Muḥammad ibn Jābir ibn Sinān al-Battānī al-Ḥarrānī al-Ṣābiʾ",
+      "authorOrInstitution": "Benno van Dalen, Biographical Encyclopedia of Astronomers (Springer Reference, 2007), pp. 101–103; hosted by ISMI",
+      "publicationDate": "2007",
+      "sourceType": "reference_work",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/biography/Battani_BEA.htm",
+      "consulted": true,
+      "notes": "Read the relevant biography, observatory, parameter, zīj, and transmission sections. The entry reports an observing period at Raqqa of 877–918, a 12th/13th-century complete witness Escorial árabe 908, the Nallino edition (1899–1907), and wider transmission. These are the entry's reports, not fresh manuscript verification."
+    },
+    {
+      "id": "BAT-NOTHAFt-2024",
+      "title": "On Some Early Latin European Measurements of the Eccentricity of the Solar Orbit (1308–1314)",
+      "authorOrInstitution": "C. Philipp E. Nothaft, Journal for the History of Astronomy 55(2) (2024), pp. 143–155",
+      "publicationDate": "2024",
+      "sourceType": "academic_research",
+      "stableUrl": "https://doi.org/10.1177/00218286241228260",
+      "consulted": true,
+      "notes": "Read the discussion of the Toledan Tables' qmax=1;59,10° and its implication e=2;4,45, which the author traces back to al-Battānī (printed p. 148), plus note 12 (printed p. 155), which identifies Nallino, vol. 1, pp. 43–48 (chapter 28) and vol. 2, pp. 78–83. Used as secondary evidence for one documented transmission link and a locator to the editions, not as a substitute for direct collation."
+    },
+    {
+      "id": "BAT-NALLINO-1903",
+      "title": "Al-Battānī sive Albatenii Opus astronomicum, Pars I: Versio capitum cum animadversionibus",
+      "authorOrInstitution": "Al-Battānī; edited, translated into Latin, and annotated by Carlo Alfonso Nallino, Milan: Hoepli, 1903",
+      "publicationDate": "1903",
+      "sourceType": "primary_source",
+      "stableUrl": "https://books.google.com/books?id=VIjM-bcciP8C",
+      "consulted": false,
+      "notes": "Catalogued as the Latin chapter edition. Nothaft's note 12 points to chapter 28, printed pp. 43–48. The preview/scan was not read directly for this dossier; no passage is presented as transcribed from it."
+    },
+    {
+      "id": "BAT-ISLAM-MUSEUM-WORK",
+      "title": "al-Zīj al-Ṣābiʾ (The Sabian Zīj)",
+      "authorOrInstitution": "Islam Museum, work record",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://www.islam.museum/en/work/al-zij-al-sabi/",
+      "consulted": true,
+      "notes": "Consulted for the work title and the record's summary of its subject matter. The record itself labels the entry draft and says some edition details remain unverified; its broad content summary is not used as primary-text evidence."
+    }
+  ],
+  "works": [
+    {
+      "id": "bat-zij-sabi",
+      "scholarSlug": "al-battani",
+      "originalTitle": "الزيج الصابئ",
+      "transliteration": "al-Zīj al-Ṣābiʾ",
+      "translation": "The Sabian Astronomical Handbook (Zīj)",
+      "language": "Arabic; Latin translation and commentary in Nallino's 1903 edition",
+      "subject": "Ptolemaic astronomy, solar and planetary parameters, practical astronomical tables",
+      "purpose": "An astronomical handbook with explanatory chapters and tables. This investigation is limited to its solar eccentricity and tropical-year values and a later table transmission claim.",
+      "authorship": "draft",
+      "date": "The dossier does not assign a single composition date. The focused observation is dated by Mozaffari to Yazdigird year 251 (882/883 CE).",
+      "sourceIds": ["BAT-MOZAFFARI-2013", "BAT-BEA-VAN-DALEN-2007", "BAT-NOTHAFt-2024", "BAT-NALLINO-1903", "BAT-ISLAM-MUSEUM-WORK"],
+      "digitizedUrl": "https://books.google.com/books?id=VIjM-bcciP8C",
+      "passages": [
+        {
+          "workId": "bat-zij-sabi",
+          "sourceId": "BAT-MOZAFFARI-2013",
+          "editionOrShelfmark": "Mozaffari's secondary analysis of al-Battānī's solar data; the primary edition cited for direct follow-up is Nallino, Pars I, chapter 28, pp. 43–48, and Pars II, pp. 78–83",
+          "language": "English secondary analysis of Arabic astronomical data; paraphrase only",
+          "originalPassage": "Mozaffari's Table 1 assigns al-Battānī a solar observation in Yazdigird year 251 and lists the Ptolemaic eccentricity parameter. Note 3 reports the associated maximum equation and tropical-year value.",
+          "translation": "No translation of an Arabic or Latin primary passage is supplied here; this is a paraphrase of the modern study.",
+          "printedPage": "Mozaffari, p. 323 (Table 1) and p. 329, note 3; Nothaft, pp. 148 and 155 n. 12 for the Toledan Tables link and Nallino locators.",
+          "chapterOrSection": "Zīj, chapters 27–28 (length of the year and mean solar motion; solar anomaly and apogee), as identified in the secondary literature",
+          "explanation": "The numbers are attributed to the zīj through modern scholarship. Neither the Arabic witness nor Nallino's Latin chapter has been collated here, so no phrase is presented as an exact quotation or fresh translation."
+        }
+      ],
+      "notes": "The 12th/13th-century Escorial árabe 908 is the complete surviving witness described by Van Dalen; it is not al-Battānī's autograph. The observation date and manuscript date must remain distinct."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "bat-solar-parameters",
+      "scholarSlug": "al-battani",
+      "title": "Solar eccentricity and year length in al-Battānī's zīj",
+      "field": "Astronomy / mathematical astronomy / history of astronomy",
+      "historicalProblem": "What solar parameters does modern specialist research report from al-Battānī's zīj, how do their historical model and sexagesimal units work, and what can be said about their later reception without mistaking an inferred table value for a modern physical parameter?",
+      "historicalContext": "The zīj belongs to the Ptolemaic geocentric tradition. Mozaffari compares recorded and recomputed values for medieval solar models and distinguishes a parameter's formal historical value from modern reinterpretation. Van Dalen describes a full 57-chapter-and-tables witness in Escorial árabe 908, copied in the 12th or 13th century. Nothaft traces the value implicit in the Toledan Tables to al-Battānī. The dossier has not directly checked the Arabic text, Nallino's apparatus, or that manuscript.",
+      "method": "Read Mozaffari's Table 1 and note 3 for the reported values and observation year; read Van Dalen's BEA entry for the work and surviving-witness context; read Nothaft's discussion and note 12 for the later Toledan value and exact Nallino page locators. Independently convert the sexagesimal year fraction and use the Ptolemaic relation qmax=arcsin(e/60) as a rounded arithmetic check. Keep secondary claims distinct from a fresh primary-text reading.",
+      "observationsOrCalculations": "Mozaffari reports e=2;4,45 parts for a deferent radius of 60. In decimal units this is 2 + 4/60 + 45/3600 = 2.0791667 parts, or 0.0346528 of the radius. The Ptolemaic relation gives qmax≈1.9858555°, or about 1°59′9.1″, close to the rounded 1°59′10″ reported in the table tradition. Mozaffari gives the year as 365;14,26 days: 14/60 + 26/3600 day equals 5 hours, 46 minutes, 24 seconds. These checks validate conversions only; they do not confirm the source reading or the accuracy of the medieval observation.",
+      "reportedResult": "The consulted secondary studies report that al-Battānī's zīj used a Ptolemaic solar eccentricity of 2;4,45 (radius 60) and a year length of 365;14,26 days. Nothaft identifies qmax=1;59,10° in the Toledan Tables as a value tracing back to al-Battānī. The values are historically meaningful parameters within their own model and tables.",
+      "whatWasNew": "This case makes the value's historical units, model, observation-era locator, year conversion, and later table connection explicit. It makes no claim that al-Battānī invented solar eccentricity measurement, that a value in one model is identical to a Keplerian eccentricity, or that the observation has been independently remeasured from a manuscript.",
+      "limitations": "The underlying Arabic and Latin text and Nallino's apparatus were not read directly in this batch. Mozaffari's account is the immediate source for the reported observation and numerical values; Nothaft's article supplies secondary evidence for the Toledan transmission link. The arithmetic calculation from e=2;4,45 gives a qmax about one arcsecond below the rounded 1;59,10 value; this small difference is retained rather than silently forced to equality. No modern accuracy score, instrument reconstruction, or priority claim is inferred.",
+      "laterInfluence": "Nothaft reports that the Toledan Tables' qmax=1;59,10° implies e=2;4,45 and traces that parameter back to al-Battānī. Van Dalen documents further translations and later users of the zīj, but this dossier does not assert that each named astronomer used this particular parameter without a passage-level check.",
+      "claims": [
+        {
+          "id": "bat-identity",
+          "text": "Van Dalen's biographical entry identifies al-Battānī as an astronomer from Harran, born before 858 and dead near Samarra in 929.",
+          "sourceIds": ["BAT-BEA-VAN-DALEN-2007"],
+          "locator": "BEA entry, heading and opening biography",
+          "sourceType": "reference_work",
+          "confidence": "medium",
+          "uncertainty": "These dates are the reference entry's reported bounds and are not independently harmonized against Arabic biographical notices here."
+        },
+        {
+          "id": "bat-raqqa-observations",
+          "text": "Van Dalen reports that al-Battānī conducted observations at Raqqa during 877–918 CE.",
+          "sourceIds": ["BAT-BEA-VAN-DALEN-2007"],
+          "locator": "BEA entry, observatory and instruments paragraph",
+          "sourceType": "reference_work",
+          "confidence": "medium",
+          "uncertainty": "The chronology is reported by the biographical entry; individual observations and instruments require a separate primary-text audit."
+        },
+        {
+          "id": "bat-zij-witness",
+          "text": "Van Dalen describes the Ṣābiʾ Zīj as surviving completely, with 57 chapters and tables, in Escorial árabe 908, a 12th- or 13th-century copy.",
+          "sourceIds": ["BAT-BEA-VAN-DALEN-2007"],
+          "locator": "BEA entry, discussion of the Ṣābiʾ Zīj's witnesses and Nallino edition",
+          "sourceType": "reference_work",
+          "confidence": "medium",
+          "uncertainty": "The manuscript itself and its catalogue record have not been inspected in this batch; the witness date is not the composition date."
+        },
+        {
+          "id": "bat-observation-date",
+          "text": "Mozaffari's Table 1 dates the al-Battānī observation to Yazdigird year 251, 15 April 882–14 April 883; note 3 says the solar observations were made after 882 CE.",
+          "sourceIds": ["BAT-MOZAFFARI-2013"],
+          "locator": "Printed p. 323, Table 1 row 3; p. 329, note 3",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "This is the date as reconstructed in the modern article; the underlying dated text has not been collated here."
+        },
+        {
+          "id": "bat-eccentricity",
+          "text": "Mozaffari reports al-Battānī's Ptolemaic solar eccentricity as 2;4,45 parts on a radius of 60 and associates it with qmax=1;59,10°.",
+          "sourceIds": ["BAT-MOZAFFARI-2013", "BAT-NOTHAFt-2024"],
+          "locator": "Mozaffari, p. 329, note 3; Nothaft, p. 148",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The notation is a historical parameter in the Ptolemaic eccentric-circle model, not a direct measurement of modern Keplerian orbital eccentricity; the source text has not been collated."
+        },
+        {
+          "id": "bat-qmax-check",
+          "text": "Converting 2;4,45 to 2.0791667 and applying qmax=arcsin(e/60) gives about 1°59′9.1″, close to the rounded 1°59′10″ value reported by the secondary sources.",
+          "sourceIds": ["BAT-MOZAFFARI-2013", "BAT-NOTHAFt-2024"],
+          "locator": "Independent arithmetic check using the model described in Mozaffari, pp. 314–315, and the reported value at p. 329, note 3",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The calculation checks normalized modern arithmetic from the reported sexagesimal value, not the manuscript reading or the rounding convention in the historical table."
+        },
+        {
+          "id": "bat-tropical-year",
+          "text": "Mozaffari reports a tropical-year value of 365;14,26 days, equivalent by sexagesimal conversion to 365 days, 5 hours, 46 minutes, 24 seconds.",
+          "sourceIds": ["BAT-MOZAFFARI-2013"],
+          "locator": "Printed p. 329, note 3; conversion independently recomputed here",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The conversion is arithmetic; the underlying edition and year-length derivation have not been directly checked."
+        },
+        {
+          "id": "bat-model-distinction",
+          "text": "The reported value 2;4,45 is expressed in the Ptolemaic solar eccentric-circle model and must not be presented as numerically identical to the modern Keplerian eccentricity of Earth's orbit.",
+          "sourceIds": ["BAT-MOZAFFARI-2013", "BAT-NOTHAFt-2024"],
+          "locator": "Mozaffari, pp. 314–315; Nothaft, pp. 147–148",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "A conversion between the two models requires stating the modelling assumptions; this dossier does not make a modern-accuracy comparison."
+        },
+        {
+          "id": "bat-toledan-transmission",
+          "text": "Nothaft identifies the Toledan Tables' qmax=1;59,10° as implying e=2;4,45 and traces this parameter back to al-Battānī.",
+          "sourceIds": ["BAT-NOTHAFt-2024", "BAT-NALLINO-1903"],
+          "locator": "Nothaft, p. 148 and p. 155 n. 12; the note points to Nallino, vol. 1, pp. 43–48 (chapter 28) and vol. 2, pp. 78–83",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "This is a specialist's reported textual transmission link; the Toledan manuscripts and cited Nallino pages were not independently checked here."
+        },
+        {
+          "id": "bat-later-reception-limit",
+          "text": "The evidence in this batch supports one specific Toledan Tables transmission link; it does not prove direct use of the same parameter by every later astronomer named in general accounts of the zīj's reception.",
+          "sourceIds": ["BAT-NOTHAFt-2024", "BAT-BEA-VAN-DALEN-2007"],
+          "locator": "Nothaft, p. 148; Van Dalen, BEA entry on transmission and later readers",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "A broader influence history needs a separate chain of dated manuscripts, tables, translations, or explicit citations."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "Read Nallino, Pars I, chapter 28, pp. 43–48, and Pars II, pp. 78–83; compare the Latin explanation and table with the Arabic text of the Escorial copy.",
+    "Inspect Escorial árabe 908 directly or through a verifiable catalogue/digital image; establish the manuscript date and the location of chapters 27–28 and their figures.",
+    "Reconcile the sexagesimal eccentricity and maximum equation values, including the approximately one-arcsecond rounding difference produced by the modern conversion.",
+    "Determine from the primary text what observations and calculation steps underlie the year-length and eccentricity values; distinguish measured data from values derived for tables.",
+    "Trace the qmax=1;59,10 value through witnesses and textual versions of the Toledan Tables and check the evidence for its attribution to al-Battānī.",
+    "Audit al-Battānī's other reported results and contributions individually before adding claims about eclipses, lunar motion, instruments, geography, or accuracy."
+  ]
+}

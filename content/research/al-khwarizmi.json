@@ -1,0 +1,233 @@
+{
+  "scholarSlug": "al-khwarizmi",
+  "dossierState": "draft",
+  "lastResearched": "2026-11-14",
+  "sections": {
+    "biography": {
+      "state": "draft",
+      "text": "Sonja Brentjes's Biographical Encyclopedia of Astronomers entry gives al-Khwārizmī's dates as circa 780–850 and places his scholarly activity in Baghdad in connection with the Abbasid court, especially al-Maʾmūn. The same entry says his origins are disputed in the medieval reports. This dossier does not treat modern approximate dates or the later label 'House of Wisdom' as settled biographical fact.",
+      "claimIds": ["khw-life-dates", "khw-origin-uncertainty"],
+      "gaps": ["Trace the relevant statements in Ibn al-Nadīm and al-Ṭabarī editions/translations.", "Establish education, teachers, family, and a dated chronology from primary biographical notices."]
+    },
+    "timeline": {
+      "state": "in_progress",
+      "text": "The algebra preface addresses Caliph al-Maʾmūn, whose reign is dated 813–833 in the Biographical Encyclopedia of Astronomers. This provides a broad context for the work, not an exact composition date.",
+      "claimIds": ["khw-almamun-context"],
+      "gaps": ["The date and order of composition of the algebra and other works remain unestablished here."]
+    },
+    "fields": {
+      "state": "draft",
+      "text": "This batch studies the algebra treatise through one equation and its two explanatory treatments: a numerical procedure and a geometric demonstration. The work's own preface names inheritance, legacies, partition, lawsuits, trade, land measurement, canal digging, and other practical needs. This is not a full catalogue of al-Khwārizmī's mathematical, astronomical, and geographical work.",
+      "claimIds": ["khw-practical-purpose", "khw-equation-example", "khw-geometric-proof"],
+      "gaps": ["Research the arithmetic, astronomical, geographical, and surveying texts separately, distinguishing surviving originals from later translations and revisions."]
+    },
+    "legacy": {
+      "state": "draft",
+      "text": "The Arabic algebra was translated into Latin in the twelfth century and later influenced Arabic, Persian, Ottoman Turkish, Latin, and European vernacular mathematical traditions, according to the Biographical Encyclopedia of Astronomers. The dossier makes no sole-inventor claim for algebra and does not treat the modern symbolic equation as al-Khwārizmī's notation.",
+      "claimIds": ["khw-transmission"],
+      "gaps": ["Build a witness-by-witness translation and reception history using critical editions of the Latin versions.", "Separate secure influence claims from broad textbook narratives about the origin of algebra and the word algorithm."]
+    }
+  },
+  "sources": [
+    {
+      "id": "KHW-ROSEN-1831",
+      "title": "The Algebra of Mohammed Ben Musa: edited and translated by Frederic Rosen",
+      "authorOrInstitution": "Muḥammad ibn Mūsā al-Khwārizmī; editor and translator Frederic Rosen",
+      "sourceType": "primary_source",
+      "publicationDate": "1831",
+      "stableUrl": "https://en.wikisource.org/wiki/Index:The_Algebra_of_Mohammed_Ben_Musa_(1831).djvu",
+      "consulted": true,
+      "notes": "The 1831 edition provides an Arabic text and Rosen's English translation, based on the Bodleian manuscript Huntington 214. The equation example appears in the translation at printed p. 8; its geometric demonstration continues at pp. 13–16. Wikisource has proofread transcriptions paired with scans; the relevant Arabic page and diagrams still require direct image-level collation."
+    },
+    {
+      "id": "KHW-ROSEN-SCAN",
+      "title": "The Algebra of Mohammed Ben Musa (digitized 1831 edition)",
+      "authorOrInstitution": "Internet Archive / Digital Library of India scan of Rosen's edition",
+      "sourceType": "primary_source",
+      "publicationDate": "1831",
+      "stableUrl": "https://commons.wikimedia.org/wiki/File:Algebra_of_Mohammed_ben_Musa_(IA_dli.ministry.00169).pdf",
+      "consulted": true,
+      "notes": "The repository page identifies a 349-page scan, J. Murray, London, 1831, and links the Internet Archive source object. Used to locate the edition; printed page images have not been visually checked in this pass."
+    },
+    {
+      "id": "KHW-BEA-2007",
+      "title": "Khwārizmī: Muḥammad ibn Mūsā al-Khwārizmī",
+      "authorOrInstitution": "Sonja Brentjes, The Biographical Encyclopedia of Astronomers, ed. Thomas Hockey et al.; reproduced by ISMI",
+      "sourceType": "academic_research",
+      "publicationDate": "2007",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/biography/Khwarizmi_BEA.htm",
+      "consulted": true,
+      "notes": "Provides approximate life dates, origin uncertainty, work list, al-Maʾmūn context, and later transmission. It distinguishes uncertain origin reports and notes controversy around what attachment to the Bayt al-ḥikma means."
+    },
+    {
+      "id": "KHW-HEEFFER-2008",
+      "title": "A Conceptual Analysis of Early Arabic Algebra",
+      "authorOrInstitution": "Albrecht Heeffer, in The Unity of Science in the Arabic Tradition",
+      "sourceType": "academic_research",
+      "publicationDate": "2008",
+      "stableUrl": "https://www.clps.ugent.be/sites/default/files/publications/ArabAlgebra.pdf",
+      "consulted": true,
+      "notes": "Explains the six equation cases and cautions that Rosen relied on one 1342 Oxford manuscript whose translation and text have been questioned. Useful for interpreting the genre and textual limits, not a substitute for the primary edition."
+    },
+    {
+      "id": "KHW-SESiano-2024",
+      "title": "An Arabic Algebraic Compendium of 1000 CE",
+      "authorOrInstitution": "Jacques Sesiano, SCIAMVS 24",
+      "sourceType": "academic_research",
+      "publicationDate": "2024",
+      "stableUrl": "https://www.sciamvs.org/files/SCIAMVS_24_041-157_Sesiano.pdf",
+      "consulted": true,
+      "notes": "Provides a scholarly translation and analysis of a later anonymous algebraic compendium; its introduction contextualizes al-Khwārizmī's equation types. Do not attribute that anonymous work's later commentary or wording to al-Khwārizmī."
+    },
+    {
+      "id": "KHW-ISMI-WORK",
+      "title": "Mukhtaṣar min ḥisāb al-jabr wa-al-muqābalah: work and manuscript witnesses",
+      "authorOrInstitution": "Islamic Scientific Manuscripts Initiative, Max Planck Institute for the History of Science",
+      "sourceType": "institutional_catalogue",
+      "stableUrl": "https://ismi.mpiwg-berlin.mpg.de/node/3940643",
+      "consulted": true,
+      "notes": "Records the Arabic work, Bodleian Huntington 214, and a second Medina witness. The listed literature identifies editions, translations, and manuscript studies."
+    }
+  ],
+  "works": [
+    {
+      "id": "khw-al-jabr",
+      "scholarSlug": "al-khwarizmi",
+      "originalTitle": "الكتاب المختصر في حساب الجبر والمقابلة",
+      "transliteration": "al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wa-al-muqābalah",
+      "translation": "The Compendious Book on Calculation by Completion and Balancing",
+      "language": "Arabic; Rosen's consulted edition includes an English translation",
+      "subject": "Equation solving, mensuration, commercial calculations, and inheritance problems",
+      "purpose": "In the preface, the author says he was encouraged by al-Maʾmūn to compose an accessible and useful work for recurrent needs including inheritance, trade, and land measurement.",
+      "authorship": "under_review",
+      "date": "The preface addresses al-Maʾmūn (reigned 813–833); an exact composition date is not established in this dossier.",
+      "sourceIds": ["KHW-ROSEN-1831", "KHW-BEA-2007", "KHW-ISMI-WORK"],
+      "digitizedUrl": "https://en.wikisource.org/wiki/Index:The_Algebra_of_Mohammed_Ben_Musa_(1831).djvu",
+      "passages": [
+        {
+          "workId": "khw-al-jabr",
+          "sourceId": "KHW-ROSEN-1831",
+          "editionOrShelfmark": "Rosen edition and translation, London, 1831; based on Bodleian Library MS Huntington 214",
+          "language": "English translation from Arabic",
+          "originalPassage": "“one square, and ten roots of the same, amount to thirty nine dirhems”",
+          "translation": "Rosen's published English translation; not a new translation.",
+          "printedPage": "8",
+          "chapterOrSection": "Chapter on roots and squares equal to numbers",
+          "explanation": "The passage states a rhetorical equation. The procedure gives the positive root 3 and its square 9; substituting these values checks 9 + 10×3 = 39. The modern symbolic form x² + 10x = 39 is an editorial aid, not the notation in the Arabic text."
+        },
+        {
+          "workId": "khw-al-jabr",
+          "sourceId": "KHW-ROSEN-1831",
+          "editionOrShelfmark": "Rosen edition and translation, London, 1831; geometric explanation following the numerical rule",
+          "language": "English translation from Arabic",
+          "originalPassage": "Rosen's chapter heading: “Demonstration of the Case: ‘a Square and ten Roots are equal to thirty-nine Dirhems.’”",
+          "translation": "Rosen's published English translation; not a new translation.",
+          "printedPage": "13–16",
+          "chapterOrSection": "Geometrical demonstration of the same equation",
+          "explanation": "The diagrammatic completion constructs a larger square by adding rectangles and a corner square. In this example the added corner is 5×5=25, making 39+25=64 and the completed side 8; removing the added half-root length 5 leaves the original side 3. The figure and exact Arabic diagram labels need visual collation."
+        }
+      ],
+      "notes": "Rosen's edition is a major early printed witness but not a modern critical edition. He used one 1342 Bodleian manuscript; later scholarship questions the manuscript's editorial history. ISMI currently records two manuscript witnesses, including Huntington 214 and a Medina witness."
+    }
+  ],
+  "investigations": [
+    {
+      "id": "khw-square-ten-roots-thirty-nine",
+      "scholarSlug": "al-khwarizmi",
+      "title": "A numerical rule and geometric demonstration for one square and ten roots equal to thirty-nine",
+      "field": "Mathematics / history of algebra",
+      "historicalProblem": "How does the treatise solve a quadratic problem when expressed without modern symbols, and how does its author explain why the procedure works?",
+      "historicalContext": "The author's preface addresses al-Maʾmūn and describes practical needs such as inheritance, trade, and land measurement. The text speaks in terms of squares, roots, and numbers. Modern scholars identify six equation types in the work, while cautioning against treating this as modern symbolic algebra or a claim that al-Khwārizmī invented every earlier algebraic practice.",
+      "method": "For the case 'one square and ten roots equal thirty-nine': halve ten to get five; square five to get twenty-five; add it to thirty-nine to get sixty-four; take the square root to get eight; subtract five to get the root three, whose square is nine. The text then gives a geometric completion proof with a square, two rectangles, and a corner square.",
+      "observationsOrCalculations": "Rosen's 1831 translation, p. 8, gives the arithmetic procedure. The geometric demonstration follows at pp. 13–16. In present-day notation only, the example is x²+10x=39; the positive solution is x=3. The check is 3²+10(3)=39.",
+      "reportedResult": "The worked example returns root 3 and square 9. The geometric construction explains the completion step by adding the 5×5 corner square to the original area plus the two root-rectangles.",
+      "whatWasNew": "Not established as a priority claim. The dossier documents what this treatise presents: a classification of equation types, calculation rules, and geometric demonstrations. Modern scholarship discusses earlier and parallel algebraic practices, so 'invented algebra' is not used as a finding.",
+      "limitations": "The passage is located in Rosen's 1831 edition and transcription, not collated here against the 1342 Bodleian manuscript or the Medina witness. Rosen used a single Bodleian manuscript; later scholars report textual amendments and question some readings. The diagram pages need visual inspection. Avoid projecting modern symbols, negative roots, or a general quadratic formula onto the author's text.",
+      "laterInfluence": "The algebra was translated into Latin in the twelfth century and became influential across several later mathematical traditions, according to the Biographical Encyclopedia of Astronomers. A full transmission dossier requires critical-edition evidence for each translation and reception claim.",
+      "claims": [
+        {
+          "id": "khw-life-dates",
+          "text": "Sonja Brentjes's Biographical Encyclopedia of Astronomers entry gives al-Khwārizmī's life dates as circa 780–850.",
+          "sourceIds": ["KHW-BEA-2007"],
+          "locator": "Biography heading",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "The dates are approximate and the entry's medieval source discussion does not establish an exact birth or death year."
+        },
+        {
+          "id": "khw-origin-uncertainty",
+          "text": "Modern biographical scholarship reports conflicting medieval identifications of al-Khwārizmī's origin; it cannot be stated here as certain that he was born in Khwārizm.",
+          "sourceIds": ["KHW-BEA-2007"],
+          "locator": "Biography, origin discussion",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The underlying Ibn al-Nadīm and al-Ṭabarī passages have not yet been checked directly."
+        },
+        {
+          "id": "khw-almamun-context",
+          "text": "The Algebra's preface addresses Caliph al-Maʾmūn and describes the work as a useful treatment of recurring practical calculations.",
+          "sourceIds": ["KHW-ROSEN-1831"],
+          "locator": "Author's preface, pp. 1–3",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "Rosen's English translation has not been collated with the Arabic preface in this pass."
+        },
+        {
+          "id": "khw-practical-purpose",
+          "text": "In the translated preface, the stated use cases include inheritance, legacies, partition, lawsuits, trade, measuring land, and digging canals.",
+          "sourceIds": ["KHW-ROSEN-1831"],
+          "locator": "Author's preface, p. 3",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "This records the preface's declared scope, not the completeness or actual use of the treatise."
+        },
+        {
+          "id": "khw-equation-example",
+          "text": "For the example 'one square and ten roots equal thirty-nine dirhems,' Rosen's 1831 translation gives the positive root as 3 and the square as 9.",
+          "sourceIds": ["KHW-ROSEN-1831"],
+          "locator": "Translation p. 8; arithmetic procedure",
+          "sourceType": "primary_source",
+          "confidence": "high",
+          "uncertainty": "The primary printed translation is transcribed, but the Arabic page and manuscript witness need collation."
+        },
+        {
+          "id": "khw-geometric-proof",
+          "text": "Rosen's translation presents a geometric demonstration of the same example using area completion; the added corner square is twenty-five, yielding a completed square of area sixty-four.",
+          "sourceIds": ["KHW-ROSEN-1831"],
+          "locator": "Translation pp. 13–16",
+          "sourceType": "primary_source",
+          "confidence": "medium",
+          "uncertainty": "The explanation has been read in the transcription; inspect the scan diagrams and Arabic labels before final review."
+        },
+        {
+          "id": "khw-six-types-and-text-limits",
+          "text": "Modern analysis describes six standard equation types in the treatise and notes that Rosen's English edition was based on one Bodleian manuscript whose textual history requires caution.",
+          "sourceIds": ["KHW-HEEFFER-2008", "KHW-BEA-2007"],
+          "locator": "Heeffer, pp. 91–92; ISMI work/manuscript record",
+          "sourceType": "academic_research",
+          "confidence": "high",
+          "uncertainty": "The exact relationship among manuscript witnesses and readings remains under study; the catalogue records two witnesses."
+        },
+        {
+          "id": "khw-transmission",
+          "text": "The Biographical Encyclopedia of Astronomers reports Latin translations of al-Khwārizmī's algebra and substantial later influence across several mathematical traditions.",
+          "sourceIds": ["KHW-BEA-2007"],
+          "locator": "Work and transmission discussion",
+          "sourceType": "academic_research",
+          "confidence": "medium",
+          "uncertainty": "Specific transmission paths and the extent of influence need critical-edition and reception-history research."
+        }
+      ],
+      "state": "draft"
+    }
+  ],
+  "recognition": [],
+  "openQuestions": [
+    "How does Rosen's text and translation compare with the Bodleian Huntington 214 manuscript images and the Medina witness?",
+    "Which readings in the 1831 printed text reflect Rosen's source manuscript and which reflect editorial correction or later interpolation?",
+    "What do Ibn al-Nadīm and al-Ṭabarī say in the relevant passages about origin, office, and book titles?",
+    "What are the secure textual witnesses and transmission chains for the Latin versions by Robert of Chester, Gerard of Cremona, and Guglielmo de Lunis?",
+    "Which works on arithmetic, astronomy, geography, and the astrolabe are extant in original form, and which survive only through later revisions or translations?",
+    "What claims about the invention of algebra or the word algorithm can be supported without collapsing prior practices, al-Khwārizmī's treatise, and later Latin reception into one event?"
+  ]
+}

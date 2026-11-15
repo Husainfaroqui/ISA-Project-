@@ -1,0 +1,698 @@
+{
+ "scholar": {
+  "slug": "ahmad-raza-khan",
+  "name_en": "Imam Ahmad Raza Khan (Ala Hazrat)",
+  "status": "draft",
+  "note": "Research draft: nothing here is VERIFIED; every claim is labeled individually."
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "title": "Imam Ahmed Raza Khan and the Revival of the Islamic Astronomy in India",
+   "author": "Naseeb Ahmed Siddiqui",
+   "publication": "IIUM Journal of Religion and Civilisational Studies 6(1), 2023, pp. 57–83",
+   "url": "https://doi.org/10.31436/ijrcs.v6i1.293",
+   "tier": "academic_research",
+   "read": true,
+   "notes": "Read in full (open-access PDF). Single-author article; the author was a PhD student when it was written (footnote, p. 57). The article says its own analysis of the astronomical works is introductory (p. 61), is sympathetic to its subject, and takes work counts from community websites (p. 62). Quotes the 1920 preface of Fauz-i-Mubin via a 2005 edition. Treat as one academic source, not as independent confirmation."
+  },
+  {
+   "id": "S2",
+   "title": "Editorial, IIUM Journal of Religion and Civilisational Studies, June 2023 issue",
+   "author": "Editors, IJRCS",
+   "publication": "IIUM Press, 2023",
+   "url": "https://journals.iium.edu.my/irkh/index.php/ijrcs/issue/download/20/21",
+   "tier": "academic_research",
+   "read": true,
+   "notes": "Summarises S1 (including 'four main works on astronomy'). Not independent of S1."
+  },
+  {
+   "id": "S3",
+   "title": "Devotional Islam and Politics in British India: Ahmad Riza Khan Barelwi and His Movement, 1870–1920",
+   "author": "Usha Sanyal",
+   "publication": "Oxford University Press, 1996 (Delhi paperback 1999; later Yoda Press edition per S1's reference list)",
+   "url": "https://ci.nii.ac.jp/ncid/BA29357506",
+   "tier": "academic_research",
+   "read": false,
+   "notes": "Catalogue record only. NOT READ: no page locators can be given. Catalogue descriptions concern religious and political history, not science."
+  },
+  {
+   "id": "S4",
+   "title": "Ahmad Riza Khan Barelwi: In the Path of the Prophet",
+   "author": "Usha Sanyal",
+   "publication": "Oneworld (Makers of the Muslim World), 2005 per S1's reference list",
+   "url": null,
+   "tier": "academic_research",
+   "read": false,
+   "notes": "Cited in S1; NOT READ."
+  },
+  {
+   "id": "S5",
+   "title": "Wikipedia and mirrors; devotional websites (e.g. raza-e-khushtar.org, alahazrat.net)",
+   "author": null,
+   "publication": "various",
+   "url": null,
+   "tier": "community_devotional",
+   "read": false,
+   "notes": "Used only to discover leads (e.g. day-level dates). Never sufficient evidence."
+  },
+  {
+    "id": "S6",
+    "title": "Generational Changes in the Leadership of the Ahl-e Sunnat Movement in North India during the Twentieth Century",
+    "author": "Usha Sanyal",
+    "publication": "Modern Asian Studies 32(3), 1998, pp. 635–656",
+    "url": "https://www.ilmgate.org/wp-content/uploads/2011/02/Generational-Changes-in-the-Leadership-of-the-Ahl-e-Sunnat-Movement-in-North-India-during.pdf",
+    "tier": "academic_research",
+    "read": true,
+    "notes": "Read pp. 636–643 and p. 645. Supports year-level life dates, Bareilly family context, home education by Naqi Ali Khan, rational-sciences reputation, Ahl-e Sunnat context, and the centrality of fatwa-writing. Not a full biography or study of the astronomy works."
+  }
+ ],
+ "works": [
+  {
+   "id": "W-001",
+   "title": "Mu'in-i-Mubin Bahar Daur-i-Shamas-o-Sukun-i-Zamin",
+   "translation": "A Fair Guide on the Revolving Sun and the Static Earth (as given in S1)",
+   "year": "1919",
+   "yearSource": "S1 p. 63",
+   "subject": "Earth's motion; response to a 1919 planetary-alignment prediction",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 63–66"
+    }
+   ],
+   "alt": [],
+   "notes": "",
+   "authorship_status": "under_review",
+   "original_script_title": null,
+   "language": "not stated in sources read",
+   "manuscripts": "none identified"
+  },
+  {
+   "id": "W-002",
+   "title": "Fauz-i-Mubin Dar Radd-i-Harkat-i-Zamin",
+   "alt": [
+    "Fauz-e-Mubeen Dar Radd-e-Harkat-e-Zameen",
+    "Fauze Mubeen"
+   ],
+   "translation": "A Fair Success in Refuting the Motion of the Earth (S1)",
+   "year": "1920",
+   "yearSource": "S1 p. 63 (another listing says 1919: unresolved)",
+   "subject": "Earth's motion; critique of Copernican astronomy and gravitation",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 67–73"
+    }
+   ],
+   "notes": "",
+   "authorship_status": "under_review",
+   "original_script_title": null,
+   "language": "not stated in sources read",
+   "manuscripts": "none identified"
+  },
+  {
+   "id": "W-003",
+   "title": "Al-Kalimah al-Mulhamah fi al-Hikmati al-Muhkamah li Wiha'yi al-Falsafati al-Mash'amah",
+   "translation": "The Revealed Words in the Strong Wisdom for the Weakness of Execrable Philosophy (S1)",
+   "year": "1920",
+   "yearSource": "S1 p. 63",
+   "subject": "Critique of ancient and medieval philosophy of science and astronomy",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 74–76"
+    }
+   ],
+   "alt": [],
+   "notes": "",
+   "authorship_status": "under_review",
+   "original_script_title": null,
+   "language": "not stated in sources read",
+   "manuscripts": "none identified"
+  },
+  {
+   "id": "W-004",
+   "title": "Nuzul-i-Ayat-i-Furqan Basukun-i-Zamin-o-Asman",
+   "translation": "The Verses of the Quran on the Static Earth and Heavens (S1)",
+   "year": "1921",
+   "yearSource": "S1 p. 63",
+   "subject": "Qur'anic and hadith arguments on a stationary Earth",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 77–79"
+    }
+   ],
+   "alt": [],
+   "notes": "",
+   "authorship_status": "under_review",
+   "original_script_title": null,
+   "language": "not stated in sources read",
+   "manuscripts": "none identified"
+  },
+  {
+   "id": "W-005",
+   "title": "'Warding off the foulness in understanding the time' (English title only)",
+   "translation": null,
+   "year": "2006 (edition)",
+   "yearSource": "S1 p. 82 (edition by Abdul Hamid Maiskar)",
+   "subject": "Not established",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 82"
+    }
+   ],
+   "notes": "Original title, language and original date unknown.",
+   "alt": [],
+   "authorship_status": "under_review",
+   "original_script_title": null,
+   "language": "not stated in sources read",
+   "manuscripts": "none identified"
+  },
+  {
+   "id": "W-006",
+   "title": "Kanz ul-Iman",
+   "translation": "The Treasure of Faith (2010 English edition, per S1)",
+   "year": null,
+   "yearSource": "Original date not established; S1 cites a 2010 edition (p. 81)",
+   "subject": "Qur'an translation (per S1's reference list)",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 81"
+    }
+   ],
+   "alt": [],
+   "notes": "",
+   "authorship_status": "under_review",
+   "original_script_title": null,
+   "language": "not stated in sources read",
+   "manuscripts": "none identified"
+  }
+ ],
+ "contributions": [
+  {
+   "id": "aac8d9ce-93b0-5bc5-a73f-9b0152c2e245",
+   "title": "Critique of the 1919 planetary-alignment prediction (Mu'in-i-Mubin)",
+   "text": "A treatise answering a published prediction of a planetary alignment, recalculating planetary positions on a geocentric model and arguing from gravitation against the predicted effects (as described in S1).",
+   "kind": "commentary_or_synthesis",
+   "confidence": "medium",
+   "discipline": "Astronomy",
+   "period": "1919",
+   "prior": "A prediction by Albert F. Porta, based on heliocentric astronomy (per S1).",
+   "detail": "A written response with its own geocentric calculation. Whether the calculation is sound has not been examined.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "S1",
+     "locator": "pp. 62–66",
+     "tier": "academic_research"
+    }
+   ]
+  },
+  {
+   "id": "27a51b83-da66-54fa-93a7-6206cde25d45",
+   "title": "Arguments against the Earth's motion (Fauz-i-Mubin)",
+   "text": "A book presenting 105 arguments, according to the author's preface as quoted in S1, against the motion of the Earth, drawing on mathematics, philosophy, logic and the physics of his day. It is a historical argument. Modern astronomy establishes that the Earth rotates and orbits the Sun, so its conclusion is not part of modern astronomy.",
+   "kind": "theoretical_contribution",
+   "confidence": "medium",
+   "discipline": "Astronomy",
+   "period": "1920 (per S1; date unresolved)",
+   "prior": "Copernican and Newtonian astronomy; earlier Muslim astronomical critique of Greek models (per S1).",
+   "detail": "A systematic polemical argument against Earth's motion and against attraction/repulsion explanations. Originality of individual arguments is the author's own claim and unverified.",
+   "label": "under_review",
+   "refs": [
+    {
+     "source": "S1",
+     "locator": "pp. 67–73",
+     "tier": "academic_research"
+    }
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "C-001",
+   "section": "Biography",
+   "text": "Born in 1856 in Bareilly.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 61"
+    }
+   ],
+   "note": "Year and place only. Day-level date (14 June 1856) appears only on Wikipedia-derived pages: UNVERIFIED.",
+   "needs": "Confirm in Sanyal or a primary biography."
+  },
+  {
+   "id": "C-002",
+   "section": "Biography",
+   "text": "Death in 1921 (day-level date reported as 28 October 1921 / 25 Safar 1340 AH on Wikipedia-derived pages).",
+   "label": "UNVERIFIED",
+   "tier": "community_devotional",
+   "sources": [],
+   "note": "S1 does not state the death date. The 1856–1921 range comes from the project brief. Different Wikipedia versions disagree (\"October 1921\" vs \"28 October 1921\"), which supports leaving the day-level date unverified.",
+   "needs": "Confirm in Sanyal or a reference work."
+  },
+  {
+   "id": "C-003",
+   "section": "Biography",
+   "text": "His father, Maulana Naqi Ali Khan, gave his early education; his grandfather Riza Ali turned from a soldier's path to religious study.",
+   "label": "UNDER REVIEW",
+   "tier": "later_traditional",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 61"
+    }
+   ],
+   "note": "Stated in S1 without a direct citation in that passage.",
+   "needs": "Check against Sanyal and the biography by Zafar ud-Din Bihari (1938)."
+  },
+  {
+   "id": "C-004",
+   "section": "Biography",
+   "text": "Traditional account that he became a scholar at age 13 years 10 months.",
+   "label": "UNVERIFIED",
+   "tier": "later_traditional",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 61"
+    }
+   ],
+   "note": "Traditional narrative repeated in S1.",
+   "needs": "Find an independent or primary record."
+  },
+  {
+   "id": "C-005",
+   "section": "Biography",
+   "text": "Scholars of Makkah and Madinah are said to have titled him Mujaddid (reviver) of the 14th Hijri century.",
+   "label": "UNVERIFIED",
+   "tier": "later_traditional",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 61"
+    }
+   ],
+   "note": "S1 attributes this to Hallaq 1984, Sahab 1997 and Zafar ud-Din 1938. Whether those works support it has not been checked (Hallaq's article, as cited in S1, is on ijtihad).",
+   "needs": "Check each cited source."
+  },
+  {
+   "id": "C-006",
+   "section": "Biography",
+   "text": "He is said to have written over 1,000 books on 50+ branches of knowledge; S1 lists approximate counts per field taken from alahazrat.net.",
+   "label": "UNVERIFIED",
+   "tier": "community_devotional",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 62"
+    }
+   ],
+   "note": "ISA does not state a total number of works.",
+   "needs": "Needs a bibliography built from catalogues."
+  },
+  {
+   "id": "C-007",
+   "section": "Biography",
+   "text": "His student Zafaruddin Bihari is reported to have told him of the 1919 prediction (S1 p. 63); Bihari also wrote the 1938 biography Hayat-e A'la Hazrat (S1 p. 83).",
+   "label": "UNDER REVIEW",
+   "tier": "later_traditional",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 63"
+    }
+   ],
+   "note": "Teacher–student relationship is a lead; relationships will be recorded only with support.",
+   "needs": "Confirm independently."
+  },
+  {
+   "id": "C-008",
+   "section": "Biography",
+   "text": "S1 reports that an institute devoted to him states 21 PhD and six master's dissertations exist on his works.",
+   "label": "UNVERIFIED",
+   "tier": "community_devotional",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 61"
+    }
+   ],
+   "note": "Institutional self-report; not checked.",
+   "needs": "Search thesis catalogues."
+  },
+  {
+   "id": "C-010",
+   "section": "Astronomy",
+   "text": "In October 1919 an American, Albert F. Porta, predicted a planetary alignment for 17 December 1919 with claimed effects on the Sun and Earth; S1 cites 1919 newspapers.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 62–63"
+    }
+   ],
+   "note": "Newspaper citations in S1 have not been checked.",
+   "needs": "Locate the cited newspaper reports."
+  },
+  {
+   "id": "C-011",
+   "section": "Astronomy",
+   "text": "S1 lists four treatises prompted by the prediction: Mu'in-i-Mubin (1919), Fauz-i-Mubin Dar Radd-i-Harkat-i-Zamin (1920), Al-Kalimah al-Mulhamah (1920), Nuzul-i-Ayat-i-Furqan (1921).",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 63"
+    }
+   ],
+   "note": "Years conflict with another listing that dates the earth-motion treatises to 1919 (retail/devotional page). Original-script titles not verified.",
+   "needs": "Catalogue records and first editions."
+  },
+  {
+   "id": "C-012",
+   "section": "Astronomy",
+   "text": "Mu'in-i-Mubin was written to refute Porta's predictions; it was first published in a magazine and later compiled into a short treatise.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 64"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "C-013",
+   "section": "Astronomy",
+   "text": "In it he calculated planetary positions for 17 December 1919 on a geocentric model and reported a mutual separation of about 122°, against Porta's 26°.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 64"
+    }
+   ],
+   "note": "Description of what S1 reports. The calculation itself has not been examined.",
+   "needs": "Primary text; ephemeris check (see M-003)."
+  },
+  {
+   "id": "C-014",
+   "section": "Astronomy",
+   "text": "He argued that if gravitation holds, the combined pull of six planets could not destroy the Sun while sparing larger planets; he also cited earlier sunspot observations, including by Qutb al-Din al-Shirazi.",
+   "label": "UNDER REVIEW",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 65–66"
+    }
+   ],
+   "note": "The attributions to earlier astronomers are as reported in S1 and are unchecked.",
+   "needs": "Check against studies of al-Shirazi."
+  },
+  {
+   "id": "C-016",
+   "section": "Astronomy",
+   "text": "Per S1's quotation of the author's preface, Fauz-i-Mubin has a foreword, four chapters and a conclusion, and presents 105 arguments against Earth's motion (12 on repulsion, 50 on attraction, 43 in a third chapter); he says 15 were discussed in earlier books.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 67"
+    }
+   ],
+   "note": "Structure and count are the author's own statement as quoted in S1 (2005 edition, pp. 8–9). Not checked against a primary edition. His claim that 90 are original is self-assessment: UNVERIFIED.",
+   "needs": "Primary edition."
+  },
+  {
+   "id": "C-017",
+   "section": "Astronomy",
+   "text": "S1 describes Fauz-i-Mubin as a mathematical, astronomical, philosophical and logical refutation of Copernican astronomy; it criticises the law of universal gravitation and discusses weight, attraction, repulsion and tides.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 67–73"
+    }
+   ],
+   "note": "S1's characterisation, not ISA's evaluation.",
+   "needs": ""
+  },
+  {
+   "id": "C-019",
+   "section": "Astronomy",
+   "text": "He also disputed ancient and medieval arguments for a static Earth and treated that material in Al-Kalimah al-Mulhamah.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 73–76"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "C-020",
+   "section": "Astronomy",
+   "text": "Nuzul-i-Ayat-i-Furqan arose from a fatwa request dated 23 January 1921 and argues from Qur'anic verses and hadith that the Earth and heavens are stationary.",
+   "label": "ACADEMICALLY SUPPORTED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 77–79"
+    }
+   ],
+   "note": "",
+   "needs": ""
+  },
+  {
+   "id": "C-021",
+   "section": "Astronomy",
+   "text": "S1 judges that he was not the first critic of Copernicus but was distinctive in arguing from gravitation and tide theory; S1 also calls him a mathematician and astronomer.",
+   "label": "UNDER REVIEW",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 57, 79"
+    }
+   ],
+   "note": "These are the article author's judgements. Independent documentation of mathematical or astronomical work beyond these treatises has not yet been found.",
+   "needs": "Independent scholarship on his mathematics and astronomy."
+  },
+  {
+   "id": "C-023",
+   "section": "Astronomy",
+   "text": "S1 cites a 2006 English-titled work, 'Warding off the foulness in understanding the time', and quotes a remark about a >15° difference from true dawn.",
+   "label": "UNVERIFIED",
+   "tier": "academic_research",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 77, 82"
+    }
+   ],
+   "note": "Original title and subject unknown; possibly timekeeping or prayer-time related.",
+   "needs": "Catalogue record."
+  },
+  {
+   "id": "M-001",
+   "section": "Modern assessment",
+   "text": "Modern astronomy establishes that the Earth rotates on its axis and orbits the Sun.",
+   "label": "MODERN SCIENTIFIC ASSESSMENT",
+   "tier": "modern_assessment",
+   "sources": [],
+   "note": "Drafted by ISA from standard knowledge; no citation attached yet.",
+   "needs": "Cite an astronomy textbook or reference."
+  },
+  {
+   "id": "M-002",
+   "section": "Modern assessment",
+   "text": "That no catastrophe followed 17 December 1919 does not discriminate between geocentric and heliocentric descriptions of the planets' motion.",
+   "label": "MODERN SCIENTIFIC ASSESSMENT",
+   "tier": "modern_assessment",
+   "sources": [],
+   "note": "Drafted by ISA. S1 (p. 66) states no catastrophe occurred and reads this as supporting the geocentric model; ISA records that reading as S1's.",
+   "needs": "Expert review and citation."
+  },
+  {
+   "id": "M-003",
+   "section": "Modern assessment",
+   "text": "OPEN QUESTION: the 26° and 122° figures may measure different things (angular positions depend on the observer's location, e.g. seen from the Sun versus from Earth). Whether they are comparable must be checked against the primary text and historical ephemerides.",
+   "label": "MODERN SCIENTIFIC ASSESSMENT",
+   "tier": "modern_assessment",
+   "sources": [],
+   "note": "No conclusion drawn.",
+   "needs": "Primary text and ephemeris data."
+  },
+  {
+   "id": "M-004",
+   "section": "Modern assessment",
+   "text": "Earth's distance from the Sun does vary by roughly 5 million km (about 3.1 million miles) over the year, comparable to the figure S1 quotes from the work; in modern physics this is explained by a bound elliptical orbit under inverse-square gravity, not by a contradiction in attraction.",
+   "label": "MODERN SCIENTIFIC ASSESSMENT",
+   "tier": "modern_assessment",
+   "sources": [],
+   "note": "Drafted by ISA; figures need a citation.",
+   "needs": "Cite Kepler's laws and orbital data from a textbook."
+  },
+  {
+   "id": "M-005",
+   "section": "Modern assessment",
+   "text": "Modern theory attributes tides to the difference in the Moon's gravity across the Earth (the tide-raising force, falling off with the cube of distance), not to the Moon's total pull compared with Earth's own gravity on the water.",
+   "label": "MODERN SCIENTIFIC ASSESSMENT",
+   "tier": "modern_assessment",
+   "sources": [],
+   "note": "Drafted by ISA. S1 (p. 73) calls the work's tide argument valid; ISA records that as the article author's opinion only.",
+   "needs": "Cite an oceanography or astronomy reference."
+  }
+ ],
+ "leads": [
+  "Read Sanyal (S3, S4) for dates, family, teachers and careers; record page locators only after reading.",
+  "Locate catalogue records and first editions of the four treatises (titles in original script, publisher, date); resolve 1919 vs 1920.",
+  "Find independent scholarship on his mathematics (logarithms, algebra, geometry works are listed only by count on community sites) and on his timekeeping or prayer-time work.",
+  "Check the 1919 newspaper reports cited in S1 and the historical ephemerides for 17 Dec 1919.",
+  "Obtain astronomy and physics textbook citations for M-001 to M-005 from a qualified reviewer.",
+  "Human translation review for Urdu/Arabic versions."
+ ],
+ "events": [
+  {
+   "id": "E-001",
+   "type": "birth",
+   "title": "Birth in Bareilly",
+   "year_earliest": 1856,
+   "year_latest": 1856,
+   "date_certainty": "exact",
+   "date_note": "Year per S1; day-level date unverified.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Born in Bareilly (per S1). The day-level date reported elsewhere (14 June 1856) is unverified.",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 61"
+    }
+   ]
+  },
+  {
+   "id": "E-002",
+   "type": "death",
+   "title": "Death (year from project brief, unsourced)",
+   "year_earliest": 1921,
+   "year_latest": 1921,
+   "date_certainty": "approximate",
+    "date_note": "Year supported by Sanyal; exact day remains unverified.",
+    "confidence": "high",
+    "label": "ACADEMICALLY SUPPORTED",
+    "description": "Sanyal gives 1921 as the death year. Day-level dates on derivative websites are not established by the source consulted.",
+    "sources": [{ "id": "S6", "locator": "p. 645" }]
+  },
+  {
+   "id": "E-003",
+   "type": "historical_event",
+   "title": "Albert F. Porta's planetary-alignment prediction (October 1919)",
+   "year_earliest": 1919,
+   "year_latest": 1919,
+   "date_certainty": "exact",
+   "date_note": null,
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "An American, Albert F. Porta, predicted an alignment for 17 December 1919 with claimed effects on the Sun and Earth. S1 cites 1919 newspaper reports (not yet checked). This prediction prompted Ala Hazrat's first earth-motion treatise (per S1).",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 62–63"
+    }
+   ]
+  },
+  {
+   "id": "E-004",
+   "type": "publication",
+   "title": "Mu'in-i-Mubin (earth-motion treatise, first of four)",
+   "year_earliest": 1919,
+   "year_latest": 1919,
+   "date_certainty": "exact",
+   "date_note": "Year as stated in S1.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "First treatise, a response to the 1919 prediction; first published in a magazine, later compiled (per S1).",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 63–64"
+    }
+   ]
+  },
+  {
+   "id": "E-005",
+   "type": "publication",
+   "title": "Fauz-i-Mubin Dar Radd-i-Harkat-i-Zamin",
+   "year_earliest": 1919,
+   "year_latest": 1920,
+   "date_certainty": "disputed",
+   "date_note": "S1 says 1920; a retail/devotional listing says 1919.",
+   "confidence": "low",
+   "label": "UNDER REVIEW",
+   "description": "S1 gives 1920; another listing places the earth-motion treatises in 1919. Unresolved until a catalogue record or first edition is checked.",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "p. 63"
+    }
+   ]
+  },
+  {
+   "id": "E-006",
+   "type": "publication",
+   "title": "Al-Kalimah al-Mulhamah",
+   "year_earliest": 1920,
+   "year_latest": 1920,
+   "date_certainty": "exact",
+   "date_note": "Year as stated in S1.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Treatise on ancient and medieval philosophy of science and astronomy (per S1).",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 63, 74"
+    }
+   ]
+  },
+  {
+   "id": "E-007",
+   "type": "publication",
+   "title": "Nuzul-i-Ayat-i-Furqan (and the fatwa request of 23 January 1921)",
+   "year_earliest": 1921,
+   "year_latest": 1921,
+   "date_certainty": "exact",
+   "date_note": "Year as stated in S1.",
+   "confidence": "medium",
+   "label": "ACADEMICALLY SUPPORTED",
+   "description": "Prepared in response to a fatwa request dated 23 January 1921 asking about the Earth's motion in the Qur'an and hadith (per S1).",
+   "sources": [
+    {
+     "id": "S1",
+     "locator": "pp. 63, 77"
+    }
+   ]
+  }
+ ]
+}
